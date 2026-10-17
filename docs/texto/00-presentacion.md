@@ -119,7 +119,7 @@ Duración prevista: **6–9 horas, idealmente dos sesiones**. Los actos no se ci
 - **Comienzo:** T+12 minutos desde el accidente. Los PJ reparan el bombeo en B-4. No es una reunión ni una llegada: es su turno.
 - **Primer trayecto:** B-4 → C-7, 43 km, 2 h–2 h 30 min por R-12. El rover es abierto: traje, energía, O₂ y filtros importan de verdad.
 - **Balance de C-7:** tres muertos ya ocurridos, trece en R-3, dos en P-2. Los tres fallecimientos iniciales son pasado; no se evitan con una tirada.
-- **Cuatro verdades:** costreros que sellan fugas, limpieza de J-17 que retiró un tapón, bypass clandestino de Ivo que agravó el drenaje, Mara que cerró C-7 para contener la rotura, y una bomba que protege el tramo hacia R-3.
+- **Verdad:** costreros que sellan fugas, limpieza de J-17 que retiró un tapón, bypass clandestino de Ivo que agravó el drenaje, Mara que cerró C-7 para contener la rotura, y una bomba que protege el tramo hacia R-3.
 
 > Cuarenta y tres kilómetros de hielo negro hasta la avería. En C-7 hay luces encendidas y nadie detrás de los cristales. Una cámara aguanta con trece personas y un filtro que se agota. Otra aguanta con dos, una bomba y una batería que baja. Ninguna de las dos espera a que decidáis.
 

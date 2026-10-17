@@ -19,12 +19,12 @@ FORCE = "--force" in sys.argv
 rng = np.random.default_rng(7)
 
 
-def grade(im, up=1.5):
+def grade(im, up=1.0):
     im = im.convert("RGB")
     im = im.resize((int(im.width * up), int(im.height * up)), Image.LANCZOS).filter(ImageFilter.UnsharpMask(1.2, 60, 3))
     a = np.asarray(im).astype(np.float32) / 255.0
     lum = (a * [0.299, 0.587, 0.114]).sum(2, keepdims=True)
-    a = lum + (a - lum) * 0.78                                   # desaturar
+    a = lum + (a - lum) * 0.9                                   # desaturar
     sh = np.array([0.02, 0.07, 0.09], np.float32)               # sombras -> teal
     hi = np.array([0.07, 0.035, -0.02], np.float32)             # luces -> ámbar
     a = a + sh * (1 - lum) * 0.9 + hi * lum * 0.9
@@ -97,7 +97,12 @@ def main():
             dst = os.path.join(OUT, iid + ".png")
             if os.path.exists(dst) and not FORCE:
                 continue
-            recortar_token(Image.open(os.path.join(RAW, f))).save(dst)
+            im = Image.open(os.path.join(RAW, f))
+            if im.mode == "RGBA" and im.getextrema()[3][0] == 0:      # Codex ya entrega alfa real
+                bbox = im.getchannel("A").point(lambda v: 255 if v > 30 else 0).getbbox()
+                (im.crop(bbox) if bbox else im).save(dst)
+            else:
+                recortar_token(im).save(dst)
         else:
             dst = os.path.join(OUT, iid + ".jpg")
             if os.path.exists(dst) and not FORCE:

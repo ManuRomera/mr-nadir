@@ -114,7 +114,7 @@ def diarios():
             m = re.match(r"^\[(\d+|X)\]", (pt or "").strip()) if nombre == "05-acto-3" else None
             if m:
                 ROOM_PAGE[m.group(1)] = (fid("je:" + nombre), pg["_id"])
-        JOURNALS.append({"_id": fid("je:" + nombre), "name": "%02d · %s" % (num, titulo), "pages": pgs, "folder": fol, "sort": num * 100,
+        JOURNALS.append({"_id": fid("je:" + nombre), "name": "%02d · %s" % (num, titulo.replace("*", "")), "pages": pgs, "folder": fol, "sort": num * 100,
                          "ownership": {"default": 0}, "flags": {}})
     fol2 = folder("JournalEntry", "Nádir · Documentos para los jugadores", sort=200)
     texto = open(os.path.join(ROOT, "docs", "texto", "09-documentos.md")).read()

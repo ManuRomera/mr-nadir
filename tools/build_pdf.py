@@ -71,6 +71,7 @@ def is_portrait(iid):
 
 
 def figure(iid, cap, mode):
+    cap = re.sub(r"^(Lám|Fig|Figura|Lámina)\.?\s*\d+\.\s*", "", cap)
     fig_n[0] += 1
     usadas.add(iid)
     src = img_path(iid)
@@ -413,7 +414,7 @@ def contraportada():
 
 
 def indice(items, paginas):
-    lis = "".join('<li><i>%s</i><span>%s</span><span class="d"></span><span>%s</span></li>' % (esc(k), esc(t), paginas.get(cid, "")) for cid, k, t in items)
+    lis = "".join('<li><i>%s</i><span>%s</span><span class="d"></span><span>%s</span></li>' % (esc(k), inline(t), paginas.get(cid, "")) for cid, k, t in items)
     return ('<section class="toc"><h1>En este número</h1><div class="rule"></div><ul>%s</ul>'
             '<p class="nota">Cómo leer este informe: los capítulos de acto contienen las escenas y localizaciones. '
             'Los recuadros azules son para el Guardián, los rótulos oscuros son fichas de personaje y el papel amarillo son documentos que '

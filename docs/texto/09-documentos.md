@@ -10,8 +10,8 @@ Palabras clave: documento, evidencia, trazabilidad, R-3, P-2, J-17
 Cada pieza está escrita para copiarse a una nota, enviarse por chat o imprimirse en papel sucio. Los encabezados de entrega son material del Guardián: no forman parte del texto que leen los jugadores. Ningún documento es imprescindible. Cada hecho del escenario tiene al menos dos vías de acceso, y varias de estas hojas solo confirman lo que ya se puede deducir en la mesa.
 
 ::: caja Principios de dirección
-- Entregue cada documento solo si lo obtienen; nunca todos de golpe.
-- No convierta una hoja en un examen: no pida tiradas para leer un papel que ya tienen en las manos.
+- Entrega cada documento solo si lo obtienen; nunca todos de golpe.
+- No conviertas una hoja en un examen: no pidas tiradas para leer un papel que ya tienen en las manos.
 - Los documentos se recuperan por vía de obtención, no por orden de guion.
 - La declaración de Ivo (D11) puede ser parcial, completa, ante el grupo o grabada de otro modo. No obligue al preso a pronunciar la última frase si su conducta en mesa fue otra.
 - El registro de radio (D12) no explica el raspado. Nadie identifica la voz ni el origen hasta encontrar el cuerpo en E-1.
@@ -117,7 +117,7 @@ La orden es impecable en forma. El problema no está en el procedimiento: está 
 **NOTA:** la orden de cierre se emitió **después de la entrada de salmuera**.
 :::
 
-Ese orden de filas es el corazón del caso. La salmuera llegó primero; el cierre vino cinco minutos después. Quien lea la nota sin buscar un culpable verá una decisión tomada con datos incompletos.
+Ese orden de filas es el corazón del caso. La salmuera llegó primero; la orden de cierre llegó cuatro minutos después. Quien lea la nota sin buscar un culpable verá una decisión tomada con datos incompletos.
 
 ### D06 · Cuándo se entrega: en la comunicación con R-3 o al revisar inventario de soporte vital.
 

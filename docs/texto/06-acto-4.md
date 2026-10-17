@@ -117,7 +117,7 @@ Nada de esto mata a nadie fuera de las reglas del escenario. Es **horror humano*
 
 > «Somos trece», dice Mara. «Contad vosotros.» Uno empieza a contar en voz alta por el pasillo y se salta a alguien. Alguien más señala un rincón vacío y dice que ahí hay una persona que no se mueve. El recuento acaba en catorce y todos se callan.
 
-Esta escena de horror solo ocurre si la **Fuga H-4** ha llegado a **4**. Entonces el refugio ya está en Degradado, con dolores de cabeza, temblores y confusión repartidos. La línea de drenaje bajo el suelo se ha ido inundando de **salmuera húmeda** hasta la reja. R-3 tiene esa rejilla en el suelo, un sumidero que conecta con la red de drenaje inferior.
+Esta escena de horror solo ocurre si la **Fuga H-4** ha llegado a **4** (reloj C). Es independiente del aire: si además R-3 está en Degradado o Crítico (reloj A), la escena se juega entre dolores de cabeza, temblores y confusión. La línea de drenaje bajo el suelo se ha ido inundando de **salmuera húmeda** hasta la reja. R-3 tiene esa rejilla en el suelo, un sumidero que conecta con la red de drenaje inferior.
 
 La causa es física y se puede explicar al Guardián sin trampa: **Osian Brev está herido con una hemorragia contenida**. La sangre se ha filtrado bajo la reja con el agua. Un **costrero** —ciego, que percibe el mundo por vibraciones y por química disuelta— sube por el sumidero siguiendo el rastro de sangre. No planea nada. Busca el punto donde huele a tejido y a calor.
 
@@ -203,7 +203,7 @@ Es perfectamente válido abandonar la extracción de una galería, sellarla y ab
 | Lince-6 inicial | 6 puestos de traje | ya disponible | con cinco PJ queda **un** puesto libre hasta redistribuir |
 | Segundo rover de Bastión | 6 puestos | varias horas tras solicitarlo | aporta filtros, baterías y traslado; no evacúa a todos en un viaje |
 | Control C-0 | 6–8 ocupantes | varias horas | útil como espacio de transferencia si se conserva presión y depuración |
-| Viaje C-7 ↔ Bastión | — | 4–5 h por trayecto | ida y vuelta, carga y ruta, con variación por terreno |
+| Viaje C-7 ↔ Bastión | — | 4–5 h ida y vuelta | con carga y ruta, según terreno |
 | Módulo de evacuación abierto | según trajes | por ocupante | cada persona necesita traje, O₂ propio, depuración de CO₂, amarre y protección |
 
 - El **Lince-6 inicial** tiene seis puestos de conexión de traje. No hay asientos ficticios.

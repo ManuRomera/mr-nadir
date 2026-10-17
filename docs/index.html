@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MR- Nádir: Sangre bajo el hielo · Mothership 1e</title>
+<meta name="description" content="Aventura completa de horror humano y ciencia ficción para Mothership 1e (3–5 jugadores). PDF de revista y módulo para Foundry VTT v13.">
+<style>
+:root { --bg:#09181e; --panel:#0f2a31; --ink:#e6eeee; --mut:#8fa9ab; --amb:#e0913a; --teal:#57d8c8; }
+@media (prefers-color-scheme: light) { :root { --bg:#f5f2ea; --panel:#fff; --ink:#15262a; --mut:#5d7174; --amb:#b0600f; --teal:#0f6a64; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.55 'Iowan Old Style',Charter,Georgia,serif; }
+.hero { min-height:78vh; display:grid; align-content:end; padding:8vh 6vw 7vh; background:linear-gradient(0deg,var(--bg) 0%,rgba(9,24,30,.2) 55%,rgba(9,24,30,.6) 100%),url(img/banner.webp) center/cover; }
+.hero small { font:600 .8rem 'Avenir Next Condensed','Arial Narrow',sans-serif; letter-spacing:.3em; text-transform:uppercase; color:var(--amb); }
+.hero h1 { margin:.2em 0; font:700 clamp(2.8rem,9vw,6.5rem)/.92 'Avenir Next Condensed','Arial Narrow',sans-serif; text-transform:uppercase; color:#fff; }
+.hero h1 span { color:var(--amb); display:block; } .hero p { max-width:36em; font-size:1.2rem; color:#dfe9e9; }
+.btns { display:flex; flex-wrap:wrap; gap:.8rem; margin-top:1.2rem; }
+a.b { display:inline-block; padding:.8rem 1.3rem; border:1px solid var(--amb); color:var(--amb); text-decoration:none; font:600 .85rem 'Avenir Next',Arial,sans-serif; letter-spacing:.12em; text-transform:uppercase; }
+a.b.p { background:var(--amb); color:#09181e; } a.b:focus-visible, a.b:hover { outline:2px solid var(--teal); outline-offset:2px; }
+main { max-width:60rem; margin:0 auto; padding:4rem 6vw; } h2 { font:700 1.7rem 'Avenir Next Condensed','Arial Narrow',sans-serif; text-transform:uppercase; letter-spacing:.04em; color:var(--amb); border-top:1px solid var(--mut); padding-top:.8rem; margin-top:3rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(15rem,1fr)); gap:1rem; } .card { background:var(--panel); padding:1rem 1.2rem; border-top:3px solid var(--amb); font-family:'Avenir Next',Arial,sans-serif; font-size:.95rem; } .card b { display:block; color:var(--teal); font-size:.75rem; letter-spacing:.2em; text-transform:uppercase; margin-bottom:.3rem; }
+code { background:var(--panel); padding:.7rem 1rem; display:block; overflow-x:auto; font:.85rem Menlo,monospace; color:var(--teal); }
+footer { text-align:center; padding:3rem 1rem; color:var(--mut); font:.8rem 'Avenir Next',Arial,sans-serif; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <small>Anales de Biología de Frontera · Número especial ND-17</small>
+  <h1>Nádir<span>Sangre bajo el hielo</span></h1>
+  <p>Trece personas en un refugio para diez, dos atrapados que no pueden soltar una bomba y algo ciego que sella las grietas del hielo. Horror industrial y rescate para Mothership 1e, en PDF de revista científica y listo para Foundry VTT.</p>
+  <div class="btns">
+    <a class="b p" href="https://github.com/ManuRomera/mr-nadir/releases/latest/download/Nadir-Sangre-bajo-el-hielo.pdf">Descargar el PDF</a>
+    <a class="b" href="https://github.com/ManuRomera/mr-nadir">Repositorio</a>
+  </div>
+</header>
+<main>
+  <h2>Qué es</h2>
+  <p>En la luna penitenciaria de Nádir, una cuadrilla de presos de confianza y su alguacil responden al último mensaje de Mara Venn desde el sector C-7. Tres relojes físicos, un dilema que nace de la presión del agua y unos animales que no odian a nadie: solo sellan fugas. Y un cadáver, para ellos, también es una fuga.</p>
+  <div class="grid">
+    <div class="card"><b>Guardián</b>4 actos, 12 localizaciones, 5 planes de rescate y 6 finales.</div>
+    <div class="card"><b>Mesa</b>14 documentos, PNJ, costreros y 5 pregenerados con tokens de cuerpo entero.</div>
+    <div class="card"><b>Foundry v13</b>Mapas con muros, Panel de emergencia con los relojes, tablas y macros.</div>
+    <div class="card"><b>PDF</b>Número especial de una revista de exobiología, con láminas y hojas imprimibles.</div>
+  </div>
+  <h2>Instalar en Foundry</h2>
+  <p>Con el sistema <i>MoSh – Unofficial Mothership</i>. En <b>Add-on Modules → Install Module → Manifest URL</b>:</p>
+  <code>https://github.com/ManuRomera/mr-nadir/releases/latest/download/module.json</code>
+  <p>Después abre el compendio del módulo e importa la aventura.</p>
+</main>
+<footer>CC BY-NC-SA 4.0 · © Manuel Romera · Obra independiente y no oficial, compatible con Mothership 1e.</footer>
+</body>
+</html>

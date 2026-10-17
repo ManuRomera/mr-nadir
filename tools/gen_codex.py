@@ -10,17 +10,30 @@ RAW = os.path.join(ROOT, "art_src", "raw")
 MODEL = "gpt-5.6-luna"
 
 
+def valida(path, size):
+    """Descarta copias equivocadas: tamaño mínimo y proporción parecida a la pedida."""
+    from PIL import Image
+    try:
+        w, h = Image.open(path).size
+    except Exception:  # noqa: BLE001
+        return False
+    rw, rh = map(int, size.split("x"))
+    return min(w, h) >= 900 and abs(w / h - rw / rh) < 0.15
+
+
 def one(it, estilo):
     out = os.path.join("art_src", "raw", it["id"] + ".png")
     extra = " The background MUST be transparent (alpha channel)." if it["tipo"] == "token" else ""
     prompt = ("Usa tu herramienta de generación de imágenes para crear UNA sola imagen, tamaño %s. "
               "Descripción: %s Estilo: %s%s\n"
-              "Después copia el PNG generado exactamente a %s (crea la carpeta si falta) y responde solo con esa ruta. "
+              "Después copia EL PNG QUE TU HERRAMIENTA ACABA DE DEVOLVER EN ESTA SESIÓN (usa su ruta exacta; nunca busques el archivo más reciente de la carpeta, puede ser de otra sesión) exactamente a %s (crea la carpeta si falta) y responde solo con esa ruta. "
               "No generes más de una imagen ni modifiques otros archivos.") % (it["size"], it["prompt"], estilo[it["tipo"]], extra, out)
     t0 = time.time()
     for intento in range(2):
         r = subprocess.run(["codex", "exec", "-m", MODEL, "-c", 'model_reasoning_effort="low"', "--skip-git-repo-check",
                             "-s", "workspace-write", prompt], cwd=ROOT, capture_output=True, text=True, timeout=900, stdin=subprocess.DEVNULL)
+        if os.path.exists(os.path.join(ROOT, out)) and not valida(os.path.join(ROOT, out), it["size"]):
+            os.remove(os.path.join(ROOT, out))
         if os.path.exists(os.path.join(ROOT, out)):
             return "OK  %-18s %4.0fs" % (it["id"], time.time() - t0)
     return "ERR %-18s %s" % (it["id"], (r.stdout + r.stderr)[-300:].replace("\n", " "))
