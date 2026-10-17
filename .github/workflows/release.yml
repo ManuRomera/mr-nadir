@@ -1,0 +1,55 @@
+name: Build Foundry Module Release
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Read module version
+        id: version
+        shell: bash
+        run: |
+          VERSION=$(jq -r '.version' module.json)
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Build pack and ZIP
+        shell: bash
+        run: |
+          npm ci
+          node scripts/build.mjs
+          unzip -l dist/mr-nadir.zip | grep -q "packs/aventura/CURRENT"
+          unzip -l dist/mr-nadir.zip | grep -q "assets/maps/c7.webp"
+
+      - name: Extract release notes
+        shell: bash
+        run: |
+          awk -v v="${{ steps.version.outputs.version }}" '$0 ~ "^## "v" " {f=1; next} /^## / {f=0} f' CHANGELOG.md > notes.md
+          [ -s notes.md ] || echo "MR- Nádir v${{ steps.version.outputs.version }}" > notes.md
+
+      - name: Create or update GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+          VERSION: ${{ steps.version.outputs.version }}
+        shell: bash
+        run: |
+          FILES="dist/mr-nadir.zip module.json docs/Nadir-Sangre-bajo-el-hielo.pdf"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" $FILES --clobber
+            gh release edit "$TAG" --notes-file notes.md
+          else
+            gh release create "$TAG" $FILES --target "$GITHUB_SHA" --title "MR- Nádir v$VERSION" --notes-file notes.md
+          fi

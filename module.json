@@ -1,0 +1,61 @@
+{
+  "id": "mr-nadir",
+  "title": "MR- Nádir: Sangre bajo el hielo",
+  "description": "Aventura completa de horror industrial y rescate para Mothership 1e (3–5 jugadores, 6–9 h). En una luna minera penitenciaria, una cuadrilla de presos de confianza y su alguacil responden al último mensaje de Mara Venn. Guía del Guardián, documentos, PNJ y pregenerados con tokens de cuerpo entero, costreros, mapas con muros, tablas, macros y un Panel de emergencia con los relojes del escenario.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Manu Romera",
+      "url": "https://github.com/ManuRomera"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "mosh",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.6.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "js/nadir.js"
+  ],
+  "styles": [
+    "styles/nadir.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "aventura",
+      "label": "MR- Nádir: Sangre bajo el hielo",
+      "path": "packs/aventura",
+      "type": "Adventure",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "manifest": "https://github.com/ManuRomera/mr-nadir/releases/latest/download/module.json",
+  "download": "https://github.com/ManuRomera/mr-nadir/releases/latest/download/mr-nadir.zip",
+  "url": "https://github.com/ManuRomera/mr-nadir",
+  "bugs": "https://github.com/ManuRomera/mr-nadir/issues",
+  "readme": "https://github.com/ManuRomera/mr-nadir#readme",
+  "changelog": "https://github.com/ManuRomera/mr-nadir/blob/main/CHANGELOG.md",
+  "license": "CC-BY-NC-SA-4.0"
+}

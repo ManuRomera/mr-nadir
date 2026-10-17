@@ -1,0 +1,41 @@
+/* Estilos de los diarios de «Nádir» (escopados en .mr-nadir-j) */
+.mr-nadir-j { --amb:#d9822b; --teal:#16323a; font-family: var(--font-serif, 'Signika', serif); line-height:1.45; }
+.mr-nadir-j h2 { font-family:'Bruno Ace','Signika',sans-serif; text-transform:uppercase; letter-spacing:.04em; color:var(--teal); border-bottom:1px solid #c9c9c9; margin-top:1em; }
+.mr-nadir-j h3 { text-transform:uppercase; letter-spacing:.1em; color:var(--amb); font-size:1.05em; }
+.mr-nadir-j blockquote { border-left:4px solid var(--amb); background:rgba(200,121,28,.08); margin:.6em 0; padding:.3em .9em; font-style:italic; }
+.mr-nadir-j .abstract { background:rgba(15,58,64,.07); border-left:5px solid var(--amb); padding:.6em 1em; margin-bottom:1em; font-family:'Signika',sans-serif; }
+.mr-nadir-j .abstract b:first-child { letter-spacing:.25em; text-transform:uppercase; font-size:.75em; color:var(--teal); }
+.mr-nadir-j .caja { background:rgba(15,58,64,.09); border-top:4px solid var(--teal); padding:.5em 1em; margin:.8em 0; }
+.mr-nadir-j .caja h4 { margin:.2em 0; letter-spacing:.18em; text-transform:uppercase; color:var(--teal); font-size:.85em; }
+.mr-nadir-j .ficha { border:1px solid #222; margin:.8em 0; font-family:'Signika',sans-serif; font-size:.92em; }
+.mr-nadir-j .ficha header { background:#1d2224; color:#fff; display:flex; justify-content:space-between; padding:.3em .8em; align-items:baseline; }
+.mr-nadir-j .ficha h4 { margin:0; color:#fff; text-transform:uppercase; letter-spacing:.05em; border:0; }
+.mr-nadir-j .ficha .chips { display:flex; flex-wrap:wrap; border-bottom:1px solid #bbb; }
+.mr-nadir-j .ficha .chip { flex:1; text-align:center; padding:.2em; border-right:1px solid #ddd; }
+.mr-nadir-j .ficha .chip em { display:block; font-size:.65em; letter-spacing:.14em; text-transform:uppercase; color:#666; font-style:normal; }
+.mr-nadir-j .ficha p { margin:0; padding:.25em .8em; }
+.mr-nadir-j .documento { background:#f4ecd6; color:#2b2a24; border:1px solid #cdbf98; box-shadow:0 2px 6px rgba(0,0,0,.25); padding:1em 1.2em; margin:1em 0; font-family:'American Typewriter','Courier New',monospace; font-size:.92em; }
+.mr-nadir-j .documento h4 { border-bottom:1px solid #8a7d55; text-transform:uppercase; margin:0 0 .5em; }
+.mr-nadir-j table { width:100%; border-collapse:collapse; font-family:'Signika',sans-serif; font-size:.9em; }
+.mr-nadir-j th { background:var(--teal); color:#fff; text-transform:uppercase; letter-spacing:.1em; font-size:.75em; padding:.3em .5em; text-align:left; }
+.mr-nadir-j td { border-bottom:1px solid #ddd; padding:.3em .5em; vertical-align:top; }
+.mr-nadir-j figure { margin:.8em 0; } .mr-nadir-j figure img { max-width:100%; border:0; display:block; }
+.mr-nadir-j figcaption { font-size:.8em; color:#666; border-top:2px solid var(--amb); padding-top:.2em; font-family:'Signika',sans-serif; }
+.mr-nadir-j figure.ret img { max-width:240px; }
+
+/* Panel de emergencia */
+.mr-nadir-panel .window-content { padding: 0; background: #0b1418; color: #dbe6e8; }
+.mr-nadir-body { font-family: 'Signika', sans-serif; padding: .6rem .8rem .8rem; }
+.mr-nadir-body .reloj { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #d9822b; padding-bottom: .3rem; margin-bottom: .4rem; }
+.mr-nadir-body .reloj b { font: 700 2rem 'Bruno Ace', monospace; color: #f0a64a; letter-spacing: .05em; }
+.mr-nadir-body .reloj span { color: #8fa9ab; font-size: .85rem; }
+.mr-nadir-body .tiempo, .mr-nadir-body .pie { display: flex; gap: .3rem; margin: .3rem 0 .5rem; }
+.mr-nadir-body button { flex: 1; background: #16323a; color: #e6eeee; border: 1px solid #2f5560; padding: .2rem .4rem; font-size: .8rem; line-height: 1.4; }
+.mr-nadir-body button:hover, .mr-nadir-body button:focus-visible { border-color: #f0a64a; outline: none; }
+.mr-nadir-body .fila { display: grid; grid-template-columns: 1fr auto; gap: .1rem .5rem; padding: .4rem .5rem; margin: .25rem 0; background: #10232a; border-left: 4px solid #2f5560; }
+.mr-nadir-body .fila.alerta { border-left-color: #d9442b; background: #2a1514; }
+.mr-nadir-body .fila .t { font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; color: #8fd3c8; }
+.mr-nadir-body .fila .v { font: 700 1.05rem 'Bruno Ace', monospace; text-align: right; }
+.mr-nadir-body .fila .n { grid-column: 1 / -1; font-size: .78rem; color: #aebfc1; }
+.mr-nadir-body .fila .b { grid-column: 1 / -1; display: flex; gap: .25rem; }
+.mr-nadir-chat h3 { border-bottom: 2px solid #d9822b; margin: 0 0 .3rem; }

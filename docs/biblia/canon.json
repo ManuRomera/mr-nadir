@@ -1,0 +1,465 @@
+{
+ "pnj": {
+  "mara": {
+   "nombre": "Mara Venn",
+   "rol": "Alguacil militar ACE (R-3)",
+   "edad": 36,
+   "combate": 45,
+   "instinto": 50,
+   "salud": 14,
+   "heridas": 2,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Carabina reglamentaria",
+     "dano": "según PSG"
+    }
+   ],
+   "rasgos": [
+    "Pareja del alguacil PJ (o vínculo cercano)",
+    "Ordenó el aislamiento de C-7; no provocó el accidente",
+    "Con hipercapnia repite frases"
+   ]
+  },
+  "quiroga": {
+   "nombre": "Lara Quiroga",
+   "rol": "Alguacil ACE (P-2)",
+   "edad": 42,
+   "combate": 40,
+   "instinto": 45,
+   "salud": 13,
+   "heridas": 2,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Pistola reglamentaria",
+     "dano": "según PSG"
+    }
+   ],
+   "rasgos": [
+    "Hombro lesionado: [−] en tareas físicas exigentes",
+    "Lleva horas oyendo cómo sellan la portilla desde fuera"
+   ]
+  },
+  "ivo": {
+   "nombre": "Ivo Sen",
+   "rol": "Preso, técnico de drenajes (P-2)",
+   "edad": 44,
+   "combate": 30,
+   "instinto": 45,
+   "salud": 12,
+   "heridas": 2,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Herramientas",
+     "dano": "1d5"
+    }
+   ],
+   "rasgos": [
+    "Instaló el bypass clandestino",
+    "Opera la bomba que protege R-3",
+    "Primero minimiza; con datos, reconoce"
+   ]
+  },
+  "duarte": {
+   "nombre": "Tomás Duarte",
+   "rol": "Alguacil ACE (R-3)",
+   "edad": 31,
+   "combate": 40,
+   "instinto": 35,
+   "salud": 13,
+   "heridas": 2,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Pistola reglamentaria",
+     "dano": "según PSG"
+    }
+   ],
+   "rasgos": [
+    "Rígido y nervioso; cumple tareas definidas"
+   ]
+  },
+  "vidal": {
+   "nombre": "Roque Vidal",
+   "rol": "Jefe ACE en Bastión",
+   "edad": 55,
+   "combate": 35,
+   "instinto": 45,
+   "salud": 12,
+   "heridas": 2,
+   "armadura": 0,
+   "armas": [],
+   "rasgos": [
+    "Exige trazabilidad de cada preso",
+    "Cede ante datos creíbles"
+   ]
+  },
+  "oria": {
+   "nombre": "Oria Sable",
+   "rol": "Directora de operaciones HRF",
+   "edad": 49,
+   "combate": 20,
+   "instinto": 50,
+   "salud": 9,
+   "heridas": 1,
+   "armadura": 0,
+   "armas": [],
+   "rasgos": [
+    "Autorizó la retirada de costras sin entenderlas",
+    "Cede material ante explicaciones técnicas"
+   ]
+  },
+  "ines": {
+   "nombre": "Inés Calder",
+   "rol": "Técnica civil HRF (R-3)",
+   "edad": 29,
+   "combate": 15,
+   "instinto": 45,
+   "salud": 8,
+   "heridas": 1,
+   "armadura": 0,
+   "armas": [],
+   "rasgos": [
+    "Pierna herida",
+    "Vio desprenderse las costras antes del fallo del colector"
+   ]
+  },
+  "nora": {
+   "nombre": "Nora Ilias",
+   "rol": "Presa (R-3)",
+   "edad": 34,
+   "combate": 20,
+   "instinto": 50,
+   "salud": 9,
+   "heridas": 1,
+   "armadura": 0,
+   "armas": [],
+   "rasgos": [
+    "Amiga de Vera",
+    "Vio a los costreros tapiar rendijas"
+   ]
+  },
+  "kroll": {
+   "nombre": "Gaspar Kroll",
+   "rol": "Preso, dos homicidios (R-3)",
+   "edad": 46,
+   "combate": 45,
+   "instinto": 45,
+   "salud": 15,
+   "heridas": 2,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Herramienta contundente",
+     "dano": "1d10"
+    }
+   ],
+   "rasgos": [
+    "No tolera que lo aten junto a agua",
+    "Se sienta sobre la rejilla del sumidero"
+   ]
+  },
+  "salcedo": {
+   "nombre": "Salcedo",
+   "rol": "Técnico HRF herido junto a R-12",
+   "edad": 40,
+   "combate": 20,
+   "instinto": 40,
+   "salud": 9,
+   "heridas": 1,
+   "armadura": 0,
+   "armas": [],
+   "rasgos": [
+    "Su vehículo rompió una suspensión"
+   ]
+  },
+  "preso": {
+   "nombre": "Preso de C-7",
+   "rol": "Interno (genérico)",
+   "edad": 0,
+   "combate": 30,
+   "instinto": 35,
+   "salud": 10,
+   "heridas": 1,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Puños o herramienta",
+     "dano": "1d5"
+    }
+   ],
+   "rasgos": [
+    "Usar para los ocho presos de R-3"
+   ]
+  },
+  "costrero": {
+   "nombre": "Costrero aislado",
+   "rol": "Crustivermis nadirensis",
+   "edad": 0,
+   "combate": 25,
+   "instinto": 35,
+   "salud": 6,
+   "heridas": 1,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Mordedura",
+     "dano": "1d10"
+    }
+   ],
+   "rasgos": [
+    "Ciego; percibe vibraciones por sólidos",
+    "Busca refugio húmedo tras atacar",
+    "Aire seco: 10–20 min de tolerancia"
+   ]
+  },
+  "defensor": {
+   "nombre": "Costrero defensor de puesta",
+   "rol": "Crustivermis nadirensis",
+   "edad": 0,
+   "combate": 35,
+   "instinto": 45,
+   "salud": 8,
+   "heridas": 2,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Mordedura",
+     "dano": "1d10+2"
+    }
+   ],
+   "rasgos": [
+    "No abandona la zona de cría"
+   ]
+  },
+  "enjambre": {
+   "nombre": "Enjambre pequeño (3–6)",
+   "rol": "Crustivermis nadirensis",
+   "edad": 0,
+   "combate": 30,
+   "instinto": 40,
+   "salud": 6,
+   "heridas": 1,
+   "armadura": 0,
+   "armas": [
+    {
+     "n": "Mordeduras individuales",
+     "dano": "1d10 c/u"
+    }
+   ],
+   "rasgos": [
+    "Rodea una fuente de vibración o sangre",
+    "No son seis ataques automáticos"
+   ]
+  }
+ },
+ "pregenerados": {
+  "gael": {
+   "nombre": "Gael Rivas",
+   "clase": "Marine",
+   "edad": 38,
+   "papel": "Alguacil de referencia ACE",
+   "estadisticas": {
+    "fuerza": 29,
+    "velocidad": 34,
+    "intelecto": 27,
+    "combate": 44
+   },
+   "salvaciones": {
+    "cordura": 25,
+    "miedo": 53,
+    "cuerpo": 38
+   },
+   "salud": 16,
+   "heridas": 3,
+   "habilidades": {
+    "entrenado": [
+     "Military Training",
+     "First Aid"
+    ],
+    "experto": [
+     "Firearms"
+    ]
+   },
+   "equipo": [
+    "Carabina reglamentaria de fuego selectivo",
+    "Esposas",
+    "Radio multibanda",
+    "Credencial ACE",
+    "Dos herramientas de custodia",
+    "Traje de exterior asignado"
+   ],
+   "recuerdos": {
+    "Motivo": "Mara Venn, su pareja, acaba de pedir ayuda y ha desaparecido de la radio.",
+    "Vínculo": "El preso técnico le ayudó a sobrevivir a un accidente hace meses.",
+    "Conflicto": "Salvar a Mara no debe significar dejar morir a los demás.",
+    "Información privada": "Mara había pedido trasladarse al siguiente turno de Bastión para hablar con él de algo importante."
+   }
+  },
+  "vera": {
+   "nombre": "Vera Soria",
+   "clase": "Scientist",
+   "edad": 0,
+   "papel": "Presa de confianza · química de salmueras",
+   "estadisticas": {
+    "fuerza": 27,
+    "velocidad": 32,
+    "intelecto": 47,
+    "combate": 24
+   },
+   "salvaciones": {
+    "cordura": 49,
+    "miedo": 31,
+    "cuerpo": 25
+   },
+   "salud": 16,
+   "heridas": 2,
+   "habilidades": {
+    "entrenado": [
+     "Chemistry",
+     "Geology"
+    ],
+    "experto": [
+     "Ecology"
+    ]
+   },
+   "equipo": [
+    "Lector químico portátil",
+    "Cámara de muestreo",
+    "Tableta sin acceso externo",
+    "Material de seguridad de laboratorio"
+   ],
+   "recuerdos": {
+    "Motivo": "Nora Ilias, de C-7, colaboró con ella y le escribía desde ese sector.",
+    "Vínculo": "La operadora civil le permitió publicar un informe técnico que evitó sanciones arbitrarias.",
+    "Conflicto": "Puede perder su privilegio si traspasa sectores sin cobertura del alguacil.",
+    "Información privada": "Hace dos semanas analizó una costra con estructuras orgánicas ordenadas; el informe está en B-4."
+   }
+  },
+  "dario": {
+   "nombre": "Darío Belda",
+   "clase": "Teamster",
+   "edad": 0,
+   "papel": "Preso de confianza · válvulas y bombas",
+   "estadisticas": {
+    "fuerza": 40,
+    "velocidad": 36,
+    "intelecto": 38,
+    "combate": 26
+   },
+   "salvaciones": {
+    "cordura": 27,
+    "miedo": 28,
+    "cuerpo": 30
+   },
+   "salud": 18,
+   "heridas": 2,
+   "habilidades": {
+    "entrenado": [
+     "Industrial Equipment",
+     "Jury-Rigging"
+    ],
+    "experto": [
+     "Mechanical Repair"
+    ]
+   },
+   "equipo": [
+    "Herramienta multiuso",
+    "Abrazaderas",
+    "Sellante",
+    "Analizador de fugas",
+    "Llaves de válvula"
+   ],
+   "recuerdos": {
+    "Motivo": "Su antiguo compañero Ivo Sen trabaja en C-7; le debe un favor.",
+    "Vínculo": "El Marine declaró a su favor tras una infracción que no cometió.",
+    "Conflicto": "Sus soluciones improvisadas pueden salvar vidas o costarle los beneficios penitenciarios.",
+    "Información privada": "Ivo preguntó hace días por un plano antiguo de drenajes."
+   }
+  },
+  "elia": {
+   "nombre": "Elia Noé",
+   "clase": "Teamster",
+   "edad": 0,
+   "papel": "Operadora civil HRF · comunicaciones y soporte vital",
+   "estadisticas": {
+    "fuerza": 27,
+    "velocidad": 39,
+    "intelecto": 42,
+    "combate": 25
+   },
+   "salvaciones": {
+    "cordura": 30,
+    "miedo": 34,
+    "cuerpo": 31
+   },
+   "salud": 15,
+   "heridas": 2,
+   "habilidades": {
+    "entrenado": [
+     "Computers",
+     "Jury-Rigging"
+    ],
+    "experto": [
+     "Hacking"
+    ]
+   },
+   "equipo": [
+    "Radio de diagnóstico",
+    "Batería auxiliar",
+    "Fibra y conectores",
+    "Dos filtros de aire portátiles"
+   ],
+   "recuerdos": {
+    "Motivo": "Su amiga Milena Tey estaba de turno en C-7.",
+    "Vínculo": "Vera salvó su puesto demostrando que un resultado anómalo no era negligencia suya.",
+    "Conflicto": "Su contrato la obliga a comunicar modificaciones no autorizadas.",
+    "Información privada": "El repetidor R-12 registró dos caídas de alimentación la semana anterior."
+   }
+  },
+  "limen": {
+   "nombre": "LIMEN-6 «Limen»",
+   "clase": "Android",
+   "edad": 0,
+   "papel": "Alguacil sintético ACE",
+   "estadisticas": {
+    "fuerza": 37,
+    "velocidad": 39,
+    "intelecto": 52,
+    "combate": 29
+   },
+   "salvaciones": {
+    "cordura": 32,
+    "miedo": 28,
+    "cuerpo": 38
+   },
+   "salud": 17,
+   "heridas": 3,
+   "habilidades": {
+    "entrenado": [
+     "Military Training",
+     "Computers"
+    ],
+    "experto": [
+     "Hacking"
+    ]
+   },
+   "equipo": [
+    "Radio",
+    "Escáner ambiental",
+    "Esposas",
+    "Linterna",
+    "Herramienta de rescate",
+    "Arma autorizada"
+   ],
+   "recuerdos": {
+    "Motivo": "Su compañero humano sale a auxiliar a Mara.",
+    "Vínculo": "Los condenados confían en que documenta sin alterar declaraciones.",
+    "Conflicto": "Una autoridad ACE podría pedir inmovilizar a un preso; conserva juicio propio.",
+    "Información privada": "Su última inspección encontró diferencias entre el plano antiguo del drenaje y el registro digital."
+   }
+  }
+ }
+}

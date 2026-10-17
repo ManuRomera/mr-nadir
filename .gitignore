@@ -1,0 +1,9 @@
+art_src/
+art_final/
+logs/
+node_modules/
+packs/
+dist/
+build/
+*.zip
+.DS_Store

@@ -1,0 +1,388 @@
+{
+ "estilo": {
+  "escena": "Realistic documentary photograph, cold industrial science-fiction horror (Alien 1979, The Thing 1982 practical effects), airless icy moon mining colony, black ice and grey rock, sodium-amber work lights against cyan-white LEDs, grime, condensation only inside pressurized rooms, 35mm film grain, no text, no letters, no logos, no watermark.",
+  "lamina": "Scientific natural-history illustration plate, precise ink and watercolour on aged paper, specimen study with fine hatching, muted bone-white, grey and rust tones, museum quality, NO text, NO labels, NO letters.",
+  "retrato": "Realistic portrait photograph, shoulders up, 85mm, prison-colony personnel file look, harsh overhead light, dark grey background, cold desaturated colour with amber rim light, film grain, no text.",
+  "token": "Full body from head to toe, standing, facing the viewer, isolated on a fully TRANSPARENT background (PNG with alpha), no floor, no shadow, realistic photographic style, cold industrial sci-fi, no text."
+ },
+ "imagenes": [
+  {
+   "id": "fig-portada",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "Close view inside a dark ice tunnel lit only by a helmet lamp: a pale segmented blind worm-like creature, 70 cm, with a ring of grinding denticles, coiled on a cracked white mineral crust that half covers a frozen gloved human hand. Dread, intimate, shallow focus. The creatures have ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen."
+  },
+  {
+   "id": "fig-nadir",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A small dirty ice-and-rock moon seen from orbit, cracked surface with faint plumes, a banded gas giant behind, tiny lights of scattered mining camps on the night side."
+  },
+  {
+   "id": "fig-bastion",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Exterior of a small pressurized prison-mining base on an airless icy moon: two rows of barracks modules joined by airlocks, floodlights, antenna mast, rovers parked, black starry sky, no atmosphere."
+  },
+  {
+   "id": "fig-b4",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Interior of a cramped pumping station in an ice mine: a technician in work overalls with a headlamp cleaning a clogged filter full of white mineral crystals, red warning indicator, steel pipes, frost, amber light."
+  },
+  {
+   "id": "fig-rover",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "An open six-seat lunar rover crossing fractured black ice under a starry black sky, amber sodium lights, airless (no splashing, no liquid water)."
+  },
+  {
+   "id": "fig-r12",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A lonely radio repeater mast on an airless icy plain at night, a small service rover tilted with a broken suspension next to a crevasse, a suited figure sitting injured behind a rock, starfield, no air no dust clouds."
+  },
+  {
+   "id": "fig-filtro",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "An old abandoned water filter unit on rock, its damaged joint covered in strange white mineral cords; a small pale blind worm retreating into a damp black crack, helmet lamp light, macro feel."
+  },
+  {
+   "id": "fig-c7",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Exterior of a mining sector complex on an airless ice moon: lights on in the windows but nobody inside, an external hatch ringed by hardened grey mud crust, the lower part of the complex sunk into the ice, black sky."
+  },
+  {
+   "id": "fig-control",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Mining control room with flickering emergency light, consoles on partial battery, alarm screens, old paper procedures taped to the wall, nobody present, smell of hot insulation implied."
+  },
+  {
+   "id": "fig-e1",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A heavy industrial airlock door slightly bent and twisted in its frame, brine water seeping at the bottom, red sensors, a dead worker in an environment suit trapped in the gap, his helmet partially covered by white crust. No gore."
+  },
+  {
+   "id": "fig-l4",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "Narrow abandoned mining gallery inside ice and rock, ice blocks and mineral mud, two suited explorers with helmet lamps crouching, a pale shape moving along the ceiling just above them unnoticed. The creatures have ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen."
+  },
+  {
+   "id": "fig-cria",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "Natural wet cavern inside an ice moon, soft crystals, two dozen translucent oval eggs attached to a wall with dim silhouettes inside, pale segmented blind worms guarding, helmet lamp beams, humid haze. The creatures have ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen."
+  },
+  {
+   "id": "fig-lisan",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "An ancient human body completely mineralized into a cave wall, wearing an old-model environment suit, face visible behind translucent white crust like frosted glass, helmet lamp light, horror, solemn, no gore."
+  },
+  {
+   "id": "fig-relicario",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A dead miner half encased in white translucent mineral crust fused to the rock near a fractured pipe, small bulges under the crust suggesting things moving inside, flooded low corridor, cold light. Disturbing but not gory."
+  },
+  {
+   "id": "fig-paso",
+   "tipo": "escena",
+   "size": "1024x1536",
+   "prompt": "A thin mineral ledge crossing a collapsed chasm inside an ice mine, remains of an old handrail, a suited figure clipping a rope, helmet lamps lost in the dark below."
+  },
+  {
+   "id": "fig-r3",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Overcrowded emergency refuge in a mine: thirteen exhausted people, prisoners in orange and guards in grey, blankets on the floor, an improvised medical corner, a tired fan, a sign plate on the wall (unreadable), stale air, amber light."
+  },
+  {
+   "id": "fig-desague",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Close-up of a metal floor drain grate in a refuge, brine welling up, a pale blind worm head with ring of teeth pushing between the bars, blankets and a boot pressed on it, panic lighting. The creatures have ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen."
+  },
+  {
+   "id": "fig-p2",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Small auxiliary pumping station: an electric motor and pipes, a settling tank rising, a wounded female guard and an exhausted male prisoner working at an open control panel, steel hatch behind them covered in white crust."
+  },
+  {
+   "id": "fig-h4",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Large industrial drain pipe opened at an inspection section, brine under pressure, gauges, a hand-welded bypass pipe section, cold blue light."
+  },
+  {
+   "id": "fig-v12",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "High-flow isolation valve chamber in a mine, big handwheel and actuator, pressure gauges, narrow access, suited technician straining with a torque tool."
+  },
+  {
+   "id": "fig-portillo",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A human-diameter maintenance hatch above a flood line, bolted shut, inside a rock-cut service chamber, a suited rescuer unbolting it, faces watching from a small window."
+  },
+  {
+   "id": "fig-j17",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A rock fracture over a destroyed pipe collector, mineral plates on its edges, thermal cleaning marks, a broken tool and a dead operator's equipment, residual brine, fresh white crusts forming."
+  },
+  {
+   "id": "fig-evacuacion",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Two open six-seat rovers in convoy crossing black ice at night, suited people strapped in, umbilical lines, amber lights, a mining complex behind, stars."
+  },
+  {
+   "id": "fig-final",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Wide view of the icy moon surface at dawn of a distant star, a mining complex small on the horizon, below the ice in cutaway faint white crusts sealing a crack, quiet and vast."
+  },
+  {
+   "id": "lam-costrero",
+   "tipo": "lamina",
+   "size": "1536x1024",
+   "prompt": "Scientific plate of a blind segmented worm-like animal (Crustivermis): lateral and dorsal views, segmented mineral-flexible armour plates, short muscular cilia beneath the segments, an anterior ring of grinding denticles, no eyes. Scale bar without numbers. The creatures have ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen."
+  },
+  {
+   "id": "lam-boca",
+   "tipo": "lamina",
+   "size": "1024x1024",
+   "prompt": "Scientific plate: frontal study of the anterior ring of grinding denticles of a blind worm-like animal, concentric rows of mineralized teeth, details of cilia. No text. The creatures have ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen."
+  },
+  {
+   "id": "lam-puesta",
+   "tipo": "lamina",
+   "size": "1024x1024",
+   "prompt": "Scientific plate: a cluster of translucent oval eggs attached to mineral crust, one egg sectioned showing a coiled embryo of a segmented worm, and a fragment of the sealing crust in cross-section."
+  },
+  {
+   "id": "lam-costra",
+   "tipo": "lamina",
+   "size": "1024x1024",
+   "prompt": "Scientific plate: microscopic cross-section of a mineral crust with ordered organic lattice structures, layered like nacre, drawn as a micrograph study. No text."
+  },
+  {
+   "id": "ret-mara",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Mara Venn, woman of 36, military marshal, short dark hair, tired and controlled, grey ACE uniform with patches"
+  },
+  {
+   "id": "ret-quiroga",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Lara Quiroga, woman of 42, marshal, ironic weary eyes, injured shoulder bandaged, grey uniform"
+  },
+  {
+   "id": "ret-ivo",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Ivo Sen, man of 44, prisoner technician, shaved head, stubble, hard calm eyes, orange prison work overalls with grease"
+  },
+  {
+   "id": "ret-duarte",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Tomás Duarte, man of 31, young rigid marshal, neat haircut, nervous, grey uniform"
+  },
+  {
+   "id": "ret-vidal",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Roque Vidal, man of 55, chief of custody, grey moustache, dry stern expression, dark uniform"
+  },
+  {
+   "id": "ret-oria",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Oria Sable, woman of 49, mining operations director, short silver hair, exhausted defensive look, company jacket"
+  },
+  {
+   "id": "ret-ines",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Inés Calder, woman of 29, civilian technician, curly hair, scratched face, company coverall"
+  },
+  {
+   "id": "ret-nora",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Nora Ilias, woman of 34, non-violent prisoner, glasses, intelligent watchful eyes, orange prison overalls"
+  },
+  {
+   "id": "ret-kroll",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Gaspar Kroll, man of 46, violent prisoner, broad, scarred knuckles, suspicious eyes, orange overalls"
+  },
+  {
+   "id": "ret-salcedo",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Salcedo, man of 40, civilian technician, injured, sweat and dust, company coverall"
+  },
+  {
+   "id": "ret-gael",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Gael Rivas, man of 38, marshal, short beard, steady protective eyes, grey ACE uniform"
+  },
+  {
+   "id": "ret-vera",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Vera Soria, woman of 40, prisoner scientist, tied hair, sharp guarded eyes, orange prison overalls with lab badge"
+  },
+  {
+   "id": "ret-dario",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Darío Belda, man of 35, prisoner technician, strong build, burn scars on hands, orange overalls"
+  },
+  {
+   "id": "ret-elia",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of Elia Noé, woman of 33, civilian comms operator, headset around neck, practical, company coverall"
+  },
+  {
+   "id": "ret-limen",
+   "tipo": "retrato",
+   "size": "1024x1024",
+   "prompt": "Portrait of LIMEN-6, a synthetic android marshal that looks almost human, too-smooth skin, calm unblinking gaze, grey ACE uniform, faint seam at the jaw"
+  },
+  {
+   "id": "tok-mara",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Mara Venn, female marshal in grey ACE uniform and environment suit without helmet, carbine"
+  },
+  {
+   "id": "tok-quiroga",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Lara Quiroga, female marshal, arm in sling, grey uniform"
+  },
+  {
+   "id": "tok-ivo",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Ivo Sen, prisoner technician in orange overalls holding a wrench"
+  },
+  {
+   "id": "tok-duarte",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Tomás Duarte, young male marshal in grey uniform, pistol holstered"
+  },
+  {
+   "id": "tok-kroll",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Gaspar Kroll, big prisoner in orange overalls"
+  },
+  {
+   "id": "tok-nora",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Nora Ilias, prisoner woman with glasses in orange overalls"
+  },
+  {
+   "id": "tok-ines",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Inés Calder, civilian technician woman in company coverall, limping"
+  },
+  {
+   "id": "tok-vidal",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Roque Vidal, older custody chief in dark uniform"
+  },
+  {
+   "id": "tok-oria",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Oria Sable, mining director woman in company jacket"
+  },
+  {
+   "id": "tok-salcedo",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Salcedo, injured civilian technician in environment suit"
+  },
+  {
+   "id": "tok-preso-a",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "male prisoner in orange overalls, generic"
+  },
+  {
+   "id": "tok-preso-b",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "female prisoner in orange overalls, generic"
+  },
+  {
+   "id": "tok-preso-c",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "older male prisoner in orange overalls, generic"
+  },
+  {
+   "id": "tok-gael",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Gael Rivas, male marshal in environment suit without helmet, carbine"
+  },
+  {
+   "id": "tok-vera",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Vera Soria, prisoner scientist woman in orange overalls with chemical reader"
+  },
+  {
+   "id": "tok-dario",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Darío Belda, prisoner technician man in orange overalls with tool belt"
+  },
+  {
+   "id": "tok-elia",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "Elia Noé, civilian comms woman in company environment suit, radio"
+  },
+  {
+   "id": "tok-limen",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "LIMEN-6, android marshal in grey uniform and environment suit"
+  },
+  {
+   "id": "tok-costrero",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "A blind segmented worm-like animal 70 cm long rearing up, seen from the side, ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen"
+  },
+  {
+   "id": "tok-defensor",
+   "tipo": "token",
+   "size": "1024x1536",
+   "prompt": "A larger blind segmented worm-like animal over 1 m long coiled to strike, thicker armour plates, ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen"
+  }
+ ]
+}
