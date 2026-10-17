@@ -383,6 +383,132 @@
    "tipo": "token",
    "size": "1024x1536",
    "prompt": "A larger blind segmented worm-like animal over 1 m long coiled to strike, thicker armour plates, ash-grey and bone-white crusty mineral-flexible armour segments like chalk and pumice (NOT pink, NOT fleshy, no tail spikes, no eyes), an anterior ring of many small grinding denticles like a lamprey (not big fangs), short muscular cilia under the segments, wet mineral sheen"
+  },
+  {
+   "id": "esc-viaje",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "An empty open six-seat rover stopped on a vast plain of black fractured ice under a black starry sky, amber headlights on, umbilical cables coiled on its seats, no people, airless, two distant extraction towers glowing on the horizon like buried matches. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-r12",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A lonely radio repeater mast on an airless icy plain at night, its electrical cabinet open with a dead panel, a small service rover tilted with a broken suspension beside a crevasse, a medical kit dropped on the rock, no people, stars. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-filtro",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "An old abandoned water filter unit on rock with a damaged joint covered in strange white mineral cords, a damp black crack beside it, an old sensor box with a blinking light, helmet-lamp lighting, no people, no creatures visible. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-b4-colector",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Cramped pumping station interior: a pump body with its inspection cover off, a clogged filter full of white mineral crystals and a thin organic film, a red warning indicator oscillating, steel pipes with frost, a tray of scraped crust, amber work lights, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-b4-lab",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Small field laboratory: a portable chemical reader, sample trays with white crust fragments under a magnifier lamp, a terminal with an amber screen showing an analysis graph, labelled vials, a sealed archive folder, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-b4-barracon",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Shift barracks: metal bunk beds, lockers with sewn patches and personal tools hanging next to access authorizations, a duty roster board, a steamed-up porthole window, letters waiting for transport pinned on a board, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-b4-taller",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Mining workshop: heavy workbench with valve keys, clamps, sealant tubes and a leak analyzer, a welding station, spare pump parts on shelves, oil stains, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-b4-garaje",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Pressurized garage: an open six-seat rover with umbilical connectors per seat and a compact electrolyzer on its rear platform, environment suits hanging on racks, two CO2 cartridges in cases, tool crates, airlock door at the back, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-b4-soporte",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Life support store: racks of industrial CO2 absorbent cartridges, oxygen bottles, auxiliary batteries, portable air filters in labelled crates, a clipboard inventory, cold white light, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-b4-esclusa",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Industrial airlock chamber of a mining module: inner and outer hatches, pressure gauges, warning lights, suit umbilical hooks, frost on the outer door window showing black ice outside, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-x",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Exterior rover dock of a mining complex: docking clamp and external airlock hatch with a ring of hardened grey crust around its seal, floodlight, black sky, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-2",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Exterior service hatch of a small pumping station seen from outside in vacuum: bent steel plate with pressure marks on the hinges, an emergency power connector, a porthole made opaque by white mineral deposits, the seal completely covered by fresh white crust, helmet-lamp light, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-3",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A heavy airlock door slightly twisted in its frame, brine seeping and beating at its lower edge, red sensors, impact striations on the frame, and jammed in the gap a shape in an environment suit almost completely covered by white crust, unrecognizable, no living people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-4",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Narrow abandoned mining gallery inside ice and rock, ice blocks and mineral mud, a disused hot pipe, brand-new clamps on an old pipe and a disguised drain connection, an unlabelled cable feeding a small local fan, helmet-lamp beam, no people, no creatures. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-5",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Natural wet cavern dome inside an ice moon: soft crystals, two dozen translucent oval eggs attached to one wall with dim coiled silhouettes inside, humid haze, white mineral crusts ordered in concentric circles around cracks, and in another wall an ancient human body fully mineralized inside an old-model suit, face visible behind translucent crust, helmet-lamp light, no living people, no worms visible. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-6",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A thin mineral ledge crossing a collapsed chasm inside an ice mine, remains of an old handrail, anchor bolts in the rock, helmet-lamp beams lost in darkness below, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-7",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Emergency refuge built for ten, overcrowded with traces of thirteen survivors but no people visible: blankets and mattresses covering the floor, an improvised medical corner with bloody bandages, empty water pouches, a tired fan, a capacity plate on the wall, a metal floor drain grate, stale amber light. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-8",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Small auxiliary pumping station: an electric motor knocking at an irregular rhythm, a settling tank with a rising level gauge, an open control panel with flow meters, empty filter boxes, a handwritten note on a label, the inner side of the steel hatch covered in white crust, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-10",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "High-flow isolation valve chamber in a mine: a large handwheel and a partly unpowered actuator, pressure gauges, a torque tool left on the floor, narrow access, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-11",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "A human-diameter maintenance hatch above a flood line in a rock-cut service chamber, bolted shut, a small porthole beside it glowing with warm light from the other side, no people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
+  },
+  {
+   "id": "esc-c7-12",
+   "tipo": "escena",
+   "size": "1536x1024",
+   "prompt": "Flooded low corridor at a rock fracture over a destroyed pipe collector: mineral plates on its edges, thermal cleaning marks, a broken tool, and fused to the rock a body half-encased in translucent white crust with small bulges under it, residual brine, cold light, no living people. ABSOLUTELY NO PEOPLE, no human figures, no characters, no creatures moving: an empty location ready for a tabletop scene."
   }
  ]
 }

@@ -39,3 +39,26 @@
 .mr-nadir-body .fila .n { grid-column: 1 / -1; font-size: .78rem; color: #aebfc1; }
 .mr-nadir-body .fila .b { grid-column: 1 / -1; display: flex; gap: .25rem; }
 .mr-nadir-chat h3 { border-bottom: 2px solid #d9822b; margin: 0 0 .3rem; }
+
+/* Botones del Guardián dentro de diarios y chat */
+a.mr-nadir-btn { display: inline-block; margin: .15rem .2rem; padding: .1rem .55rem; border: 1px solid #2f5560; border-radius: 3px; background: #16323a; color: #e6eeee !important; font: 600 .82rem 'Signika', sans-serif; text-decoration: none; cursor: pointer; }
+a.mr-nadir-btn:hover, a.mr-nadir-btn:focus-visible { border-color: #f0a64a; color: #fff !important; outline: none; }
+a.mr-nadir-escena { background: #3a2410; border-color: #8a5a20; }
+a.mr-nadir-mapa { background: #0e3a1c; border-color: #2f8a4a; }
+.mr-nadir-j .leer { background: #10161a; color: #e9eef0; border-left: 5px solid #f0a64a; padding: .6rem 1rem; margin: .7rem 0; font-family: 'Signika', sans-serif; font-size: 1.05rem; line-height: 1.55; }
+.mr-nadir-j .leer h4 { margin: 0 0 .3rem; font-size: .72rem; letter-spacing: .25em; text-transform: uppercase; color: #f0a64a; border: 0; }
+.mr-nadir-j .acciones { background: #0b1418; border: 1px dashed #2f5560; padding: .4rem .5rem; margin: .4rem 0 .8rem; }
+.mr-nadir-j .acciones b { color: #8fd3c8; font-size: .75rem; letter-spacing: .15em; text-transform: uppercase; margin-right: .4rem; }
+
+/* Barra flotante del Guardián */
+#mr-nadir-hud { position: fixed; top: 8px; left: 50%; transform: translateX(-50%); z-index: 70; display: flex; gap: .2rem; align-items: center; padding: .3rem .5rem; background: rgba(6, 14, 18, .92); border: 1px solid #2f5560; border-radius: 6px; box-shadow: 0 4px 18px rgba(0,0,0,.6); }
+#mr-nadir-hud .t { font: 700 .8rem 'Signika', sans-serif; color: #f0a64a; letter-spacing: .1em; text-transform: uppercase; margin: 0 .5rem; }
+
+/* Pantalla de fósforo con barrido de radar (mapas) */
+#mr-nadir-crt { position: fixed; inset: 0; pointer-events: none; z-index: 1; mix-blend-mode: screen; }
+#mr-nadir-crt .lineas { position: absolute; inset: 0; background: repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 1px, transparent 1px 3px); animation: mr-nadir-parpadeo 4s steps(60) infinite; }
+#mr-nadir-crt .barrido { position: absolute; left: 50%; top: 50%; width: 160vmax; height: 160vmax; margin: -80vmax 0 0 -80vmax; border-radius: 50%;
+  background: conic-gradient(from 0deg, rgba(90,255,140,.0) 0deg, rgba(90,255,140,.0) 300deg, rgba(90,255,140,.10) 350deg, rgba(160,255,180,.22) 360deg); animation: mr-nadir-giro 7s linear infinite; }
+@keyframes mr-nadir-giro { to { transform: rotate(360deg); } }
+@keyframes mr-nadir-parpadeo { 0%, 100% { opacity: .85; } 50% { opacity: .7; } }
+@media (prefers-reduced-motion: reduce) { #mr-nadir-crt .barrido, #mr-nadir-crt .lineas { animation: none; } }

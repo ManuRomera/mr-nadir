@@ -87,6 +87,34 @@ def recortar_token(im):
     return out
 
 
+LOGO = os.path.join(ROOT, "brand", "MR_09_Monograma_Marfil_Transparente.png")
+_logo = None
+
+
+def marca(im, frac=0.05, alpha=0.42, margen=0.018, token=False):
+    """Monograma MR discreto: esquina inferior derecha (en tokens, junto a los pies)."""
+    global _logo
+    if _logo is None:
+        _logo = Image.open(LOGO).convert("RGBA")
+        bb = _logo.getchannel("A").getbbox()
+        _logo = _logo.crop(bb)
+    im = im.convert("RGBA")
+    w, h = im.size
+    lw = max(18, int(w * frac))
+    lg = _logo.resize((lw, int(lw * _logo.height / _logo.width)), Image.LANCZOS)
+    a = lg.getchannel("A").point(lambda v: int(v * alpha))
+    lg.putalpha(a)
+    m = int(min(w, h) * margen)
+    if token:
+        al = im.getchannel("A")
+        bb = al.point(lambda v: 255 if v > 40 else 0).getbbox() or (0, 0, w, h)
+        x, y = bb[2] - lw - m, bb[3] - lg.height - m
+    else:
+        x, y = w - lw - m, h - lg.height - m
+    im.alpha_composite(lg, (max(0, x), max(0, y)))
+    return im
+
+
 def main():
     n = 0
     for f in sorted(os.listdir(RAW)):
@@ -100,14 +128,14 @@ def main():
             im = Image.open(os.path.join(RAW, f))
             if im.mode == "RGBA" and im.getextrema()[3][0] == 0:      # Codex ya entrega alfa real
                 bbox = im.getchannel("A").point(lambda v: 255 if v > 30 else 0).getbbox()
-                (im.crop(bbox) if bbox else im).save(dst)
+                marca(im.crop(bbox) if bbox else im, 0.09, 0.5, 0.0, token=True).save(dst)
             else:
                 recortar_token(im).save(dst)
         else:
             dst = os.path.join(OUT, iid + ".jpg")
             if os.path.exists(dst) and not FORCE:
                 continue
-            grade(Image.open(os.path.join(RAW, f))).save(dst, quality=88, optimize=True)
+            marca(grade(Image.open(os.path.join(RAW, f)))).convert("RGB").save(dst, quality=88, optimize=True)
         n += 1
         print("ok", iid)
     print(n, "procesadas")

@@ -144,6 +144,9 @@ def md_blocks(text, ctx):
                 cur.append(ficha(title, body))
             elif kind == "resumen":
                 ctx["resumen"] = body
+            elif kind == "leer":
+                inner = "".join(x for k, x in md_blocks(body, {}) if k == "flow")
+                cur.append('<div class="leer"><h4>%s</h4>%s</div>' % (esc(title), inner))
             elif kind == "documento":
                 inner = "".join(x for k, x in md_blocks(body, {}) if k == "flow")
                 cur.append('<div class="documento"><span class="tape">DOCUMENTO</span><h4>%s</h4>%s</div>' % (esc(title), inner))
@@ -303,7 +306,8 @@ CSS = r"""
   @top-left { content: "NÁDIR · SANGRE BAJO EL HIELO"; font: 600 6.5pt 'Avenir Next Condensed'; letter-spacing: .22em; color:#9a5a14; }
   @top-right { content: "Anales de Biología de Frontera · Vol. 12, n.º 3"; font: 400 7pt 'Avenir Next'; color:#777; }
   @bottom-center { content: counter(page); font: 500 8pt 'Avenir Next'; color:#555; }
-  @bottom-left { content: "Mothership 1e · 3–5 jugadores · Número especial ND-17"; font: 400 6.5pt 'Avenir Next'; color:#999; } }
+  @bottom-left { content: "Mothership 1e · 3–5 jugadores · Número especial ND-17"; font: 400 6.5pt 'Avenir Next'; color:#999; }
+  @bottom-right { content: url("BRANDDIR/mono-pdf.png"); vertical-align: middle; } }
 @page plate { size: A4; margin: 0; @top-left{content:none} @top-right{content:none} @bottom-center{content:none} @bottom-left{content:none} }
 @page cover { size: A4; margin: 0; @top-left{content:none} @top-right{content:none} @bottom-center{content:none} @bottom-left{content:none} }
 @page opener { size: A4; @top-left{content:none} @top-right{content:none} }
@@ -317,6 +321,8 @@ body { margin:0; background:#fff; color:var(--ink); font: 9pt/1.42 'Iowan Old St
 .cover h1 { position:absolute; left:14mm; right:14mm; bottom:50mm; margin:0; font:700 68pt/0.9 'Avenir Next Condensed'; text-transform:uppercase; letter-spacing:.02em; }
 .cover h1 span { color:#f0a64a; display:block; font-size:34pt; letter-spacing:.08em; margin-top:3mm; }
 .cover .sub { position:absolute; left:14mm; right:14mm; bottom:30mm; font:italic 400 13pt 'Iowan Old Style'; opacity:.92; }
+.cover .logo { position:absolute; top:24mm; right:12mm; width:46mm; opacity:.95; }
+.contra .logo { position:absolute; top:18mm; left:20mm; width:52mm; opacity:.9; }
 .cover .tag { position:absolute; left:14mm; right:14mm; bottom:14mm; display:flex; justify-content:space-between; font:500 7.5pt 'Avenir Next'; letter-spacing:.18em; text-transform:uppercase; opacity:.85; }
 .contra { page: cover; width:100%; height:296.4mm; contain:paint; background:#0a1a1f center/cover; color:#e9eeee; position:relative; break-before:page; overflow:hidden; }
 .contra .shade { position:absolute; inset:0; background:linear-gradient(0deg,rgba(5,15,18,.92),rgba(5,15,18,.35) 70%,rgba(5,15,18,.6)); }
@@ -398,19 +404,19 @@ def portada():
     bg = ('<img class="bgimg" src="%s">' % src) if src else ""
     return ('<section class="cover">%s<div class="shade"></div><div class="mast"><span>Anales de Biología de Frontera</span><span>Vol. 12 · n.º 3 · Número especial ND-17</span></div>'
             '<h1>Nádir<span>Sangre bajo el hielo</span></h1><div class="sub">Expediente del suceso de C-7 y primera descripción de <i>Crustivermis nadirensis</i>. Una aventura de horror industrial para Mothership 1e.</div>'
-            '<div class="tag"><span>3–5 jugadores</span><span>6–9 horas</span><span>Mothership 1e</span></div></section>') % bg
+            '<div class="tag"><span>3–5 jugadores</span><span>6–9 horas</span><span>Mothership 1e</span></div><img class="logo" src="file://%s/brand/MR_11_Formal_Marfil_Transparente.png"></section>') % (bg, ROOT)
 
 
 def contraportada():
     src = img_path("fig-final")
     bg = ('<img class="bgimg" src="%s">' % src) if src else ""
-    return ('<section class="contra">%s<div class="shade"></div><div class="txt"><h3>Nádir tampoco deja marchar a todo el mundo</h3>'
+    return ('<section class="contra">%s<div class="shade"></div><img class="logo" src="file://%s/brand/MR_11_Formal_Marfil_Transparente.png"><div class="txt"><h3>Nádir tampoco deja marchar a todo el mundo</h3>'
             '<p>Una cuadrilla de presos de confianza, una operadora civil y su alguacil reparan una bomba cuando llega el último mensaje de Mara Venn. '
             'En el sector C-7 hay trece personas en un refugio para diez, dos atrapados sosteniendo una bomba que no pueden abandonar, y algo ciego que sella las grietas del hielo. '
             'Y un cadáver, para ellos, también es una grieta.</p>'
             '<p>Aventura completa de horror industrial y rescate para Mothership 1e: cuatro actos, doce localizaciones, tres relojes, quince vidas en juego y ninguna solución única.</p>'
             '<small>Obra independiente y no oficial, compatible con Mothership 1e. Mothership es una marca de Tuesday Knight Games. '
-            'Texto © Manuel Romera. Imágenes generadas con IA y gradadas por el autor. Licencia: CC BY-NC-SA 4.0.</small></div></section>') % bg
+            'Texto © Manuel Romera. Imágenes generadas con IA y gradadas por el autor. Licencia: CC BY-NC-SA 4.0.</small></div></section>') % (bg, ROOT)
 
 
 def indice(items, paginas):
@@ -434,7 +440,7 @@ def construir(paginas):
     items.append(("cap-planos", "Apéndice", "Planos"))
     cuerpo.append(plano_conductos())
     doc = '<!doctype html><html lang="es"><meta charset="utf-8"><title>Nádir: Sangre bajo el hielo</title><style>%s</style><body>%s%s%s%s</body></html>' % (
-        CSS, portada(), indice(items, paginas), "".join(cuerpo), contraportada())
+        CSS.replace("BRANDDIR", "file://" + ROOT + "/brand"), portada(), indice(items, paginas), "".join(cuerpo), contraportada())
     return doc, items
 
 

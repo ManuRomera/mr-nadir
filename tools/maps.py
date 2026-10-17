@@ -79,6 +79,8 @@ RUTA = {
 }
 
 TEMAS = {
+    "crt": dict(bg=(2, 9, 4), grid=(6, 34, 12), floor=(4, 20, 8), hall=(5, 27, 10), wall=(90, 255, 130), label=(170, 255, 180),
+                text=(90, 225, 120), decor=(8, 44, 18), decor_line=(60, 190, 90), door=(220, 255, 140), blind=(255, 90, 70)),
     "dark": dict(bg=(9, 24, 30), grid=(22, 52, 60), floor=(16, 44, 52), hall=(20, 56, 64), wall=(205, 232, 228), label=(224, 162, 74),
                  text=(190, 220, 216), decor=(34, 82, 92), decor_line=(120, 176, 176), door=(224, 162, 74), blind=(210, 70, 60)),
     "paper": dict(bg=(244, 240, 230), grid=(214, 210, 198), floor=(250, 248, 242), hall=(232, 230, 220), wall=(30, 30, 30), label=(176, 70, 20),
@@ -170,6 +172,22 @@ def walls_for(deck):
 S = 2  # supersampling
 
 
+def brillo(img):
+    """Fósforo: halo de las líneas + viñeta de tubo + marca discreta."""
+    from PIL import ImageChops, ImageFilter
+    glow = img.filter(ImageFilter.GaussianBlur(9))
+    img = ImageChops.add(img, glow, scale=1.0)
+    vig = Image.new("L", img.size, 0)
+    dv = ImageDraw.Draw(vig)
+    w, h = img.size
+    for k in range(40):
+        dv.rectangle([k * w // 120, k * h // 120, w - k * w // 120, h - k * h // 120], fill=int(255 * (k + 1) / 40))
+    from PIL import ImageFilter as F
+    vig = vig.filter(F.GaussianBlur(60)).point(lambda v: 150 + v * 105 // 255)
+    black = Image.new("RGB", img.size, (0, 4, 1))
+    return Image.composite(img, black, vig)
+
+
 def render(deck, tema, conductos=False):
     t = TEMAS[tema]
     img = Image.new("RGB", (W * G * S, H * G * S), t["bg"])
@@ -244,7 +262,10 @@ def render(deck, tema, conductos=False):
             d.text((px(x + .5), px(y + 1.5)), nombre, fill=t["text"], font=font(26, True), anchor="mm")
     d.text((px(0.5), px(0.35)), deck["titulo"], fill=t["label"], font=font(40, True), anchor="lm")
     d.text((px(W - 0.5), px(H - 0.35)), "NÁDIR · 1 casilla = 1,5 m", fill=t["text"], font=font(26), anchor="rm")
-    return img.resize((W * G, H * G), Image.LANCZOS)
+    img = img.resize((W * G, H * G), Image.LANCZOS)
+    if tema == "crt":
+        img = brillo(img)
+    return img
 
 
 def render_ruta(tema):
@@ -284,7 +305,10 @@ def main():
         for tema in TEMAS:
             render(deck, tema).save(os.path.join(OUT, "%s-%s.png" % (name, tema)))
     for tema in TEMAS:
-        render_ruta(tema).save(os.path.join(OUT, "ruta-%s.png" % tema))
+        im = render_ruta(tema)
+        if tema == "crt":
+            im = brillo(im)
+        im.save(os.path.join(OUT, "ruta-%s.png" % tema))
     json.dump(allw, open(os.path.join(OUT, "walls.json"), "w"), indent=1)
     print({k: len(v) for k, v in allw.items()})
 

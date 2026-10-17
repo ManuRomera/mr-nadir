@@ -1,0 +1,430 @@
+[
+ {
+  "id": "sup-bastion",
+  "nombre": "Bastión",
+  "mapa": "ruta",
+  "sala": "BASTIÓN",
+  "imagen": "esc-bastion",
+  "reutiliza": "fig-bastion",
+  "visual": "Exterior of Bastión base at night on the airless ice moon: two rows of pressurized barracks joined by airlocks, floodlights, antenna mast, parked rovers, black sky with stars.",
+  "musica": "superficie",
+  "sfx_auto": [
+   "casco-respiracion"
+  ],
+  "sfx_manual": [
+   "radar-ping"
+  ]
+ },
+ {
+  "id": "sup-viaje",
+  "nombre": "La llanura de hielo",
+  "mapa": "ruta",
+  "sala": "B-4",
+  "imagen": "esc-viaje",
+  "reutiliza": null,
+  "visual": "An empty open six-seat rover stopped on a vast plain of black fractured ice under a black starry sky, amber headlights on, umbilical cables coiled on its seats, no people, airless, two distant extraction towers glowing on the horizon like buried matches.",
+  "musica": "superficie",
+  "sfx_auto": [
+   "rover-motor",
+   "casco-respiracion"
+  ],
+  "sfx_manual": [
+   "temblor",
+   "radar-ping"
+  ]
+ },
+ {
+  "id": "sup-r12",
+  "nombre": "Repetidor R-12",
+  "mapa": "ruta",
+  "sala": "R-12",
+  "imagen": "esc-r12",
+  "reutiliza": null,
+  "visual": "A lonely radio repeater mast on an airless icy plain at night, its electrical cabinet open with a dead panel, a small service rover tilted with a broken suspension beside a crevasse, a medical kit dropped on the rock, no people, stars.",
+  "musica": "superficie",
+  "sfx_auto": [
+   "casco-respiracion"
+  ],
+  "sfx_manual": [
+   "radio-estatica",
+   "radio-serrat"
+  ]
+ },
+ {
+  "id": "sup-filtro",
+  "nombre": "El filtro abandonado",
+  "mapa": "ruta",
+  "sala": "R-12",
+  "imagen": "esc-filtro",
+  "reutiliza": null,
+  "visual": "An old abandoned water filter unit on rock with a damaged joint covered in strange white mineral cords, a damp black crack beside it, an old sensor box with a blinking light, helmet-lamp lighting, no people, no creatures visible.",
+  "musica": "superficie",
+  "sfx_auto": [
+   "casco-respiracion",
+   "goteo"
+  ],
+  "sfx_manual": [
+   "chirrido"
+  ]
+ },
+ {
+  "id": "sup-c7",
+  "nombre": "C-7 desde fuera",
+  "mapa": "ruta",
+  "sala": "C-7",
+  "imagen": "esc-c7ext",
+  "reutiliza": "fig-c7",
+  "visual": "Exterior of the C-7 mining complex at night: windows lit but empty, an external hatch ringed by hardened grey mud crust with an inspection tag hanging from the handle, the lower part of the complex sunk into the ice, no people.",
+  "musica": "superficie",
+  "sfx_auto": [
+   "casco-respiracion"
+  ],
+  "sfx_manual": [
+   "radar-ping"
+  ]
+ },
+ {
+  "id": "b4-colector",
+  "nombre": "Colector B-4",
+  "mapa": "b4",
+  "sala": "B1",
+  "imagen": "esc-b4-colector",
+  "reutiliza": null,
+  "visual": "Cramped pumping station interior: a pump body with its inspection cover off, a clogged filter full of white mineral crystals and a thin organic film, a red warning indicator oscillating, steel pipes with frost, a tray of scraped crust, amber work lights, no people.",
+  "musica": "turno",
+  "sfx_auto": [
+   "bomba-b4",
+   "hum"
+  ],
+  "sfx_manual": [
+   "temblor",
+   "alarma-presion"
+  ]
+ },
+ {
+  "id": "b4-lab",
+  "nombre": "Laboratorio de B-4",
+  "mapa": "b4",
+  "sala": "B2",
+  "imagen": "esc-b4-lab",
+  "reutiliza": null,
+  "visual": "Small field laboratory: a portable chemical reader, sample trays with white crust fragments under a magnifier lamp, a terminal with an amber screen showing an analysis graph, labelled vials, a sealed archive folder, no people.",
+  "musica": "turno",
+  "sfx_auto": [
+   "hum"
+  ],
+  "sfx_manual": [
+   "terminal"
+  ]
+ },
+ {
+  "id": "b4-barracon",
+  "nombre": "Barracón de turno",
+  "mapa": "b4",
+  "sala": "B3",
+  "imagen": "esc-b4-barracon",
+  "reutiliza": null,
+  "visual": "Shift barracks: metal bunk beds, lockers with sewn patches and personal tools hanging next to access authorizations, a duty roster board, a steamed-up porthole window, letters waiting for transport pinned on a board, no people.",
+  "musica": "turno",
+  "sfx_auto": [
+   "hum",
+   "ventilador"
+  ],
+  "sfx_manual": []
+ },
+ {
+  "id": "b4-taller",
+  "nombre": "Taller de B-4",
+  "mapa": "b4",
+  "sala": "B4",
+  "imagen": "esc-b4-taller",
+  "reutiliza": null,
+  "visual": "Mining workshop: heavy workbench with valve keys, clamps, sealant tubes and a leak analyzer, a welding station, spare pump parts on shelves, oil stains, no people.",
+  "musica": "turno",
+  "sfx_auto": [
+   "hum"
+  ],
+  "sfx_manual": [
+   "soldadura",
+   "golpe-metal"
+  ]
+ },
+ {
+  "id": "b4-garaje",
+  "nombre": "Garaje del Lince-6",
+  "mapa": "b4",
+  "sala": "B5",
+  "imagen": "esc-b4-garaje",
+  "reutiliza": null,
+  "visual": "Pressurized garage: an open six-seat rover with umbilical connectors per seat and a compact electrolyzer on its rear platform, environment suits hanging on racks, two CO2 cartridges in cases, tool crates, airlock door at the back, no people.",
+  "musica": "turno",
+  "sfx_auto": [
+   "hum"
+  ],
+  "sfx_manual": [
+   "compuerta",
+   "rover-arranque"
+  ]
+ },
+ {
+  "id": "b4-soporte",
+  "nombre": "Almacén de soporte vital",
+  "mapa": "b4",
+  "sala": "B6",
+  "imagen": "esc-b4-soporte",
+  "reutiliza": null,
+  "visual": "Life support store: racks of industrial CO2 absorbent cartridges, oxygen bottles, auxiliary batteries, portable air filters in labelled crates, a clipboard inventory, cold white light, no people.",
+  "musica": "turno",
+  "sfx_auto": [
+   "hum",
+   "ventilador"
+  ],
+  "sfx_manual": []
+ },
+ {
+  "id": "b4-esclusa",
+  "nombre": "Esclusa de B-4",
+  "mapa": "b4",
+  "sala": "B7",
+  "imagen": "esc-b4-esclusa",
+  "reutiliza": null,
+  "visual": "Industrial airlock chamber of a mining module: inner and outer hatches, pressure gauges, warning lights, suit umbilical hooks, frost on the outer door window showing black ice outside, no people.",
+  "musica": "turno",
+  "sfx_auto": [
+   "hum"
+  ],
+  "sfx_manual": [
+   "compuerta",
+   "siseo"
+  ]
+ },
+ {
+  "id": "c7-x",
+  "nombre": "Atracadero exterior",
+  "mapa": "c7",
+  "sala": "X",
+  "imagen": "esc-c7-x",
+  "reutiliza": null,
+  "visual": "Exterior rover dock of a mining complex: docking clamp and external airlock hatch with a ring of hardened grey crust around its seal, floodlight, black sky, no people.",
+  "musica": "control",
+  "sfx_auto": [
+   "casco-respiracion"
+  ],
+  "sfx_manual": [
+   "compuerta"
+  ]
+ },
+ {
+  "id": "c7-1",
+  "nombre": "Control C-0",
+  "mapa": "c7",
+  "sala": "1",
+  "imagen": "esc-c7-1",
+  "reutiliza": "fig-control",
+  "visual": "Mining control room with flickering emergency light, consoles on partial battery, alarm screens, old and new pipe plans pinned side by side, paper procedures taped to the wall, a local radio set, no people.",
+  "musica": "control",
+  "sfx_auto": [
+   "hum",
+   "alarma-lenta"
+  ],
+  "sfx_manual": [
+   "terminal",
+   "radar-ping"
+  ]
+ },
+ {
+  "id": "c7-2",
+  "nombre": "Portilla exterior de P-2",
+  "mapa": "c7",
+  "sala": "2",
+  "imagen": "esc-c7-2",
+  "reutiliza": null,
+  "visual": "Exterior service hatch of a small pumping station seen from outside in vacuum: bent steel plate with pressure marks on the hinges, an emergency power connector, a porthole made opaque by white mineral deposits, the seal completely covered by fresh white crust, helmet-lamp light, no people.",
+  "musica": "bomba",
+  "sfx_auto": [
+   "casco-respiracion",
+   "raspado"
+  ],
+  "sfx_manual": [
+   "golpe-metal",
+   "chirrido"
+  ]
+ },
+ {
+  "id": "c7-3",
+  "nombre": "Esclusa E-1",
+  "mapa": "c7",
+  "sala": "3",
+  "imagen": "esc-c7-3",
+  "reutiliza": null,
+  "visual": "A heavy airlock door slightly twisted in its frame, brine seeping and beating at its lower edge, red sensors, impact striations on the frame, and jammed in the gap a shape in an environment suit almost completely covered by white crust, unrecognizable, no living people.",
+  "musica": "control",
+  "sfx_auto": [
+   "goteo",
+   "alarma-lenta"
+  ],
+  "sfx_manual": [
+   "radio-serrat",
+   "siseo"
+  ]
+ },
+ {
+  "id": "c7-4",
+  "nombre": "Galería L-4",
+  "mapa": "c7",
+  "sala": "4",
+  "imagen": "esc-c7-4",
+  "reutiliza": null,
+  "visual": "Narrow abandoned mining gallery inside ice and rock, ice blocks and mineral mud, a disused hot pipe, brand-new clamps on an old pipe and a disguised drain connection, an unlabelled cable feeding a small local fan, helmet-lamp beam, no people, no creatures.",
+  "musica": "galerias",
+  "sfx_auto": [
+   "goteo",
+   "raspado"
+  ],
+  "sfx_manual": [
+   "chirrido",
+   "golpe-metal"
+  ]
+ },
+ {
+  "id": "c7-5",
+  "nombre": "Cavidad de cría",
+  "mapa": "c7",
+  "sala": "5",
+  "imagen": "esc-c7-5",
+  "reutiliza": null,
+  "visual": "Natural wet cavern dome inside an ice moon: soft crystals, two dozen translucent oval eggs attached to one wall with dim coiled silhouettes inside, humid haze, white mineral crusts ordered in concentric circles around cracks, and in another wall an ancient human body fully mineralized inside an old-model suit, face visible behind translucent crust, helmet-lamp light, no living people, no worms visible.",
+  "musica": "cria",
+  "sfx_auto": [
+   "goteo",
+   "cria-latido"
+  ],
+  "sfx_manual": [
+   "chirrido",
+   "raspado-fuerte"
+  ]
+ },
+ {
+  "id": "c7-6",
+  "nombre": "Paso alto",
+  "mapa": "c7",
+  "sala": "6",
+  "imagen": "esc-c7-6",
+  "reutiliza": null,
+  "visual": "A thin mineral ledge crossing a collapsed chasm inside an ice mine, remains of an old handrail, anchor bolts in the rock, helmet-lamp beams lost in darkness below, no people.",
+  "musica": "galerias",
+  "sfx_auto": [
+   "goteo"
+  ],
+  "sfx_manual": [
+   "golpe-metal",
+   "temblor"
+  ]
+ },
+ {
+  "id": "c7-7",
+  "nombre": "Refugio R-3",
+  "mapa": "c7",
+  "sala": "7",
+  "imagen": "esc-c7-7",
+  "reutiliza": null,
+  "visual": "Emergency refuge built for ten, overcrowded with traces of thirteen survivors but no people visible: blankets and mattresses covering the floor, an improvised medical corner with bloody bandages, empty water pouches, a tired fan, a capacity plate on the wall, a metal floor drain grate, stale amber light.",
+  "musica": "refugio",
+  "sfx_auto": [
+   "ventilador",
+   "respiraciones"
+  ],
+  "sfx_manual": [
+   "alarma-co2",
+   "raspado"
+  ]
+ },
+ {
+  "id": "c7-8",
+  "nombre": "Estación P-2",
+  "mapa": "c7",
+  "sala": "8",
+  "imagen": "esc-c7-8",
+  "reutiliza": null,
+  "visual": "Small auxiliary pumping station: an electric motor knocking at an irregular rhythm, a settling tank with a rising level gauge, an open control panel with flow meters, empty filter boxes, a handwritten note on a label, the inner side of the steel hatch covered in white crust, no people.",
+  "musica": "bomba",
+  "sfx_auto": [
+   "bomba-p2",
+   "raspado"
+  ],
+  "sfx_manual": [
+   "alarma-presion",
+   "chirrido"
+  ]
+ },
+ {
+  "id": "c7-9",
+  "nombre": "Drenaje H-4",
+  "mapa": "c7",
+  "sala": "9",
+  "imagen": "esc-c7-9",
+  "reutiliza": "fig-h4",
+  "visual": "Large industrial drain pipe opened at an inspection section, brine under pressure, fluctuating gauges, a hand-welded bypass pipe section, a half-full relief tank, cold light, no people.",
+  "musica": "galerias",
+  "sfx_auto": [
+   "goteo",
+   "hum"
+  ],
+  "sfx_manual": [
+   "siseo",
+   "alarma-presion"
+  ]
+ },
+ {
+  "id": "c7-10",
+  "nombre": "Válvula V-12",
+  "mapa": "c7",
+  "sala": "10",
+  "imagen": "esc-c7-10",
+  "reutiliza": null,
+  "visual": "High-flow isolation valve chamber in a mine: a large handwheel and a partly unpowered actuator, pressure gauges, a torque tool left on the floor, narrow access, no people.",
+  "musica": "galerias",
+  "sfx_auto": [
+   "hum"
+  ],
+  "sfx_manual": [
+   "golpe-metal",
+   "siseo"
+  ]
+ },
+ {
+  "id": "c7-11",
+  "nombre": "Portillo superior",
+  "mapa": "c7",
+  "sala": "11",
+  "imagen": "esc-c7-11",
+  "reutiliza": null,
+  "visual": "A human-diameter maintenance hatch above a flood line in a rock-cut service chamber, bolted shut, a small porthole beside it glowing with warm light from the other side, no people.",
+  "musica": "refugio",
+  "sfx_auto": [
+   "respiraciones"
+  ],
+  "sfx_manual": [
+   "golpe-metal",
+   "raspado"
+  ]
+ },
+ {
+  "id": "c7-12",
+  "nombre": "Junta J-17",
+  "mapa": "c7",
+  "sala": "12",
+  "imagen": "esc-c7-12",
+  "reutiliza": null,
+  "visual": "Flooded low corridor at a rock fracture over a destroyed pipe collector: mineral plates on its edges, thermal cleaning marks, a broken tool, and fused to the rock a body half-encased in translucent white crust with small bulges under it, residual brine, cold light, no living people.",
+  "musica": "cria",
+  "sfx_auto": [
+   "goteo",
+   "raspado"
+  ],
+  "sfx_manual": [
+   "chirrido",
+   "temblor"
+  ]
+ }
+]
