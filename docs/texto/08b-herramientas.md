@@ -73,7 +73,7 @@ Imprímela. Rellena una fila cada vez que se cierra una tarea.
 | Rover 1 | — | 90 UE | ≈42 UE la ida | |
 | Traje de faena | Rover 1 / C-0 / rover 2 / P-2 | 4 / 6 / 6 / 1 | Una persona fuera | |
 | Traje de escape | R-3 | 2 | 30 min | |
-| Recambio de mochila | C-0 / rover 1 | 10 / 2 | +4 h de traje | |
+| Recambio de mochila | C-0 / rover 1 | 10 / 2 | Mochila nueva: 12 h normales, 4 en esfuerzo | |
 | Parche de traje | Cada PJ / rover 1 | 1 / 3 | Restaura estanqueidad (PA 1) | |
 | Carrete de cable | B-4 (rover 1) | 200 m | Banco de C-0 a P-2 | |
 | Señuelo vibratorio | B-4 (rover 1) | 1 | Desvía exploradores 30 min | |
@@ -163,3 +163,47 @@ El plano de la página siguiente muestra las zonas presurizadas, las que no tien
 | Ruta alta: C-0 → L-4 → cría → paso alto → portillo → R-3 | 1 h 30 min–2 h 30 min | Portillo abierto; cuerda | Una persona cada 5–10 min |
 | Galería de servicio: paso alto ↔ V-12 ↔ H-4 | 10 min | Siempre (migración tras V-12) | Libre |
 | Túnel interior: P-2 → H-4 → V-12 | 40 min a ciegas | H-4 ≤ 4 | Una persona |
+
+## 9 · Hoja rápida de casillas
+
+Para el modo de dirección rápida (capítulo «Relojes, recursos y cronología»). Rellena a lápiz las casillas que hay a las 09:36 y tacha una cada vez que pase su tiempo. Las marcas de la derecha dicen qué leer en voz alta.
+
+| Fila | Casillas | Se tacha | Marcas |
+|---|---|---|---|
+| R-3 | □ □ □ □ □ □ □ □ □ □ □ □ | 1 por hora con 12–13; 90 min con 9–11; 2 h con 6–8; 3 h con 4–5; 5 h con 1–3 | Quedan 3: Degradado · 0: Crítico |
+| R-3 · exceso | ■ ■ ■ ■ ■ ■ | Igual | 3.ª: Grave · 6.ª: Colapso |
+| P-2 · aire | □ □ □ □ □ | 1 por hora | 0: Degradado |
+| P-2 · exceso | ■ ■ ■ ■ ■ | 1 por hora | 2.ª: Crítico · 5.ª: Colapso |
+| Batería de la bomba | □ □ □ □ □ □ | 1 por hora mientras tire de ella | 0: la bomba se para |
+| H-4 | ① ② ③ ④ ⑤ ⑥ | +1 cada media hora de bomba parada con V-12 abierta | 3: E-1 solo con V-12 · 4: rejilla de R-3 · 5: el sello rezuma · 6: fila del sello |
+| Sello de R-3 | □ □ □ □ | 1 cada media hora con H-4 en 6 | 4.ª: el sello falla |
+| Banco de C-0 | □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ | 1 por hora; V-12 2, E-1 3 | Quedan 3: tres horas de luz |
+| Atención (zona: ______) | ⓪ ① ② ③ ④ ⑤ ⑥ | Según el ruido | 2: explorador · 3–4: tres · 5: contacto · 6: defensores |
+
+**Recuerda:** sin automatismo, 45 minutos sin nadie consciente en P-2 y la bomba se para. Cartucho: +2 en R-3 o +13 en P-2. Filtro: +½ en R-3 o +3 en P-2. Con V-12 cerrada, la bomba deja de importar.
+
+## 10 · Hoja de la cuadrilla
+
+Para los jugadores. Cada uno tacha las casillas de su traje mientras va con mochila (una por hora a ritmo normal, tres por hora bajo esfuerzo o estrés); con umbilical no se tacha. La cuadrilla apunta lo que carga y lo que gasta, y avisa al Guardián cuando algo de eso entra en R-3 o en P-2.
+
+| Personaje | Mochila | Recambios usados |
+|---|---|---|
+| | □ □ □ □ □ □ □ □ □ □ □ □ | |
+| | □ □ □ □ □ □ □ □ □ □ □ □ | |
+| | □ □ □ □ □ □ □ □ □ □ □ □ | |
+| | □ □ □ □ □ □ □ □ □ □ □ □ | |
+| LIMEN-6 (Androide) | □ □ □ □ □ □ □ □ | |
+
+| Carga del rover (máx. 8 bultos) | Llevamos | Gastado |
+|---|---|---|
+| Cartuchos C-12 | | |
+| Filtros portátiles | | |
+| Batería portátil (12 UE) | | |
+| Recambios de mochila | | |
+| Parches de traje | | |
+| Trajes de reserva | | |
+| Otros | | |
+
+**Rover 1:** 90 UE al salir de B-4. 1 UE cada 2 km de roca, 1 UE por km de glaciar, 3 UE por hora con gente conectada, 2 UE por hora si alimenta la bomba. Por R-12, unas 42 UE hasta C-7; por el atajo, unas 38; de C-7 a Bastión, unas 46.
+
+UE restantes: ______ · ______ · ______ · ______ · ______

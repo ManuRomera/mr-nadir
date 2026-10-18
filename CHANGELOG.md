@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.0 — 2026-10-18
+- **Edición revisada de la aventura:** relojes con cifras reales (R-3 en kg, P-2 con aire y batería, H-4 con la bomba parada, sello de R-3), cronología de referencia comprobada con simulador en la que viven las quince personas, documentos nuevos (D12-A, D12-B por tramos, D14 por variantes, D15) y fichas ajustadas al *Player's Survival Guide* y a la edición española.
+- **Modo de dirección rápida:** cada reloj es una fila de casillas; el Guardián solo mueve la hora. En el libro, con hojas imprimibles de casillas y de la cuadrilla.
+- **HUD de la cuadrilla** (botón «Cuadrilla» en los controles de token): cada jugador lleva su traje (umbilical, mochila de 12 h, esfuerzo, recambios), la cuadrilla lleva la carga y la batería del rover y anota lo que hace («Cartucho → R-3», «Bomba al rover», «V-12 cerrada»). El Guardián lo recibe en el chat con un botón «Anular».
+- **Revelación progresiva:** los jugadores solo ven un reloj cuando sus personajes tienen de dónde sacarlo (documentos D05, D06, D07, D14 o las escenas de Control, refugio y estación); el Guardián puede mostrar u ocultar cada uno.
+- **Panel de emergencia** con vista de casillas, «Si nadie hace nada» (próximas consecuencias con hora) y avisos por susurro con la consecuencia ya redactada cada vez que un reloj cruza una marca.
+- Guion de dirección y lecturas de escena reescritos con las reglas nuevas; botones de documento por tramo o variante; objetos nuevos para la carga del rover; traje de faena con PA 3.
+
 ## 2.0.0 — 2026-10-17
 - 25 escenas de imagen (una por estancia, sin personajes), sin cuadrícula ni niebla, con lectura enlazada, música y ambiente que arrancan al activarlas.
 - Mapas rehechos como pantalla de fósforo verde con barrido de radar y ecos al mover tokens; muros, puertas, niebla, luces por sala, zonas más oscuras y visión con linterna en los trajes.

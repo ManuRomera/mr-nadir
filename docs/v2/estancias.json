@@ -200,7 +200,7 @@
  },
  {
   "id": "c7-x",
-  "nombre": "Atracadero exterior",
+  "nombre": "Atracadero y esclusa exterior",
   "mapa": "c7",
   "sala": "X",
   "imagen": "esc-c7-x",
@@ -252,7 +252,7 @@
  },
  {
   "id": "c7-3",
-  "nombre": "Esclusa E-1",
+  "nombre": "Esclusa E-1 y ruta baja",
   "mapa": "c7",
   "sala": "3",
   "imagen": "esc-c7-3",
@@ -359,7 +359,7 @@
  },
  {
   "id": "c7-9",
-  "nombre": "Drenaje H-4",
+  "nombre": "Tramo de inspección de H-4",
   "mapa": "c7",
   "sala": "9",
   "imagen": "esc-c7-9",
@@ -377,7 +377,7 @@
  },
  {
   "id": "c7-10",
-  "nombre": "Válvula V-12",
+  "nombre": "Válvula V-12 y galería de servicio",
   "mapa": "c7",
   "sala": "10",
   "imagen": "esc-c7-10",
@@ -411,7 +411,7 @@
  },
  {
   "id": "c7-12",
-  "nombre": "Junta J-17",
+  "nombre": "Junta J-17 y tramo bajo",
   "mapa": "c7",
   "sala": "12",
   "imagen": "esc-c7-12",

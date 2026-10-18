@@ -107,7 +107,7 @@ En el vacío el sonido no viaja por el aire. Lo que oyen los personajes llega po
 
 **Percances del atajo.** Tira 1d6 una vez a mitad de camino; con 1–2 ocurre uno (elige o tira otra vez): una grieta mal leída (30 min de rodeo y 5 UE); una oruga atascada (45 min sacándola, Fuerza para hacerlo en la mitad); un umbilical arrancado (un PJ pasa a su mochila hasta repararlo, 15 min); el rover vuelca de lado (60–90 min, 1d10 de daño de fuerza bruta a quien no esté anclado). Ninguno es un ataque de fauna: en la superficie no hay.
 
-La tensión del viaje se construye con la cuenta. Que alguien lleve la energía en voz alta. Cada vez que un PJ se baja y se separa del umbilical empieza a gastar su mochila. A cuarenta metros del rover, una persona deja de ser un explorador y pasa a ser alguien con cuatro horas de aire.
+La tensión del viaje se construye con la cuenta. Que alguien lleve la energía en voz alta. Cada vez que un PJ se baja y se separa del umbilical empieza a gastar su mochila. A cuarenta metros del rover, una persona deja de ser un explorador y pasa a ser alguien con unas horas de aire contadas.
 
 > No hay viento. No hay eco. Solo el roce del motor por el chasis y, dentro del casco, la respiración de los demás, tan cerca que parece que están dentro de la cabeza de uno. Cuando alguien deja de hablar, el silencio no es vacío: es presión. Y a cada bache, el casco cruje como si alguien golpease desde fuera.
 

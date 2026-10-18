@@ -119,11 +119,15 @@ def diarios():
                          "ownership": {"default": 0}, "flags": {}})
     fol2 = folder("JournalEntry", "Nádir · Documentos para los jugadores", sort=200)
     texto = open(os.path.join(ROOT, "docs", "texto", "09-documentos.md")).read()
+    partes = {}
     for i, m in enumerate(re.finditer(r"^::: documento (.+?)\n(.*?)\n^:::\s*$", texto, re.S | re.M)):
         titulo, body = m.group(1).strip(), m.group(2)
+        # el código sale del prefijo del título («D12-B · tramo 2» → D12-B); los registros por tramos comparten código y se numeran por parte
+        cod = re.match(r"(D\d+(?:-[A-Z])?) · ", titulo).group(1)
+        partes[cod] = partes.get(cod, 0) + 1
         html = '<div class="documento"><h4>%s</h4>%s</div>' % (B.esc(titulo), "".join(h for k, h in B.md_blocks(body, {})))
-        JOURNALS.append({"_id": fid("doc:" + titulo), "name": "D%02d · %s" % (i + 1, titulo), "pages": [page("doc:" + titulo, titulo, html, 100)], "folder": fol2, "sort": i * 10,
-                         "ownership": {"default": 0}, "flags": {"mr-nadir": {"doc": "D%02d" % (i + 1)}}})
+        JOURNALS.append({"_id": fid("doc:" + titulo), "name": titulo, "pages": [page("doc:" + titulo, titulo, html, 100)], "folder": fol2, "sort": i * 10,
+                         "ownership": {"default": 0}, "flags": {"mr-nadir": {"doc": cod, "parte": partes[cod]}}})
 
 
 def bio_pnj(p):
@@ -395,16 +399,19 @@ def lecturas():
 
 # ---------------- objetos para arrastrar ----------------
 OBJETOS = {
-    "cartucho-co2": ("Cartucho de CO₂ HRF C-12", "item", "Absorbe ~1,2 kg de CO₂: unas 2 h más para R-3 si se instala con estanqueidad."),
-    "bateria-auxiliar": ("Batería auxiliar", "item", "Alimenta la bomba de P-2 o un actuador; resta UE si se carga del rover."),
-    "sellante": ("Sellante de juntas", "item", "Sella fugas pequeñas; reduce 1 la Fuga H-4 si se coloca bien."),
+    "cartucho-co2": ("Cartucho de CO₂ HRF C-12", "item", "+1,2 kg de absorción: unas 2 h para los trece de R-3 (10 min de instalación) o unas 13 h de aire para los dos de P-2."),
+    "bateria-auxiliar": ("Batería portátil (12 UE)", "item", "Seis horas de bomba en P-2 (2 UE/h). 1 UE de batería = 1 UE de rover."),
+    "sellante": ("Sellante, abrazaderas y parches", "item", "Tres parches de traje (estanqueidad con PA 1). Parche de la junta del tramo bajo: 60 min con E-1 abierta y H-4 ≤ 3, H-4 −1 una vez."),
     "cortadora": ("Cortadora industrial", "item", "Corta chapa deformada (portilla de P-2, E-1). Vibra: +1 Atención de la colonia."),
     "soldador": ("Soldador industrial", "item", "Repara juntas y derivaciones. Vibración y calor."),
     "botiquin": ("Botiquín de trauma", "item", "Contiene hemorragias y férulas; imprescindible para sacar heridos por el portillo."),
     "dron": ("Dron de inspección", "item", "Explora tramos sin aire o con costreros sin exponer a nadie."),
-    "modulo-presion": ("Módulo portátil de presión", "item", "Iguala presiones antes de abrir una esclusa."),
-    "cable": ("Carrete de cable", "item", "Lleva energía de un punto a otro (rover → P-2)."),
-    "botella-gas": ("Botella de gas de reposición", "item", "Gas de reemplazo para ventilar una cámara sin perder presión."),
+    "cable": ("Carrete de cable de 200 m", "item", "Lleva el banco de C-0 hasta la portilla de P-2: 30 min de tendido."),
+    "cuerda": ("Cuerda, anclajes y arnés", "item", "Paso alto: 15–30 min para anclar; después, cruces sin tirada. Izar heridos."),
+    "herramienta-par": ("Herramienta de par y llaves de válvula", "item", "Cerrar V-12 a mano (45–90 min, gradual), actuadores, pernos del portillo."),
+    "recambio-mochila": ("Recambio de mochila", "item", "10 min con ayuda: otra mochila de traje de faena (12 h normales, 4 h en esfuerzo)."),
+    "senuelo": ("Señuelo vibratorio", "item", "Martillo neumático pequeño: en un corredor lateral, aparta a los exploradores durante 30 min."),
+    "filtro-portatil": ("Filtro portátil", "item", "+0,3 kg de absorción (R-3) o algo más de 3 h de aire para P-2. Cabe por cualquier abertura."),
     "carabina": ("Carabina reglamentaria ACE", "weapon", "Fuego selectivo. Disparar en instalaciones presurizadas puede dañar conductos."),
     "esposas": ("Esposas", "item", "Custodia. Atar a alguien junto al agua tiene consecuencias."),
     "lector-quimico": ("Lector químico portátil", "item", "Analiza costras: revela la estructura orgánica ordenada."),
@@ -463,9 +470,9 @@ def enriquecer_actores():
         else:
             if sec:
                 a["system"]["biography"] = '<div class="mr-nadir-j">%s</div>' % html_md(sec) + a["system"]["biography"]
-            a["items"].append({"_id": fid("arm:" + nombre), "name": "Traje de exterior", "type": "armor", "img": "icons/svg/shield.svg",
-                               "system": {"description": "<p>Traje completo con umbilical al rover: 90 min de esfuerzo / 120 min en reposo de autonomía aislada.</p>",
-                                          "armorPoints": 1, "damageReduction": 0, "oxygenMax": 120, "oxygenCurrent": 120}, "effects": [], "flags": {}, "sort": 0})
+            a["items"].append({"_id": fid("arm:" + nombre), "name": "Traje de faena", "type": "armor", "img": "icons/svg/shield.svg",
+                               "system": {"description": "<p>Traje de faena HRF/ACE (PA 3, Velocidad [−]). Mochila: 12 h normales, 4 h bajo esfuerzo o estrés; con umbilical no se gasta. Perforado, se despresuriza en 1d5 asaltos.</p>",
+                                          "armorPoints": 3, "damageReduction": 0, "oxygenMax": 720, "oxygenCurrent": 720}, "effects": [], "flags": {}, "sort": 0})
             a["prototypeToken"]["sight"] = {"enabled": True, "range": 15, "visionMode": "basic", "angle": 360}
             a["prototypeToken"]["light"] = {"bright": 3, "dim": 9, "angle": 80, "color": "#cfe8ff", "alpha": 0.35, "luminosity": 0.5}
             a["prototypeToken"]["displayBars"] = 30
@@ -603,8 +610,10 @@ def guion():
     actor_id = {}
     for pid, p in list(CANON["pnj"].items()) + list(CANON["pregenerados"].items()):
         actor_id[pid] = (fid("actor:" + pid), p["nombre"])
-    doc_ids = [j for j in JOURNALS if j.get("flags", {}).get("mr-nadir", {}).get("doc")]
-    doc_by = {j["flags"]["mr-nadir"]["doc"]: j for j in doc_ids}
+    doc_by = {}
+    for j in JOURNALS:
+        if j.get("flags", {}).get("mr-nadir", {}).get("doc"):
+            doc_by.setdefault(j["flags"]["mr-nadir"]["doc"], []).append(j)
 
     def rep(m):
         k, v = m.group(1), m.group(2)
@@ -622,8 +631,12 @@ def guion():
         if k == "objeto":
             return "@UUID[Item.%s]{%s}" % (OBJ_ID[v], OBJETOS[v][0])
         if k == "doc":
-            j = doc_by.get(v)
-            return ("@UUID[JournalEntry.%s]{%s} @NadirDoc[%s]{Mostrar}" % (j["_id"], j["name"], v)) if j else v
+            js = doc_by[v]  # KeyError si el guion cita un documento que no existe
+            if len(js) == 1:
+                return "@UUID[JournalEntry.%s]{%s} @NadirDoc[%s]{Mostrar}" % (js[0]["_id"], js[0]["name"], v)
+            # registro por tramos o variantes: un enlace y un botón por parte, para entregar solo las que tocan
+            return "%s (%s)" % (v, "; ".join("@UUID[JournalEntry.%s]{%s} @NadirDoc[%s/%d]{Mostrar}" % (
+                j["_id"], j["name"].split(" · ", 1)[1], v, j["flags"]["mr-nadir"]["parte"]) for j in js))
         if k == "panel":
             return "@NadirPanel[]{Panel de emergencia}"
         if k == "reloj":

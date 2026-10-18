@@ -24,7 +24,7 @@ Necesitas el sistema **MoSh – Unofficial Mothership** (`mosh`). En Foundry: **
 https://github.com/ManuRomera/mr-nadir/releases/latest/download/module.json
 ```
 
-Activa **MR- Nádir** en un mundo Mothership, abre el compendio **MR- Nádir: Sangre bajo el hielo** y pulsa **Import**. El **Panel de emergencia** del Guardián está en los **Controles de token** (y en una macro).
+Activa **MR- Nádir** en un mundo Mothership, abre el compendio **MR- Nádir: Sangre bajo el hielo** y pulsa **Import**. El **Panel de emergencia** del Guardián está en los **Controles de token** (y en una macro). Ahí mismo está el botón **Cuadrilla**, el HUD de los jugadores: trajes, carga del rover y los relojes que ya han descubierto.
 
 El **PDF** —un número especial de *Anales de Biología de Frontera* dedicado al descubrimiento de *Crustivermis nadirensis*— está en cada [release](https://github.com/ManuRomera/mr-nadir/releases/latest) como `Nadir-Sangre-bajo-el-hielo.pdf`.
 
@@ -56,7 +56,8 @@ El **PDF** —un número especial de *Anales de Biología de Frontera* dedicado 
 | 🟢 **Mapas de fósforo** | Pantalla verde de terminal con barrido de radar y ecos al moverse. Muros, puertas, niebla de guerra, linternas en los trajes, zonas más oscuras y **regiones**: avisan al Guardián cuando un PJ entra en una sala y teletransportan entre la superficie, B-4 y C-7. |
 | 🎧 **Banda sonora original** | 10 pistas y 25 efectos compuestos por síntesis para el módulo (licencia propia): misma paleta de drones, hielo, metal y sónar. Botones de efecto manual en cada escena. |
 | ★ **Guion de dirección** | Diario con toda la partida y botones para mostrar escenas, volver al mapa, lanzar efectos y música, mostrar documentos, arrastrar PNJ y objetos y mover el reloj. |
-| 🚨 **Panel de emergencia** | Hora T+, margen de R-3, filtro y batería de P-2, Fuga H-4, energía del rover, cartuchos y Atención de la colonia; publica el estado en el chat. |
+| 🚨 **Panel de emergencia** | Hora T+ y cada reloj en casillas (R-3, P-2, bomba, Fuga H-4, banco de C-0, Atención); «Si nadie hace nada» con las próximas consecuencias; el Guardián solo mueve la hora y recibe cada consecuencia ya redactada. |
+| 👥 **HUD de la cuadrilla** | Cada jugador lleva su traje y la cuadrilla su carga y su rover; los relojes aparecen cuando los personajes los descubren; sus acciones llegan al Guardián con botón «Anular». |
 | 🖨️ **PDF de revista** | Maquetado como un número especial de exobiología, con láminas a sangre, fichas y hojas imprimibles. |
 
 ## 🤖 AI disclosure

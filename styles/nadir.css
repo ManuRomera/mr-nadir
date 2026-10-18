@@ -62,3 +62,35 @@ a.mr-nadir-mapa { background: #0e3a1c; border-color: #2f8a4a; }
 @keyframes mr-nadir-giro { to { transform: rotate(360deg); } }
 @keyframes mr-nadir-parpadeo { 0%, 100% { opacity: .85; } 50% { opacity: .7; } }
 @media (prefers-reduced-motion: reduce) { #mr-nadir-crt .barrido, #mr-nadir-crt .lineas { animation: none; } }
+
+/* Modo rápido: casillas (Panel y HUD de la cuadrilla) */
+.mr-nadir-cas { display: inline-flex; flex-wrap: wrap; gap: 2px; align-items: center; vertical-align: middle; }
+.mr-nadir-cas i { width: 10px; height: 10px; border: 1px solid #5a8a92; background: transparent; }
+.mr-nadir-cas i.l { background: #8fd3c8; border-color: #8fd3c8; }
+.mr-nadir-cas i.x { border-color: #7a3a32; }
+.mr-nadir-cas i.x.r { background: #d9442b; border-color: #d9442b; }
+.mr-nadir-cas b { font-size: .75rem; color: #8fd3c8; margin-left: .2rem; }
+.mr-nadir-cas.sin { font-size: .75rem; color: #8fa9ab; font-style: italic; }
+.mr-nadir-body .rap { display: grid; grid-template-columns: 6.5rem 1fr auto; gap: .1rem .5rem; align-items: center; padding: .3rem .45rem; margin: .2rem 0; background: #10232a; border-left: 4px solid #2f5560; }
+.mr-nadir-body .rap.alerta { border-left-color: #d9442b; background: #2a1514; }
+.mr-nadir-body .rap .t { font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: .72rem; color: #8fd3c8; }
+.mr-nadir-body .rap .e { grid-column: 2 / -1; font-size: .78rem; color: #c9d6d8; }
+.mr-nadir-body .rap .b { grid-column: 1 / -1; display: flex; gap: .25rem; }
+.mr-nadir-body .rap .b:empty { display: none; }
+.mr-nadir-body .rojo { color: #ff7a5c; letter-spacing: .1em; }
+.mr-nadir-body .prox { font-size: .78rem; color: #f0c48a; margin: .3rem 0 .1rem; }
+.mr-nadir-body button.ojo { flex: 0 0 auto; width: 1.9rem; grid-row: 1; grid-column: 3; color: #6c8589; }
+.mr-nadir-body button.ojo.on { color: #f0a64a; border-color: #8a5a20; }
+.mr-nadir-body details.detalle { margin-top: .4rem; }
+.mr-nadir-body details.detalle summary { cursor: pointer; font-size: .78rem; color: #8fa9ab; letter-spacing: .08em; text-transform: uppercase; }
+.mr-nadir-body button:disabled { opacity: .45; cursor: not-allowed; }
+
+/* HUD de la cuadrilla */
+.mr-nadir-cuadrilla section { margin: .5rem 0; }
+.mr-nadir-cuadrilla h3 { font: 700 .72rem 'Signika', sans-serif; letter-spacing: .2em; text-transform: uppercase; color: #f0a64a; border-bottom: 1px solid #2f5560; margin: 0 0 .25rem; padding-bottom: .15rem; }
+.mr-nadir-cuadrilla .rap.traje.mio { border-left-color: #f0a64a; }
+.mr-nadir-cuadrilla .vacio, .mr-nadir-cuadrilla .nota { font-size: .78rem; color: #8fa9ab; font-style: italic; margin: .2rem 0; }
+.mr-nadir-cuadrilla .acc { display: grid; grid-template-columns: 1fr 1fr; gap: .25rem; }
+.mr-nadir-cuadrilla .carga { display: grid; grid-template-columns: 1fr 1fr; gap: .2rem .6rem; margin-top: .3rem; }
+.mr-nadir-cuadrilla .carga .item { display: grid; grid-template-columns: 1fr auto 1.6rem 1.6rem; gap: .2rem; align-items: center; font-size: .78rem; }
+.mr-nadir-cuadrilla .carga .item b { font: 700 .95rem 'Signika', sans-serif; color: #f0a64a; min-width: 1.2rem; text-align: right; }

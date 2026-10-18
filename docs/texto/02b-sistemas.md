@@ -7,6 +7,42 @@ Palabras clave: relojes, CO₂, energía, trajes, rutas, refuerzos, cronología 
 
 Todo lo que aparece en este capítulo son **reglas de escenario**: no forman parte del reglamento de Mothership 1e y no lo sustituyen. Donde una regla se apoya en el manual (armadura, oxígeno, salvaciones, muerte), se cita la sección del *Player's Survival Guide* (PSG). El Guardián puede cambiar cualquier cifra antes de jugar; lo que no debe hacer es cambiarla durante la partida para forzar un resultado.
 
+## Modo de dirección rápida
+
+Las cifras de este capítulo son la simulación completa del complejo. **Para dirigir no hacen falta.** Este modo traduce cada reloj a una fila de casillas y reparte el trabajo: el Guardián solo mueve la hora y lee consecuencias; los jugadores llevan sus trajes y su carga. Las casillas están ajustadas para dar las mismas horas que la simulación (sin intervención, P-2 se queda sin aire a las 14:36, la bomba se para a las 15:36 y el sello de R-3 falla a las 20:06). Cuando la mesa haga algo que las casillas no recogen, el resto del capítulo, el simulador o el Panel de Foundry dan el detalle.
+
+### Quién lleva qué
+
+| Quién | Lleva | Hace |
+|---|---|---|
+| **Guardián** | La hora, las filas de los relojes y la Atención de la colonia | Tacha casillas cuando pasa el tiempo y lee en voz alta la consecuencia de cada marca que se cruza |
+| **Cada jugador** | Las casillas de su traje | Tacha las suyas mientras va con mochila; repone con un recambio |
+| **La cuadrilla** | La carga del rover y su batería (en UE) | Anota lo que gasta y avisa al Guardián cuando hace algo que mueve un reloj («metemos un cartucho en R-3»): él suma las casillas, sin cuentas |
+
+**Revelación progresiva.** Los jugadores no ven los relojes desde el principio, ni todos. Enséñales una fila (las casillas, nunca los kilos) cuando sus personajes tengan de dónde sacarla: **R-3** al hablar con Mara o con el manifiesto D06; **P-2** al hablar con Quiroga; la **aguja del tramo bajo** (H-4, sin explicar qué significa) con la telemetría de C-0 o el registro D05; el **banco de C-0** al entrar en Control. La Atención de la colonia y la cuenta atrás del sello no se enseñan nunca: se oyen.
+
+### Las filas
+
+| Fila | Casillas a las 09:36 | Una casilla | Se tacha | Se recupera | Marcas |
+|---|---|---|---|---|---|
+| **R-3** | 10 (de 12) | Una hora con trece dentro | 1 por hora con 12–13 dentro; cada 90 min con 9–11; cada 2 h con 6–8; cada 3 h con 4–5; cada 5 h con 1–3 | Cartucho +2; dos filtros +1; purga +1; con el depurador no se tacha | Degradado al quedar 3; Crítico al acabarse; después, fila de exceso de 6: Grave en la 3.ª, Colapso en la 6.ª |
+| **P-2 · aire** | 5 | Una hora para dos | 1 por hora (cada 2 h si queda uno) | Cartucho +13; filtro +3 | Degradado al acabarse; fila de exceso de 5: Crítico en la 2.ª, Colapso en la 5.ª |
+| **Batería de la bomba** | 6 | Una hora de bomba | 1 por hora mientras tire de ella | Rover, banco o carrete: no se tacha. Batería portátil: 6 nuevas; industrial: 15 | Al acabarse, la bomba se para |
+| **H-4** | 1 (de 6) | Un nivel | +1 por cada media hora de bomba parada con V-12 abierta (por hora con el alivio restituido); +1 por E-1 forzada, V-12 de golpe o derivación sobrecargada | V-12 gradual: −1 y después −1 por hora; alivio −1; parche −1 | 3, 4, 5 y 6 según la escala del reloj C. A 6, fila de sello de 4 casillas: se tacha una cada media hora y con la cuarta el sello falla |
+| **Banco de C-0** | 24 | Una hora (2 UE) | 1 por hora | — | Cerrar V-12 cuesta 2; igualar E-1, 3; alimentar la bomba, 1 más por hora; el depurador, 1 más cada 2 h. A 3, quedan tres horas de luz |
+| **Traje de faena** (cada PJ) | 12 (8 el androide) | Una hora de mochila a ritmo normal | Con mochila, 1 por hora; 3 por hora bajo esfuerzo o estrés; con umbilical, nada | Recambio: 12 nuevas (10 min con ayuda) | Al acabarse, PSG 33.1 |
+| **Atención** (por zona) | 0 | Un grado | Según la colonia | Diez minutos quietos y a oscuras: −1 | 2, 3–4, 5 y 6 |
+
+**La bomba se desceba.** Sin automatismo, si P-2 pasa 45 minutos sin nadie consciente dentro, la bomba se para aunque le quede batería. Es la única regla que no cabe en una casilla: anótala junto a la fila.
+
+### Un turno de reloj
+
+1. Cuando pasa una hora de juego (media, si la bomba está parada y V-12 abierta), **tacha** en cada fila lo que toque.
+2. Si una fila **cruza una marca**, lee la consecuencia en voz alta, como algo que los personajes perciben: una voz pastosa por radio, el motor que calla, agua en la rejilla.
+3. Los jugadores **tachan sus trajes** y apuntan lo que han gastado de la carga.
+
+Nada más. La tabla de cada reloj (A, B y C, más abajo) dice qué significa cada estado; la Hoja rápida de casillas del capítulo «Herramientas del Guardián» trae las filas listas para imprimir.
+
 ## Atmósferas de Nádir
 
 | Zona | Atmósfera | Qué hace falta | Fauna |
@@ -287,4 +323,4 @@ Una secuencia razonable, sin ayudas imposibles ni tiempos manipulados, en la que
 3. **Mira la próxima línea roja** de cada reloj (la hora en que cambiará de estado si nadie hace nada) y díselo a los jugadores a través de lo que sus personajes pueden saber: un manómetro, una voz por radio, un número en una pantalla.
 4. **Aplica solo consecuencias anunciadas.** Si un plan nuevo cambia una cifra, pide origen, destino y coste, y anota el efecto en la hoja.
 
-Quien prefiera no hacer cuentas a mano tiene el simulador `tools/relojes.py` en el repositorio del módulo y el Panel de emergencia en Foundry: los dos aplican estas mismas reglas.
+Quien prefiera no hacer cuentas a mano tiene tres ayudas: el modo de dirección rápida del principio de este capítulo, el simulador `tools/relojes.py` del repositorio del módulo y, en Foundry, el Panel de emergencia con el HUD de la cuadrilla. Todas aplican estas mismas reglas.
