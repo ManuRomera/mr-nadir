@@ -13,14 +13,14 @@ Palabras clave: tiradas, Estrés, Pánico, armadura, heridas, reglas de escenari
 
 | Regla | Dónde | Cómo se aplica en Nádir |
 |---|---|---|
-| Tiradas de característica y salvación (d100 bajo el valor; [+] y [−]) | PSG, cap. 2 | Solo si el resultado es incierto y el fallo tiene precio |
+| Tiradas de característica y salvación (d100 bajo el valor; 90–99 siempre fallan; los dobles son críticos; [+] y [−] = tirar dos veces y elegir la mejor o la peor) | PSG, cap. 18–19 | Solo si el resultado es incierto y el fallo tiene precio |
 | Fallo de una tirada: +1 de Estrés | PSG | Siempre; además de la consecuencia de la ficha |
 | Pánico: 1d20 por encima del Estrés; tabla de Pánico | PSG, «Panic Checks» | Crítico en una tirada, ver morir a alguien, el relicario, cuando todo parece perdido |
 | Armadura: daño menor que los PA se ignora; daño igual o mayor destruye la armadura | PSG 28.3 | Un traje de PA 3 se perfora con 3 o más puntos de daño |
 | Traje perforado: despresurización en 1d5 asaltos | PSG, tabla de armaduras (*vaccsuit*) | En L-4, la cría, el tramo bajo o la superficie |
 | Oxígeno: 15 s hasta la inconsciencia, 1d5 min hasta la muerte | PSG 33.1 | Tras la despresurización, o si se agota la mochila |
 | Soporte vital degradado: [−] a todo; después salvación de Cuerpo o de Muerte | PSG 33.1 | Base de los estados de R-3 y P-2 |
-| Heridas: al llegar la Salud a 0, Herida y tabla; salvación de Muerte al máximo | PSG 28–29 | Mordeduras: Sangrado. Caídas y descargas: Contundente |
+| Heridas: al llegar la Salud a 0, Herida y tabla; salvación de Muerte al máximo | PSG 28–29 | Mordeduras: Sangrado. Caídas y descargas: Fuerza bruta |
 | PNJ y criaturas: Combate, Instinto, Heridas (Salud) | WOM | Todas las fichas del libro |
 | Respuesta al trauma de cada clase | PSG | Ver la cuadrilla M-4 |
 
@@ -29,7 +29,7 @@ Palabras clave: tiradas, Estrés, Pánico, armadura, heridas, reglas de escenari
 Todas están en «Relojes, recursos y cronología» salvo la Atención de la colonia, que está en el artículo del costrero.
 
 1. **Los tres relojes** (R-3, P-2 y Fuga H-4), con sus estados y sus reglas de avance.
-2. **Trajes de faena:** perfil de *vaccsuit* (PA 3, Velocidad [−]) con mochila de 4 h en esfuerzo y 6 h en reposo, y umbilical.
+2. **Umbilical** del traje de vacío (PA 3, 12 h de oxígeno según el PSG; 4 h bajo esfuerzo): conexión al rover o a una toma de C-0.
 3. **Traje de escape de refugio:** PA 1, 30 minutos.
 4. **Unidades de energía (UE)** para rovers, baterías y el banco de C-0.
 5. **Atención de la colonia** (0–6 por zona).
@@ -45,7 +45,7 @@ No hemos podido verificar en el manual una regla oficial de hipercapnia distinta
 Pide una tirada de **característica** (Fuerza, Velocidad, Intelecto, Combate) o de **salvación** (Cordura, Miedo, Cuerpo) solo si el resultado es incierto y el fallo tiene precio. Si hay conocimiento, herramientas, acceso y tiempo, la tarea funciona. Las habilidades suman su bonificación (+10 entrenada, +15 experta, +20 maestra).
 
 - Cambiar un filtro con calma y recambios: **sin tirada**.
-- Poner en marcha la bomba de P-2 con una herramienta que no es la suya y veinte minutos de margen: **Intelecto** (Reparación mecánica, Equipo industrial).
+- Poner en marcha la bomba de P-2 con una herramienta que no es la suya y veinte minutos de margen: **Intelecto** (Reparación mecánica, Maquinaria industrial).
 - Cruzar el paso alto con los anclajes puestos: **sin tirada**. Sin protección, mientras algo vibra bajo los pies: **Velocidad [−]** (el traje), con la caída anunciada.
 - Esforzarse dentro de un R-3 Crítico sin casco: **Cuerpo**.
 - Ver morir a alguien a quien se podía haber salvado: **Pánico**.

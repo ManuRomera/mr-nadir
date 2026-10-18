@@ -41,7 +41,7 @@ No ven. Tienen **quimiorreceptores de proximidad** sensibles a gradientes de sal
 
 ### Defensa
 
-Sin aguijón, sin veneno, sin parálisis. Un golpe seco sobre los segmentos los agrieta y suele hacer que el animal se repliegue: el daño contundente lo mata menos por el impacto que por la pérdida de humedad que abre en su envoltura.
+Sin aguijón, sin veneno, sin parálisis. Un golpe seco sobre los segmentos los agrieta y suele hacer que el animal se repliegue: el daño de fuerza bruta lo mata menos por el impacto que por la pérdida de humedad que abre en su envoltura.
 
 ### Identificación en campo
 

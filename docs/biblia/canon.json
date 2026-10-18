@@ -285,7 +285,7 @@
    },
    "equipo": [
     "Subfusil reglamentario (SMG: 2d10, 3 cargadores)",
-    "Porra eléctrica",
+    "Bastón aturdidor",
     "Esposas",
     "Radio multibanda",
     "Credencial ACE",
@@ -301,7 +301,7 @@
   },
   "vera": {
    "nombre": "Vera Soria",
-   "clase": "Scientist",
+   "clase": "Científico",
    "edad": 0,
    "papel": "Presa de confianza · química de salmueras",
    "estadisticas": {
@@ -346,7 +346,7 @@
   },
   "dario": {
    "nombre": "Darío Belda",
-   "clase": "Teamster",
+   "clase": "Tripulación",
    "edad": 0,
    "papel": "Preso de confianza · válvulas y bombas",
    "estadisticas": {
@@ -364,9 +364,9 @@
    "heridas": 2,
    "habilidades": {
     "entrenado": [
-     "Equipo industrial",
-     "Gravedad cero",
-     "Improvisación mecánica"
+     "Maquinaria industrial",
+     "Zero G",
+     "Reparaciones improvisadas"
     ],
     "experto": [
      "Reparación mecánica"
@@ -390,7 +390,7 @@
   },
   "elia": {
    "nombre": "Elia Noé",
-   "clase": "Teamster",
+   "clase": "Tripulación",
    "edad": 0,
    "papel": "Operadora civil HRF · comunicaciones y soporte vital",
    "estadisticas": {
@@ -408,12 +408,12 @@
    "heridas": 2,
    "habilidades": {
     "entrenado": [
-     "Equipo industrial",
-     "Gravedad cero",
+     "Maquinaria industrial",
+     "Zero G",
      "Informática"
     ],
     "experto": [
-     "Piratería informática"
+     "Hacking"
     ]
    },
    "equipo": [
@@ -433,7 +433,7 @@
   },
   "limen": {
    "nombre": "LIMEN-6 «Limen»",
-   "clase": "Android",
+   "clase": "Androide",
    "edad": 0,
    "papel": "Alguacil sintético ACE",
    "estadisticas": {
@@ -455,14 +455,14 @@
      "Informática",
      "Matemáticas",
      "Entrenamiento militar",
-     "Calle (Rimwise)"
+     "Conocimiento del Borde"
     ]
    },
    "equipo": [
     "Revólver reglamentario (1d10+1)",
-    "Porra eléctrica",
+    "Bastón aturdidor",
     "Esposas",
-    "Escáner ambiental",
+    "Bioscanner",
     "Linterna",
     "Herramienta de rescate",
     "Traje (8 h: no consume O₂) y un parche"

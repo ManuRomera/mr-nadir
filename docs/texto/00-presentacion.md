@@ -105,10 +105,10 @@ Anuncia la imagen del relicario de Teo Mahr antes de describirla si alguien lo n
 | PJ | 3 | 4 | 5 | Clase | Si no se interpreta |
 |---|:---:|:---:|:---:|---|---|
 | **Gael Rivas — alguacil de referencia** | ✓ | ✓ | ✓ | Marine | Obligatorio |
-| **Vera Soria — científica presa** | ✓ | ✓ | ✓ | Scientist | Su informe sigue en el terminal de B-4 |
-| **Darío Belda — técnico preso** | ✓ | ✓ | ✓ | Teamster | Ivo y Quiroga aportan la mecánica cuando quedan libres |
-| **Elia Noé — operadora civil** | — | ✓ | ✓ | Teamster | Se queda en B-4 como PNJ de radio y logística |
-| **LIMEN-6 — alguacil sintético** | — | — | ✓ | Android | Se queda en B-4 custodiando al resto del frente |
+| **Vera Soria — científica presa** | ✓ | ✓ | ✓ | Científico | Su informe sigue en el terminal de B-4 |
+| **Darío Belda — técnico preso** | ✓ | ✓ | ✓ | Tripulación | Ivo y Quiroga aportan la mecánica cuando quedan libres |
+| **Elia Noé — operadora civil** | — | ✓ | ✓ | Tripulación | Se queda en B-4 como PNJ de radio y logística |
+| **LIMEN-6 — alguacil sintético** | — | — | ✓ | Androide | Se queda en B-4 custodiando al resto del frente |
 
 Así no hay versiones contradictorias: los nueve de B-4 son siempre los mismos (la cuadrilla M-4 y cuatro personas más del frente); cambia quién sale en el rover. Ninguna escena fundamental depende de un perfil concreto: cada capítulo indica qué hace la mesa si falta.
 

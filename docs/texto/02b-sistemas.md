@@ -21,11 +21,11 @@ En el vacío el sonido no se propaga. Dentro del traje se oye la propia respirac
 
 ## Trajes
 
-Los trajes de Nádir son **trajes de faena HRF/ACE**: el mismo perfil que el *vaccsuit* del PSG (PA 3, Velocidad [−], comunicaciones de corto alcance y linterna de casco), con una diferencia que es **regla de escenario**: están pensados para trabajar conectados a un umbilical y su mochila es pequeña.
+Los trajes de Nádir son **trajes de faena HRF/ACE**: el *traje de vacío* (VALECORE MK2) del PSG tal cual (PA 3, 12 horas de oxígeno, Velocidad [−], comunicaciones de corto alcance y linterna). Es **regla de escenario** que además se conecten por umbilical al rover o a una toma de C-0.
 
-- **Mochila:** 4 horas de oxígeno y depuración en esfuerzo, 6 horas en reposo. Con el umbilical del rover o de una toma de C-0 conectado, la mochila no se gasta.
+- **Mochila:** oxígeno y depuración para **12 horas** en condiciones normales y **4 horas** bajo esfuerzo o estrés, como el tanque de oxígeno del PSG. Con el umbilical conectado, la mochila no se gasta. Cuenta el tiempo de las tareas duras como esfuerzo.
 - **Recambio de mochila:** 10 minutos con ayuda, en cualquier sitio. C-0 tiene diez recambios en el vestuario; cada rover lleva dos.
-- **Perforación (PSG 28.3 y tabla de armaduras):** un daño igual o mayor que los PA del traje lo destruye y se sufre el daño restante. Un traje perforado se despresuriza en **1d5 asaltos**. Después rige el PSG 33.1: quince segundos hasta la inconsciencia y **1d5 minutos** hasta la muerte. Un parche (PSG: kit de parches) restaura la estanqueidad con PA 1. Cada PJ lleva un parche; el rover, tres más.
+- **Perforación (PSG 28.3 y tabla de armaduras):** un daño igual o mayor que los PA del traje lo destruye y se sufre el daño restante. Un traje perforado se despresuriza en **1d5 asaltos**. Después rige el PSG 33.1: quince segundos hasta la inconsciencia y **1d5 minutos** hasta la muerte. Un parche (PSG: kit de parches ×3) restaura la estanqueidad con PA 1. Cada PJ lleva un parche; el rover, tres más.
 - **Traje de escape de refugio:** bolsa presurizada con capucha rígida. PA 1, **30 minutos** de autonomía, no admite umbilical. R-3 tiene dos.
 - **Androides:** no consumen oxígeno (PSG 33.1). El traje de Limen solo gasta calefacción y presión: **8 horas** de autonomía.
 

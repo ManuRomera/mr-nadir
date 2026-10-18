@@ -31,7 +31,7 @@ Clase **Marine** · Estrés 2 · Respuesta al trauma: cuando entras en Pánico, 
 
 **Habilidades:** Entrenamiento militar (entrenada), Atletismo (entrenada), Armas de fuego (experta).
 
-**Equipo:** subfusil reglamentario (SMG del PSG: 2d10, Disparo, 3 cargadores), porra eléctrica, esposas, radio multibanda, credencial ACE, traje de faena (PA 3) y un parche.
+**Equipo:** subfusil reglamentario (SMG del PSG: 2d10, Disparo, 3 cargadores), bastón aturdidor, esposas, radio multibanda, credencial ACE, traje de faena (PA 3) y un parche.
 
 ### Motivo
 
@@ -73,7 +73,7 @@ Presa de confianza, condenada por **falsificar certificaciones de laboratorio** 
 
 ### Ficha
 
-Clase **Scientist** · Estrés 2 · Respuesta al trauma: cuando fallas una salvación de Cordura, cada compañero cercano gana 1 de Estrés.
+Clase **Científico** · Estrés 2 · Respuesta al trauma: cuando fallas una salvación de Cordura, cada compañero cercano gana 1 de Estrés.
 
 | Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -127,13 +127,13 @@ Técnico de confianza con manos de soldador y uñas negras. Cumples pena por **m
 
 ### Ficha
 
-Clase **Teamster** · Estrés 2 · Respuesta al trauma: una vez por sesión, puedes hacer un chequeo de Pánico con [+].
+Clase **Tripulación** · Estrés 2 · Respuesta al trauma: una vez por sesión, puedes hacer un chequeo de Pánico con [+].
 
 | Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 40 | 36 | 38 | 32 | 27 | 28 | 30 | 18 | 2 |
 
-**Habilidades:** Equipo industrial (entrenada), Gravedad cero (entrenada), Improvisación mecánica (entrenada), Reparación mecánica (experta).
+**Habilidades:** Maquinaria industrial (entrenada), Zero G (entrenada), Reparaciones improvisadas (entrenada), Reparación mecánica (experta).
 
 **Equipo:** herramienta multiuso, abrazaderas, sellante, analizador de fugas, llaves de válvula, traje de faena y un parche.
 
@@ -181,13 +181,13 @@ Civil con contrato de **Helix Recursos de Frontera** en telecomunicaciones y sop
 
 ### Ficha
 
-Clase **Teamster** · Estrés 2 · Respuesta al trauma: una vez por sesión, Pánico con [+].
+Clase **Tripulación** · Estrés 2 · Respuesta al trauma: una vez por sesión, Pánico con [+].
 
 | Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 33 | 39 | 42 | 32 | 30 | 34 | 31 | 15 | 2 |
 
-**Habilidades:** Equipo industrial (entrenada), Gravedad cero (entrenada), Informática (entrenada), Piratería informática (experta).
+**Habilidades:** Maquinaria industrial (entrenada), Zero G (entrenada), Informática (entrenada), Hacking (experta).
 
 **Equipo:** radio de diagnóstico, repuesto del panel de R-12, fibra y conectores, dos filtros de aire portátiles (0,3 kg cada uno), traje de faena y un parche.
 
@@ -235,15 +235,15 @@ Elia se queda en B-4, en la radio: hace la llamada a Bastión cuando el grupo se
 
 ### Ficha
 
-Clase **Android** · Estrés 2 · Respuesta al trauma: las salvaciones de Miedo de los compañeros cercanos se hacen con [−].
+Clase **Androide** · Estrés 2 · Respuesta al trauma: las salvaciones de Miedo de los compañeros cercanos se hacen con [−].
 
 | Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 37 | 29 | 52 | 29 | 28 | 80 | 30 | 17 | 3 |
 
-**Habilidades:** Lingüística, Informática y Matemáticas (entrenadas, de clase); Entrenamiento militar y Calle (*Rimwise*) (entrenadas).
+**Habilidades:** Lingüística, Informática y Matemáticas (entrenadas, de clase); Entrenamiento militar y Conocimiento del Borde (entrenadas).
 
-**Equipo:** revólver reglamentario (1d10+1), porra eléctrica, esposas, escáner ambiental, linterna, herramienta de rescate, traje (no consume oxígeno: 8 h de autonomía) y un parche.
+**Equipo:** revólver reglamentario (1d10+1), bastón aturdidor, esposas, bioscanner, linterna, herramienta de rescate, traje (no consume oxígeno: 8 h de autonomía) y un parche.
 
 ### Motivo
 

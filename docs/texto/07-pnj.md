@@ -75,7 +75,7 @@ Preso técnico de drenajes, cuarenta y cuatro años, condenado por matar a un ho
 ::: ficha Ivo Sen
 Preso, técnico de drenajes (P-2) · 44 años
 Combate 30 · Instinto 45 · Heridas 2(12) · Armadura 1
-Ataques: llave de válvula (1d5, Contundente)
+Ataques: llave de válvula (1d5, Fuerza bruta)
 Rasgos: instaló el bypass; opera la bomba que protege R-3; primero minimiza, con datos reconoce
 :::
 
@@ -205,7 +205,7 @@ Preso, cuarenta y seis años, dos homicidios deliberados. Desconfiado, duro, bue
 ::: ficha Gaspar Kroll
 Preso, dos homicidios (R-3) · 46 años
 Combate 45 · Instinto 45 · Heridas 2(15) · Armadura 0
-Ataques: puños o herramienta (1d10, Contundente)
+Ataques: puños o herramienta (1d10, Fuerza bruta)
 Rasgos: no tolera que lo aten junto al agua; pesa ciento quince kilos
 :::
 
@@ -256,7 +256,7 @@ Preso, veintiséis años, robo a mano armada. Hemorragia en el muslo contenida c
 ::: ficha Preso de C-7
 Interno (genérico) · —
 Combate 30 · Instinto 35 · Heridas 1(10) · Armadura 0
-Ataques: puños o herramienta (1d5, Contundente)
+Ataques: puños o herramienta (1d5, Fuerza bruta)
 Rasgos: usar para los presos de R-3 sin ficha propia
 :::
 
@@ -274,7 +274,7 @@ Rasgos: buena con baterías y actuadores; obedece a Oria, pero escucha a quien s
 ::: ficha Eloy Cid
 Enfermero ACE, rover 2 · 41 años
 Combate 30 · Instinto 40 · Heridas 1(11) · Armadura 3 (traje)
-Ataques: porra eléctrica (PSG: 1d5, Contundente)
+Ataques: bastón aturdidor (PSG: 1d5, Fuerza bruta; salvación de Cuerpo o aturdido 1 asalto)
 Rasgos: responde ante Vidal de la custodia en su rover; sabe atender fracturas y hemorragias
 :::
 

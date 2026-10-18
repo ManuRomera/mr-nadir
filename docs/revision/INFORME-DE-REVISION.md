@@ -9,7 +9,7 @@ Palabras clave: revisión, continuidad, relojes, simulación, Mothership 1e, cri
 
 **Fuentes.** El PDF `Nadir-Sangre-bajo-el-hielo-ilustrado.pdf` (111 páginas, generado el 17-10-2026) se maquetó desde el proyecto editable del módulo `mr-nadir`: los capítulos en Markdown de `docs/texto/`, el canon de fichas `docs/biblia/canon.json`, los planos de `tools/maps.py` y el maquetador `tools/build_pdf.py`. Al disponer del proyecto editable, la revisión se aplicó sobre él y se reconstruyó la maquetación original, conservando el diseño de revista científica, la tipografía, las ilustraciones, los retratos y los planos.
 
-**Reglamento.** Se contrastaron las mecánicas con el *Player's Survival Guide* v1.2 y el *Warden's Operations Manual* v1.2 de Mothership 1e que hay en la colección local (creación de personajes, clases, armas, armadura, Pánico, oxígeno, heridas y muerte).
+**Reglamento.** Se contrastaron las mecánicas con el *Player's Survival Guide* v1.2 y el *Warden's Operations Manual* v1.2 de Mothership 1e, y después, a petición de Manu, con la **Guía de supervivencia del jugador v1.2 en español** y la **Guía del Warden en español** (HTML). La edición española es la v1.2 sin cambios de reglas; solo difiere la terminología (ver «Verificación contra la edición española»).
 
 **Herramientas nuevas.** `tools/relojes.py` simula los relojes minuto a minuto y contiene las quince simulaciones de este informe con una comprobación automática (las tres secuencias de referencia deben salvar a todos; la línea sin intervención debe perder el sello de R-3 hacia las 20:05). El Panel de emergencia de Foundry (`js/nadir.js`) aplica las mismas reglas; se comprobó que da las mismas cifras que el simulador. `tools/plano_operativo.py` genera el plano operativo de C-7.
 
@@ -129,6 +129,16 @@ Todas ejecutadas con `tools/relojes.py` (que contiene cada escenario). «Recurso
 
 **Lo que las simulaciones no cubren:** el azar de las tiradas (se supone éxito en las tareas que no lo arriesgan y se modela el fallo en las 10 y 14), los encuentros con la colonia (se modelan como retrasos en la 13), y la duración en tiempo real de mesa, que depende del grupo.
 
+## Verificación contra la edición española (18-10-2026)
+
+Manu sospechó que los personajes seguían una versión anterior. Se comprobó personaje a personaje con la Guía de supervivencia v1.2 en español (hoja de personaje, árbol de habilidades, cargas, Pánico, heridas, oxígeno) y con la Guía del Warden:
+
+- **Características y salvaciones.** Todas caen en rango tras aplicar los modificadores de clase (características 2d10+25, salvaciones 2d10+10; Marine +10 Combate, +10 Cuerpo, +20 Miedo y +1 Heridas; Androide +20 Intelecto, −10 a una característica, +60 Miedo y +1 Heridas; Científico +10 Intelecto, +5 a una, +30 Cordura; Tripulación +5 a todas y +10 a todas las salvaciones). Salud 1d10+10 (11–20), Estrés inicial 2, Heridas máximas 3, 2, 2, 2 y 3: correcto. Respuestas al trauma: correctas.
+- **Habilidades.** El árbol del PDF (comprobado a 420 ppp) confirma las cadenas usadas: Geología → Ecología → Planetología; Maquinaria industrial + Reparaciones improvisadas → Reparación mecánica; Informática → Hacking; Entrenamiento militar → Armas de fuego. Los paquetes de clase están completos (Marine: 2 de clase + 1 experta; Androide: 3 de clase + 2 entrenadas; Científico: cadena maestra + 1 entrenada; Tripulación: 2 de clase + 1 entrenada + 1 experta).
+- **Reglas.** Armadura (daño menor que los PA se ignora; igual o mayor la destruye), traje de vacío (PA 3, 12 h, descompresión en 1d5 asaltos), oxígeno (15 s y 1d5 min), soporte vital degradado, Pánico, Sangrado, tabla de heridas y salvación de Muerte: correctos.
+- **Corregido por esta verificación.** (1) Terminología: clases Androide, Científico y Tripulación (en español el *Teamster* es «Tripulación»); habilidades Maquinaria industrial, Reparaciones improvisadas, Zero G, Conocimiento del Borde y Hacking; tipo de daño «Fuerza bruta»; «bastón aturdidor» en lugar de «porra eléctrica»; «bioscanner» en lugar de «escáner ambiental». (2) Mochila del traje: pasa de 4 h esfuerzo / 6 h reposo a **12 h normales / 4 h bajo esfuerzo**, que es lo que dicen la tabla de armaduras y el tanque de oxígeno del PSG; no cambia ninguna simulación porque todas cuentan el tiempo como esfuerzo. (3) Se precisa en la tabla de reglas cómo funcionan ventaja y desventaja (tirar dos veces) y que 90–99 siempre falla.
+- **Sin cambio y por qué.** Los estados Crítico, Grave y Colapso de R-3 y P-2 siguen siendo una adaptación declarada del soporte vital del PSG 33.1 (el manual solo da «[−] a todo» y «salvación de Cuerpo o de Muerte»). Los PNJ de ficha corta usan el formato del propio manual para mascotas y criaturas (Combate, Instinto, Heridas con Salud entre paréntesis). La Guía del Warden no contiene reglas de combate que choquen con lo anterior; sus reglas de la casa (Heridas ablativas, Letalidad, etc.) no se usan.
+
 ## Ritmo y duración de mesa
 
 | Acto | Tiempo de mesa estimado | Decisiones y descubrimientos principales |
@@ -144,7 +154,7 @@ Total: 5 h 30–8 h 45. La previsión de 6–9 horas se mantiene.
 
 **Comprobado en el PSG v1.2:** rangos de creación (2d10+25, 2d10+10, 1d10+10), modificadores y paquetes de habilidades de clase, respuestas al trauma, Estrés inicial 2, chequeos de Pánico, regla de armadura y destrucción, *vaccsuit* (PA 3, 12 h, despresurización en 1d5 asaltos), oxígeno (15 s y 1d5 min), soporte vital degradado, armas (SMG, revólver, porra eléctrica), tipos de herida.
 
-**No comprobado:** las flechas de prerrequisito del árbol de habilidades del PSG no se pueden extraer como texto; las cadenas usadas (Geología → Ecología → Planetología; Informática → Piratería; Equipo industrial o Improvisación → Reparación mecánica; Entrenamiento militar → Armas de fuego) deben verificarse en la hoja de personaje. No existe en el manual una regla específica de hipercapnia: la del escenario es una adaptación declarada de la de soporte vital.
+**Prerrequisitos de habilidades:** verificados en el árbol de la edición española (ver arriba). **No comprobado:** no existe en el manual una regla específica de hipercapnia: la del escenario es una adaptación declarada de la de soporte vital.
 
 ## Criterios de aceptación
 
@@ -172,7 +182,7 @@ Total: 5 h 30–8 h 45. La previsión de 6–9 horas se mantiene.
 
 1. **Módulo de Foundry.** El guion de dirección, las lecturas y las escenas del módulo (`docs/v2/`) siguen redactados con las reglas anteriores; el paquete de Foundry no se ha regenerado, y el constructor numera los documentos por orden de aparición, lo que choca con los nuevos D12-A, D12-B y D15. El Panel de emergencia (`js/nadir.js`) ya aplica las reglas nuevas. Adaptar el resto es el siguiente paso natural.
 2. **Prueba de juego.** Todo lo anterior está comprobado sobre el papel y con el simulador; falta una partida real, sobre todo para medir el tiempo de mesa del Acto III y la carga de los conflictos del Acto IV.
-3. **Árbol de habilidades del PSG** (ver arriba).
+3. **Edición española:** verificada; los textos usan ya su terminología.
 4. **Ilustraciones.** No se ha sustituido ninguna; dos se han justificado con texto (filtro abandonado y luces de R-12). No hay ilustración del atracadero ni del armario del portillo.
 5. **Cifras de diseño ficticias** (tolerancias del costrero, autonomía de los trajes de faena, capacidad de los cartuchos) son convenciones del escenario, coherentes entre sí, no datos reales.
 

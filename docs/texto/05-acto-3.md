@@ -139,7 +139,7 @@ Cualquiera puede contrastarlo con el caudal de C-0. Su prioridad es una bomba, n
 
 **Accesos.** Desde C-0 por el pasillo oeste.
 
-**Peligros.** Abrir sin igualar: descarga de salmuera a presión. Quien esté delante recibe 2d10 de daño contundente (traje: PA 3) y salvación de Cuerpo para no ser arrastrado; **H-4 +1**; el pasillo oeste se inunda hasta que alguien cierre la compuerta de C-0. Anúncialo antes de cualquier tirada.
+**Peligros.** Abrir sin igualar: descarga de salmuera a presión. Quien esté delante recibe 2d10 de daño de fuerza bruta (traje: PA 3) y salvación de Cuerpo para no ser arrastrado; **H-4 +1**; el pasillo oeste se inunda hasta que alguien cierre la compuerta de C-0. Anúncialo antes de cualquier tirada.
 
 **Recursos.** La radio de Serrat (se puede recuperar al liberar el cuerpo).
 
@@ -264,7 +264,7 @@ Rasgos: no abandona la zona de cría
 
 **Estado inicial.** Repisa mineral sobre el tramo hundido. Restos de pasamanos. Al otro lado, el portillo superior y la galería de servicio hacia V-12.
 
-**Peligros.** Caída: 3d10 de daño contundente y traje en riesgo. Ninguna criatura empuja a nadie: el peligro es el sitio.
+**Peligros.** Caída: 3d10 de daño de fuerza bruta y traje en riesgo. Ninguna criatura empuja a nadie: el peligro es el sitio.
 
 **Acciones.**
 
