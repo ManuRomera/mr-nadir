@@ -64,6 +64,16 @@ El Guardián **solo mueve la hora**: su **barra** vive arriba, siempre visible, 
   <br><sub><b>Vista del Guardián:</b> barra con hora y relojes de la escena, alarma jugador por jugador y Panel de emergencia con «Si nadie hace nada».</sub>
 </p>
 
+<p align="center">
+  <img src="docs/img/foundry-escena-guardian.webp" alt="Escena de imagen del barracón de B-4 con tres tokens de cuerpo entero a escala según su profundidad, la barra del Guardián arriba y el visor de casco proyectado" width="100%">
+  <br><sub><b>Escenas de imagen:</b> una por estancia, con tokens de cuerpo entero (aquí ampliados con otro módulo según la profundidad), la barra del Guardián y el visor encendido.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/img/foundry-escena-alarma.webp" alt="La misma escena vista por un jugador con la alarma roja encendida: marco rojo difuso en los bordes y la etiqueta ALERTA en el visor" width="100%">
+  <br><sub><b>La alarma, en escena:</b> el marco rojo y la etiqueta <i>ALERTA</i> del visor. No tapa nada y la enciende el Guardián para cada jugador.</sub>
+</p>
+
 <table>
   <tr>
     <td width="42%" valign="top">
