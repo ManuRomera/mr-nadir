@@ -1,7 +1,7 @@
 # Acto IV — El precio de sacarlos
 
 ::: resumen
-Sacar a quince personas de un complejo herido es una operación de horas. Cada traje, cada cartucho y cada unidad de energía tiene más de un destino posible, y cada persona atrapada tiene una opinión sobre quién debe salir primero. Aquí se decide quién sostiene la máquina, quién sale antes, quién responde de quién y qué se firma después.
+La salida ya existe. Ahora hay que pasar por ella a heridos, presos y alguaciles que quieren cosas distintas. Mara se queda la última. Duarte exige esposas. Quiroga aún necesita manos en la bomba. En Bastión preguntan quién firma. Cada viaje obliga a elegir quién espera.
 Palabras clave: evacuación, custodia, triaje, responsabilidad, transporte, finales
 :::
 
@@ -14,19 +14,19 @@ El Acto IV se superpone al III. Sus escenas se activan cuando la mesa reúne **a
 - la bomba de P-2 protege el tramo de R-3;
 - Ivo modificó el drenaje.
 
-Un grupo que investiga bien llega aquí hacia la segunda hora en C-7. Uno que corre a sacar gente puede llegar con una sola pieza y aprender las demás a golpes. En ambos casos el acto funciona: lo que cambia es lo que ya está roto.
+Hacia la segunda hora en C-7, el rescate suele convertirse en una discusión sobre prioridades. También puede ocurrir antes: abrir una salida basta para que alguien reclame su sitio. Activa los conflictos que correspondan a lo que la cuadrilla ya sabe y ha hecho.
 
 ## Los conflictos de la evacuación
 
-Ninguna de estas escenas es obligatoria. Cada una aparece cuando se dan sus condiciones y se resuelve hablando, con una solución técnica o, si la situación lo hace verosímil, por la fuerza. La tensión sale de intereses incompatibles, no de que alguien actúe como un idiota.
+Usa cada escena cuando aparezca su condición. Presenta la petición de una persona, deja que otra se oponga y pregunta al grupo qué hace. Los datos técnicos permiten negociar; las amenazas y la fuerza también tienen consecuencias.
 
 ### Conflicto 1 · «Si nos sacáis, los perdéis» (P-2)
 
 **Cuándo:** los PJ llegan a P-2 antes de cerrar V-12 o de restablecer el automatismo.
 
-**Quién quiere qué.** Quiroga quiere que la bomba siga hasta que haya una alternativa real, aunque eso retrase su salida. Ivo quiere salir y teme que lo esposen nada más pisar fuera. El alguacil jugador quiere a Mara a salvo, y Mara está al otro lado de lo que la bomba sostiene.
+**Quiroga señala la bomba.** Se quedará hasta que haya una alternativa. Ivo mira a los alguaciles: teme que lo esposen al salir. Al otro lado de esa presión está Mara.
 
-> «Yo también quiero salir. Llevo aquí desde el accidente. Pero si me lleváis ahora y no dejáis una máquina o una válvula haciendo nuestro trabajo, toda esa salmuera irá contra el sector donde está Mara. No es una orden; es el caudal que tenéis delante.»
+> «Mirad la entrada. Ahora la salida. Si paramos esta bomba, la diferencia va hacia Mara. Traed corriente, automatizadla o cerrad V-12. Después nos vamos.»
 
 Quiroga enseña el cuadro: caudal de entrada, caudal de salida, la aguja del tramo bajo y la batería. Las cifras son reales.
 
@@ -82,9 +82,9 @@ Limen, si está presente, puede ser lo que desbloquea la escena: los presos conf
 
 **Cuándo:** el material no llega para todo a la vez (casi siempre).
 
-**Quién quiere qué.** Cada cartucho C-12 da unas dos horas a R-3 o trece a P-2. Cada traje es una persona fuera. Cada UE del banco de C-0 es una hora de refugio para los que esperen. Quiroga pide aire para P-2 «antes que nada». Mara pide cartuchos para R-3 «antes de abrir». Oria, por radio, recuerda que la batería industrial también es lo que recarga el rover para volver.
+**Piden el mismo material.** Quiroga reclama aire para P-2; Mara quiere cartuchos en R-3 antes de abrir. Un C-12 da unas dos horas a los trece o trece horas a los dos. Los trajes permiten evacuar, y el banco sostiene a quienes esperan en C-0. Oria recuerda por radio que la batería industrial también debe recargar el rover de vuelta.
 
-**Cómo se resuelve:** con cuentas. Pon la Tabla de recursos delante de los jugadores y deja que repartan. Cada reparto tiene consecuencias calculables en la Hoja de relojes. Si no llegan los trajes para salir todos por el portillo a la vez, hay que hacer viajes de ida y vuelta, igualar E-1 o esperar al rover 2.
+Pon la Tabla de recursos sobre la mesa. Actualiza los relojes según el reparto. Si faltan trajes para el portillo, tendrán que devolverlos en tandas, abrir E-1 o esperar al rover 2. Pregunta quién acepta quedarse mientras tanto.
 
 ### Conflicto 5 · La custodia en la salida
 
@@ -107,7 +107,7 @@ En los rovers, Vidal exige que cada vehículo con presos lleve a un alguacil o a
 - **Oria**, por radio, insiste en «preservar las pruebas de J-17» antes de que nadie toque nada: quiere demostrar que la orden se ejecutó mal. Recoger esas pruebas con herramientas retrasa el resellado natural.
 - **Vidal** quiere un nombre para el informe. Si el grupo le da a Ivo, lo tiene; si le da la cadena completa, se queda sin culpable y con su firma en el caso Lisán.
 
-**Cómo se resuelve:** con pruebas, o no se resuelve. La aventura no tiene un documento secreto que diga quién tiene razón. Lo que sí tiene son consecuencias: un R-3 que cree que Mara los encerró se evacúa peor (Román consigue que dos presos se nieguen a obedecerla: hay que convencerlos o sacarlos en una tanda aparte con Duarte).
+**La versión que circule afecta al rescate.** Si el registro de C-0 desmiente a Román, Mara recupera autoridad. Si el rumor sigue, dos presos se niegan a obedecerla: habrá que convencerlos o sacarlos en una tanda aparte con Duarte. Las responsabilidades completas se reconstruyen combinando pruebas.
 
 ### Conflicto 7 · Órdenes contra necesidades
 
@@ -129,13 +129,13 @@ Ambos ceden ante datos creíbles. Tampoco regalan nada si el grupo no sabe pedir
 
 **Cuándo:** H-4 llega a 4 con alguien sangrando dentro de R-3 (Osian, si nadie lo ha sacado).
 
-La línea de drenaje bajo el suelo se ha inundado de salmuera hasta la rejilla. La sangre de Osian se ha filtrado bajo ella con el agua. Un costrero sube por el sumidero siguiendo el gradiente. No planea nada: busca el punto donde hay tejido y calor.
+La salmuera alcanza la rejilla y arrastra sangre de Osian al drenaje. Un costrero próximo sigue el gradiente hacia el refugio. Se nota primero en la chapa, antes de ver al animal.
 
 ![La reja del sumidero rezuma agua oscura mientras algo la empuja desde abajo](fig-desague)
 
-> El agua sube hasta el borde de la reja. Huele a hierro y a sal. Alguien dice que es la sangre de Brev y nadie lo contradice. Entonces la reja se levanta un dedo, sola, y vuelve a caer con un golpe sordo. Gaspar Kroll se sienta encima.
+> El agua llega al borde de la rejilla, teñida por la sangre de Brev. La chapa se levanta un dedo y cae con un golpe. Debajo vuelve a empezar el raspado.
 
-Los atrapados reaccionan como se reacciona de verdad: con mantas dobladas, placas sueltas del suelo y peso. **Kroll se sienta encima** si no está esposado; si lo está, se debate contra la tubería y alguien más tiene que ocupar su sitio (Yusef, un PJ). Bajo la manta se siente el trabajo de los dentículos contra la chapa.
+Mantas dobladas, una placa suelta, peso. **Kroll se sienta encima si está libre.** Si sigue esposado, tira de la tubería mientras Yusef o un PJ ocupa su lugar. Quien apoya la mano sobre la manta siente los dientes trabajando debajo.
 
 - **Si el grupo no está en R-3,** se oye por radio: golpes, agua, Mara pidiendo peso, silencio.
 - **Aguantar:** el costrero tolera 10–20 minutos fuera del agua antes de replegarse. Quien sujeta la rejilla hace una salvación de Cuerpo cada cinco minutos; si falla, la rejilla se levanta y el animal muerde a quien esté más cerca (1d10; sin traje, sin armadura).
@@ -143,7 +143,7 @@ Los atrapados reaccionan como se reacciona de verdad: con mantas dobladas, placa
 
 ## Logística de evacuación
 
-**El objetivo no es meter a todo el mundo en un rover a la vez.** Es llevar a las quince personas a un lugar estable y, desde ahí, a Bastión en uno o dos viajes.
+**Primero, un lugar estable para las quince personas. Después, Bastión.** Los rovers pueden hacer uno o dos viajes mientras parte del grupo espera con aire y energía suficientes.
 
 | Recurso | Capacidad | Notas |
 |---|---|---|
@@ -207,7 +207,7 @@ Los PJ pueden retirarse con quien hayan sacado. No es una sentencia automática 
 
 ## Finales y consecuencias
 
-**No hay puntos de victoria.** Evalúa hechos: quién vive, qué se ha aprendido, qué daño se causó y qué decisiones habrá que explicar.
+Elige el final según lo ocurrido: **quién vive, dónde queda a salvo, qué se pierde y qué pruebas salen del complejo**. Ajusta las imágenes siguientes a las personas presentes y a los hallazgos de la mesa.
 
 ![La superficie de Nádir al salir su estrella; bajo el hielo, la costra vuelve a cerrar una grieta](fig-final)
 
@@ -215,37 +215,37 @@ Los PJ pueden retirarse con quien hayan sacado. No es una sentencia automática 
 
 R-3 recibe aire a tiempo; Quiroga e Ivo sobreviven; H-4 queda controlado y la evacuación termina sin nuevas muertes. Un triunfo difícil, no una absolución general.
 
-> A bordo del rover, una docena de voces se cruzan por canales distintos. Algunos discuten, otros lloran, otros duermen por agotamiento. Mara aprieta dos veces el antebrazo de su compañero. Alguien recuerda el traje viejo soldado a la pared de la cavidad y la placa que decía H. LISÁN, y nadie sabe qué responder. Bajo las orugas, muy lejos, los animales vuelven a cerrar una grieta que nadie debería haber abierto.
+> La radio se llena de conversaciones que nadie intenta ordenar. Alguien duerme conectado al umbilical. Mara aprieta dos veces el antebrazo de su compañero. En Bastión tendrán que contar lo sucedido; durante unos minutos basta con escuchar a los demás.
 
 ### Final B · Salvación parcial
 
 El grupo salva a R-3, pero P-2 se queda sin aire o sin bomba; o salva P-2 y el tramo bajo obliga a una evacuación por arriba con heridos que no aguantan. Calcula las muertes por los tiempos y las rutas realmente usados. Una decisión equivocada no convierte en culpables a los supervivientes.
 
-> En Bastión, dos literas quedan sin ocupar y nadie las desmonta todavía. En P-2, el motor sigue golpeando a solas porque alguien se acordó de dejar la batería conectada. La radio devuelve el parte con voz neutra: «capacidad estabilizada, bajas confirmadas». Un filtro usado rueda por el suelo del rover hasta que alguien lo pisa.
+> El parte de bajas llega cuando están descargando el rover. Se detiene una camilla. Alguien pide repetir un nombre. Un cartucho usado rueda por la plataforma hasta que una bota lo sujeta.
 
 ### Final C · El acuerdo amargo
 
 Los dos refugios quedan estables y el grupo acuerda esperar al equipo de Bastión. Salen algunos; otros se quedan sosteniendo la puerta. Si está técnicamente fundada, una victoria por estabilización vale tanto como evacuar a todos esa misma noche.
 
-> Se cierra la sesión con la operación a medias y a propósito. Alguien marca en la pizarra de C-0 cuántas horas de filtro quedan y las tacha una a una. Los que se quedan no son los que se rinden: son los que sostienen la puerta. Fuera, las balizas del atracadero parpadean sobre el hielo negro, esperando unas luces que aún tienen que volver.
+> En la pizarra de C-0 quedan los nombres del siguiente viaje y las horas de filtro disponibles. Una persona se tumba; otra toma la radio. Fuera, las balizas siguen marcando el atracadero para el rover que debe volver.
 
 ### Final D · La fuga
 
 Ivo, u otro condenado, aprovecha el traslado para intentar huir. La fuga necesita un medio concreto: traje con mochila, un vehículo, una ruta, energía y un sitio adonde llegar. Ivo tiene uno: L-4 y el trazado antiguo hacia el sur, el mismo de Lisán. Los PJ pueden impedirla, pactar una rendición o dejarlo ir. El rescate no se anula.
 
-> Un traje de faena desaparece del vestuario de C-0 y nadie da la alarma hasta que el rover ya está en marcha. Por la radio, una respiración jadea en un canal que no pertenece a ninguna cuadrilla y se pierde hacia el sur. Vidal pide calma y nombres. Bajo el hielo, alguien que podría haber vivido en Nádir cruza una línea que nadie había marcado.
+> En el recuento falta un nombre. Revisan los trajes, las mochilas y los accesos. Vidal pregunta quién lo vio por última vez. La ruta hacia el sur sigue en el plano que alguien dejó de vigilar.
 
 ### Final E · Nueva crisis industrial
 
 Una maniobra violenta (E-1 forzada, V-12 cerrada de golpe, explosivos en la cría) amplía las filtraciones y deja C-7 inutilizable. El refugio puede seguir siendo salvable por el portillo, pero el complejo se pierde. Otros sectores tienen sistemas separados y no se ven afectados.
 
-> El agua encuentra su camino más allá de la esclusa y no vuelve. C-7 se apaga por secciones, como una casa que se queda sin luz habitación a habitación. En el almacén de Bastión alguien archiva un plano que ya no sirve. Los animales, muy abajo, empiezan a sellar lo que los humanos han dejado abierto.
+> En el panel de Bastión se apagan las secciones de C-7. Cada nueva alarma queda fija en la pantalla. Alguien retira del tablón el siguiente turno de extracción. Bajo el hielo, la colonia trabaja las aberturas que aún pierden gas.
 
 ### Final F · La retirada
 
 No consiguen acceso ni estabilización suficiente y vuelven a Bastión. Narra con precisión a quién ayudaron y qué costó no intervenir más, a partir de los relojes y de la ayuda que realmente salió.
 
-> El rover vuelve cargado de gente y de silencio. Nadie pregunta cuántos se han quedado porque todos lo saben. En el vestíbulo de Bastión hay una lista de nombres sin marcar y un reloj que sigue contando horas de filtro que nadie puede aportar ya. Detrás del hielo, trece respiraciones aguantan lo que aguanten.
+> Bastión pide un recuento antes de abrir la esclusa. El alguacil enumera a quienes trae y se detiene. Desde Control preguntan por los demás. La radio permanece abierta mientras alguien calcula cuándo podría salir otro vehículo.
 
 ### Lo que queda sobre la mesa
 
@@ -253,7 +253,7 @@ No consiguen acceso ni estabilización suficiente y vuelven a Bastión. Narra co
 2. **La investigación penitenciaria.** El bypass de Ivo fue real; se registrarán también sus actos durante la emergencia. El caso Lisán puede reabrirse, con la firma de Vidal dentro.
 3. **La vida del grupo.** Presos, civiles, alguaciles y androide vuelven, o no, a sus destinos con relaciones cambiadas.
 
-No resuelvas los juicios con un discurso. Planta las preguntas y déjalas abiertas.
+Lleva esas consecuencias a una citación, un parte que firmar o una conversación en el comedor. Los personajes deciden qué reconocen y qué defienden.
 
 ## Epílogos de personaje
 
@@ -263,7 +263,7 @@ Pregunta a cada jugador:
 2. **¿Qué aprendiste de alguien con quien trabajabas todos los días?**
 3. **¿Qué informe firmarás, y qué hecho no estás dispuesto a ocultar?**
 
-Deja que las respuestas se contradigan. El alguacil que salvó a Mara puede no querer firmar lo que vio en H-4. La operadora civil puede negarse a entregar los registros de Limen. El técnico preso puede decir en voz alta, delante del alguacil, que el bypass fue una avería y no un delito.
+Escucha qué versión defenderá cada cual. Quizá el alguacil dude ante el informe de H-4, Elia quiera proteger las grabaciones de Limen o Darío insista en llamar avería al bypass. Anota las discrepancias para la siguiente sesión.
 
 ## Semillas de campaña
 

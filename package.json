@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "content": "python3 tools/maps.py && python3 tools/post_images.py && python3 tools/build_foundry.py",
-    "pdf": "python3 tools/build_pdf.py",
+    "pdf": "python3 tools/build_editorial.py",
     "build": "node scripts/build.mjs"
   },
   "devDependencies": {

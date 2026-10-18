@@ -1,0 +1,53 @@
+{
+  "paginas_libro": 87,
+  "paginas_material": 18,
+  "marcadores": 16,
+  "enlaces_indice": 14,
+  "ilustraciones_repetidas": [],
+  "texto_no_localizado": [],
+  "fragmentos_comprobados_a_ambos_lados_de_un_salto": [
+    {
+      "parrafo": "El expediente miente por omisión. Los dos equipos existieron en el papel: se asi",
+      "fragmento": "osdetelemetriayllamadasporradiodes",
+      "corte_verificado": 20
+    }
+  ],
+  "figuras_editoriales": [
+    [
+      7,
+      "E1"
+    ],
+    [
+      11,
+      "E9"
+    ],
+    [
+      23,
+      "E2"
+    ],
+    [
+      30,
+      "E3"
+    ],
+    [
+      50,
+      "E4"
+    ],
+    [
+      57,
+      "E5"
+    ],
+    [
+      63,
+      "E6"
+    ],
+    [
+      78,
+      "E7"
+    ],
+    [
+      83,
+      "E8"
+    ]
+  ]
+}

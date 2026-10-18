@@ -1,13 +1,13 @@
 # Documentos para los jugadores
 
 ::: resumen
-Compendio documental del expediente ND-17: piezas recuperadas entre B-4, R-12, C-0, R-3 y P-2 durante las horas posteriores a la rotura de la junta J-17. Se ordenan por vía de obtención, no por peso probatorio. Los registros que crecen con el tiempo se entregan por tramos y solo hasta la hora en que se consultan.
+Permisos, partes automáticos, notas a lápiz y una búsqueda que solo ocurrió en el papel. Cada documento aporta algo que se puede usar durante el rescate o llevarse de C-7. Los registros de Serrat y Quiroga crecen con la hora: entrega únicamente los tramos que ya hayan ocurrido.
 Palabras clave: documento, evidencia, trazabilidad, registro, diario, R-3, P-2, J-17
 :::
 
 ## Cómo usar estos documentos
 
-Cada pieza está escrita para copiarse a una nota, enviarse por chat o imprimirse; el apéndice «Documentos imprimibles» las reproduce sin ninguna nota del Guardián. Lo que va fuera de los recuadros (cuándo se entrega, qué significa) es solo para ti.
+Entrega el recuadro: copiado a una nota, por chat o impreso desde «Documentos imprimibles». Guarda para ti las indicaciones de obtención y las explicaciones que lo rodean. Deja que los jugadores subrayen horas, comparen firmas y vuelvan a una frase anterior.
 
 - Entrega cada documento solo si lo obtienen, y nunca todos a la vez.
 - No pidas tiradas para leer un papel que ya tienen en las manos.

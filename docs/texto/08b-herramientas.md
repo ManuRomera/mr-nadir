@@ -1,7 +1,7 @@
 # Herramientas del Guardián
 
 ::: resumen
-Ayudas de mesa para sostener el pulso del escenario sin reconstruir sus sistemas en plena partida: cronología de la emergencia, hoja de los tres relojes, tabla de recursos, estado y localización de los supervivientes, matriz de pistas, resumen de PNJ, resumen de los costreros y plano operativo de C-7. Pensadas para imprimirse y tenerse delante.
+Estas hojas van junto al plano: una para la hora y los relojes, otra para el material y otra para las personas. La matriz de pistas permite encontrar otra vía cuando la cuadrilla deja atrás un lugar. Imprime las que vayas a usar y actualízalas al cerrar cada tarea.
 Palabras clave: cronología, relojes, recursos, supervivientes, pistas, PNJ, costreros, plano
 :::
 
@@ -105,7 +105,7 @@ Imprímela. Rellena una fila cada vez que se cierra una tarea.
 
 ## 5 · Matriz de pistas
 
-Cada verdad tiene al menos tres vías y ninguna depende de una sola tirada, localización o PNJ.
+Si el grupo deja atrás una fuente, consulta las otras vías. Entrega lo que puedan observar o contrastar con los medios disponibles.
 
 | Verdad | Vías | Qué cambia saberla |
 |---|---|---|

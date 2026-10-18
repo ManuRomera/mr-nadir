@@ -1,31 +1,33 @@
 # La verdad del accidente
 
 ::: resumen
-El siniestro de C-7 no tuvo un culpable único. Fue una concatenación de causas industriales, humanas y biológicas: presión, mantenimiento, un desvío alterado, un informe que no llegó y animales que sellan lo que gotea. Este informe fija la secuencia de los hechos hasta las 09:56, el balance humano y lo que cada persona sabe.
+Una orden de mantenimiento retiró lo que parecía una incrustación. Detrás había salmuera a presión. La vía de alivio estaba limitada por una modificación clandestina y el informe que advertía de materia orgánica llevaba doce días sin revisar. Este capítulo reúne lo que el Guardián sabe desde el comienzo.
 Palabras clave: C-7, J-17, bypass, costreros, cronología, balance, responsabilidad
 :::
 
 ## Qué ocurrió realmente
 
-Bajo la corteza de Nádir corren redes de fracturas comunicadas con bolsas de salmuera a presión. En algunas interfaces entre las galerías humanas y las cavidades naturales, los costreros depositan un gel mineral que endurece y reduce el intercambio de gas entre los dos lados. Ese sellado no sustituye una barrera industrial certificada, pero puede ocultar que detrás hay una fractura que crece.
+**La costra sujetaba una fractura. La orden era retirarla.** Los costreros sellan con gel mineral las aberturas entre cavidades y galerías. El sello reduce el intercambio de gas y puede ocultar el crecimiento de la grieta; la barrera industrial sigue dañada.
 
-La dirección de C-7 leyó esas costras como incrustaciones y ordenó retirarlas de forma rutinaria. La orden de trabajo 517-J la firmó el jefe técnico de C-7, **Anselmo Rius**, que esa mañana estaba fuera de turno en Bastión, con el visto bueno de la directora de operaciones de HRF, **Oria Sable**. La ejecutaron dos presos: **Ulma Senn**, operadora del limpiador térmico, y **Teo Mahr**, que sujetaba la línea. Nadie en C-7 conocía la función biológica de las costras: el único informe que la insinuaba, el de Vera Soria, llevaba doce días «pendiente de revisión» en la oficina técnica de Bastión.
+El jefe técnico **Anselmo Rius**, fuera de turno en Bastión, firmó la limpieza **517-J**. **Oria Sable** la autorizó. En C-7, **Ulma Senn** manejó el limpiador térmico y **Teo Mahr** sostuvo la línea. El informe de Vera sobre estructura orgánica llevaba doce días «pendiente de revisión» en la oficina técnica de Bastión. Ninguno de quienes ejecutaron la orden conocía la función del depósito.
 
-**Ivo Sen**, preso técnico condenado por homicidio, había instalado meses atrás un bypass clandestino en el drenaje para mantener seca una galería secundaria, L-4, que conecta con el trazado antiguo. Su plan era llegar algún día a Puerto P-0 escondido en un transporte de carga durante un relevo, no caminar setecientos kilómetros a la intemperie. El bypass desvió parte de la capacidad de la **derivación B**, la vía de alivio que debía absorber un exceso de caudal, y dejó una válvula secundaria en una posición que no coincidía con los planos de control. Ivo no construyó ni previó el desastre: lo agravó.
+Meses antes, **Ivo Sen** había instalado un bypass para mantener seca **L-4**. Quería alcanzar los drenajes antiguos y acabar escondido en un transporte de relevo hacia **Puerto P-0**. Ese injerto robaba capacidad a la **derivación B**, el alivio del drenaje principal. Una válvula secundaria quedó en una posición distinta a la del plano de Control.
 
-A las **09:36**, la limpieza térmica de J-17 desprendió el último tapón mineral sobre una fractura. La salmuera entró a presión, alcanzó a Teo Mahr de lleno, dañó un colector de energía y anegó el tramo bajo. El drenaje principal se desbordó y la derivación B no pudo absorber el exceso porque el bypass le robaba capacidad. A las 09:39 la esclusa E-1 se deformó y no cerró del todo; el alguacil **Elmo Serrat** quedó atrapado en la hoja.
+**09:36.** El limpiador desprende el último tapón de **J-17**. Entra salmuera a presión, mata a Teo, daña un colector de energía e inunda el tramo bajo. El drenaje principal rebasa su capacidad; la derivación B, limitada por el bypass, no absorbe el exceso.
 
-**Mara Venn**, jefa del destacamento de alguaciles en C-7, entendió que la presión podía alcanzar los módulos habitables a través de las dos galerías comunicadas. A las 09:40 ordenó el aislamiento manual del sector. El cierre evitó una despresurización mayor, pero dejó del lado dañado a quienes no habían llegado a la esclusa exterior. La civil **Milena Tey** murió en el corredor que lleva a J-17, alcanzada por la salmuera y el gas de la cavidad cuando intentaba volver a por Teo.
+**09:39–09:45.** E-1 se deforma a las 09:39 y atrapa al alguacil **Elmo Serrat**. A las 09:40, **Mara Venn** ordena aislar las dos galerías comunicadas para impedir que la presión alcance los módulos habitables. Queda encerrada con quienes aún están dentro. **Milena Tey** muere en el corredor de J-17 al volver por Teo, alcanzada por salmuera y gas. Trece personas llegan a **R-3** a las 09:45.
 
-Trece personas llegaron a la cámara refugio **R-3** a las 09:45. Dos, la alguacil **Lara Quiroga** y el preso **Ivo Sen**, estaban revisando la bomba de trasiego de la estación auxiliar **P-2** cuando todo empezó y no pudieron salir: la portilla exterior se combó y el túnel de servicio interior se inundó. A las 09:56 descubrieron que la bomba aún podía desviar parte de la salmuera a un depósito de decantación, y la pusieron a potencia reducida. Desde entonces la mantienen viva: es lo que impide que el agua suba en el tramo bajo hasta el sello inferior de R-3.
+**P-2.** Quiroga e Ivo estaban revisando la bomba. La portilla exterior se comba y el túnel interior se inunda. A las **09:56** consiguen arrancarla a potencia reducida: desvía salmuera al depósito de decantación y evita que el nivel alcance el sello inferior de R-3. Necesitan seguir cebándola y tienen aire y batería limitados.
 
-En la misma secuencia, el repetidor **R-12** perdió su alimentación secundaria, que llega por una línea de C-7. Su batería de respaldo, degradada (había fallado dos veces la semana anterior), aguantó cuatro minutos. Mara habló por radio a las 09:48, y a las 09:48:40 el repetidor se apagó en mitad de la frase.
+**La llamada.** R-12 pierde la alimentación secundaria procedente de C-7. Su batería, averiada dos veces la semana anterior, dura cuatro minutos. Mara transmite a las **09:48**. A las **09:48:40**, el repetidor se apaga en mitad de su petición.
 
 ### La cadena que nadie firmó
 
-Ninguna pieza basta por sí sola. La minería presurizada abrió microfugas hacia cavidades naturales. Los animales sellaron esas fracturas. El mantenimiento retiró un sello sin comprenderlo, con una orden firmada lejos del frente. Un informe que lo habría evitado se quedó en una bandeja. Un desvío clandestino restó redundancia al drenaje. La salmuera rompió una junta. Y ahora dos supervivientes, uno de ellos un preso condenado por homicidio, sostienen una bomba para los otros trece.
+**Fractura → sello biológico → limpieza térmica → entrada de salmuera → drenaje insuficiente.**
 
-Cada persona de C-7 omite algo para protegerse o carece de una pieza imprescindible. El accidente se investiga mientras se trabaja; no llega entregado por una confesión.
+La orden de limpieza lleva firmas. El bypass lleva meses soldado. El informe de Vera tiene fecha de entrada. Ninguna prueba cuenta toda la historia, pero juntas explican por qué una tarea rutinaria mató a tres personas.
+
+Los supervivientes conocen fragmentos y tienen motivos para callar. La investigación avanza entre reparaciones, llamadas y traslados.
 
 ### Cómo se reconstruye
 
@@ -39,11 +41,11 @@ La verdad admite varias puertas de entrada y ninguna es obligatoria:
 
 Cada prueba material sostiene una conclusión distinta. El registro de C-0 demuestra que el cierre de Mara se ordenó **después** de la entrada de salmuera. La deformación de E-1 muestra estrías de impacto desde el lado de la salmuera hacia el interior humano. La trayectoria en J-17 prueba que el agua venía del macizo rocoso, no de un sabotaje explosivo. La soldadura de H-4 tiene meses, no horas. Ninguna exige una contraseña ni una tirada imposible: exigen tiempo, útiles y observación. La matriz completa de pistas está en «Herramientas del Guardián».
 
-Ivo es alguien que cometió un homicidio, que preparó una fuga y que ahora sostiene una bomba para trece personas. No es un sádico ni un inocente incomprendido. Si el grupo lo descubre, primero minimiza; con datos delante, reconoce.
+**Ivo, ante las pruebas:** primero llama al bypass «una modificación antigua». Si le enseñan la soldadura, el plano o los caudales, reconoce lo que hizo. Si callar pone en peligro a alguien, habla por iniciativa propia. La condena por homicidio sigue en su expediente.
 
 ## Lo que queda de los muertos
 
-Los tres fallecidos de T0 siguen en el complejo, y lo que les ocurre tiene una explicación física que el Guardián conoce antes de narrarla. Un cuerpo en descomposición desprende gases y humedad. Para los costreros eso es un gradiente químico que hay que cerrar, igual que una grieta. Los cadáveres de C-7 se están convirtiendo en pared.
+Los cadáveres desprenden gas y humedad. Los costreros acuden, se alimentan y depositan mineral hasta cerrar la fuga. Teo, Serrat y Milena están quedando unidos al complejo. Bajo la costra todavía se mueven los animales.
 
 - **Teo Mahr**, preso, junto a J-17 en el tramo bajo. Una costra blanquecina y translúcida lo cubre a medias y lo suelda a la roca. Varios costreros se alimentan bajo la costra; el cuerpo se mueve por el trabajo de los dientes. Es el relicario y la primera imagen fuerte de la fauna. **Salvación de Miedo [−] o 1d5 de Estrés** al verlo moverse.
 - **Elmo Serrat**, alguacil, atrapado en la hoja deformada de E-1. Su radio de traje quedó abierta en el canal de alguaciles y transmite un raspado rítmico y húmedo: el micrófono del casco está en contacto con lo que ocurre dentro de la costra. Se oye por la radio (+1 de Estrés la primera vez que alguien lo escucha con atención) hasta que lo encuentran o hasta que el agua lo cubre (Fuga H-4 en 4).

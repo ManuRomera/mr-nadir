@@ -6,7 +6,7 @@ Este documento se lee de arriba abajo mientras se juega. Cada momento trae qué 
 
 ### Qué es esta partida
 
-Nádir es una luna de hielo con setenta y siete habitantes permanentes repartidos en seis campamentos. La cuadrilla de los jugadores trabaja en el frente B-4. A las 09:36 una entrada de salmuera a presión revienta la junta J-17 del sector C-7, a cuarenta y tres kilómetros. Tres personas mueren en los primeros minutos; trece quedan atrapadas en la cámara refugio R-3; dos más siguen vivas en la estación de bombeo P-2. La partida arranca a las 09:48, doce minutos después del accidente, con las manos ocupadas y el turno a medias.
+Nádir es una luna de hielo con setenta y siete habitantes permanentes repartidos en seis campamentos. La cuadrilla de los jugadores trabaja en el frente B-4. A las 09:36 una entrada de salmuera a presión revienta la junta J-17 del sector C-7, a cuarenta y tres kilómetros. Tres personas mueren en los primeros minutos; trece quedan atrapadas en la cámara refugio R-3; dos más siguen vivas en la estación de bombeo P-2. La partida arranca unos minutos antes de las 09:36, con las manos ocupadas y el turno a medias. La llamada llega a las 09:48, doce minutos después del accidente.
 
 ### Preparación en diez minutos
 
@@ -57,7 +57,7 @@ Cada golpe de horror tiene una causa física que puedes explicar en voz alta: vi
 :::
 
 ::: caja Principios de dirección
-No fuerces el camino, ni motines, ni ataques en el vacío, ni caídas de presión sin causa. No hay una única ruta correcta. Mara e Ivo no tienen una muerte necesaria. Los PNJ actúan por horas, no esperan congelados. Una pista esencial no desaparece por fallar una tirada: cuesta tiempo o llega menos precisa. Si el plan de los jugadores tiene sentido, déjalo funcionar. Cambia cifras antes de jugar si quieres; durante la partida, no las cambies para forzar un resultado.
+Resuelve cada ruta según su presión, aire y coste. Actualiza los actos de los PNJ con la hora. Un fallo puede consumir tiempo o precisión; las pistas esenciales tienen otras vías. Acepta los planes razonables y conserva durante la partida las cifras con las que empezó el grupo.
 :::
 
 ---
@@ -137,7 +137,7 @@ Vidal no es un obstáculo de guion: es un funcionario seco que quiere trazabilid
 
 Qué pasa: el grupo carga el rover Lince-6 y sale. Pulsa {{escena:b4-garaje}}, {{escena:b4-soporte}} y, al final, {{escena:b4-esclusa}}. Suena {{sfx:compuerta}} al abrir y cerrar, {{sfx:rover-arranque}} al arrancar.
 
-> El rover espera en el garaje con la plataforma abierta. Seis umbilicales cuelgan de sus soportes como tripas grises. Alguien cuenta los cartuchos dos veces. Nadie dice en voz alta que trece personas respiran por dos de esas latas.
+> Seis umbilicales cuelgan sobre la plataforma abierta del rover. Los cartuchos de recambio caben debajo de un brazo. El resto del material ocupa más de lo que parecía en la lista.
 
 El Lince-6 tiene seis puestos con umbilical y una plataforma para unos **ocho bultos** sin que pese; cada bulto de más añade 1 UE por cada 10 km. Lo que hay a mano en B-4, un bulto por línea:
 
@@ -218,7 +218,7 @@ Nadie dice que sea Serrat hasta que encuentren su cuerpo en E-1. El micrófono d
 
 Qué pasa: un antiguo filtro de captación cuya tubería sigue conectada a una bolsa de salmuera templada. Pulsa {{escena:sup-filtro}} y {{sfx:goteo}}.
 
-> El filtro lleva años muerto. La junta rota está cubierta de cordones blanquecinos, pegados a la roca y al metal como venas secas; el vacío los ha dejado quebradizos. Por dentro de la tubería, donde todavía hay humedad, algo pálido asoma por la boca rota y se queda quieto. Cuando el rover deja de vibrar, se retira hacia dentro.
+> El filtro lleva años muerto. La junta rota está cubierta de cordones blanquecinos, pegados a la roca y al metal como venas secas; el vacío los ha dejado quebradizos. Por dentro de la tubería, donde todavía hay humedad, algo pálido asoma por la boca rota y se queda quieto. Al arrancar de nuevo el rover, se retira hacia dentro.
 
 Causa física: dentro de la tubería queda gas húmedo de la bolsa de abajo, y eso es hábitat. El costrero, {{actor:costrero}}, sellaba la junta desde el interior; lo de fuera es secreción liofilizada por el vacío. Ninguno sale.
 
@@ -280,7 +280,7 @@ Esclusa exterior a C-0: ciclo de 10 minutos, cuatro personas, con acumulador pro
 
 Pulsa {{escena:c7-1}}. Suenan {{sfx:hum}} y {{sfx:alarma-lenta}}.
 
-> Las luces de C-0 parpadean con un ritmo lento, como un párpado cansado. El aire está quieto y sabe a metal recalentado sobre papel viejo. En la pantalla de alarma, tres sectores siguen en rojo. Un protocolo de procedimientos cuelga atado con cinta y le falta una esquina. Los manómetros marcan presión firme: el alivio de estar, por fin, en un lugar que respira.
+> Tres sectores parpadean en rojo. Hay planos sujetos unos encima de otros y un protocolo pegado con cinta, al que le falta una esquina. Huele a aislamiento recalentado. El manómetro de esta sala mantiene la aguja firme.
 
 Presurizado y respirable. Banco de emergencia con **48 UE a las 09:36, que gasta 2 UE/h** fijos; vestuario con **6 trajes y 10 recambios de mochila**; radio local que alcanza R-3 y P-2. Aloja a ocho personas mientras dure el banco (catorce con el depurador portátil).
 
@@ -304,7 +304,7 @@ La consola no abre E-1 a la fuerza: el sensor ve presión y agua distintas a cad
 
 Pulsa {{escena:c7-2}} y {{musica:bomba}}. Suena {{sfx:raspado}} continuo.
 
-> Chapa combada y marcas de presión sobre las bisagras, como si alguien hubiera empujado la puerta desde dentro con todas sus fuerzas. La mirilla está opaca por los depósitos. Alrededor de la junta, una costra blanquecina y translúcida une el metal a la roca: no es hielo, no es sal. Cuando apoyas la palma para trabajar, la vibración aflora por el guante: un chirrido de dientes contra acero que no para.
+> La portilla está combada hacia vosotros. Una costra pálida une la junta a la roca y tapa la mirilla. Al apoyar la mano, un raspado fino atraviesa el guante. Llamáis. Desde dentro, alguien devuelve los golpes.
 
 Al comunicar, responde Quiroga, {{actor:quiroga}}, con Ivo al lado, {{actor:ivo}}. No pide que la saquen; pide energía:
 
@@ -329,7 +329,7 @@ La portilla no está trabada por un mecanismo: está cicatrizando. Dos o tres co
 
 Pulsa {{escena:c7-3}} y {{musica:control}}. Suenan {{sfx:goteo}} y {{sfx:alarma-lenta}}.
 
-> Una hoja ligeramente torcida, separada del marco por un dedo desigual. Por la zona inferior golpea agua con ritmo propio. Los sensores están en rojo. En el hueco, un casco girado hacia la pared, casi cubierto de una costra pálida. La radio del traje sigue transmitiendo: cada pocos segundos, entre dos chasquidos de estática, un raspado húmedo y paciente.
+> La puerta ha quedado torcida. Por debajo golpea agua. En el hueco hay un casco vuelto hacia la pared, casi enterrado en una costra blanca. Su radio transmite el raspado que lleváis oyendo desde el viaje.
 
 El cuerpo es Elmo Serrat, fallecido a las 09:39 con el traje ACE-04. Aquí el raspado por fin tiene dueño: +1 Estrés al entenderlo. Dispara {{sfx:radio-serrat}}. Al otro lado, la ruta baja: 120 metros hasta la esclusa de R-3, con agua según H-4.
 
@@ -351,7 +351,7 @@ El cuerpo desprende gases y humedad; para los costreros es una fuga más, y la s
 
 Pulsa {{escena:c7-4}} y {{musica:galerias}}. Suenan {{sfx:goteo}} y {{sfx:raspado}}.
 
-> El túnel se cierra hasta dejar pasar a una persona agachada. El hielo no es brillante: es negro, con vetas de sal. Una tubería atraviesa la pared sin humear porque hace tiempo que no lleva nada. Cada paso se oye dos veces: una en el traje, otra en la roca.
+> Hay que agacharse para pasar. El hielo negro roza los hombros del traje. Una tubería fuera de servicio se pierde dentro de la pared. A la luz del casco brillan abrazaderas recientes entre las viejas.
 
 Gas de cavidad: trajes cerrados, y los tramos agachados gastan mochila como esfuerzo. A 10 minutos de la compuerta de C-0 está la **caja de derivación EL-4**, por donde pasa la línea del actuador de V-12. Pistas del bypass: abrazaderas nuevas, huellas de hace meses, una conexión de drenaje disimulada, un cable que alimentaba un ventilador y, en un nicho, el plano de papel {{doc:D08}}. Estas pruebas no señalan por sí solas a Ivo; con el testimonio de Isa, el recuerdo de Darío o la soldadura de H-4, sí.
 
@@ -369,7 +369,7 @@ La Atención de L-4 sube 1 cada dos ciclos de la compuerta de C-0: una evacuaci�
 
 Pulsa {{escena:c7-5}} y {{musica:cria}}. Suenan {{sfx:goteo}} y {{sfx:cria-latido}}.
 
-> La cúpula respira. Las paredes vibran cuando arranca una bomba lejana y se quedan quietas cuando para. En la pared, veinticuatro formas ovaladas del mismo material que la costra de las juntas. Al fondo, sobre una repisa, hay un bulto con forma de persona cubierto de mineral, y una placa de pecho asoma entre la costra.
+> Veinticuatro óvalos pálidos se adhieren a la pared húmeda. Al arrancar una bomba lejana, algo se contrae entre ellos. Sobre una repisa hay un traje unido a la roca. Asoma una placa de identificación.
 
 Seis a diez costreros dispersos y tres defensores, {{actor:defensor}}, en una franja de unos veinte metros alrededor de la puesta. Atención inicial: 1. Una fuga de aire humano entra por una válvula auxiliar de ventilación vieja.
 
@@ -394,7 +394,7 @@ ACE dice que Lisán se evadió hace tres años y «se presume muerto en superfic
 
 Pulsa {{escena:c7-6}} y {{musica:galerias}}.
 
-> La repisa es ancha para un pie y no para dos. El pasamanos cuelga hacia dentro, torcido por algo que pasó hace tiempo. Abajo no se ve el fondo. Al otro lado, la silueta del refugio asoma entre la roca, a treinta metros y a un mal paso de la caída.
+> La repisa admite un pie delante del otro. El pasamanos está doblado hacia el hueco. Treinta metros más allá se ve la parte alta del refugio. Vuestra linterna no alcanza el fondo.
 
 | Acción | Tiempo | Resultado |
 |---|---|---|
@@ -413,7 +413,7 @@ El peligro es el sitio, no una criatura que empuja. Si diseñan una solución vi
 
 Pulsa {{escena:c7-7}} y {{musica:refugio}}. Suenan {{sfx:ventilador}} y {{sfx:respiraciones}}.
 
-> El ventilador sube y baja como si le costara. Trece respiraciones llenan la sala de un calor quieto. Sobre la compuerta pequeña, un cartel que alguien pegó hace años: aforo de emergencia, diez. Hay trece. Nadie lo comenta en voz alta. Todos lo han leído.
+> El ventilador cambia de tono sin parar. Hay gente sentada contra las paredes y una pierna inmovilizada en mitad del paso. Sobre la compuerta pequeña, el cartel de aforo dice diez. Contáis trece personas.
 
 Seis kilos de absorción a las 09:36, treinta de oxígeno, ventilación con batería propia, dos trajes de escape (30 minutos, sin umbilical) y un sumidero conectado al drenaje inferior. Dos salidas: la **esclusa principal** hacia la ruta baja (ciclo de 10 min, cuatro personas) y la **compuerta pequeña** hacia la cámara de servicio y el portillo (ciclo de 10 min, dos personas). Lee a Mara:
 
@@ -439,11 +439,11 @@ Inyectar oxígeno no sirve: el CO₂ no baja por añadir O₂. Sin ayuda, R-3 en
 
 Pulsa {{escena:c7-8}} y {{musica:bomba}}. Suenan {{sfx:bomba-p2}} y {{sfx:raspado}}.
 
-> Un motor eléctrico golpea a ritmo irregular, como un corazón que se salta latidos. El depósito de decantación ha subido dos dedos y no baja. Sobre el panel abierto, una gota cae una vez por segundo y nadie la limpia. Dos figuras con ropa de emergencia trabajan alrededor de las válvulas, con las manos manchadas de salmuera y grasa.
+> Ivo trabaja en el panel. Quiroga protege el hombro lesionado y os señala la batería. El motor pierde el ritmo. Ivo vuelve a cebarlo y el golpeteo se estabiliza.
 
 Quiroga, con el hombro derecho lesionado ([−] en tareas físicas exigentes), e Ivo, agotado, sostienen el tramo de R-3 a base de cebar la bomba. Lee a Quiroga:
 
-> «Yo también quiero salir. Llevo aquí desde el accidente. Pero si me lleváis ahora y no dejáis una máquina o una válvula haciendo nuestro trabajo, toda esa salmuera irá contra el sector donde está Mara. No es una orden; es el caudal que tenéis delante.»
+> «Mirad la entrada. Ahora la salida. Si paramos esta bomba, la diferencia va hacia Mara. Traed corriente, automatizadla o cerrad V-12. Después nos vamos.»
 
 **Dos cuentas separadas.** El aire (filtro agotado a las 14:36) y la batería de la bomba (agotada a las 15:36). Dar energía no da aire, y viceversa. Y una tercera condición: **sin automatismo, si la bomba pasa 45 minutos sin nadie consciente dentro, se desceba y se para.**
 
@@ -465,7 +465,7 @@ Si la bomba sigue en marcha con V-12 abierta, el depósito de decantación se ll
 
 Pulsa {{escena:c7-9}} y {{musica:galerias}}. Suenan {{sfx:goteo}} y {{sfx:hum}}.
 
-> Tubería abierta por un tramo de inspección. El agua sube y baja con un ruido de garganta. Un depósito de alivio, a medio llenar, se queja por las juntas. La salmuera tiene un olor mineral que se pega al filtro.
+> La salmuera golpea dentro del registro abierto. Junto a la conducción industrial hay una pieza soldada a mano. La unión es irregular y está envejecida. El depósito de alivio sigue a medio llenar.
 
 Un registro de la conducción junto a la galería de servicio, a 10 minutos de V-12; la tubería no se recorre caminando. El bypass se instaló a mano, hace meses; limitó la derivación B, de modo que **agravó** la rotura pero **no la originó**. Una cámara de servicio conserva fecha y curva de caudal, cruzables con C-0. Entrega {{doc:D11}} si Ivo colabora o si se reconstruye la modificación.
 
@@ -482,7 +482,7 @@ Quitar el bypass destruye la mejor prueba física contra Ivo si nadie la documen
 
 Pulsa {{escena:c7-10}} y {{musica:galerias}}. Suena {{sfx:hum}}.
 
-> Una válvula de aislamiento de alto caudal, del tamaño de una persona sentada. El volante de emergencia tiene una marca de pintura vieja. El actuador está muerto. La galería está seca, y eso la hace más segura para los humanos.
+> El actuador no responde. Debajo queda el volante manual, señalado con pintura vieja. La válvula ocupa media galería; al tocarla sentís pasar el caudal. Aquí el suelo está seco.
 
 V-12 **reduce el caudal entrante** desde la bolsa de salmuera; no vacía el agua que ya está ni repara J-17. Con V-12 cerrada, la bomba de P-2 deja de importar: pararla ya no sube H-4. Se llega a mano por L-4, la cría y el paso alto (1 h 30 min–2 h 30 min desde C-0), o se cierra a distancia desde C-0 tras reparar la línea en EL-4.
 
@@ -500,7 +500,7 @@ Anuncia el golpe de ariete antes de la tirada, nunca después. En 30–90 minuto
 
 Pulsa {{escena:c7-11}} y {{musica:refugio}}.
 
-> Un acceso técnico de diámetro humano por encima de la línea de inundación, sellado con pernos. Rodeado de tuberías y de un pasillo de servicio seco y estrecho. Al lado, un armario de mantenimiento con la puerta entreabierta.
+> Una hilera de pernos cierra el portillo. La junta pierde un hilo de aire y empieza a cubrirse de blanco. Al lado, un armario ha quedado entreabierto. Dentro hay dos cartuchos de filtro.
 
 En el armario de servicio hay **dos cartuchos C-12**, herramientas, cuerda y un arnés de izado. Detrás del portillo, la cámara de servicio (despresurizada) y la compuerta pequeña de R-3.
 
@@ -518,11 +518,11 @@ No caben camillas rígidas: los heridos salen con camilla flexible, férulas y a
 
 Pulsa {{escena:c7-12}} y {{musica:cria}}. Suenan {{sfx:goteo}} y {{sfx:raspado}}.
 
-> Una fractura sobre una línea de producción, con placas minerales adheridas a los bordes como labios abiertos. Marcas de limpieza térmica. Una herramienta partida en dos. Salmuera residual por las paredes. Era un lugar de trabajo.
+> El limpiador térmico está junto a la línea de producción. Una herramienta se ha partido. En la fractura quedan marcas de calor y bordes de mineral arrancado. Tres animales pálidos trabajan donde se retiró el depósito.
 
 Se llega desde la ruta baja por el corredor dañado; con H-4 en 2 o más, solo con V-12 cerrada. Tres costreros resellan la fractura. El depósito se retiró con el limpiador térmico normal; la salmuera vino del macizo; la orden 517-J describía los depósitos como incrustación mineral.
 
-> Contra la pared, medio hundido en la roca, hay un hombre con el mono de preso. La costra le cubre el pecho y lo une a la piedra como una escultura a medio hacer. Cada pocos segundos, el bulto del torso se mueve un poco, hacia dentro, como si algo lo estuviera recogiendo desde el otro lado.
+> Reconocéis el mono de trabajo de Teo bajo la costra translúcida. El depósito le sujeta el pecho a la pared. Algo contrae el torso desde dentro. Al acercar la luz distinguís los anillos y los dientes trabajando debajo.
 
 Ver moverse a Teo Mahr: **salvación de Miedo [−] o 1d5 de Estrés.** En el corredor, Milena Tey está sellada con la cara visible tras la costra, como tras un cristal empañado: +1 Estrés al reconocerla.
 
@@ -608,7 +608,7 @@ Ambos ceden ante datos creíbles; ninguno regala nada si el grupo no sabe pedirl
 
 Solo si H-4 llega a 4 con alguien sangrando dentro (Osian, si nadie lo ha sacado). La salmuera ha llenado la línea bajo el suelo hasta la rejilla y un costrero sube siguiendo la sangre.
 
-> El agua sube hasta el borde de la reja. Huele a hierro y a sal. Alguien dice que es la sangre de Brev y nadie lo contradice. Entonces la reja se levanta un dedo, sola, y vuelve a caer con un golpe sordo. Gaspar Kroll se sienta encima.
+> El agua llega al borde de la rejilla, teñida por la sangre de Brev. La chapa se levanta un dedo y cae con un golpe. Debajo vuelve a empezar el raspado.
 
 Quien sujeta la rejilla hace una salvación de Cuerpo cada cinco minutos; si falla, la rejilla se levanta y el animal muerde a quien esté más cerca (1d10). El costrero tolera 10–20 minutos fuera del agua antes de replegarse. Se acaba antes matándolo (un disparo con dos purgas hechas es riesgo de fuego), echándole sal seca (se repliega en 5 minutos) o sacando a Osian de R-3.
 
@@ -657,27 +657,27 @@ No hay puntos de victoria. Evalúa hechos: quién vive, qué se ha aprendido, qu
 
 ### Final A · Los sacan a todos
 
-> A bordo del rover, una docena de voces se cruzan por canales distintos. Algunos discuten, otros lloran, otros duermen por agotamiento. Mara aprieta dos veces el antebrazo de su compañero. Alguien recuerda el traje viejo soldado a la pared de la cavidad y la placa que decía H. LISÁN, y nadie sabe qué responder. Bajo las orugas, muy lejos, los animales vuelven a cerrar una grieta que nadie debería haber abierto.
+> La radio se llena de conversaciones que nadie intenta ordenar. Alguien duerme conectado al umbilical. Mara aprieta dos veces el antebrazo de su compañero. En Bastión tendrán que contar lo sucedido; durante unos minutos basta con escuchar a los demás.
 
 ### Final B · Salvación parcial
 
-> En Bastión, dos literas quedan sin ocupar y nadie las desmonta todavía. En P-2, el motor sigue golpeando a solas porque alguien se acordó de dejar la batería conectada. La radio devuelve el parte con voz neutra: «capacidad estabilizada, bajas confirmadas». Un filtro usado rueda por el suelo del rover hasta que alguien lo pisa.
+> El parte de bajas llega cuando están descargando el rover. Se detiene una camilla. Alguien pide repetir un nombre. Un cartucho usado rueda por la plataforma hasta que una bota lo sujeta.
 
 ### Final C · El acuerdo amargo
 
-> Se cierra la sesión con la operación a medias y a propósito. Alguien marca en la pizarra de C-0 cuántas horas de filtro quedan y las tacha una a una. Los que se quedan no son los que se rinden: son los que sostienen la puerta. Fuera, las balizas del atracadero parpadean sobre el hielo negro, esperando unas luces que aún tienen que volver.
+> En la pizarra de C-0 quedan los nombres del siguiente viaje y las horas de filtro disponibles. Una persona se tumba; otra toma la radio. Fuera, las balizas siguen marcando el atracadero para el rover que debe volver.
 
 ### Final D · La fuga
 
-> Un traje de faena desaparece del vestuario de C-0 y nadie da la alarma hasta que el rover ya está en marcha. Por la radio, una respiración jadea en un canal que no pertenece a ninguna cuadrilla y se pierde hacia el sur. Vidal pide calma y nombres. Bajo el hielo, alguien que podría haber vivido en Nádir cruza una línea que nadie había marcado.
+> En el recuento falta un nombre. Revisan los trajes, las mochilas y los accesos. Vidal pregunta quién lo vio por última vez. La ruta hacia el sur sigue en el plano que alguien dejó de vigilar.
 
 ### Final E · Nueva crisis industrial
 
-> El agua encuentra su camino más allá de la esclusa y no vuelve. C-7 se apaga por secciones, como una casa que se queda sin luz habitación a habitación. En el almacén de Bastión alguien archiva un plano que ya no sirve. Los animales, muy abajo, empiezan a sellar lo que los humanos han dejado abierto.
+> En el panel de Bastión se apagan las secciones de C-7. Cada nueva alarma queda fija en la pantalla. Alguien retira del tablón el siguiente turno de extracción. Bajo el hielo, la colonia trabaja las aberturas que aún pierden gas.
 
 ### Final F · La retirada
 
-> El rover vuelve cargado de gente y de silencio. Nadie pregunta cuántos se han quedado porque todos lo saben. En el vestíbulo de Bastión hay una lista de nombres sin marcar y un reloj que sigue contando horas de filtro que nadie puede aportar ya. Detrás del hielo, trece respiraciones aguantan lo que aguanten.
+> Bastión pide un recuento antes de abrir la esclusa. El alguacil enumera a quienes trae y se detiene. Desde Control preguntan por los demás. La radio permanece abierta mientras alguien calcula cuándo podría salir otro vehículo.
 
 ### Lo que queda sobre la mesa
 

@@ -1,7 +1,7 @@
 # Nádir: Sangre bajo el hielo
 
 ::: resumen
-Expediente del suceso de ND-17, llamado Nádir: una luna de hielo sucio con setenta y siete habitantes habituales, seis instalaciones y una concesión industrial que explota agua y salmueras. A las 09:36 se registra una rotura a presión en el sector C-7. De los dieciocho destinados allí, tres mueren en los primeros minutos, trece resisten en la cámara refugio R-3 y dos mantienen en marcha una bomba en la estación auxiliar P-2. La investigación formal de los costreros, animales vermiformes que sellan fugas con depósitos minerales, comienza con este suceso.
+Trece personas encerradas en un refugio para diez. Dos más sostienen la bomba que impide que se inunde. Entre ambos grupos hay puertas deformadas, aire que se acaba y animales ciegos que están sellando el complejo. La cuadrilla M-4 recibe la llamada de auxilio mientras repara un filtro a cuarenta y tres kilómetros.
 Palabras clave: Nádir, ND-17, costreros, salmuera, presión, refugio, bomba, hipercapnia, Crustivermis nadirensis.
 :::
 
@@ -11,32 +11,32 @@ Palabras clave: Nádir, ND-17, costreros, salmuera, presión, refugio, bomba, hi
 
 ### La situación en tres párrafos
 
-Nádir es una luna pequeña y helada que explota agua y salmueras minerales para suministrar oxígeno, hidrógeno y productos industriales a instalaciones espaciales. Sus setenta y siete residentes habituales están repartidos en seis instalaciones, algunas a cientos de kilómetros. Los trabajos generales los hacen presos; los especialistas condenados con buen historial pueden integrarse en cuadrillas mixtas con personal civil y un alguacil de referencia. Los protagonistas son una de esas cuadrillas, la M-4, y la partida arranca mientras trabajan en el frente B-4.
+Mara alcanza a decir tu nombre antes de que se corte la radio. Hay heridos en C-7. Se están cerrando las compuertas. Su última instrucción es comprobar la presión antes de abrir. Tú conoces esa voz; llevas todo el turno esperando hablar con ella de otra cosa.
 
-En el sector C-7, a cuarenta y tres kilómetros por ruta, una entrada de salmuera a presión rompe las conducciones de drenaje y obliga a aislar varias galerías. De las dieciocho personas destinadas allí, tres han muerto, trece se refugian en una cámara presurizada y dos siguen vivas en una estación auxiliar de bombeo. Mara Venn, alguacil militar y pareja (o vínculo cercano) del alguacil jugador, transmite una petición de ayuda antes de perder la comunicación. La cuadrilla puede salir hacia allí porque es de las primeras que se entera, está relativamente cerca y cada uno de sus miembros tiene una razón propia para intervenir.
+La cuadrilla M-4 trabaja en B-4, en una luna minera penitenciaria de setenta y siete habitantes repartidos entre seis instalaciones. C-7 queda a cuarenta y tres kilómetros por ruta. Allí han muerto tres de sus dieciocho trabajadores. Trece sobreviven en R-3, una cámara refugio cuyo filtro se satura. Otros dos, Quiroga e Ivo, mantienen una bomba en P-2: sacarlos sin sustituirla deja que la salmuera alcance el refugio.
 
-La causa del desastre es una concatenación. La minería presurizada abrió microfugas hacia cavidades naturales; unos animales autóctonos las sellaron con depósitos minerales; el mantenimiento retiró un sello sin comprenderlo; un desvío clandestino del drenaje había restado redundancia al sistema; la salmuera rompió una junta. Ahora dos supervivientes, uno de ellos un preso condenado por homicidio, mantienen una bomba que protege a los otros trece. Sacarlos sin sustituir ese trabajo puede condenar a sus compañeros. La verdad se investiga mientras la emergencia sigue en marcha, y cada descubrimiento cambia lo que conviene hacer a continuación.
+La limpieza de una junta retiró un tapón que había construido una colonia animal. Un informe olvidado y un desvío clandestino del drenaje hicieron el resto. Ivo instaló ese desvío para preparar una fuga; ahora sostiene la bomba que protege a los demás. Mientras el grupo busca una salida, los costreros siguen trabajando: cierran las fugas de sus cavidades, incluidas las de los cuerpos humanos.
 
-> **«Nadie puede abandonar Nádir sin autorización. El problema es que Nádir tampoco deja marchar a todo el mundo».**
->
-> Un temblor recorre la plancha bajo tus botas. En la radio, una voz conocida cuenta heridos y compuertas que se cierran. Después, solo estática.
+> Una vibración sube por la plancha hasta tus botas. Por la radio, Mara cuenta heridos. Una compuerta golpea al fondo. Estática.
 
 ### Qué es esta aventura
 
-Una emergencia dinámica de seis a nueve horas de mesa, idealmente en dos sesiones, para **Mothership 1e** y de tres a cinco jugadores. Presos realmente culpables junto a otros que no lo son tanto; alguaciles con responsabilidades comprensibles; fauna territorial que responde a lo físico; ciencia ficción con límites; vínculos personales fuertes; varias estrategias de rescate igual de válidas. El tema late en tres frases: rescatar a alguien no equivale a absolverlo; obedecer una orden no garantiza haber hecho lo correcto; explotar un lugar no lo vuelve inerte.
+Una operación de rescate para **Mothership 1e**, **tres a cinco jugadores** y **seis a nueve horas de mesa**, idealmente en dos sesiones. Se empieza con las manos dentro de una bomba y se termina decidiendo quién espera el siguiente viaje a Bastión.
 
-Lo que esta aventura no contiene: una conspiración corporativa que lo explique todo, un asesino oculto que se revela al final, alienígenas malignos o telepáticos, puertas que se bloquean porque lo exige el guion, ni un desenlace en el que el Guardián decida de antemano cuántos mueren.
+El grupo puede abrir la ruta baja, evacuar por arriba o estabilizar los refugios y esperar ayuda. Cada camino exige tiempo, aire y personas capaces de sostenerlo. Durante el rescate habrá que trabajar con culpables, discutir órdenes sensatas y confiar en alguien a quien se vigila.
+
+**La amenaza:** presión, asfixia, frío y fauna territorial. Los costreros responden a vibraciones y fugas; la emergencia surge de una cadena de fallos verificables. El Guardián dispone de sus causas desde el comienzo y deja que las decisiones del grupo determinen el desenlace.
 
 ### Las cuatro verdades que nunca cambian
 
-1. **Mara no provocó el accidente.** Ordenó el aislamiento manual cuatro minutos después de la entrada de salmuera para evitar una pérdida mayor de presión, y quedó atrapada junto a los demás.
-2. **Los costreros son animales.** Detectan vibraciones y gradientes químicos; sellan fugas hacia su hábitat, defienden sus zonas de cría y se alimentan de tejido animal cuando lo encuentran. No planean, no persiguen y no castigan.
-3. **Ivo Sen modificó el drenaje** meses antes, para mantener abierta una vía de evasión. Su modificación agravó el accidente; no lo originó. Ahora mantiene con vida a otros sabiendo que puede ser condenado por lo que hizo.
-4. **Se puede salvar a las quince personas vivas en T0** sin exterminar a los animales ni sacrificar a nadie. Es difícil, consume recursos y obliga a renunciar a otras ventajas. El capítulo «Relojes, recursos y cronología» contiene una secuencia de referencia comprobada minuto a minuto, y las soluciones inventadas por los jugadores también sirven.
+1. **Mara aisló el sector después del accidente.** La orden de las 09:40 llega cuatro minutos después de la entrada de salmuera. Evitó una pérdida mayor y quedó atrapada con los demás.
+2. **Los costreros sellan fugas.** Perciben vibraciones y gradientes químicos, defienden la puesta y aprovechan tejido animal como alimento. Su conducta permite anticipar sus movimientos.
+3. **El bypass es de Ivo.** Lo instaló meses atrás para mantener seca su ruta de fuga. Restó capacidad al drenaje y agravó la rotura. Ahora su trabajo en P-2 mantiene vivos a otros.
+4. **Las quince personas pueden sobrevivir.** Hace falta tiempo, recursos y renunciar a otras ventajas. «Relojes, recursos y cronología» contiene una operación comprobada minuto a minuto. Los planes razonables de la mesa también funcionan.
 
 ## Principios del Guardián
 
-Estos principios se exponen aquí una vez y se aplican en todo el libro. El resto de capítulos no los repite; cuando una escena necesita una advertencia concreta, la da en una línea.
+Usa estas seis reglas para resolver lo que el libro no haya previsto. Las fichas de lugar aportan los riesgos concretos.
 
 ::: caja Los seis principios
 **1. Toda consecuencia tiene una causa física que puedes nombrar.** Presión, agua, vibración, CO₂, frío, dientes, cansancio. Si no puedes explicar en voz alta por qué ocurre algo, no ocurre. Esto vale para el horror, para los relojes y para la fauna.
@@ -68,7 +68,7 @@ Actas del expediente que condujo al descubrimiento formal de *Crustivermis nadir
 
 ## Meter el horror en mesa
 
-Nádir es horror industrial y corporal: frío, físico y material. El miedo nace de la presión, la oscuridad, los dientes, la asfixia y los cuerpos. La amenaza es indiferente, y eso pesa más que la maldad: los costreros sellan fugas, y un cadáver que se descompone también es una fuga.
+Empieza por algo que funciona mal: un filtro blando, una junta que vuelve a cerrarse, una radio sin voz. Deja que el grupo lo toque, lo mida o intente repararlo. Más tarde encontrará el mismo material cubriendo un cuerpo. El descubrimiento conecta ambas escenas.
 
 > Cuando la linterna barre el tramo bajo, algo blanco cubre la roca como cal apagada. Bajo esa piel translúcida hay una forma que fue un hombre. La costra se hunde y se recupera muy despacio, con un ritmo que no es el de una respiración. Algo trabaja dentro.
 
@@ -90,7 +90,7 @@ El horror de Nádir sube por peldaños. Cada uno enseña algo nuevo sobre la fau
 
 ### Lo que nunca se hace
 
-Ni telepatía, ni plan, ni inteligencia colectiva. Ni muertes de PNJ sin causa física. Ni costreros patrullando la superficie al vacío. Ni monstruo gigante. Cuando dudes, describe la causa física antes que el efecto.
+Ante un suceso extraño, identifica qué vibra, qué pierde presión o qué desprende humedad. Esa causa determina qué ocurre si los personajes intervienen. La fauna permanece en su hábitat húmedo; sus límites y respuestas están en el artículo del costrero.
 
 ## Seguridad en la mesa
 
@@ -110,7 +110,7 @@ Anuncia la imagen del relicario de Teo Mahr antes de describirla si alguien lo n
 | **Elia Noé — operadora civil** | — | ✓ | ✓ | Tripulación | Se queda en B-4 como PNJ de radio y logística |
 | **LIMEN-6 — alguacil sintético** | — | — | ✓ | Androide | Se queda en B-4 custodiando al resto del frente |
 
-Así no hay versiones contradictorias: los nueve de B-4 son siempre los mismos (la cuadrilla M-4 y cuatro personas más del frente); cambia quién sale en el rover. Ninguna escena fundamental depende de un perfil concreto: cada capítulo indica qué hace la mesa si falta.
+Los nueve de B-4 permanecen en el reparto: la M-4 y las otras cuatro personas del frente. La tabla determina quién sale en el rover y quién ayuda desde B-4. Las pistas y reparaciones siguen disponibles con cualquier reparto.
 
 ## Estructura por actos
 

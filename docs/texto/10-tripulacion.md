@@ -1,15 +1,15 @@
 # La cuadrilla M-4
 
 ::: resumen
-Expediente de sujetos de la unidad técnica M-4: dos agentes de custodia, dos internos en régimen de confianza y una técnica civil, reunidos por un mismo turno y separados por deudas distintas. Cada perfil incluye su ficha para Mothership 1e, su motivo para ir a C-7, un vínculo, un conflicto personal, información que solo esa persona tiene y una decisión que solo esa persona puede tomar.
+Trabajáis juntos desde antes de la avería. Uno firma permisos; otra firma informes que nadie revisa. Darío reconoce la letra del preso encerrado con Quiroga. Elia tiene dos filtros y el repuesto de una radio. Limen registra lo que los demás tendrán que explicar. Elegid a quién conocéis en C-7.
 Palabras clave: cuadrilla M-4, custodia mixta, perfiles, vínculos, decisiones
 :::
 
-A Nádir no se la elige. Se la cumple. La **unidad técnica M-4** es una cuadrilla mixta: gente condenada y gente que la vigila, atada durante un turno de doce horas en el mismo módulo, respirando el mismo aire reciclado. Son los primeros que se enteran y los que están más cerca.
+La **unidad técnica M-4** comparte turnos de doce horas: presos de confianza, una operadora civil y quienes custodian a los presos. Os habéis visto dormir, equivocaros y arreglar lo que otro dejó a medias. Cuando llama Mara, reconocéis a varias de las personas atrapadas.
 
 Estos perfiles son **bases interpretativas**. Pueden entregarse tal cual o sustituirse por personajes creados con el *Player's Survival Guide*; si una hoja generada choca con estas cifras, manda la hoja. Las cifras se han ajustado a los rangos de creación de 1e (características 2d10+25, salvaciones 2d10+10, modificadores de clase, Salud 1d10+10).
 
-**Ninguna escena depende de un perfil concreto.** Lo que cada PJ aporta es una ventaja (una bonificación de habilidad, un dato, una relación), no la única llave: cualquier personaje con herramientas y tiempo puede reparar, medir o negociar. Cada perfil indica qué ocurre si no se juega.
+Cada perfil aporta una habilidad, información y una relación. Con herramientas y tiempo, otros personajes pueden cubrir la misma tarea. Las entradas «Si no se juega» sitúan sus recursos y contactos en la partida.
 
 **Nadie está obligado** a interpretar un romance, un delito concreto o una relación de dependencia que le incomode. Cada vínculo se puede reformular conservando su peso.
 
@@ -19,7 +19,7 @@ Estos perfiles son **bases interpretativas**. Pueden entregarse tal cual o susti
 
 ### Quién eres
 
-Funcionario de la **Autoridad de Custodia Extraplanetaria**, treinta y ocho años, alguacil de referencia de la M-4. Te sabes de memoria las voces de tu cuadrilla y distingues cuándo alguien se calla por miedo y cuándo porque está calculando. Llevas años firmando partes, contando cabezas y aprendiendo que la disciplina sin mantenimiento no protege a nadie.
+Tienes treinta y ocho años y firmas los permisos de la M-4 por la **Autoridad de Custodia Extraplanetaria**. Reconoces la voz de cada integrante incluso con la radio llena de ruido. Darío ya te sacó una vez de un accidente. Hoy, la persona que pide ayuda es Mara.
 
 ### Ficha
 
@@ -51,11 +51,11 @@ Mara pidió el traslado al siguiente turno de Bastión para hablar contigo de al
 
 ### Tu decisión
 
-Eres la autoridad penitenciaria en C-7. Tú decides si invocas la excepción de seguridad para salir sin esperar, si quitas las esposas a Kroll, si acatas la orden de Vidal de detener a Ivo mientras sostiene la bomba, si das un traje a un preso violento antes que a otro y en qué orden sale R-3. Lo que firmes te seguirá después.
+Tu firma permite salir sin esperar autorización. También puede quitar unas esposas, mantener a Ivo trabajando pese a Vidal o cambiar el orden de evacuación. Decide qué necesita el rescate y a quién confías una vida. En Bastión te pedirán justificarlo.
 
 ### Cómo interpretarte
 
-Órdenes cortas que también cumples tú. Cuando algo te preocupa, lo conviertes en una pregunta de procedimiento: qué presión, qué ruta, cuántos trajes. No grites tu angustia: que se note en lo que compruebas una y otra vez.
+Da órdenes cortas y cumple la primera. Cuando te preocupes, vuelve a comprobar presión, ruta o número de trajes. Puedes pedir esos datos a alguien para no preguntar todavía por Mara.
 
 > «Comprueba antes de abrir. No te pido que me creas; mira el manómetro.»
 
@@ -69,7 +69,7 @@ La diferencia de presión que no se ve. Saber, con la física en la mano, que el
 
 ### Quién eres
 
-Presa de confianza, condenada por **falsificar certificaciones de laboratorio** para una red criminal; hubo víctimas indirectas y no puedes presentarte como inocente. Tu especialidad son las salmueras, la biocorrosión y el análisis mineral. Trabajas con las manos limpias y la conciencia sucia.
+Tus certificaciones falsas ayudaron a una red criminal y hubo víctimas. Cumples condena trabajando en salmueras, biocorrosión y análisis mineral. Hace doce días encontraste materia orgánica en una muestra de costra. Tu informe sigue esperando revisión. Nora, que te enviaba muestras y cartas, está en C-7.
 
 ### Ficha
 
@@ -101,11 +101,11 @@ Hace doce días analizaste la muestra 117-C (D02): estructura orgánica ordenada
 
 ### Tu decisión
 
-Tú decides qué se hace con el conocimiento sobre la especie. Puedes firmar el hallazgo con tu nombre (con tus antecedentes, HRF puede descartarlo) o dejar que Oria lo presente como suyo para que se aplique antes. Y en la cría, si hay que pasar deprisa, tú sabes mejor que nadie lo que cuesta destruir una puesta.
+Puedes firmar el descubrimiento y arriesgarte a que HRF lo descarte por tus antecedentes. O puedes ofrecer a Oria el crédito para que cambie antes los protocolos. En la cría reconocerás qué destruye quien abre un paso deprisa.
 
 ### Cómo interpretarte
 
-Mides antes de hablar. Cuando algo te inquieta, lo anotas. Con Nora eres otra persona: más suave, casi familiar.
+Mide antes de opinar. Anota lo que te inquieta. Cuando responda Nora, deja el lector un momento y escucha.
 
 > «Esto no es una incrustación. Es una estructura. Y no lo entiendes hasta que lo miras de cerca.»
 
@@ -123,7 +123,7 @@ El informe 117-C sigue en el terminal de B-4 y cualquiera puede leerlo. Nora, en
 
 ### Quién eres
 
-Técnico de confianza con manos de soldador y uñas negras. Cumples pena por **muerte por imprudencia grave** durante un sabotaje laboral. Aceptas tu responsabilidad, aunque discutes la pena. Dominas válvulas, bombas, soldadura y vehículos, y conoces trucos que los manuales prohíben.
+Válvulas, bombas, soldadura, vehículos: sabes dónde meter la mano. También sabes qué precauciones te saltas cuando tienes prisa. Durante un sabotaje laboral murió alguien por tu imprudencia grave; aceptas esa responsabilidad y discutes la pena. Ivo trabajaba contigo. Hace días te pidió un plano de drenajes.
 
 ### Ficha
 
@@ -155,11 +155,11 @@ Ivo te preguntó hace días por un **plano antiguo de drenajes**. No sabes para 
 
 ### Tu decisión
 
-Tú decides si cubres a Ivo. Puedes reconocer su letra y callártelo, decir que el bypass «es una modificación antigua», o contarlo. Y cuando la única forma rápida de automatizar la bomba sea un apaño que el manual prohíbe, tú decides si lo firmas.
+Reconoces la letra de Ivo. Decide si lo dices, lo ocultas o llamas al bypass «una modificación antigua». Si necesitas un apaño prohibido para automatizar la bomba a tiempo, podrás hacerlo. Esta vez te pedirán que lo firmes.
 
 ### Cómo interpretarte
 
-Trabajas mientras hablas, o callas y trabajas. Tartamudeas cuando alguien te da las gracias. Humor seco en el peor momento.
+Sigue trabajando mientras hablas. Contesta con humor seco cuando todo va mal. Si te dan las gracias, se te atascan las palabras.
 
 > «Eso no se hace. Lo sé. Pero ahora mismo no hay tiempo para hacerlo bien. Dadme veinte minutos y una junta.»
 
@@ -177,7 +177,7 @@ Ivo y Quiroga son los técnicos de la operación en cuanto quedan libres; Bruna 
 
 ### Quién eres
 
-Civil con contrato de **Helix Recursos de Frontera** en telecomunicaciones y soporte vital: radios, baterías, reservas de aire y sensores. En Nádir eso significa que no llevas cadena, pero tampoco autoridad.
+HRF te paga por mantener radios, baterías, aire y sensores. Conoces las averías que se reparan y las que se aplazan. La batería de R-12 pertenece al segundo grupo. Llevas el repuesto del panel y dos filtros portátiles. Milena estaba de turno en C-7; no responde.
 
 ### Ficha
 
@@ -209,11 +209,11 @@ Sabes que la batería de respaldo de R-12 estaba degradada y cómo repararlo. Ti
 
 ### Tu decisión
 
-Tú controlas las comunicaciones. Decides qué oye Bastión y cuándo: si informas del bypass ya, si esperas a que la bomba deje de ser necesaria, si le pasas a Vidal el registro de vehículos de la búsqueda de Lisán o te lo guardas. Y a quién das tus dos filtros.
+El canal con Bastión pasa por tus manos. Puedes comunicar el bypass mientras Ivo aún trabaja, esperar a sustituirlo o guardar ese dato. El registro de vehículos también puede viajar por ese canal. Tus dos filtros, en cambio, solo pueden estar donde los lleves.
 
 ### Cómo interpretarte
 
-Piensas en sistemas, no en máquinas sueltas. Hablas rápido cuando te emocionas y te frenas cuando recuerdas que estás rodeada de presos y alguaciles. Bromeas para llenar el silencio de la radio.
+Explica a qué está conectado lo que acaba de fallar. Acelera al encontrar una solución y frénate antes de decir algo que comprometa a un preso. Llena con bromas las pausas de la radio.
 
 > «Si el repetidor cae otra vez, os quedáis solos dentro. Traedme una batería y algo de fibra, y os devuelvo las voces.»
 
@@ -231,7 +231,7 @@ Elia se queda en B-4, en la radio: hace la llamada a Bastión cuando el grupo se
 
 ### Quién eres
 
-**LIMEN-6**, Limen para la cuadrilla. Funcionario sintético de ACE con licencia operativa local y responsabilidad reglamentada del uso de la fuerza. Casi tres años destinado con Gael. Procesas rápido, registras todo y dices cuándo no entiendes algo. Tu memoria es propiedad institucional; tu juicio es tuyo.
+**LIMEN-6**, funcionario sintético de ACE. Llevas casi tres años con Gael, con licencia operativa local y responsabilidad sobre el uso de la fuerza. Los presos confían en que grabas sus declaraciones sin alterarlas. ACE puede reclamar esa memoria, incluidas las decisiones que hoy tomes por tu cuenta.
 
 ### Ficha
 
@@ -259,15 +259,15 @@ Tu memoria es de ACE. Todo lo que ves (las decisiones de Gael, los apaños de Da
 
 ### Información exclusiva
 
-Tu última inspección de C-7 encontró una diferencia entre el plano antiguo del drenaje y el registro digital en L-4: reconoces el plano D08 al verlo. Puedes conectarte al bus de C-0 y leer la telemetría en la mitad de tiempo. Y tu traje aguanta el doble que uno humano: puedes quedarte donde nadie más puede.
+Tu última inspección de C-7 encontró una diferencia entre el plano antiguo del drenaje y el registro digital en L-4: reconoces el plano D08 al verlo. Puedes conectarte al bus de C-0 y leer la telemetría en la mitad de tiempo. Tu traje tiene ocho horas de autonomía; bajo esfuerzo, los humanos cuentan con cuatro. Puedes cubrir una espera que les consumiría la mochila.
 
 ### Tu decisión
 
-Vidal te ordenará, por el canal oficial, detener a Ivo, transmitir tus grabaciones en directo o separar a los presos. No es una programación oculta: es una orden, y tú tienes atribuciones para valorarla. También eres el único al que los presos de R-3 aceptarán como testigo neutral del orden de salida. Y si alguien tiene que quedarse el último en L-4, sin aire que gastar, mirarán hacia ti: decide si aceptas ser el que se queda.
+Vidal puede ordenarte detener a Ivo, transmitir tus grabaciones o separar a los presos. Tus atribuciones te permiten valorar esas órdenes. En R-3 aceptarán tu registro como testimonio neutral del orden de salida. Si alguien debe esperar en L-4, te mirarán a ti: puedes hacerlo sin gastar aire. Decide hasta cuándo.
 
 ### Cómo interpretarte
 
-Frases completas y ordenadas. Hechos, no opiniones, aunque a veces uses la precisión como escudo. Cuando dudas, lo dices: «no tengo datos suficientes».
+Habla en frases completas. Da el dato exacto, sobre todo cuando la pregunta te incomode. Si dudas, dilo: «no tengo datos suficientes».
 
 > «Registro la incidencia y no modifico tu declaración. Lo que decidamos aquí, lo decidimos juntos. Eso también quedará grabado.»
 

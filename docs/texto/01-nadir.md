@@ -1,46 +1,46 @@
 # Nádir y sus habitantes
 
 ::: resumen
-Bajo una corteza de hielo sucio, una concesión industrial sostiene una colmena de turnos, custodia y salmuera: fuera de los módulos solo hay vacío, frío y distancia. El agua de Nádir mueve una maquinaria administrativa precisa que ignora a las personas que la hacen funcionar, hasta que una de ellas desaparece de los registros sin dejar de estar en el hielo.
+Nádir encierra con distancias: vacío entre los módulos, hielo partido bajo las orugas y un transporte orbital que exige autorización. Setenta y siete personas extraen el agua que mantiene vivos otros destinos. Algunas cobran. Otras cumplen condena. Todas dependen del mismo mantenimiento.
 Palabras clave: Nádir, ND-17, ACE, HRF, salmueras, prisión sin muros, Bastión, custodia
 :::
 
-Este expediente pertenece al número especial de *Anales de Biología de Frontera* dedicado a ND-17. La aventura se presenta como el archivo del suceso que llevó al descubrimiento formal de los costreros, pero empieza antes del accidente, con las personas y la máquina que las alimenta. Nádir no es un planeta. Es una luna menor, un cuerpo de trabajo, un destino administrativo.
+En Bastión puedes reconocer a tus compañeros por la tos al otro lado de una mampara. En el frente siguiente, una llamada tarda horas en convertirse en ayuda. Este es el lugar donde la cuadrilla lleva meses trabajando cuando Mara deja de responder.
 
 ## El mundo
 
-**ND-17**, al que solo los oficiales llaman por su designación, es **Nádir**: una luna menor de hielo sucio y roca, sometida a calentamiento de marea suficiente para mantener salmueras presurizadas bajo su corteza. La superficie carece de atmósfera apreciable: no hay viento, no hay polvo en suspensión y el sonido no viaja por fuera de los trajes. En el subsuelo hay cavidades húmedas, fracturas llenas de sales y corredores naturales conectados por películas de agua y barro mineral, con un gas propio, denso y no respirable.
+En los partes pone **ND-17**. Quienes trabajan aquí dicen **Nádir**. Hielo sucio y roca cubren una luna menor calentada por las mareas. Debajo se conserva salmuera a presión, entre cavidades húmedas y fracturas salinas. Esas cavidades contienen gas denso e irrespirable. Arriba hay vacío: las botas transmiten vibraciones por la roca, pero nadie oirá una llamada fuera de la radio.
 
-La biología de Nádir es una **hipótesis de ciencia ficción** con reglas internas consistentes, no una afirmación sobre la vida extraterrestre real. Lo que crece bajo el hielo obedece a reglas reproducibles, y el Guardián las trata como leyes físicas.
+Las cavidades tienen su propia fauna. Las mismas condiciones que conservan la salmuera bajo presión mantienen húmedos a sus animales; al abrir una galería humana, ambos sistemas entran en contacto.
 
-La compañía **Helix Recursos de Frontera (HRF)** posee la concesión industrial. La **Autoridad de Custodia Extraplanetaria (ACE)** administra las condenas y destaca a sus alguaciles. Sus competencias se cruzan, pero las dos organizaciones mantienen cadenas de mando distintas. Ninguna manda del todo sobre la otra, y esa grieta administrativa importa más tarde.
+**HRF paga la extracción; ACE administra las condenas.** Helix Recursos de Frontera dispone de instalaciones, material y dirección técnica. La Autoridad de Custodia Extraplanetaria controla presos, permisos y alguaciles. Sus órdenes viajan por cadenas distintas. Para sacar a un preso de un frente hacen falta una ruta segura y alguien dispuesto a autorizarla.
 
-La explotación se basa en **agua y salmueras**: se extraen, purifican y procesan para producir oxígeno, hidrógeno y sales de valor industrial. El recurso estratégico es agua de alta pureza, la energía invertida en separarla y la capacidad de almacenarla y enviarla a instalaciones orbitales. El oxígeno que respiran los colonos procede de reservas producidas localmente, pero cada módulo necesita su propio sistema de reciclaje y control ambiental. Una colonia sin colectores limpios se envenena por dentro.
+Las cuadrillas extraen **agua y salmueras**, las purifican y separan oxígeno, hidrógeno y sales industriales. El agua de alta pureza se almacena y envía a instalaciones orbitales. El oxígeno local llena reservas; los filtros de cada módulo retiran el CO₂. Puede quedar oxígeno de sobra cuando una sala empieza a envenenarse.
 
 > Fuera de los módulos el hielo no es blanco. Es negro, gris, aceitoso, y cruje bajo las orugas: el crujido sube por el chasis, porque fuera no hay aire que lo lleve. Bajo cuatro metros de corteza duerme un mar de salmuera que se deja beber a cambio de trabajo. HRF extrae, purifica y envía. Vuestro turno empieza cuando el colector B-4 se pone en rojo.
 
 ### La prisión sin muros
 
-No se puede escapar andando: fuera de los hábitats hay vacío, frío, terreno accidentado y distancias enormes. Pero el aislamiento geográfico no es seguridad penitenciaria infalible. Existen trajes, vehículos, puntos de recarga y transportes de carga orbital. Por eso hay alguaciles y protocolos de custodia. Nádir no encierra con barrotes: encierra con kilómetros.
+La salida al vacío exige traje, energía y un destino alcanzable. Para llegar a la órbita hace falta además un transporte de carga. Los alguaciles vigilan permisos, puntos de recarga y vehículos: todo lo que una persona tendría que reunir para escapar.
 
 Los presos se dividen administrativamente en dos programas.
 
 - **Trabajo general:** extracción, carga y clasificación, en cuadrillas con vigilancia intensa y rutas prefijadas. La unidad de C-7 tiene doce presos y cuatro alguaciles, un alguacil por cada tres internos, la proporción exigida para una extracción de riesgo.
 - **Trabajo especializado:** científicos, técnicos de presión, mecánicos, electricistas y personal informático condenado que ha superado una revisión de formación, conducta y riesgo. Trabajan junto a civiles, con **un alguacil humano de referencia por cada dos presos de confianza como máximo**; las tareas complejas pueden incorporar un segundo alguacil sintético.
 
-La buena conducta permite optar a la cuadrilla especializada, pero no convierte a nadie en inocente. Un preso puede haber cometido un crimen grave, demostrar autocontrol y seguir siendo responsable del delito. Esa distancia entre la ficha y la persona es uno de los motores de la partida.
+Una condena por homicidio puede convivir con un historial de trabajo impecable. El alguacil necesita la competencia del preso al que escolta; el preso necesita su firma para conservar el puesto. Las revisiones de confianza deciden quién vuelve al trabajo general.
 
 > El alguacil nuevo pregunta si hay muros. Nadie se ríe. Fuera del módulo hay vacío y cientos de kilómetros de hielo partido; eso también es una celda. El trabajo de confianza se firma, se revisa y se retira si el recluso deja de ser rentable.
 
 ### Autoridad real
 
-Un alguacil puede ordenar medidas inmediatas sobre los condenados, autorizar rutas y actuar como representante de la ley penitenciaria. Ante riesgos industriales también puede dictar instrucciones de **seguridad inmediata** a trabajadores civiles y cerrar accesos, pero **no tiene jurisdicción sobre sus contratos ni sobre la instalación**. La dirección técnica de HRF puede prohibir una maniobra insegura sobre su equipo; ACE puede prohibir una salida de presos sin control. Nadie tiene un botón que resuelva todas las disputas.
+**ACE:** custodia, rutas y medidas inmediatas sobre los condenados. Ante peligro industrial, el alguacil puede cerrar accesos y dar instrucciones de seguridad a civiles. **HRF:** contratos, instalación y dirección técnica. Puede vetar una maniobra insegura sobre su equipo. Una evacuación puede cumplir las exigencias de una autoridad y chocar con las de la otra.
 
-En una emergencia sin contacto con mandos superiores, un alguacil tiene **discrecionalidad documentable** para salvar vidas (la cláusula de «excepción de seguridad inmediata» del permiso de cuadrilla). Esto legitima que el alguacil jugador intervenga antes de recibir autorización formal. Sus decisiones se revisarán después; ningún mando le arrebata el personaje en mitad de la sesión con una orden imposible. Lo que sí puede ocurrir, y ocurre, es que Bastión le dé órdenes razonables que choquen con lo que él ve delante.
+El permiso de cuadrilla incluye una **excepción de seguridad inmediata**. Permite al alguacil actuar para salvar vidas antes de recibir autorización y documentarlo después. Esa firma da al personaje margen para decidir. Bastión puede pedir datos, imponer condiciones o discrepar; la revisión llega cuando vuelvan.
 
 ## Distribución de la población
 
-**77 personas de dotación habitual** (ACE cuenta en esta cifra a sus dos alguaciles sintéticos). No es la población de una ciudad ni la de un edificio: es el turno, el reparto, la aritmética que sostiene la concesión.
+**77 personas de dotación habitual**, incluidos los dos alguaciles sintéticos de ACE. El tablón de turnos permite saber dónde debería estar cada una. Las instalaciones están demasiado separadas para comprobarlo en persona.
 
 | Instalación | Personas | Uso | Distancia y tiempo desde B-4 |
 |---|---:|---|---|
@@ -53,7 +53,7 @@ En una emergencia sin contacto con mandos superiores, un alguacil tiene **discre
 
 Desde Bastión, C-7 queda a unos 51 km (Bastión–B-4 más la ruta de R-12): **2 h 30 min–3 h** de rover, de **5 a 6 horas** ida y vuelta.
 
-**No hay un gran hospital ni un cuartel capaces de intervenir de inmediato.** Hay un destacamento reducido en Bastión, un segundo rover Lince-6 y un almacén industrial. Reunir medios desde P-0 o los frentes lejanos tarda dos o tres días. La ayuda cercana es escasa; la ayuda grande llega tarde.
+**La ayuda inmediata cabe en el segundo rover Lince-6.** Bastión aporta un destacamento reducido y un almacén industrial. Su enfermería tiene cuatro camas. Los medios de P-0 y de los frentes lejanos tardan dos o tres días en reunirse.
 
 ### El frente B-4
 
@@ -69,13 +69,13 @@ Bastión contiene dos hileras de barracones presurizados unidos por esclusas, un
 
 ![Las dos hileras de barracones de Bastión unidas por esclusas](fig-bastion)
 
-**Detalles en mesa.** Casilleros con parches cosidos. Herramientas personales junto a autorizaciones de acceso. Un tablero de guardias. Una fotografía de Mara y su pareja junto al cristal empañado del comedor. Cartas de internos esperando transporte, con los bordes doblados de haber viajado en un bolsillo. Bastión no es siniestro. Es doméstico, y por eso pesa más cuando la radio se queda muda.
+**A la vista:** parches cosidos en los casilleros; herramientas junto a permisos de acceso; el tablero de guardias. En el comedor, una foto de Mara y su pareja junto al cristal empañado. Cartas de internos esperan transporte, gastadas por haber pasado semanas en un bolsillo.
 
-El ritmo de Bastión es el de una máquina que respira: turnos de descanso, duchas racionadas, revisiones de presión, café reconcentrado, alguaciles que firman autorizaciones con las manos todavía sucias. Los barracones mixtos alojan a civiles, presos de confianza y personal de custodia en espacios contiguos separados por mamparas. La convivencia se sostiene más en la costumbre que en los reglamentos.
+Una mampara separa a los presos de confianza del personal que los custodia. Se oyen las duchas racionadas, las discusiones y el despertador del siguiente turno. En el comedor sirven café reconcentrado; los alguaciles firman los permisos con grasa todavía en los dedos. Todos conocen qué puerta se atasca y a quién hay que despertar para arreglarla.
 
 ### Lo que se cuenta en los barracones
 
-En Bastión se habla poco de la superficie y mucho del hielo. Se cuentan historias que nadie firma: que las galerías antiguas no están abandonadas, que las reconectaron sin avisar, que en los túneles del sur alguien encontró una bota de un modelo que ya no se fabrica y la dejó donde estaba, que la salmuera, si la dejas quieta, se organiza.
+En el comedor dicen que las galerías antiguas siguen conectadas. Que alguien dejó donde estaba una bota de un modelo retirado. Que la salmuera se organiza al dejarla quieta. Nadie recuerda quién empezó a contarlo.
 
 ::: documento Lo que se dice en el comedor
 «Dicen que Lepe salió de ronda y volvió a los tres días con el traje intacto y la mirada en otro sitio. No volvió a hablar de lo que vio.»
@@ -89,14 +89,14 @@ Tres historias. Ninguna tiene autor. Todas se cuentan como verdad.
 
 ### El evadido del muro
 
-Hace tres años, el interno **Héctor Lisán** desapareció durante un turno de mantenimiento. El expediente de ACE (documento D13) dice que se desplegaron dos equipos de búsqueda durante setenta y dos horas, que se suspendió por coste y que «se presume muerto en superficie». En los barracones se cuenta otra cosa: que nadie salió a buscarlo.
+Hace tres años faltó **Héctor Lisán** al recuento de mantenimiento. ACE registró dos equipos de búsqueda durante setenta y dos horas, suspendidos por coste. El documento D13 lo presume muerto en superficie. Quienes estaban en Bastión recuerdan los rovers aparcados.
 
 Las dos versiones son verificables, y la diferencia importa:
 
 - **El expediente miente por omisión.** Los dos equipos existieron en el papel: se asignaron, se registraron y se dieron por desplegados. Pero el registro de vehículos de Bastión no muestra salidas de rover esos tres días, y la «búsqueda» consistió en barridos de telemetría y llamadas por radio desde la sala de mando. La firma que cierra el caso es la del jefe de ACE de entonces, que sigue siéndolo: **Roque Vidal**.
 - **El expediente se contradice a sí mismo.** Da como última posición conocida «galerías antiguas al sureste del macizo» y, aun así, declara la muerte «en superficie». Nadie bajó a las galerías.
 
-Lisán se metió en el drenaje viejo, en los tramos que HRF dejó fuera del plano digital, igual que planea Ivo. Murió en la cavidad de cría de C-7 y los costreros lo sellaron como sellan todo lo que gotea. Su cuerpo es horror y es pista: confirma que las galerías antiguas conectan con el complejo actual, demuestra que ACE cierra casos sin bajar al hielo y le pone delante a Ivo el final más probable de su plan. No mueve ningún reloj.
+Lisán tomó el drenaje viejo que HRF había borrado del plano digital. Murió en la cavidad de cría de C-7. Los costreros lo cubrieron de mineral; la placa del pecho sigue legible. **Ivo está preparando la misma ruta.** Encontrar el cuerpo confirma la conexión entre galerías, permite contrastar el expediente y da a Ivo una razón para reconsiderar su fuga. El hallazgo no mueve ningún reloj.
 
 > En el comedor hay una frase que se repite y que nadie discute: en Nádir no te matan los muros, te guarda el silencio. La fotografía del cristal empañado sigue ahí, quieta, con la gente que no sabes si volverás a ver.
 

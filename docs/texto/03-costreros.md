@@ -1,7 +1,7 @@
 # *Crustivermis nadirensis*: el costrero
 
 ::: resumen
-Artículo descriptivo del vermiforme que habita las cavidades de salmuera de ND-17. Se documentan su morfología segmentada flexible-mineral, su metabolismo quimiotrófico ligado a la humedad y el comportamiento de sellado que desencadenó la cadena de accidentes de C-7. La especie es indiferente: confunde con una grieta toda materia que desprenda humedad o gas, y responde a cada obra humana desplazando su trabajo a la siguiente fuga.
+Las cuadrillas retiraban estas costras después de cada presurización. Volvían a aparecer. El examen de C-7 identificó un animal ciego que construye sellos minerales alrededor de fugas y tejidos húmedos. Su trabajo puede contener una fractura o cerrar una salida de emergencia.
 Palabras clave: exobiología, vermiforme, salmuera, sellado mineral, ND-17, comportamiento territorial
 :::
 
@@ -9,43 +9,53 @@ Palabras clave: exobiología, vermiforme, salmuera, sellado mineral, ND-17, comp
 
 ## Introducción
 
-Este número especial recoge el expediente técnico del suceso de C-7 y lo que el suceso permitió documentar por primera vez: una especie animal autóctona de ND-17, hasta ahora confundida con incrustaciones minerales y tratada como obstrucción de mantenimiento. La especie recibe aquí el nombre provisional de ***Crustivermis nadirensis***. Los trabajadores la llaman **costrero**, y el nombre se conserva por economía y costumbre de campo.
+Durante años, mantenimiento raspó los depósitos de las galerías. Los partes los clasificaban como sal. Después de cada presurización, los depósitos volvían.
 
-Durante años, los informes de galería describieron «costras» que aparecían tras cada presurización de tramos nuevos. Se retiraban. Volvían. Nadie preguntó qué las reponía. Las colonias de *Crustivermis* sellan fisuras para reducir el intercambio entre su cavidad y el exterior; cuando una máquina arranca el sello, la colonia lo rehace. El accidente de C-7 fue una cadena de mantenimiento industrial chocando contra un reflejo biológico.
+El suceso de C-7 permitió observar a sus constructores: ***Crustivermis nadirensis***, nombre provisional de una especie autóctona. El personal la llama **costrero**. Sus colonias sellan el intercambio entre cavidades húmedas y galerías humanas. La orden 517-J retiró uno de esos sellos.
 
-> La primera vez que se ve uno, no parece un animal. Parece un tubo de cal con anillos, apoyado en la roca, sin cabeza y sin ojos. Hasta que el anillo delantero se abre y empieza a girar. Entonces entiendes que lleva toda la vida ahí, y que tú eres el que ha venido a su casa.
+> Un tubo de cal con anillos, pegado a la roca. Sin ojos. Al acercar la herramienta, el extremo delantero se abre: dentro gira una corona de dientes.
 
 ### Fuentes y método
 
-Este artículo procede de un accidente y de lo que se pudo reconstruir después. Las observaciones se apoyan en tres tipos de material: **restos recuperados** en el tramo bajo de C-7 y en la interfaz de J-17; **análisis químicos de costras** practicados en B-4 con un lector portátil, que detectaron estructuras orgánicas ordenadas en un material que se creía mineral; y **testimonios de trabajadores** que habían convivido con la especie sin reconocerla, entre ellos el de la interna **Nora Ilias**, que describió cómo los animales tapian rendijas cada vez que entra aire de una galería nueva.
+El examen reúne **restos de J-17 y del tramo bajo**, **análisis de costras en B-4** y **testimonios del personal**. La muestra 117-C reveló estructura orgánica en lo que se trataba como mineral. Nora Ilias había visto reaparecer los sellos cada vez que una galería nueva dejaba escapar aire.
 
-La nomenclatura es provisional. *Crustivermis* («gusano de costra») describe un hábito, no una filogenia; *nadirensis* sitúa el hallazgo en ND-17. La biología de Nádir es una hipótesis de ciencia ficción con reglas internas consistentes, no una afirmación sobre la vida extraterrestre real.
+*Crustivermis* describe el hábito observado; *nadirensis*, el lugar del hallazgo. La clasificación es provisional.
 
 ## Morfología
 
 ### Aspecto general
 
-Animales vermiformes y ciegos de **40 a 80 cm de largo y 12–20 cm de diámetro**; algunos reproductores superan el metro. El cuerpo está cubierto por **segmentos flexible-minerales** blanquecinos o gris ceniza, semirrígidos, con el brillo apagado de la sal seca. No tienen ojos ni rostro.
+**40–80 cm de largo; 12–20 cm de diámetro.** Algunos reproductores superan el metro. Segmentos semirrígidos de blanco sucio o gris ceniza, con el brillo mate de la sal seca. Cuerpo vermiforme, sin ojos ni rostro.
 
-El extremo anterior contiene un **anillo de dentículos trituradores** que raspa costras, carroña y tejidos blandos. Es su único órgano de ataque y su única «expresión»: gira, muerde y se cierra. Se desplazan con **cilios musculares** bajo los segmentos: se anclan, se contraen y tiran del cuerpo hacia delante. No corren. Trepan y se arriman.
+En el extremo anterior, un **anillo de dentículos** gira para raspar costra, carroña y tejido blando. Bajo los segmentos, los **cilios musculares** se fijan al soporte y tiran del cuerpo. El animal trepa por roca y chapa húmedas. Su avance consiste en anclarse, contraerse y volver a anclarse.
 
-![Lám. 2. Detalle del anillo de dentículos trituradores en un ejemplar fijado en campo.](lam-boca)
+![Lám. 2. Anillo triturador: los dentículos raspan el sustrato y retienen tejido húmedo.](lam-boca)
 
 ### Superficie y locomoción
 
-La cubierta segmentada es a la vez armadura ligera y reserva de humedad. Los surcos entre segmentos retienen una película mucosa que el animal renueva desde glándulas internas; por eso un ejemplar recién alimentado soporta el aire seco humano más tiempo que uno hambriento. El anclaje por cilios da una marcha lenta, táctil y muy difícil de desequilibrar, y es silencioso: un costrero puede fijarse a una superficie sin que nadie lo note.
+La cubierta conserva humedad y protege el tejido interior. Entre segmentos queda una película mucosa renovada por glándulas. Un ejemplar recién alimentado tarda más en secarse.
+
+El anclaje es firme y silencioso. Puede quedar adherido a la pierna de un traje mientras su portador mira hacia otro lado.
 
 ### Percepción
 
-No ven. Tienen **quimiorreceptores de proximidad** sensibles a gradientes de sal, humedad, gas y descomposición, y un sentido dominante: **las vibraciones que llegan por roca, barro y metal**. Un golpe transmitido por el sólido vale más que cualquier olor. Una radio dentro de un casco no los convoca; un martillo neumático, sí; unas botas corriendo sobre una chapa suspendida, también. La pregunta del Guardián no es «¿hacen ruido?», sino «¿qué vibra y a qué está unido?».
+**Vibración por sólidos; química a corta distancia.** Un martillo neumático transmite una señal por toda la estructura. Las botas corriendo sobre chapa también. Una radio encerrada en un casco carece de ese alcance.
+
+Los quimiorreceptores siguen sal, humedad, gas y descomposición. Para resolver su respuesta, localiza la fuente y el material que la conecta con la colonia: roca, barro o metal.
 
 ### Defensa
 
-Sin aguijón, sin veneno, sin parálisis. Un golpe seco sobre los segmentos los agrieta y suele hacer que el animal se repliegue: el daño de fuerza bruta lo mata menos por el impacto que por la pérdida de humedad que abre en su envoltura.
+El anillo triturador es su arma. Carece de aguijón, veneno y efecto paralizante.
+
+Los golpes secos agrietan los segmentos y exponen la humedad interior. El animal suele replegarse; una cubierta abierta acaba deshidratándolo.
 
 ### Identificación en campo
 
-Tres rasgos separan una colonia de una incrustación. Los círculos concéntricos de una costra mineral no tienen dirección; los de una colonia activa se ordenan alrededor de una grieta. La superficie de un costrero cede un poco a la presión; la roca no. Y si se golpea el suelo cercano con algo metálico, la costra no reacciona, pero un ejemplar entierra el extremo anterior o lo levanta hacia la vibración.
+- **Forma:** los anillos de una colonia activa se orientan hacia una grieta.
+- **Tacto:** la superficie cede ligeramente a la presión.
+- **Respuesta:** un golpe metálico cercano hace que el extremo anterior se levante hacia la vibración o se entierre.
+
+Estas observaciones permiten reconocer un ejemplar sin conocer su biología.
 
 ## Hábitat y metabolismo
 
@@ -57,13 +67,15 @@ El hábitat de la especie son **cavidades húmedas de salmuera con gas pobre en 
 
 ### El sellado y su función
 
-Al detectar un **gradiente químico** (aire humano entrando en la cavidad, gas de descomposición, humedad que escapa), los animales sellan la abertura para reducir el intercambio. Taponan primero las fisuras pequeñas y luego las mayores, siempre empezando por **la fuga más intensa al alcance de la colonia**. Cuando una fuga se cierra, el trabajo se desplaza a la siguiente. Esa regla sencilla explica casi todo lo que hacen en C-7, incluidas las consecuencias que no se ven venir.
+El animal sigue un **gradiente químico**: gas, humedad o aire humano que cruza hacia la cavidad. Deposita gel mineral en el borde de la abertura y lo endurece.
 
-Un sello de costrero no sustituye una barrera industrial certificada. Es una reparación viva sobre un problema que sigue ahí.
+**La colonia trabaja primero la fuga más intensa a su alcance.** Cuando la cierra, pasa a la siguiente. Los sellos pequeños se completan antes que los grandes. La regla permite prever qué puerta recibirá animales después de una reparación.
+
+El depósito vivo puede ocultar una fractura. La presión continúa al otro lado.
 
 ### Sangre y permanencia en zonas humanas
 
-La sangre es alimento oportunista: los nutrientes y los fluidos rehidratan al animal y le permiten aguantar más tiempo en un corredor seco. No lo vuelven inmune al oxígeno, no lo hacen crecer y no aceleran su reproducción.
+La sangre aporta alimento y humedad: prolonga su permanencia en un corredor seco. Su tamaño, reproducción y tolerancia al oxígeno mantienen los límites de la especie.
 
 | Medio | Tolerancia (convención de diseño) |
 |---|---|
@@ -185,7 +197,7 @@ La munición puede matarlos. Disparar también perfora conductos, destroza filtr
 
 ## Ritmo del descubrimiento
 
-Los jugadores no deberían conocer la biología completa demasiado pronto, ni depender de una revelación final. Cada fuente da una pieza y ninguna es imprescindible.
+Reparte el descubrimiento entre observaciones. Una misma regla puede aprenderse en el filtro, en una puerta o hablando con Nora. Cuando el grupo reconozca el patrón, podrá usarlo antes de tener una explicación completa.
 
 | Pieza | Fuentes posibles | Lo que permite hacer |
 |---|---|---|
@@ -198,6 +210,6 @@ Los jugadores no deberían conocer la biología completa demasiado pronto, ni de
 
 ## Discusión
 
-El costrero es un animal de mantenimiento. Su relación con los humanos pasa por el **sellado** (toda humedad o gas que escapa se tapa) y la **alimentación** oportunista junto a tejido sangrante. Lo demás es respuesta a vibración o a química, y se puede leer, prever y contrarrestar, aunque nunca con garantía absoluta.
+En C-7, la actividad humana y la colonia reparan problemas distintos sobre las mismas conducciones. Los costreros cierran las fugas de su hábitat; las cuadrillas retiran los depósitos para recuperar accesos y caudal.
 
-Para el suceso de C-7, el dato clave es la función que cumplían: **sellaban una fractura que el mantenimiento humano abrió**, y siguen haciéndolo mientras las personas intentan salir.
+El sello de J-17 contenía una fractura. Al retirarlo entró salmuera. Los animales siguen reparándola mientras el personal intenta evacuar. Comprender esa función permite trabajar alrededor de la colonia, prever sus desplazamientos y evitar que otra limpieza repita el accidente.

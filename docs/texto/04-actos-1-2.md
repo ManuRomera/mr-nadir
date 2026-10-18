@@ -1,11 +1,11 @@
 # Actos I y II — El mensaje cortado
 
 ::: resumen
-Registro de las primeras horas del suceso de C-7, desde una avería de rutina en el frente B-4 hasta el reconocimiento exterior del complejo aislado. El expediente documenta la pérdida del repetidor R-12, la interrupción de la señal de socorro, las decisiones de salida y el primer contacto indirecto con la fauna autóctona.
+Un filtro atascado. Una llamada que se corta al pronunciar una petición. Cuarenta y tres kilómetros de hielo hasta C-7. Antes de llegar, la cuadrilla debe decidir qué carga, a quién pide ayuda y cuánto tiempo dedica a devolver la voz al repetidor R-12.
 Palabras clave: repetidor, salmuera, costra mineral, aislamiento, refuerzos, rover
 :::
 
-Los dos primeros actos no empiezan con una alarma. Empiezan con un filtro atascado, una vibración molesta en las botas y una jornada que aún tiene horas por delante. En el Acto I la cuadrilla descubre el problema y decide intervenir; en el Acto II recorre los cuarenta y tres kilómetros que separan su frente del sector que se está muriendo. Durante el trayecto no hay monstruos en la superficie: hay silencio, vacío, cuentas de energía y, en el filo de la estática, una emisora que no debería seguir abierta.
+Tamar pasa con café mientras el técnico desmonta el filtro. La científica reconoce algo en los residuos. La operadora vigila una aguja que no termina de estabilizarse. Haz sitio para ese turno antes de interrumpirlo con la voz de Mara. Durante el viaje, cada parada consume el margen de las personas que han llamado.
 
 Las decisiones de estos actos importan más de lo que parece: **a qué hora y cómo se piden los refuerzos, qué se carga en el rover y si se repara R-12** fijan el margen del Acto III.
 
@@ -17,7 +17,7 @@ Las decisiones de estos actos importan más de lo que parece: **a qué hora y c�
 
 > El indicador del colector B-4 lleva media hora oscilando en rojo. No hay alarma general: solo una vibración desagradable en las botas y un filtro empeñado en no dejar pasar nada. El aire sabe a metal caliente. A través de la mirilla de servicio, el hielo de Nádir no cambia nunca de color. Quedan horas de turno y alguien tiene que terminar este trabajo.
 
-Pregunta a cada jugador dónde está y qué hace con las manos. El alguacil supervisa el acceso al colector, el técnico está metido en el cuerpo de bomba, la científica etiqueta muestras, la operadora revisa el panel de presión, el androide registra vibraciones por el casco. Que el trabajo sea concreto antes de que algo lo interrumpa. La jefa de frente, **Tamar Oyá**, pasa con un café y prisa.
+**Pregunta:** «¿Dónde estás y qué tienes entre las manos?». El alguacil controla el acceso; el técnico desmonta la bomba; la científica etiqueta residuos; la operadora revisa presiones; el androide registra vibraciones. **Tamar Oyá** cruza el frente con café y prisa. Deja que se pidan una herramienta o discutan la reparación.
 
 La avería se resuelve por cualquiera de estos caminos, todos válidos:
 
@@ -47,7 +47,7 @@ Doce minutos después, a las **09:48**, llega Mara por el canal de alguaciles. L
 
 Si el alguacil se llama de otra manera, usa su nombre. Si el vínculo con Mara no es romántico, conserva el tono de alguien que sabe a quién llama. La señal muere porque la batería de respaldo de R-12 se agota (documento D03); Elia sabe que esa batería estaba degradada.
 
-**Tres decisiones inmediatas.** Expónlas como decisiones, no como un examen:
+**Antes de salir, tres decisiones:**
 
 1. **¿Quién va y qué se queda en B-4?** B-4 no puede quedarse sin alguacil con su preso de mantenimiento dentro: si van Gael y Limen, alguien tendrá que justificarlo ante Vidal, o Tamar quedarse a cargo de Isern bajo su responsabilidad.
 2. **¿Se pide ayuda a Bastión, cuándo y cómo?** La radio de B-4 llega directa a Bastión. Desde C-7, en cambio, solo habrá enlace si R-12 vuelve a funcionar.
@@ -86,9 +86,9 @@ El rover Lince-6 de B-4 tiene seis puestos con umbilical y una plataforma para u
 
 Cada bulto de más por encima de ocho añade 1 UE por cada 10 km. Elia lleva además en su equipo dos **filtros portátiles** de 0,3 kg y el repuesto del panel de R-12.
 
-No conviertas la carga en un examen. Si dejan atrás algo importante, no se lo recuerdes con crueldad: deja que lo echen de menos en C-7. Con cinco jugadores, el traje del androide se ajusta a sus necesidades: no respira, pero el frío, la presión y los golpes le afectan igual.
+Entrega la lista y deja que carguen. Lo que falte habrá que pedirlo a Bastión, improvisarlo o recuperarlo en C-7. Con cinco jugadores, cuenta también el traje del androide: necesita protección contra frío, presión y golpes, aunque no consuma oxígeno.
 
-> El rover espera en el garaje con la plataforma abierta. Seis umbilicales cuelgan de sus soportes como tripas grises. Alguien cuenta los cartuchos dos veces. Nadie dice en voz alta que trece personas respiran por dos de esas latas.
+> Seis umbilicales cuelgan sobre la plataforma abierta del rover. Los cartuchos de recambio caben debajo de un brazo. El resto del material ocupa más de lo que parecía en la lista.
 
 ## Acto II · El camino entre campamentos
 
@@ -107,7 +107,7 @@ En el vacío el sonido no viaja por el aire. Lo que oyen los personajes llega po
 
 **Percances del atajo.** Tira 1d6 una vez a mitad de camino; con 1–2 ocurre uno (elige o tira otra vez): una grieta mal leída (30 min de rodeo y 5 UE); una oruga atascada (45 min sacándola, Fuerza para hacerlo en la mitad); un umbilical arrancado (un PJ pasa a su mochila hasta repararlo, 15 min); el rover vuelca de lado (60–90 min, 1d10 de daño de fuerza bruta a quien no esté anclado). Ninguno es un ataque de fauna: en la superficie no hay.
 
-La tensión del viaje se construye con la cuenta. Que alguien lleve la energía en voz alta. Cada vez que un PJ se baja y se separa del umbilical empieza a gastar su mochila. A cuarenta metros del rover, una persona deja de ser un explorador y pasa a ser alguien con unas horas de aire contadas.
+Que alguien anote la energía del rover. Al bajar y soltar el umbilical, cada personaje empieza a gastar su mochila. Anuncia la hora al detenerse y al reanudar la marcha: podrán comparar lo que han ganado con el tiempo que queda en P-2.
 
 > No hay viento. No hay eco. Solo el roce del motor por el chasis y, dentro del casco, la respiración de los demás, tan cerca que parece que están dentro de la cabeza de uno. Cuando alguien deja de hablar, el silencio no es vacío: es presión. Y a cada bache, el casco cruje como si alguien golpease desde fuera.
 
@@ -156,7 +156,7 @@ A unos kilómetros de C-7 hay un antiguo filtro de captación: una tubería que 
 
 ![Un filtro abandonado con las juntas cubiertas de cordones minerales blancos y una grieta húmeda y oscura](fig-filtro)
 
-> El filtro lleva años muerto. La junta rota está cubierta de cordones blanquecinos, pegados a la roca y al metal como venas secas; el vacío los ha dejado quebradizos. Por dentro de la tubería, donde todavía hay humedad, algo pálido asoma por la boca rota y se queda quieto. Cuando el rover deja de vibrar, se retira hacia dentro.
+> El filtro lleva años muerto. La junta rota está cubierta de cordones blanquecinos, pegados a la roca y al metal como venas secas; el vacío los ha dejado quebradizos. Por dentro de la tubería, donde todavía hay humedad, algo pálido asoma por la boca rota y se queda quieto. Al arrancar de nuevo el rover, se retira hacia dentro.
 
 **Causa física.** Por dentro, la tubería conserva gas húmedo de la bolsa de abajo: es hábitat. El costrero estaba sellando la junta desde el interior; lo que se ve fuera es secreción liofilizada por el vacío. Asomarse unos segundos a la boca de la tubería es lo más cerca de la superficie que llega la especie.
 
@@ -184,6 +184,6 @@ A unos kilómetros de C-7 hay un antiguo filtro de captación: una tubería que 
 
 En la radio local, entre dos ráfagas de estática, alguien tose. Y vuelve el ras, ras, ras de la radio que nadie apagó: el sonido no se aleja, está fijo, como si alguien hubiese dejado la emisora apoyada contra una pared de carne y piedra.
 
-La primera decisión dentro de C-7 es libre: **Control, la portilla de P-2, el refugio o el daño.** Lo que hay dentro se desarrolla en el Acto III.
+Pregunta dónde quieren empezar: **Control, la portilla de P-2, el refugio o la zona dañada**. Usa el Acto III para responder a la ruta que elijan.
 
 > El viaje termina aquí. Del otro lado de esa escotilla hay trece respiraciones contadas, una bomba que sostiene un pasillo y una entrada de salmuera que no distingue entre un animal y un hombre.

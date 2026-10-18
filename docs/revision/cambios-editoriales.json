@@ -1,0 +1,80 @@
+[
+  {
+    "capitulo": "00-presentacion.md",
+    "palabras_antes": 2800,
+    "palabras_despues": 2579,
+    "sha256": "43abe6268587ddb8e8f6819419d15bd4bbbc56f25c506e7d2160948589dc8ffb"
+  },
+  {
+    "capitulo": "01-nadir.md",
+    "palabras_antes": 2043,
+    "palabras_despues": 1768,
+    "sha256": "70884448269e51d2d7400246a1a1dd4b7c5a482e1689f04f4a9ac0b4e0bbd738"
+  },
+  {
+    "capitulo": "02-verdad.md",
+    "palabras_antes": 2194,
+    "palabras_despues": 1914,
+    "sha256": "1b71b152ca72e734fc1ac86ee3da63363a3f6015a9062e1718e7eb37bc74f89a"
+  },
+  {
+    "capitulo": "02b-sistemas.md",
+    "palabras_antes": 5818,
+    "palabras_despues": 5771,
+    "sha256": "151eedf4cd95662f8020cb57b6ad0c55b351c4d052faefd2c1180df47eadec09"
+  },
+  {
+    "capitulo": "03-costreros.md",
+    "palabras_antes": 3305,
+    "palabras_despues": 2989,
+    "sha256": "0560868327f8aa886715254cc44ed1e1953a1bfcaeaa4e489b1865db850a3ef8"
+  },
+  {
+    "capitulo": "04-actos-1-2.md",
+    "palabras_antes": 3099,
+    "palabras_despues": 2995,
+    "sha256": "7ebb97bfebe9fbd194e4f4070d275e3ab590d68a9de72a2f63ecdc7faa210938"
+  },
+  {
+    "capitulo": "05-acto-3.md",
+    "palabras_antes": 6086,
+    "palabras_despues": 5818,
+    "sha256": "9b0560ad4324fa8646408848c29de95afa57945ccb664b4ad2eae36b7562cbbe"
+  },
+  {
+    "capitulo": "06-acto-4.md",
+    "palabras_antes": 4091,
+    "palabras_despues": 3792,
+    "sha256": "fe6100244551831485b0c66ed5fdc535c0767c9d65d64b7e2dfba26878fdafb3"
+  },
+  {
+    "capitulo": "07-pnj.md",
+    "palabras_antes": 3679,
+    "palabras_despues": 3130,
+    "sha256": "02e1f46e1aafe931e4723e795b183dc0b84caa56581385fbbbdc79fe5f6e5e10"
+  },
+  {
+    "capitulo": "08-reglas.md",
+    "palabras_antes": 1959,
+    "palabras_despues": 1963,
+    "sha256": "5508aee6b43a7cf962427ff0f3d0af65a48d6e18200b6e4da700f62d02187c85"
+  },
+  {
+    "capitulo": "08b-herramientas.md",
+    "palabras_antes": 2974,
+    "palabras_despues": 2973,
+    "sha256": "bf637a0d198752a50f60e5f95ea2da36eb25b3c3bbcd9ee144c0d4c61e0d448e"
+  },
+  {
+    "capitulo": "09-documentos.md",
+    "palabras_antes": 3147,
+    "palabras_despues": 3140,
+    "sha256": "889eff1ae54458f2c8ed3c056281b0c4a6f841764d8bc662315d728c9cbdcfc7"
+  },
+  {
+    "capitulo": "10-tripulacion.md",
+    "palabras_antes": 2668,
+    "palabras_despues": 2574,
+    "sha256": "b6617ae0e3d1b0cdb3ef06bd6e1fc40aca27e2a28854b89a6e9ca23e8421d220"
+  }
+]

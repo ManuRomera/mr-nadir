@@ -1,7 +1,7 @@
 # Reglas de mesa
 
 ::: resumen
-Anexo de conducción de *Nádir (ND-17)*: cuándo pedir tiradas, cómo aplicar el Estrés y el Pánico, armas en instalaciones presurizadas, combate con fauna excavadora, trajes y heridas según Mothership 1e, y la lista completa de reglas propias de este escenario. Incluye la tabla «Ecos del hielo» para tiradas de Pánico fallidas.
+Una mordedura puede abrir el traje. Un disparo puede perforar la conducción que hay detrás. Una reparación apresurada puede costar el margen de otro equipo. Este anexo reúne las reglas que resuelven esos riesgos y distingue las del manual de las propias del escenario.
 Palabras clave: tiradas, Estrés, Pánico, armadura, heridas, reglas de escenario
 :::
 
@@ -38,7 +38,7 @@ Todas están en «Relojes, recursos y cronología» salvo la Atención de la col
 8. **Purga parcial de R-3** y su riesgo de fuego.
 9. **Tolerancia de los costreros** al aire seco y a la superficie.
 
-No hemos podido verificar en el manual una regla oficial de hipercapnia distinta de la de soporte vital degradado del PSG 33.1: los estados de R-3 y P-2 son una adaptación de escenario sobre esa base, y así deben tratarse.
+**Hipercapnia:** los estados de R-3 y P-2 son una adaptación de escenario a partir del soporte vital degradado del PSG 33.1. Usa sus tablas específicas para el avance y sus efectos.
 
 ## Cuándo pedir una tirada
 
@@ -56,7 +56,7 @@ En Mothership, fallar una tirada da **+1 de Estrés** y, con un crítico, un che
 
 ### Estrés sugerido
 
-Cobra el Estrés cuando algo cambia de verdad. Encadenar pequeñas tiradas de miedo diluye los golpes importantes.
+Aplica el Estrés cuando aparece un peligro nuevo o cambia su significado: el raspado adquiere otro peso cuando reconocen el casco que lo transmite. Usa estas sugerencias para esos momentos.
 
 | Situación | Sugerencia |
 |---|---|
@@ -91,7 +91,7 @@ Una criatura de medio metro no compite con un alguacil como lo haría un soldado
 - Un herido que sangra deja rastro: vendarse y no moverse resulta más útil que disparar.
 - Una retirada calculada suele ser mejor que ganar una escaramuza.
 
-Un grupo de seis no son seis ataques automáticos contra una persona: usa la posición real de cada ejemplar. Las fichas están en el artículo del costrero.
+Sitúa cada ejemplar antes de atacar: unos trabajan la junta, otros se retiran o bloquean el paso. Resuelve los ataques de quienes realmente alcanzan al personaje. Las fichas están en el artículo del costrero.
 
 ## Heridas y atención médica
 

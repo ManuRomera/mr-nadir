@@ -1,7 +1,7 @@
 # Relojes, recursos y cronología
 
 ::: resumen
-Informe técnico de los sistemas que deciden quién vive en C-7: atmósferas, trajes, rovers, energía, los tres relojes (refugio R-3, estación P-2 y fuga H-4), los tiempos de cada tarea, las rutas según el estado del complejo y los refuerzos de Bastión. Incluye una cronología de referencia en la que sobreviven las quince personas vivas en T0, comprobada minuto a minuto con el simulador del expediente, y un método para recalcularla cuando la mesa se desvía.
+Quiroga tarda en contestar. El motor pierde un golpe. En el refugio, Mara repite una instrucción que ya ha dado. Estos relojes determinan cuándo empeoran el aire y la inundación, y qué maniobras pueden detenerlos. Las casillas permiten llevar la cuenta durante la partida; las tablas conservan el cálculo completo.
 Palabras clave: relojes, CO₂, energía, trajes, rutas, refuerzos, cronología de referencia
 :::
 
@@ -41,7 +41,7 @@ Las cifras de este capítulo son la simulación completa del complejo. **Para di
 2. Si una fila **cruza una marca**, lee la consecuencia en voz alta, como algo que los personajes perciben: una voz pastosa por radio, el motor que calla, agua en la rejilla.
 3. Los jugadores **tachan sus trajes** y apuntan lo que han gastado de la carga.
 
-Nada más. La tabla de cada reloj (A, B y C, más abajo) dice qué significa cada estado; la Hoja rápida de casillas del capítulo «Herramientas del Guardián» trae las filas listas para imprimir.
+Consulta la tabla A, B o C al cruzar una marca. En «Herramientas del Guardián» están las filas listas para imprimir.
 
 ## Atmósferas de Nádir
 
@@ -279,7 +279,7 @@ Tiempos de juego con el equipo adecuado. Una tirada para ahorrar tiempo puede re
 
 ## Cronología de referencia
 
-Una secuencia razonable, sin ayudas imposibles ni tiempos manipulados, en la que sobreviven las quince personas vivas en T0. Mesa de cuatro (Gael, Vera, Darío, Elia). Está comprobada con el simulador del expediente; las cifras de la derecha son el estado de los relojes a esa hora.
+Una operación de referencia para cuatro PJ (Gael, Vera, Darío y Elia). Sobreviven las quince personas vivas en T0. Las columnas de la derecha permiten comprobar los relojes y localizar dónde cambia el plan si una tarea se retrasa.
 
 | Hora | Acción | R-3 | P-2 (aire / batería) | H-4 |
 |---|---|---|---|---|

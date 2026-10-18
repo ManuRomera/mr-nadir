@@ -1,0 +1,443 @@
+{
+  "resultado": "OK",
+  "base": "e3b03a3",
+  "documentos": {
+    "journal": 42,
+    "actors": 31,
+    "items": 17,
+    "scenes": 28,
+    "tables": 1,
+    "macros": 6,
+    "playlists": 30,
+    "folders": 11
+  },
+  "paginas": 190,
+  "paginas_con_texto_revisado": 105,
+  "cambios_ajenos_al_texto": false,
+  "errores": [],
+  "revisadas": [
+    [
+      "00 · Nádir: Sangre bajo el hielo",
+      "Nádir: Sangre bajo el hielo"
+    ],
+    [
+      "00 · Nádir: Sangre bajo el hielo",
+      "Guía rápida del Guardián"
+    ],
+    [
+      "00 · Nádir: Sangre bajo el hielo",
+      "Principios del Guardián"
+    ],
+    [
+      "00 · Nádir: Sangre bajo el hielo",
+      "Meter el horror en mesa"
+    ],
+    [
+      "00 · Nádir: Sangre bajo el hielo",
+      "Reparto para tres, cuatro o cinco jugadores"
+    ],
+    [
+      "01 · Nádir y sus habitantes",
+      "Nádir y sus habitantes"
+    ],
+    [
+      "01 · Nádir y sus habitantes",
+      "El mundo"
+    ],
+    [
+      "01 · Nádir y sus habitantes",
+      "Distribución de la población"
+    ],
+    [
+      "01 · Nádir y sus habitantes",
+      "Bastión y los barracones"
+    ],
+    [
+      "02 · La verdad del accidente",
+      "La verdad del accidente"
+    ],
+    [
+      "02 · La verdad del accidente",
+      "Qué ocurrió realmente"
+    ],
+    [
+      "02 · La verdad del accidente",
+      "Lo que queda de los muertos"
+    ],
+    [
+      "03 · Relojes, recursos y cronología",
+      "Relojes, recursos y cronología"
+    ],
+    [
+      "03 · Relojes, recursos y cronología",
+      "Modo de dirección rápida"
+    ],
+    [
+      "03 · Relojes, recursos y cronología",
+      "Cronología de referencia"
+    ],
+    [
+      "04 · Crustivermis nadirensis: el costrero",
+      "*Crustivermis nadirensis*: el costrero"
+    ],
+    [
+      "04 · Crustivermis nadirensis: el costrero",
+      "Introducción"
+    ],
+    [
+      "04 · Crustivermis nadirensis: el costrero",
+      "Morfología"
+    ],
+    [
+      "04 · Crustivermis nadirensis: el costrero",
+      "Hábitat y metabolismo"
+    ],
+    [
+      "04 · Crustivermis nadirensis: el costrero",
+      "Ritmo del descubrimiento"
+    ],
+    [
+      "04 · Crustivermis nadirensis: el costrero",
+      "Discusión"
+    ],
+    [
+      "05 · Actos I y II — El mensaje cortado",
+      "Actos I y II — El mensaje cortado"
+    ],
+    [
+      "05 · Actos I y II — El mensaje cortado",
+      "Acto I · El mensaje cortado"
+    ],
+    [
+      "05 · Actos I y II — El mensaje cortado",
+      "Acto II · El camino entre campamentos"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "Acto III — Un complejo herido"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "Cómo leer una ficha"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[X] Atracadero y esclusa exterior"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[1] Control C-0 — La versión oficial"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[2] Portilla exterior de P-2 — La segunda voz"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[3] Esclusa E-1 y ruta baja — La puerta equivocada"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[4] Galería L-4 — La ruta que nadie debía usar"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[5] Cavidad de cría — Algo que tiene su razón"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[6] Paso alto — Por encima de la fractura"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[7] Refugio R-3 — Trece respiraciones"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[8] Estación P-2 — Quienes sujetan la situación"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[9] Tramo de inspección de H-4 — El precio de una redundancia"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[10] Válvula V-12 y galería de servicio — Cortar antes de abrir"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[11] Portillo superior — El acceso discreto"
+    ],
+    [
+      "06 · Acto III — Un complejo herido",
+      "[12] Junta J-17 y tramo bajo — Lo que realmente se rompió"
+    ],
+    [
+      "07 · Acto IV — El precio de sacarlos",
+      "Acto IV — El precio de sacarlos"
+    ],
+    [
+      "07 · Acto IV — El precio de sacarlos",
+      "Cuándo empieza este acto"
+    ],
+    [
+      "07 · Acto IV — El precio de sacarlos",
+      "Los conflictos de la evacuación"
+    ],
+    [
+      "07 · Acto IV — El precio de sacarlos",
+      "El sumidero de R-3"
+    ],
+    [
+      "07 · Acto IV — El precio de sacarlos",
+      "Logística de evacuación"
+    ],
+    [
+      "07 · Acto IV — El precio de sacarlos",
+      "Finales y consecuencias"
+    ],
+    [
+      "07 · Acto IV — El precio de sacarlos",
+      "Epílogos de personaje"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Dramatis personae"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Mara Venn"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Lara Quiroga"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Ivo Sen"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Tomás Duarte"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Roque Vidal"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Oria Sable"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Inés Calder"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Nora Ilias"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Gaspar Kroll"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Román Kes"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Ulma Senn"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Osian Brev"
+    ],
+    [
+      "08 · Dramatis personae",
+      "Respuesta autónoma"
+    ],
+    [
+      "09 · Reglas de mesa",
+      "Reglas de mesa"
+    ],
+    [
+      "09 · Reglas de mesa",
+      "Mothership 1e y las reglas de este escenario"
+    ],
+    [
+      "09 · Reglas de mesa",
+      "Cuándo pedir una tirada"
+    ],
+    [
+      "09 · Reglas de mesa",
+      "Combate con los costreros"
+    ],
+    [
+      "10 · Herramientas del Guardián",
+      "Herramientas del Guardián"
+    ],
+    [
+      "10 · Herramientas del Guardián",
+      "5 · Matriz de pistas"
+    ],
+    [
+      "11 · Documentos para los jugadores",
+      "Documentos para los jugadores"
+    ],
+    [
+      "11 · Documentos para los jugadores",
+      "Cómo usar estos documentos"
+    ],
+    [
+      "12 · La cuadrilla M-4",
+      "La cuadrilla M-4"
+    ],
+    [
+      "12 · La cuadrilla M-4",
+      "Gael Rivas — el alguacil de referencia"
+    ],
+    [
+      "12 · La cuadrilla M-4",
+      "Vera Soria — la científica presa"
+    ],
+    [
+      "12 · La cuadrilla M-4",
+      "Darío Belda — el técnico preso"
+    ],
+    [
+      "12 · La cuadrilla M-4",
+      "Elia Noé — la operadora civil"
+    ],
+    [
+      "12 · La cuadrilla M-4",
+      "LIMEN-6 — el alguacil sintético"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "Bastión"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "La llanura de hielo"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "Repetidor R-12"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "El filtro abandonado"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "C-7 desde fuera"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "B1 · Colector B-4"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "B2 · Laboratorio de B-4"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "B3 · Barracón de turno"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "B4 · Taller de B-4"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "B5 · Garaje del Lince-6"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "B6 · Almacén de soporte vital"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "B7 · Esclusa de B-4"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "X · Atracadero y esclusa exterior"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "1 · Control C-0"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "2 · Portilla exterior de P-2"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "3 · Esclusa E-1 y ruta baja"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "4 · Galería L-4"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "5 · Cavidad de cría"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "6 · Paso alto"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "7 · Refugio R-3"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "8 · Estación P-2"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "9 · Tramo de inspección de H-4"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "10 · Válvula V-12 y galería de servicio"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "11 · Portillo superior"
+    ],
+    [
+      "Lecturas de escena (Guardián)",
+      "12 · Junta J-17 y tramo bajo"
+    ],
+    [
+      "★ Guion de dirección",
+      "Antes de empezar"
+    ],
+    [
+      "★ Guion de dirección",
+      "Acto I · El mensaje cortado (B-4)"
+    ],
+    [
+      "★ Guion de dirección",
+      "Acto II · El camino entre campamentos"
+    ],
+    [
+      "★ Guion de dirección",
+      "Acto III · Un complejo herido (C-7)"
+    ],
+    [
+      "★ Guion de dirección",
+      "Acto IV · El precio de sacarlos"
+    ],
+    [
+      "★ Guion de dirección",
+      "Finales"
+    ]
+  ],
+  "compendio_verificado": true,
+  "zip_integro": true,
+  "prueba_en_mundo_foundry": "No ejecutada: la revisión no importa ni modifica mundos existentes."
+}
