@@ -1,7 +1,7 @@
 # Nádir: Sangre bajo el hielo
 
 ::: resumen
-Expediente del suceso de ND-17, llamado Nádir: una luna de hielo sucio con setenta y siete habitantes permanentes, seis campamentos y una concesión industrial que explota agua y salmueras. A las 09:36 se registra una rotura a presión en el sector C-7. De los dieciocho destinados allí, tres mueren en los primeros minutos, trece resisten en la cámara refugio R-3 y dos mantienen en marcha una bomba en la estación auxiliar P-2. La investigación formal de los costreros, animales vermiformes que sellan fugas con depósitos minerales, comienza con este suceso.
+Expediente del suceso de ND-17, llamado Nádir: una luna de hielo sucio con setenta y siete habitantes habituales, seis instalaciones y una concesión industrial que explota agua y salmueras. A las 09:36 se registra una rotura a presión en el sector C-7. De los dieciocho destinados allí, tres mueren en los primeros minutos, trece resisten en la cámara refugio R-3 y dos mantienen en marcha una bomba en la estación auxiliar P-2. La investigación formal de los costreros, animales vermiformes que sellan fugas con depósitos minerales, comienza con este suceso.
 Palabras clave: Nádir, ND-17, costreros, salmuera, presión, refugio, bomba, hipercapnia, Crustivermis nadirensis.
 :::
 
@@ -11,39 +11,55 @@ Palabras clave: Nádir, ND-17, costreros, salmuera, presión, refugio, bomba, hi
 
 ### La situación en tres párrafos
 
-Nádir es una luna pequeña y helada que explota agua y salmueras minerales para suministrar oxígeno, hidrógeno y productos industriales a instalaciones espaciales. Sus setenta y siete residentes permanentes están repartidos en seis campamentos, algunos a cientos de kilómetros de distancia. Los trabajos generales los desempeñan presos; los especialistas condenados con buen historial pueden integrarse en cuadrillas mixtas con personal civil y un alguacil de referencia. Los protagonistas son una de esas cuadrillas. El primer acto arranca mientras trabajan, no durante una reunión ni al llegar de otra nave.
+Nádir es una luna pequeña y helada que explota agua y salmueras minerales para suministrar oxígeno, hidrógeno y productos industriales a instalaciones espaciales. Sus setenta y siete residentes habituales están repartidos en seis instalaciones, algunas a cientos de kilómetros. Los trabajos generales los hacen presos; los especialistas condenados con buen historial pueden integrarse en cuadrillas mixtas con personal civil y un alguacil de referencia. Los protagonistas son una de esas cuadrillas, la M-4, y la partida arranca mientras trabajan en el frente B-4.
 
-En el sector C-7, a unos cuarenta kilómetros de su frente de trabajo, una entrada de salmuera a presión rompe las conducciones de drenaje y obliga a aislar varias galerías. De las dieciocho personas destinadas en el sector, tres han muerto, trece se refugian en una cámara presurizada y otras dos siguen vivas en una estación auxiliar de bombeo. Mara Venn, alguacil militar y pareja del alguacil jugador, transmite una petición de ayuda por radio antes de perder la comunicación. La cuadrilla puede salir hacia allí, pero no porque sea la única capaz de reparar la instalación: porque es de las primeras que se entera, está relativamente cerca y cada uno de sus miembros tiene una razón propia para intervenir.
+En el sector C-7, a cuarenta y tres kilómetros por ruta, una entrada de salmuera a presión rompe las conducciones de drenaje y obliga a aislar varias galerías. De las dieciocho personas destinadas allí, tres han muerto, trece se refugian en una cámara presurizada y dos siguen vivas en una estación auxiliar de bombeo. Mara Venn, alguacil militar y pareja (o vínculo cercano) del alguacil jugador, transmite una petición de ayuda antes de perder la comunicación. La cuadrilla puede salir hacia allí porque es de las primeras que se entera, está relativamente cerca y cada uno de sus miembros tiene una razón propia para intervenir.
 
-La causa profunda del desastre es una concatenación de errores. La minería presurizada abrió microfugas hacia cavidades naturales; unos organismos autóctonos sellaron esas fracturas con depósitos minerales; el mantenimiento retiró un sello sin comprenderlo; un desvío clandestino del drenaje debilitó la redundancia; la salmuera rompió una junta de aislamiento. Y ahora dos supervivientes, uno de ellos un preso condenado por homicidio, mantienen en marcha una bomba que impide que la situación empeore para los otros trece. Rescatarlos sin reemplazar esa función podría condenar a sus compañeros. La verdad puede investigarse; no llega entregada por una confesión.
+La causa del desastre es una concatenación. La minería presurizada abrió microfugas hacia cavidades naturales; unos animales autóctonos las sellaron con depósitos minerales; el mantenimiento retiró un sello sin comprenderlo; un desvío clandestino del drenaje había restado redundancia al sistema; la salmuera rompió una junta. Ahora dos supervivientes, uno de ellos un preso condenado por homicidio, mantienen una bomba que protege a los otros trece. Sacarlos sin sustituir ese trabajo puede condenar a sus compañeros. La verdad se investiga mientras la emergencia sigue en marcha, y cada descubrimiento cambia lo que conviene hacer a continuación.
 
 > **«Nadie puede abandonar Nádir sin autorización. El problema es que Nádir tampoco deja marchar a todo el mundo».**
 >
 > Un temblor recorre la plancha bajo tus botas. En la radio, una voz conocida cuenta heridos y compuertas que se cierran. Después, solo estática.
 
-### Qué es y qué no es esta aventura
+### Qué es esta aventura
 
-**Sí es:** una emergencia dinámica; presos realmente culpables junto a otros no violentos; alguaciles con responsabilidades comprensibles; fauna territorial que responde a lo físico; ciencia ficción con límites; vínculos personales fuertes; varias estrategias de rescate igual de válidas.
+Una emergencia dinámica de seis a nueve horas de mesa, idealmente en dos sesiones, para **Mothership 1e** y de tres a cinco jugadores. Presos realmente culpables junto a otros que no lo son tanto; alguaciles con responsabilidades comprensibles; fauna territorial que responde a lo físico; ciencia ficción con límites; vínculos personales fuertes; varias estrategias de rescate igual de válidas. El tema late en tres frases: rescatar a alguien no equivale a absolverlo; obedecer una orden no garantiza haber hecho lo correcto; explotar un lugar no lo vuelve inerte.
 
-**No es:** una conspiración corporativa omnipotente; un asesino oculto elegido para sorprender al final; alienígenas malignos o telepáticos; puertas que se bloquean por exigencia del guion; un desenlace en el que el Guardián decide de antemano cuántos deben morir.
-
-El tema late en tres frases. Rescatar a alguien no equivale a absolverlo. Obedecer una orden no garantiza haber hecho lo correcto. La explotación de un lugar no lo vuelve inerte.
+Lo que esta aventura no contiene: una conspiración corporativa que lo explique todo, un asesino oculto que se revela al final, alienígenas malignos o telepáticos, puertas que se bloquean porque lo exige el guion, ni un desenlace en el que el Guardián decida de antemano cuántos mueren.
 
 ### Las cuatro verdades que nunca cambian
 
-1. **Mara no provocó el accidente.** Ordenó el aislamiento local para evitar una pérdida mayor de presión y quedó atrapada junto a los demás.
-2. **Los costreros no planean nada.** Detectan vibraciones y alteraciones químicas; sellan fugas hacia su hábitat, defienden sus zonas de cría y pueden alimentarse de tejido animal.
-3. **Ivo Sen sí modificó el drenaje**, meses antes, para mantener abierta una vía de evasión futura. Su modificación agravó el accidente, pero no lo originó. Ahora mantiene con vida a otros presos pese a saber que podría ser condenado por lo que hizo.
-4. **Se puede salvar a las quince personas que aún viven al empezar**, sin exterminar a los animales ni sacrificar automáticamente a nadie. Es difícil, consume recursos y puede exigir renunciar a otras ventajas, pero el escenario contiene medios para lograrlo. Las soluciones inventadas por los jugadores también pueden servir.
+1. **Mara no provocó el accidente.** Ordenó el aislamiento manual cuatro minutos después de la entrada de salmuera para evitar una pérdida mayor de presión, y quedó atrapada junto a los demás.
+2. **Los costreros son animales.** Detectan vibraciones y gradientes químicos; sellan fugas hacia su hábitat, defienden sus zonas de cría y se alimentan de tejido animal cuando lo encuentran. No planean, no persiguen y no castigan.
+3. **Ivo Sen modificó el drenaje** meses antes, para mantener abierta una vía de evasión. Su modificación agravó el accidente; no lo originó. Ahora mantiene con vida a otros sabiendo que puede ser condenado por lo que hizo.
+4. **Se puede salvar a las quince personas vivas en T0** sin exterminar a los animales ni sacrificar a nadie. Es difícil, consume recursos y obliga a renunciar a otras ventajas. El capítulo «Relojes, recursos y cronología» contiene una secuencia de referencia comprobada minuto a minuto, y las soluciones inventadas por los jugadores también sirven.
 
-### Preparación en diez minutos
+## Principios del Guardián
 
-1. Reparte los perfiles o créalos con los jugadores; acuerda sus vínculos. Necesitas al menos un Marine alguacil y, con cinco jugadores, un Android alguacil.
-2. Lee la verdad y la cronología, las rutas y tiempos, y las fichas de Mara, Ivo, Quiroga y Oria.
-3. Ten a la vista los tres relojes: **Refugio R-3**, **Bomba P-2** y **Fuga H-4**.
-4. Prepara los documentos para jugadores, pero entrega cada uno solo si lo obtienen.
-5. Dibuja el esquema de C-7 y el de rutas. No hace falta un mapa cuadriculado.
-6. Acuerda límites y velos antes de empezar.
+Estos principios se exponen aquí una vez y se aplican en todo el libro. El resto de capítulos no los repite; cuando una escena necesita una advertencia concreta, la da en una línea.
+
+::: caja Los seis principios
+**1. Toda consecuencia tiene una causa física que puedes nombrar.** Presión, agua, vibración, CO₂, frío, dientes, cansancio. Si no puedes explicar en voz alta por qué ocurre algo, no ocurre. Esto vale para el horror, para los relojes y para la fauna.
+
+**2. Los relojes avanzan por tiempo o por consecuencias anunciadas.** Nunca para subir la tensión. Antes de una tirada que pueda mover un reloj, di qué reloj y cuánto.
+
+**3. Ninguna pista imprescindible depende de una sola tirada, una sola localización o un solo PNJ.** Un fallo encarece el camino (tiempo, exposición, información menos precisa); no lo cierra.
+
+**4. Los PNJ actúan por su cuenta.** Quieren cosas, temen cosas y toman decisiones aunque los protagonistas no estén delante. La tabla de respuesta autónoma dice cuándo y por qué.
+
+**5. Si el plan de los jugadores es físicamente razonable, funciona.** Pide origen, destino, presión y coste; señala el punto que puede fallar; tira una vez si hay incertidumbre real. No inventes un obstáculo para devolverlos al plan escrito.
+
+**6. Mothership sigue siendo letal.** Evita las muertes arbitrarias, no la letalidad. Un traje perforado en una galería sin aire, una mordedura que pasa la armadura, una apertura brusca o un refugio que se queda sin depuración matan según las reglas. Los tres fallecidos de T0 son pasado y no se evitan con una tirada.
+:::
+
+### Preparación en quince minutos
+
+1. Reparte los perfiles de la cuadrilla M-4 (capítulo «La cuadrilla M-4») o deja que se creen con el *Player's Survival Guide*. Necesitas al menos al alguacil Marine.
+2. Lee «La verdad del accidente» y «Relojes, recursos y cronología». Son el motor de la partida.
+3. Imprime la **Hoja de relojes**, la **Tabla de recursos** y el **Estado de supervivientes** del capítulo «Herramientas del Guardián».
+4. Prepara los documentos para jugadores del apéndice imprimible; entrega cada uno solo si lo obtienen.
+5. Ten a mano el plano operativo de C-7 y el de rutas.
+6. Acuerda líneas y velos antes de empezar.
 
 ::: documento Cabecera del número
 **ANALES DE BIOLOGÍA DE FRONTERA · Vol. 12, n.º 3 · Número especial: Nádir (ND-17)**
@@ -52,91 +68,80 @@ Actas del expediente que condujo al descubrimiento formal de *Crustivermis nadir
 
 ## Meter el horror en mesa
 
-### La regla de oro: materia, no misterio
+Nádir es horror industrial y corporal: frío, físico y material. El miedo nace de la presión, la oscuridad, los dientes, la asfixia y los cuerpos. La amenaza es indiferente, y eso pesa más que la maldad: los costreros sellan fugas, y un cadáver que se descompone también es una fuga.
 
-Nádir es horror industrial y corporal: frío, físico y material. El miedo nace de la presión, la oscuridad, los dientes, la asfixia y los cuerpos. Nunca de lo sobrenatural. La amenaza no es malvada; es **indiferente**, y eso es peor. Los costreros no odian a nadie: sellan fugas, y un cadáver es una fuga.
+> Cuando la linterna barre el tramo bajo, algo blanco cubre la roca como cal apagada. Bajo esa piel translúcida hay una forma que fue un hombre. La costra se hunde y se recupera muy despacio, con un ritmo que no es el de una respiración. Algo trabaja dentro.
 
-Regla de oro para dirigir: **cada golpe de horror tiene una causa física que puedes explicar**. Vibración, humedad, gas de descomposición, sangre, CO₂. Así respetas el diseño del autor y metes el miedo por la puerta de atrás. Si no puedes nombrar la causa física, el golpe no pertenece a esta aventura.
+### La escalera del horror
 
-> Cuando la linterna barre el tramo bajo, algo blanco cubre la roca como cal apagada. Bajo esa piel translúcida hay una forma que fue un hombre. La costra sube y baja muy despacio. No es el viento: no hay viento. Algo trabaja dentro.
+El horror de Nádir sube por peldaños. Cada uno enseña algo nuevo sobre la fauna y obliga a decidir de otra manera; ninguno se repite tal cual. Usa esta escalera para dosificar, no como guion: los jugadores pueden saltarse peldaños o subirlos en otro orden.
 
-### La capa de horror, causa por causa
-
-- **Los muertos se están convirtiendo en pared.** Bajo el gel mineral, los cadáveres siguen soltando gases y humedad; para la colonia son fugas, y las sella como sella una grieta. El preso **Teo Mahr** yace medio cubierto en el tramo bajo junto a J-17: el cuerpo **se mueve** porque los dentículos lo trabajan por dentro. Es un relicario, y el primer contacto visual fuerte. El alguacil **Elmo Serrat** quedó atrapado en la hoja deformada de E-1 con la radio de casco abierta: por el canal de alguaciles se cuela, entre la estática, un raspado rítmico y húmedo. La civil **Milena Tey** (o Inés, según el intercambio del balance) aparece sellada contra una pared del corredor dañado, la cara visible tras la costra, como tras un cristal empañado.
-- **El evadido del muro.** En la cavidad de cría, un cuerpo antiquísimo está mineralizado en la pared: traje de modelo viejo, placa de pecho con **H. LISÁN**. Los registros de ACE dicen que Héctor Lisán se evadió hace tres años y que «se presume muerto en superficie». Mintieron, o nunca lo buscaron. Llegó por las galerías antiguas, igual que planea Ivo. Es el espejo de Ivo y no altera ningún reloj.
-- **El canto del casco.** El roce de los dentículos contra el metal viaja por las estructuras sólidas. En P-2, en E-1 y en L-4 se oye un chirrido de acero que no para. En P-2 llevan horas escuchando cómo **sellan la portilla desde fuera**; la costra alrededor de la junta es parte de por qué parece soldada. Quiroga empieza a quebrarse con el ruido. Cuando los PJ trabajen la portilla con herramientas, la vibración **atraerá** exploradores: hay que elegir entre rapidez y silencio.
-- **Silencio sólido (atención de la colonia, 0–6).** En zonas conectadas a cavidades, lleva la cuenta de las señales: percusión o taladro durante una escena, disparo, caída pesada o carreras sobre chapa suman 1; explosivo, martilleo continuo o abrir un tramo con agua a presión suman 2; apagar la máquina y quedarse quieto diez minutos o cerrar la fuga resta 1. A 2 se acerca un explorador en 5–15 minutos; a 4 convergen tres ejemplares; a 6 llegan defensores o un enjambre pequeño. Es la «escala de respuesta» del original, hecha visible. La escena típica: apagan todo, matan las luces del casco y algo blanco se desliza por el techo a dos palmos.
-- **El desagüe de R-3.** El refugio tiene un sumidero conectado a la red de drenaje. Si **Fuga H-4 llega a 4**, la línea se inunda de salmuera hasta la rejilla y un costrero puede **entrar por el sumidero** atraído por la sangre del preso herido Osian Brev. Los atrapados taponan la rejilla con mantas y su propio peso; Gaspar Kroll se sienta encima. Es terror coral sin romper ninguna verdad: hay una barrera concreta y explicable.
-- **Hipercapnia: el miedo de los trece.** Con R-3 en Degradado o Crítico, la gente tiene dolores de cabeza, temblores y confusión. Alguien cuenta **catorce personas** cuando son trece y no se convence. Alguien duerme y cuesta despertarlo. Isa Rehn insiste en que oyó arañar el techo, y tiene razón si hay fuga en el portillo superior. Mara repite frases. Es horror humano y no mata a nadie fuera de las reglas.
-- **Contacto.** En L-4, un costrero puede **adherirse a la pierna de un traje** y pasar inadvertido hasta que otra radio lo avise. Una mordedura sobre traje causa el daño de siempre, pero la escena es **sentir los dentículos trabajar el tejido** antes de perforarlo. La sangre en un tramo húmedo atrae: describe el **giro ciego** de los anillos buscando.
+| Peldaño | Dónde suele aparecer | Qué se aprende | Qué cambia en las decisiones |
+|---|---|---|---|
+| 1. Una textura que no es mineral | Filtro de B-4 (Acto I) | Las costras tienen estructura orgánica | Alguien empieza a sospechar de las «incrustaciones» |
+| 2. Un sonido que nadie explica | Radio de Serrat (Actos II–III) | Hay algo trabajando en un cuerpo | Miedo sin objetivo; ganas de llegar a E-1 o de evitarla |
+| 3. Un animal que se retira | Filtro abandonado (Acto II) | Vibración → presencia → sellado | Se empieza a medir el ruido propio |
+| 4. Un cuerpo que se mueve | Relicario de Teo Mahr, cara de Milena | Los muertos son tratados como fugas | Sacar pronto a los vivos; no dejar sangre atrás |
+| 5. Una puerta que cicatriza | Portilla de P-2 | Sellan las fugas humanas desde fuera | Rapidez o silencio al abrirla |
+| 6. Algo en el propio traje | L-4 | La mordedura puede perforar la armadura | Escoltar, vigilarse las piernas, llevar parches |
+| 7. Una buena decisión con mala consecuencia | V-12, cría, portillo | Cerrar una fuga desplaza el sellado a la siguiente | Hay que prever adónde irá la colonia |
+| 8. Algo bajo la rejilla | Sumidero de R-3 (si H-4 llega a 4) | La salmuera y la sangre abren caminos | Sacar antes a los heridos; sostener una rejilla con el cuerpo |
+| 9. El hombre del muro | Cavidad de cría | Nádir guarda a los que intentan irse | El dilema de Ivo pesa distinto |
 
 ### Lo que nunca se hace
 
-Ni telepatía, ni plan, ni inteligencia colectiva. Ni muertes de PNJ sin causa física. Ni costreros en el vacío. Ni monstruo gigante. El horror sale de la cercanía, la oscuridad y la materia. Cuando dudes, vuelve a la causa física y descríbela antes que el efecto.
+Ni telepatía, ni plan, ni inteligencia colectiva. Ni muertes de PNJ sin causa física. Ni costreros patrullando la superficie al vacío. Ni monstruo gigante. Cuando dudes, describe la causa física antes que el efecto.
 
 ## Seguridad en la mesa
 
-### Límites y velos
-
 Este escenario toca privación de libertad, violencia carcelaria, mordeduras, hemorragias, asfixia y muerte de conocidos. La capa de horror añade cadáveres mineralizados, cuerpos que se mueven por la actividad de los dientes, hipercapnia y la sensación de llevar una criatura adherida al traje. Antes de jugar, acordad líneas y velos: una **línea** es algo que no aparece; un **velo** es algo que se corta de plano o se resuelve fuera de escena. Basta con una tarjeta o una señal manual para activarlos en cualquier momento.
 
-Regla de reparto: **no obligues** a nadie a interpretar un romance, un delito concreto o una relación de dependencia que le incomode. El vínculo romántico con Mara puede convertirse en pareja de hecho, ex pareja aún querida, hermana o amistad de toda la vida. Preserva la importancia emocional sin imponer un papel no deseado.
+**No obligues** a nadie a interpretar un romance, un delito concreto o una relación de dependencia que le incomode. El vínculo con Mara puede ser pareja, ex pareja aún querida, hermana o amistad de toda la vida. Si prefieres no imponer la muerte de un vínculo antes de que el jugador actúe, intercambia a **Milena Tey** con **Inés Calder**: Milena está en R-3 e Inés es la fallecida. Los números del balance no cambian.
 
-### Contenidos que requieren cuidado
-
-- Muerte de vínculos antes de que el jugador pueda actuar. Si prefieres evitarlo, intercambia a Milena con Inés: la primera queda en R-3 y la segunda fallece. **No cambies los números del balance.**
-- Cuerpos sellados y el relicario de Teo Mahr. Anuncia la imagen antes de describirla si alguien lo necesita.
-- Asfixia por CO₂ y sus síntomas. La amenaza es la degradación, no una muerte súbita.
-- Custodia, esposas y registro de presos. Modera cuánto peso institucional quieres en mesa.
+Anuncia la imagen del relicario de Teo Mahr antes de describirla si alguien lo necesita. La asfixia por CO₂ es degradación progresiva, no muerte súbita. Modera cuánto peso institucional (esposas, registros, recuentos) quieres en mesa.
 
 ## Reparto para tres, cuatro o cinco jugadores
 
-| PJ | 3 | 4 | 5 | Clase sugerida | Condición |
+| PJ | 3 | 4 | 5 | Clase | Si no se interpreta |
 |---|:---:|:---:|:---:|---|---|
-| **Marine — alguacil de referencia** | ✓ | ✓ | ✓ | Marine | Funcionario ACE; pareja de Mara |
-| **Científica — presa de confianza** | ✓ | ✓ | ✓ | Scientist | Experta en fluidos, biología o química |
-| **Técnico — preso de confianza** | ✓ | ✓ | ✓ | Teamster | Mecánica industrial y estructuras |
-| **Operadora civil** | — | ✓ | ✓ | Teamster o Scientist | HRF, mantenimiento y comunicaciones |
-| **Alguacil sintético** | — | — | ✓ | Android | Segundo agente, compañero del Marine |
+| **Gael Rivas — alguacil de referencia** | ✓ | ✓ | ✓ | Marine | Obligatorio |
+| **Vera Soria — científica presa** | ✓ | ✓ | ✓ | Scientist | Su informe sigue en el terminal de B-4 |
+| **Darío Belda — técnico preso** | ✓ | ✓ | ✓ | Teamster | Ivo y Quiroga aportan la mecánica cuando quedan libres |
+| **Elia Noé — operadora civil** | — | ✓ | ✓ | Teamster | Se queda en B-4 como PNJ de radio y logística |
+| **LIMEN-6 — alguacil sintético** | — | — | ✓ | Android | Se queda en B-4 custodiando al resto del frente |
 
-Con tres personajes, la operadora civil **sigue existiendo como PNJ en B-4**, disponible por radio para dudas técnicas y logística; no acompaña ni resuelve por ellos. Con cuatro, el androide existe como unidad de Bastión, pero está atendiendo otra incidencia y no aparece para salvar la jornada. Así no hay versiones contradictorias de la historia: cambian los personajes interpretados y el apoyo cercano.
-
-**Dos preguntas por protagonista.** Antes de jugar, cada persona contesta y anota: ¿qué integrante de C-7 te importa y por qué? ¿Qué hecho sobre tu trabajo o tu vida en Nádir no quieres que se conozca, aunque no sea un crimen? No conviertas esas respuestas en giros obligatorios: son herramientas para generar decisiones, no munición para castigar al grupo.
+Así no hay versiones contradictorias: los nueve de B-4 son siempre los mismos (la cuadrilla M-4 y cuatro personas más del frente); cambia quién sale en el rover. Ninguna escena fundamental depende de un perfil concreto: cada capítulo indica qué hace la mesa si falta.
 
 ## Estructura por actos
 
-Duración prevista: **6–9 horas, idealmente dos sesiones**. Los actos no se cierran con una campana; cambian cuando la situación lo hace.
+Duración prevista: **6–9 horas de mesa, idealmente dos sesiones**. El tiempo de juego dentro de la ficción va de las 09:48 a la noche del mismo día. Los actos no se cierran con una campana; cambian cuando la situación lo hace.
 
-| Acto | Título | Duración orientativa | Qué ocurre |
-|---|---|---|---|
-| I | El mensaje cortado | 45–75 min | Avería en B-4, temblor, último mensaje de Mara, tres decisiones inmediatas y preparativos de salida |
-| II | El camino entre campamentos | 45–90 min | Trayecto de 43 km a C-7 por R-12 o por el atajo del glaciar; ruta, antena averiada y primera evidencia de fauna |
-| III | Un complejo herido | Resto de la primera sesión | Doce localizaciones recorribles en cualquier orden: Control C-0, portilla de P-2, E-1, L-4, cría, paso alto, R-3, P-2, H-4, V-12, portillo superior y J-17 |
-| IV | El precio de sacarlos | Cierre de sesión o segunda parte | Comienza cuando conocen al menos dos condiciones clave; dilema de P-2, verdad de Ivo, división del rescate y decisión de Mara |
+| Acto | Título | Tiempo de mesa | Tiempo de juego (referencia) | Qué ocurre |
+|---|---|---|---|---|
+| I | El mensaje cortado | 45–60 min | ≈09:25–10:25 | Avería en B-4, último mensaje de Mara, llamadas a Bastión, carga del rover |
+| II | El camino entre campamentos | 45–75 min | 10:25–13:10 | 43 km por R-12 o el atajo; repetidor, Salcedo, primera evidencia de fauna |
+| III | Un complejo herido | 2 h 30 min–3 h 30 min | 13:10–17:00 | Doce localizaciones en cualquier orden; P-2, V-12, el portillo o E-1; la verdad aparece mientras se trabaja |
+| IV | El precio de sacarlos | 1 h 30 min–2 h 30 min | 15:00–noche | Evacuación, custodia, orden de salida, transporte y lo que se firma después |
+
+Los actos III y IV se solapan: en cuanto el grupo tiene en la mano al menos dos de las piezas clave (R-3 vivo, P-2 habitado, la bomba protege el tramo, el bypass de Ivo), las escenas del Acto IV se activan aunque queden localizaciones por visitar. Una buena pausa entre sesiones cae al final del Acto II o justo después de estabilizar P-2.
 
 ### Lo que hay que saber antes de arrancar
 
-- **Comienzo:** T+12 minutos desde el accidente. Los PJ reparan el bombeo en B-4. No es una reunión ni una llegada: es su turno.
-- **Primer trayecto:** B-4 → C-7, 43 km, 2 h–2 h 30 min por R-12. El rover es abierto: traje, energía, O₂ y filtros importan de verdad.
-- **Balance de C-7:** tres muertos ya ocurridos, trece en R-3, dos en P-2. Los tres fallecimientos iniciales son pasado; no se evitan con una tirada.
-- **Verdad:** costreros que sellan fugas, limpieza de J-17 que retiró un tapón, bypass clandestino de Ivo que agravó el drenaje, Mara que cerró C-7 para contener la rotura, y una bomba que protege el tramo hacia R-3.
+- **Comienzo:** unos minutos antes de las 09:36, en mitad de una reparación en B-4. El temblor llega a las 09:36 y el mensaje de Mara a las 09:48.
+- **Primer trayecto:** B-4 → C-7, 43 km, 2 h–2 h 30 min por R-12 o 1 h 35 min–2 h 10 min por el atajo. Rover abierto: trajes, energía y cartuchos importan.
+- **Balance de C-7:** tres muertos ya ocurridos, trece en R-3, dos en P-2.
+- **Plazos sin intervención:** el aire de P-2 se agota a las 14:36; la bomba se para a las 15:36; si nadie actúa (y el intento desesperado de Ivo por el túnel fracasa), H-4 llega a 6 a las 18:06 y el sello inferior de R-3 falla a las 20:06. La depuración de R-3 se agota a las 19:36. Todo esto se puede cambiar.
 
-> Cuarenta y tres kilómetros de hielo negro hasta la avería. En C-7 hay luces encendidas y nadie detrás de los cristales. Una cámara aguanta con trece personas y un filtro que se agota. Otra aguanta con dos, una bomba y una batería que baja. Ninguna de las dos espera a que decidáis.
+> Cuarenta y tres kilómetros de hielo negro hasta la avería. En C-7 hay luces encendidas y nadie detrás de los cristales. Una cámara aguanta con trece personas y un absorbente que se satura. Otra aguanta con dos, una bomba y una batería que baja. Ninguna de las dos espera a que decidáis.
 
 ## Los tres relojes en una página
 
-Anota la hora local. El accidente es a las **09:36 (T0)**; se empieza a jugar en B-4 unos doce minutos después, cuando termina el mensaje de Mara. Los tres relojes son reglas propias del escenario para representar sistemas industriales. No los muevas para dar tensión «porque toca»: muévelos porque ha pasado tiempo o por una consecuencia física anunciada. Se pueden detener, mejorar o empeorar con acciones razonables.
+El detalle completo, con tablas de estados y reglas de avance, está en «Relojes, recursos y cronología». Este es el resumen para tener delante.
 
-| Reloj | Inicio | Avanza | Retrocede | Efecto |
+| Reloj | Qué mide | Sin intervención | Lo mejoran | Lo empeoran |
 |---|---|---|---|---|
-| **A · Refugio R-3** | Capacidad absorbente ≈10 h (6 kg de CO₂; consumo 0,585 kg/h) | −1 h por hora transcurrida sin mejora | +2 h por cartucho bien instalado; se detiene con filtración industrial activa | A 1–3 h: Degradado; agotado: Crítico, salvaciones de Cuerpo para esfuerzos, incapacitación progresiva |
-| **B · Estación P-2** | Filtro 5 h y batería 6 h desde T0 | Ambas cuentas corren por separado | Aportes de energía o absorbentes extienden una, no la otra | A las 5 h se degrada el aire; a las 6 h el banco entra en protección por bajo voltaje |
-| **C · Fuga H-4** | 1/6 segmentos | +1 si la bomba se para 30 min, ante aperturas bruscas o sobrecarga de la derivación | −1 con alivio controlado, sellado correcto o cierre de V-12 aguas arriba | A 4: daños serios en pasillos inferiores; a 6: E-1 y la ruta baja inundadas, riesgo estructural para R-3 |
+| **A · R-3** | kg de absorción de CO₂ (6 kg en T0; 13 personas gastan 0,6 kg/h) | Degradado 16:36 · agotado 19:36 · Grave 22:36 · Colapso 01:36 | Cartucho C-12 (+1,2 kg), depurador portátil (detiene la cuenta), purga parcial (+0,6 kg), sacar gente | Meter a más gente |
+| **B · P-2** | Aire (0,45 kg en T0; 2 personas gastan 0,09 kg/h) y batería de la bomba (12 UE; 2 UE/h) | Aire agotado 14:36 · Crítico 16:36 · Colapso 19:36 · bomba parada 15:36 | Cartucho (+13 h), filtro portátil (+3 h), cualquier fuente de energía, automatismo | Dejar la bomba sin atender 45 min sin automatismo |
+| **C · Fuga H-4** | Nivel del tramo bajo, 0–6 (empieza en 1) | 2 a las 16:06 … 6 a las 18:06; sello de R-3 a las 20:06 | V-12 cerrada (−1 y luego −1/h), alivio restituido (−1), parche de junta (−1) | Bomba parada (+1 cada 30 min), apertura brusca (+1), cierre brusco de V-12 (+1) |
 
-**R-3 no explota ni mata a todos al agotarse.** Aparecen síntomas y el estado se deteriora; el control de CO₂ es independiente del de oxígeno. **P-2 no se salva resolviendo solo una cuenta.** **H-4 no convierte el refugio en una tumba:** señala que la evacuación debe cambiar de ruta. Los relojes se leen, no se obedecen.
-
-## Principios de dirección
-
-::: caja Principios de dirección
-No fuerces motines, ataques en el vacío ni caídas de presión sin causa física. No hay una única ruta correcta ni un cierre corporativo mágico. Mara e Ivo no tienen una muerte necesaria. Los PNJ no esperan congelados: actúa su respuesta autónoma por horas. Una pista esencial no desaparece porque falle una tirada: cuesta tiempo, expone a alguien o llega menos precisa, pero deja una ruta visible. Nunca conviertas una horda de seis individuos en seis ataques inevitables, ni impongas una Herida que la mordedura no haya causado. Las consecuencias nacen de acciones, tiempo y materia. Si el plan de los jugadores tiene sentido, déjalo funcionar.
-:::
+Los tres corren en paralelo y no se compensan entre sí. Instalar un cartucho en R-3 no alimenta P-2; cerrar V-12 alivia H-4 pero no repone el aire de la estación auxiliar. Di en voz alta qué acción mueve qué reloj y por qué.

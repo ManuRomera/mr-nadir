@@ -1,475 +1,492 @@
 # Acto III — Un complejo herido
 
 ::: resumen
-Descenso a un hábitat presurizado cuyas juntas han dejado de separar lo humano de lo profundo. Las doce secciones funcionales del sector C-7 se presentan como un organismo abierto: cada fuga, cada sello y cada cuerpo obedecen a una causa física verificable. Palabras clave: presión diferencial, salmuera, colonia sellante, asfixia, rescate.
+Descenso a un hábitat presurizado cuyas juntas han dejado de separar lo humano de lo profundo. Las doce localizaciones del sector C-7 se presentan como fichas operativas: estado, personas, accesos, peligros, recursos, pistas, acciones, consecuencias y cambios según los relojes. Cada fuga, cada sello y cada cuerpo obedecen a una causa física verificable.
+Palabras clave: presión diferencial, salmuera, colonia sellante, asfixia, rescate, fichas operativas
 :::
 
-El complejo de C-7 no es una mazmorra que se recorre en orden. Es una máquina herida: un conjunto de módulos, galerías y cavidades naturales donde el aire presurizado y la salmuera a presión se disputan cada junta. Los jugadores entran por donde pueden y por donde quieren. Estas doce fichas describen qué hay en cada punto, qué se puede averiguar, qué cuesta el tiempo y qué ocurre si eligen mal. No todas tienen cadáveres. No todas tienen monstruos. Todas tienen consecuencias.
+C-7 no se recorre en orden. Es una máquina herida en la que el aire presurizado y la salmuera se disputan cada junta. Los jugadores entran por donde pueden y por donde quieren; las fichas funcionan en cualquier orden. Lleva la hora y los tres relojes en la hoja: cada ficha indica qué cambia según su estado. Los tiempos de tarea y las reglas completas están en «Relojes, recursos y cronología»; aquí se repite lo imprescindible para no tener que pasar páginas.
 
-Lee cada localización como una habitación viva: cambia con lo que los personajes hacen, no con lo que el guion quiere. Si el grupo decide ignorar una ficha y caminar en línea recta, permítelo. La sangre ya está derramada; el agua no espera.
+## Cómo leer una ficha
 
-## Cómo usar estas fichas
-
-Anota la hora local de la partida. El accidente ocurrió a las **09:36 (T0)**. El reloj avanza con el tiempo real jugado, no a golpe de escena. Cuatro contadores gobiernan este acto: **Refugio R-3**, **Bomba P-2**, **Fuga H-4** y la **Atención de la colonia** que introduce la regla de Silencio sólido. Cada localización indica qué contador mueve y cuándo.
-
-Las fichas no imponen una ruta. Un grupo técnico puede resolver C-0, estabilizar P-2 y entrar a J-17 sin pisar nunca la cavidad de cría. Un grupo impulsivo puede caer primero en la esclusa y bajar al tramo inundado. Ambas partidas son válidas. El material está escrito para funcionar en cualquier orden; solo J-17 exige que alguien se acerque a la salmuera, y nadie se ve arrastrado hasta allí por la fuerza.
+- **Estado inicial:** cómo está el lugar a las 13:00, si nadie lo ha tocado.
+- **Personas:** quién hay y su ficha en una línea (Combate · Instinto · Heridas). El perfil completo está en «Dramatis personae».
+- **Accesos:** por dónde se entra y qué hace falta.
+- **Peligros y recursos:** lo que puede herir y lo que se puede usar.
+- **Pistas:** lo que se averigua sin tirada si se busca con los medios adecuados.
+- **Acciones:** con su tiempo y su coste.
+- **Cambios según los relojes:** cómo se transforma el lugar cuando R-3, P-2 o H-4 cambian de estado.
 
 ### El complejo como organismo
 
-Piensa en C-7 como un cuerpo con circulación. La sangre es la salmuera que entra desde **dentro del macizo rocoso**. Las venas son las líneas de drenaje H-4 y el circuito de alivio. Los pulmones son R-3 y P-2, que respiran con absorbentes y baterías. Las heridas abiertas son J-17 y E-1. Y los costreros son lo que ocurre cuando un cuerpo intenta cicatrizar sin preguntar a nadie: aplican gel sobre cada grieta, taponan cada fuga, sellan cada cadáver que gotea. No odian. Reparan.
+Piensa en C-7 como un cuerpo con circulación. La salmuera entra desde el macizo por J-17. Las venas son el drenaje H-4 y la derivación B. Los pulmones son R-3 y P-2. Las heridas abiertas son J-17 y E-1. Y los costreros son lo que pasa cuando un cuerpo intenta cicatrizar sin preguntar a nadie: aplican gel sobre cada grieta, taponan cada fuga, sellan cada cadáver que gotea.
 
-### Silencio sólido
+### Lo que se descubre mientras se trabaja
 
-Los costreros son ciegos. No ven la luz ni oyen el aire. Perciben las vibraciones que viajan por roca, barro y metal. Por eso el ruido del trabajo humano es un faro. Lleva una cuenta llamada **Atención de la colonia (0–6)** en toda zona conectada a una cavidad: **L-4, la cámara de cría, H-4, J-17, el tramo bajo y la portilla de P-2**.
+La investigación no va antes ni después del rescate: va dentro. Cada descubrimiento de este acto cambia una decisión práctica.
 
-| Acción | Atención |
+| Si descubren… | …entonces pueden |
 |---|---|
-| Herramienta de percusión o taladro durante una escena; un disparo; caída de algo pesado; botas sobre chapa suspendida a la carrera | +1 |
-| Explosivo, martilleo continuo, abrir un tramo con agua a presión | +2 |
-| Apagar la máquina y esperar diez minutos quietos; cerrar la fuga de aire de la zona | −1 |
+| Que la bomba de P-2 protege el tramo de R-3 | Decidir si sacan a Quiroga e Ivo ya o dejan una fuente de energía |
+| Que V-12 corta la entrada de salmuera | Dejar de depender de P-2 y abrir la ruta baja |
+| Que el bypass de Ivo robó capacidad a la derivación B | Restituir el alivio (H-4 −1) y entender por qué subió tan deprisa |
+| Que la colonia trabaja la fuga más intensa | Prever la migración, usar una fuga como señuelo, ordenar las obras |
+| Que hay dos C-12 en el armario del portillo | Ganar cuatro horas para R-3 sin esperar a Bastión |
+| Que el sumidero de R-3 conecta con el drenaje | Sacar antes a los heridos que sangran |
+| Que Mara cerró después de la entrada de salmuera | Desactivar el rumor de Román Kes en R-3 antes de la evacuación |
 
-Al llegar a **2**, un explorador se acerca en 5–15 minutos. A **4**, tres ejemplares convergen. A **6**, aparecen defensores o un enjambre pequeño. La cuenta baja sola si el grupo se queda quieto a oscuras. La escena típica no es un combate: es un grupo inmóvil con las luces del casco apagadas mientras algo blanco se desliza por el techo a dos palmos de la cabeza.
+## [X] Atracadero y esclusa exterior
 
-::: caja Principios de dirección
-No fuerces ninguna localización. No bloquees una puerta por exigencia del guion. No metas un costrero escondido donde no lo hay. No avances R-3, P-2 ni H-4 porque «toca tensión»: avanza por tiempo transcurrido o por una consecuencia física ya anunciada. No conviertas el horror en castigo por fallar una tirada técnica. Si los jugadores inventan una solución razonable, deja que funcione. Nunca conviertas la respuesta moral de R-3 en un examen: los presos son peligrosos, no suicidas. Y recuerda: cada golpe de miedo necesita una causa material que puedas explicar en voz alta.
-:::
+**Estado inicial.** Plataforma de rovers sin energía de red (la toma de recarga murió con el colector). Esclusa exterior de C-0 funcional, con su propio acumulador.
+
+**Accesos.** Esclusa exterior a C-0: ciclo de 10 minutos, cuatro personas. Desde aquí, la portilla de P-2 está a 5 minutos a pie por la superficie, siguiendo el casco del complejo.
+
+**Recursos.** El rover se puede aparcar junto a la portilla de P-2 para conectarlo.
+
+**Cambios.** Ninguno por los relojes. Si se tiende el carrete de cable desde C-0 hasta P-2, pasa por aquí.
 
 ## [1] Control C-0 — La versión oficial
 
 ![Consola de Control C-0 con la pantalla de alarma parpadeando sobre mapas viejos y nuevos](fig-control)
 
-C-0 es el único punto de C-7 donde la presión es estable y el aire respirable. Es también el punto donde la catástrofe dejó su primera versión oficial escrita. Aquí no hay cadáveres. Hay papeleo.
+> Las luces de C-0 parpadean con un ritmo lento, como un párpado cansado. El aire está quieto y sabe a metal recalentado sobre papel viejo. En la pantalla de alarma, tres sectores siguen en rojo. Un protocolo de procedimientos cuelga atado con cinta y le falta una esquina. Los manómetros marcan presión firme: el alivio de estar, por fin, en un lugar que respira.
 
-**Ambiente.** Una luz parpadeante baña las consolas. El aire huele a aislamiento caliente, a plástico viejo y a papel. Un protocolo de procedimientos está atado a la pared con cinta y le falta una esquina. Los manómetros marcan presión firme: es el alivio físico de estar, por fin, en un lugar que respira. Ese alivio engaña.
+**Estado inicial.** Presurizado y respirable. Consola con el banco de emergencia (48 UE a las 09:36, 2 UE/h), pantalla de alarmas, radio local de corto alcance, mapas viejos y nuevos superpuestos en la pared. Vestuario anexo.
 
-> Las luces de C-0 parpadean con un ritmo lento, como un párpado cansado. El aire está quieto y sabe a metal recalentado sobre papel viejo. Nadie ha tocado estas consolas desde el turno de ayer. En la pantalla de alarma, tres sectores siguen en rojo y no se han apagado solos.
+**Personas.** Nadie.
 
-**Lo que hay.** Una consola con batería parcial y pantalla de alarma. Mapas viejos junto a mapas nuevos, superpuestos en la pared. Una radio local de corto alcance. Y el registro automático de los últimos **cuarenta minutos antes del accidente**: el testimonio más honesto que existe en todo C-7, porque nadie lo escribió a mano y nadie pudo editarlo con calma. El registro completo se recupera con trabajo de diagnóstico, no buscando una contraseña misteriosa. No hay secreto informático que desbloquear: hay datos truncados que requieren paciencia.
+**Accesos.** Esclusa exterior (desde el atracadero). Pasillo oeste hasta E-1. Compuerta manual a L-4. Puede alojar a **ocho personas** indefinidamente mientras dure el banco; con el depurador portátil, hasta catorce.
 
-**Pistas seguras.**
+**Peligros.** Ninguno inmediato. La oscuridad, si alguien corta la alimentación: los mecanismos autónomos se quedan en su última posición.
 
-- **Cierre ordenado por Mara.** La compuerta se cerró desde C-7 *después* de que se detectara la entrada de salmuera. La secuencia queda registrada, no interpretada. Esto refuta, con papel, que Mara «encerrase presos como castigo».
-- **Drenaje anómalo.** Una válvula secundaria marcó **abierta** cuando el plano de operación la daba por cerrada. Alguien la tocó. El registro no dice quién.
-- **Localización de R-3.** Recuperando el bus local aparecen **trece señales biométricas** en el refugio, no nueve. Trece latidos vivos a una distancia que la radio local apenas alcanza.
-- **P-2 no está vacía.** Una bomba sigue consumiendo energía de reserva y hay actividad manual reciente: cebados recientes, un cambio de filtro, un panel abierto. Hay gente viva ahí fuera.
+**Recursos.** Vestuario con **6 trajes** y **10 recambios de mochila**. El banco de emergencia. La consola, que permite cerrar V-12 a distancia si se repara su línea, igualar E-1 y leer la telemetría.
 
-**Obstáculo.** La consola **no abre E-1**. El sensor informa de presión y agua **diferentes a ambos lados** de la hoja, y el sistema se niega a comandar una esclusa que cree inundada en una mitad. Un técnico puede superar el bloqueo, pero saltarse el protocolo no hace desaparecer la presión física. La puerta no está cerrada por un capricho del software: está cerrada porque al otro lado hay agua que quiere entrar. Antes de que nadie fuerce nada, describe el diferencial, el sonido del agua golpeando la chapa y el riesgo real de una descarga.
+**Pistas** (10 min de inspección; registro completo en 30–45 min, documento D05):
 
-**Tiempo.** 10 minutos de inspección superficial. 30–45 minutos para reconstruir el registro completo con útiles adecuados. Añade lo que el grupo decida dedicar a hablar por radio o a copiar datos.
+- **Trece señales biométricas** en R-3, no nueve. Mara está viva.
+- **P-2 consume energía**: hay cebados manuales recientes. Hay alguien vivo allí.
+- **La orden de cierre de Mara** es de las 09:40, cuatro minutos **después** de la entrada de salmuera.
+- **La derivación B respondió por debajo de lo esperado** y una válvula secundaria marca abierta cuando el plano de operación la da por cerrada.
+- La **orden 517-J** y su autorización (documento D04) en el archivo local.
+- El **registro del canal de alguaciles** (documento D12-B), con la portadora del traje ACE-04 abierta desde las 09:39.
 
-**Qué pasa si…**
+**Acciones.**
 
-- **Cortan la alimentación:** se pierde la telemetría y la radio local deja de recibir, pero los mecanismos de seguridad autónomos se mantienen en la última posición. La bomba de P-2 sigue su banco de baterías sin enterarse. La oscuridad no resuelve nada; solo los deja ciegos en el único sitio bien iluminado.
-- **Transmiten a Bastión:** reciben consejo, la promesa de refuerzos en ruta y una advertencia seca de Vidal sobre trazabilidad de custodia. Nadie acciona ningún «botón de bloqueo remoto»; en Nádir no existe tal milagro, y si existiera, no invalidaría la intervención de los jugadores.
-- **Copian registros:** más adelante podrán probar qué ocurrió realmente. También pueden entregar los originales a ACE, reservar copias para sí o destruirlos. Cada opción tiene consecuencias fuera de C-7, no dentro.
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Contactar con R-3 | 10 min | — | Mara al aparato; se puede hablar con los trece |
+| Contactar con P-2 | 10 min | — | Quiroga al aparato |
+| Cerrar V-12 a distancia | 45 min | 4 UE; antes hay que reparar la línea en EL-4 | H-4 −1 y la bomba deja de ser necesaria |
+| Igualar E-1 | 60–120 min según H-4 | 6 UE; H-4 ≤ 3 | Abre la ruta baja |
+| Recargar un rover | 1 UE por UE | Del banco | Cada UE acorta la vida de C-0 como refugio |
+| Copiar los registros | 10 min | — | Pruebas para el Acto IV |
+
+**La consola no abre E-1 a la fuerza.** El sensor ve presión y agua distintas a ambos lados, y el sistema no comanda una esclusa que cree inundada en una mitad. Un técnico puede saltarse el bloqueo; saltarse el protocolo no quita la presión física (ver E-1).
+
+**Consecuencias.** Transmitir a Bastión (solo con R-12 reparado) trae consejo, la confirmación de los refuerzos y una advertencia de Vidal sobre la trazabilidad. Copiar los registros permite después probar qué ocurrió; entregarlos, guardarlos o destruirlos tiene consecuencias fuera de C-7.
+
+**Cambios según los relojes.** El banco baja 2 UE/h más lo que se gaste. Si llega a 0, C-0 se queda a oscuras y sin depuración: quien esté dentro tiene unas tres horas antes de que el aire se degrade.
+
+**Conecta con** el atracadero, E-1, L-4 y la caja EL-4.
 
 ## [2] Portilla exterior de P-2 — La segunda voz
 
 ![Portilla de servicio de P-2 combada hacia fuera, con la junta rodeada de una costra mineral blanquecina](fig-p2)
 
-La primera vez que los jugadores salen al exterior de C-7 y se acercan a P-2 desde fuera, oyen algo que no deberían oír. Es la segunda voz del complejo. Y detrás de la chapa hay dos personas vivas que llevan horas escuchando cómo las sellan por fuera.
+> Chapa combada y marcas de presión sobre las bisagras, como si alguien hubiera empujado la puerta desde dentro con todas sus fuerzas. La mirilla está opaca por los depósitos. Alrededor de la junta, una costra blanquecina y translúcida une el metal a la roca: no es hielo, no es sal. Cuando apoyas la palma para trabajar, la vibración aflora por el guante: un chirrido de dientes contra acero que no para.
 
-**Ambiente.** Chapa combada y marcas de presión dibujadas sobre las bisagras, como si alguien hubiera empujado la puerta desde dentro con toda su fuerza. Detrás hay dos personas vivas, pero el audio exterior funciona mal y las radios se cruzan. La mirilla está opaca por depósitos minerales. Alrededor de la junta, una costra blanquecina y translúcida une el metal a la roca: no es hielo, no es sal.
+**Estado inicial.** Portilla de servicio con **cámara de paso** para una persona, cierre manual, actuador eléctrico, conector de emergencia y mirilla. La hoja exterior está combada y sellada por fuera con costra. Dos o tres costreros la trabajan desde una grieta de la cavidad que hay bajo el casco. Atención de la portilla: 0.
 
-**Lo que hay.** Una portilla de servicio con cierre manual, conector eléctrico de emergencia y mirilla opaca. Nada más. Es un acceso pequeño, pensado para mantenimiento, no para refugiados.
+**Personas.** Al otro lado, Quiroga e Ivo.
 
-**Accesos posibles.**
+**Accesos.** Desde el atracadero, 5 minutos a pie por la superficie.
 
-- **Liberar la deformación con herramientas:** 45–60 minutos. Una tirada técnica arriesgada puede ahorrar la mitad del tiempo, pero un fallo deforma más la junta y complica el sellado.
-- **Dar energía por el conector externo y activar el actuador:** 20–30 minutos, más el tiempo de conectar una batería y comprobar que la presión aguanta. Requiere una fuente de alimentación que el grupo tenga que traer.
-- **Comunicar sin abrir:** parchear radio o unir un comunicador a la placa durante 10–15 minutos. Es la vía más rápida y la que menos altera la junta.
+**Peligros.** Ruido: cualquier trabajo de percusión sube la Atención. Un fallo forzando la hoja deforma la junta y la cámara de paso pierde aire en cada ciclo (el aire de P-2 dura una hora menos por ciclo).
 
-**El canto del casco.** Cuando alguien apoya la palma en la chapa para trabajar, la vibración aflora: un **chirrido de dentículos contra acero que no para**. Llevan horas oyéndolo desde dentro. Al principio Quiroga creyó que era la bomba; después entendió que eran dientes. Alrededor de la junta, la costra mineral no es casual: forma parte de por qué la portilla está «soldada». Varios costreros han estado aplicando gel a la junta desde fuera, del mismo modo que sellan una grieta. La portilla no está trabada por un mecanismo: está cicatrizando.
+**Recursos.** El conector de emergencia acepta la toma de potencia del rover o el carrete de cable.
 
-**Revelación.** Al escuchar, una voz femenina responde entre alarmas. Es **Quiroga**. Junto a ella está **Ivo Sen**, un preso conocido por algunos personajes. Ambos estaban dados por desaparecidos. Y Quiroga no pide ayuda para salir. Pide energía.
+**Pistas.** Golpes de respuesta y luego una voz. La costra demuestra que sellan las fugas humanas desde fuera.
+
+**Acciones.**
+
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Comunicar sin abrir | 10–15 min | — | Hablar con Quiroga; documento D07 dictado |
+| Conectar el rover al conector | 20 min | 2 UE/h del rover | La bomba deja de gastar su batería |
+| Abrir con el actuador | 20–30 min | Energía conectada; Atención +1 | Cámara de paso operativa |
+| Abrir a mano | 45–60 min | Atención +2 | Ídem; una tirada para hacerlo en la mitad, con el riesgo de deformar la junta |
+| Ciclar la cámara de paso | 5 min por persona | — | Entra o sale una persona o un bulto |
+
+**La revelación.** Una voz responde entre alarmas. Es Quiroga. No pide que la saquen; pide energía:
 
 > «Si sacáis a los dos y dejáis esto parado, la presión se va a la puerta del refugio. Poned una alimentación estable o cerrad V-12. Entonces sacadnos.»
 
-No es una trampa. Cualquiera puede contrastar el caudal medido desde Control C-0 y comprobar que la mujer dice la verdad. Su prioridad es una bomba, no su vida.
+Cualquiera puede contrastarlo con el caudal de C-0. Su prioridad es una bomba, no su vida.
 
-::: ficha Lara Quiroga
-Alguacil ACE (P-2) · 42
-Combate 40 · Instinto 45 · Salud 13 · Heridas 2 · Armadura 0
-Ataques: pistola reglamentaria (según PSG)
-Rasgos: hombro lesionado, [−] en tareas físicas exigentes; lleva horas oyendo cómo sellan la portilla desde fuera
-:::
+**Cambios según los relojes.** A las 14:36 se agota el aire de P-2 y las respuestas de Quiroga se vuelven cortas y desordenadas. A las 15:36 la batería se agota y la bomba se para: se nota en la placa cuando el golpeteo del motor desaparece. Tras tres ciclos de la cámara de paso, la colonia vuelve a sellar la junta (ver «La colonia responde a vuestras obras»).
 
-**Tiempo.** Depende de la vía elegida. Comunicar, 10–15 minutos. Alimentar, 20–30. Abrir, 45–60. Trabajar con herramienta de percusión sobre la chapa sube la **Atención de la colonia** y puede traer exploradores: hay que elegir entre rapidez y silencio.
+**Conecta con** el atracadero y P-2.
 
-**Qué pasa si…**
-
-- **Solo comunican y se van:** Quiroga e Ivo siguen vivos y la bomba sigue en pie. La voz queda en la radio como un recordatorio. Los jugadores pueden volver más tarde con una batería.
-- **Ofrecen energía y cierran el trato:** la bomba se estabiliza y el reloj de P-2 se detiene mientras la alimentación funcione. Quiroga colaborará con el rescate cuando llegue el momento.
-- **Fuerzan la chapa sin sellar la junta después:** la fuga de aire de la zona silba, la presión de P-2 cae poco a poco y el filtro de emergencia se gasta antes de tiempo.
-
-## [3] Esclusa E-1 — La puerta equivocada
+## [3] Esclusa E-1 y ruta baja — La puerta equivocada
 
 ![Hoja deformada de la esclusa E-1 con el marco marcado por estrías de impacto desde el lado de la salmuera](fig-e1)
 
-E-1 es la puerta grande, la que parece la salida natural y es en realidad la trampa. Aquí no hay un monstruo escondido detrás por obligación. Hay algo peor y más real: una hoja torcida, agua golpeando por debajo y el cuerpo de un hombre al que nadie ha ido a buscar.
+> Una hoja ligeramente torcida, separada del marco por un dedo desigual. Por la zona inferior golpea agua con ritmo propio. Los sensores están en rojo. En el hueco, un casco girado hacia la pared, casi cubierto de una costra pálida. La radio del traje sigue transmitiendo: cada pocos segundos, entre dos chasquidos de estática, un raspado húmedo y paciente.
 
-**Ambiente.** Una hoja ligeramente torcida, separada de su marco por un dedo desigual. Por la zona inferior golpea agua con ritmo propio. Los sensores están en rojo. El olor es metálico y húmedo, el olor del hierro y la salmuera mezclados. Es un sitio donde el aire y el agua se tocan y no deberían.
+**Estado inicial.** La «esclusa principal» del nivel inferior, la que Mara advirtió que no se abriera sin comprobar el diferencial. Hoja deformada que no cierra del todo. Al otro lado, la **ruta baja**: un corredor de 120 metros hasta la esclusa de R-3, con agua según H-4 y gas de cavidad. Serrat está atrapado en la hoja.
 
-**Opciones.**
+**Personas.** Elmo Serrat, muerto, medio soldado al marco por la costra. Su radio sigue abierta en el canal de alguaciles.
 
-- **Abrir directamente:** solo después de retirar las alarmas, o forzando el cierre. Hay riesgo real de descarga de salmuera y daño. Un fallo puede subir la **Fuga H-4 +1** y bloquear la ruta baja. Anuncia este riesgo antes de cualquier tirada.
-- **Igualar presiones y controlar drenaje:** requiere energía de Control, una prueba de estanqueidad y tiempo (60–90 minutos). Es una ruta factible hacia R-3 si H-4 está en **0–3**.
-- **Ignorarla:** existen dos rutas alternativas. No se fuerza una acción equivocada solo porque esté delante.
+**Accesos.** Desde C-0 por el pasillo oeste.
 
-**Pista.** El marco deformado tiene **estrías de impacto** que apuntan desde la galería de salmuera hacia el interior humano. El agua entró a presión desde el otro lado. Esto refuerza la explicación de entrada de fluido a presión y descarta un sabotaje explosivo desde dentro.
+**Peligros.** Abrir sin igualar: descarga de salmuera a presión. Quien esté delante recibe 2d10 de daño contundente (traje: PA 3) y salvación de Cuerpo para no ser arrastrado; **H-4 +1**; el pasillo oeste se inunda hasta que alguien cierre la compuerta de C-0. Anúncialo antes de cualquier tirada.
 
-**El cuerpo de Serrat.** Atrapado en la hoja deformada, medio soldado al marco por la costra, está **Elmo Serrat**, el alguacil que no llegó al refugio. Su traje está reventado por el impacto y la salmuera. Y su **radio de traje sigue abierta**. Por el canal de alguaciles se oye, en mitad de la estática, un **raspado rítmico y húmedo**: el micrófono del casco está en contacto con lo que ocurre dentro de la costra, una docena de dientes trabajando el tejido, despacio, sin ninguna prisa. Nadie dice que sea Serrat hasta que lo encuentran. Los jugadores pueden haber captado ese sonido durante el viaje, cuando R-12 volvió a funcionar o al entrar en C-7, y no habrán sabido de quién era.
+**Recursos.** La radio de Serrat (se puede recuperar al liberar el cuerpo).
 
-> La hoja está torcida hacia dentro. En el hueco, un casco girado hacia la pared, casi cubierto de una costra pálida. La radio del traje sigue transmitiendo. Cada pocos segundos, entre dos chasquidos de estática, se oye un raspado húmedo y paciente, como si alguien pasara una lima por dentro del metal.
+**Pistas.**
 
-**Causa física para el Guardián.** El cuerpo desprende gases y humedad; para los costreros es una fuga más, y la sellan. El raspado es el anillo de dentículos alimentándose bajo la costra. Oír esa radio suma **+1 Estrés** y es el primer aviso de que los muertos de C-7 se están convirtiendo en pared.
+- **Estrías de impacto** en el marco, desde el lado de la salmuera hacia el interior humano: el agua entró a presión desde el otro lado. Descarta un sabotaje explosivo desde dentro.
+- El cuerpo y la radio explican el raspado del canal: el micrófono está en contacto con la actividad de los dentículos bajo la costra. **+1 de Estrés** al entenderlo.
 
-::: ficha Elmo Serrat
-Alguacil ACE · fallecido en T0
-Solo aparece como cuerpo sellado; su radio sigue abierta en el canal de alguaciles
-Rasgos: atrapado en la hoja de E-1; micrófono en contacto con la actividad que lo cubre
-:::
+**Acciones.**
 
-**Tiempo.** Forzar: lo que tarde la tirada, con el riesgo ya anunciado. Igualar presiones: 60–90 minutos. No abrir: cero, pero la ruta baja queda pendiente.
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Igualar presiones y drenar | 60–120 min según H-4 | 6 UE del banco; H-4 ≤ 3 | E-1 abre sin descarga. Ruta baja transitable |
+| Forzar | Un asalto | H-4 +1 y la descarga | Ruta baja abierta pero inundándose |
+| Liberar a Serrat | 20 min | Cortar costra (Atención del tramo bajo +1) | Se recupera la radio y el cuerpo |
+| Recorrer la ruta baja | 15–20 min (25–30 con camilla) | Traje | Hasta la esclusa de R-3 |
+| Parchear la junta del tramo bajo | 60 min | Sellante; H-4 ≤ 3 | H-4 −1 (una vez) |
 
-**Qué pasa si…**
+**Consecuencias.** Igualar E-1 crea un gradiente nuevo: en 20–40 minutos dos o tres costreros acuden al marco a sellarlo. La ruta baja queda abierta, pero con animales trabajando junto al paso. Escoltar, no detenerse, no sangrar.
 
-- **Igualan presiones y H-4 ≤ 3:** E-1 se convierte en la ruta principal hacia R-3. Es la opción que más tiempo cuesta y la que más vidas puede rendir después.
-- **Abren en malas condiciones:** salmuera a presión, daño al traje de quien esté delante y Fuga H-4 +1. La ruta baja se vuelve peligrosa.
-- **Recuperan la radio de Serrat:** obtienen el registro de sus últimos segundos y una prueba de lo que hizo la costra. Guardar esa radio sin oírla no basta: el canal de alguaciles seguirá emitiendo.
+**Cambios según los relojes.** H-4 ≤ 1: igualación de 60 min. H-4 2: 90–120 min. H-4 3: solo con V-12 cerrada; ruta baja con agua a la rodilla (tiempo doble, sin camilla rígida). H-4 4 o más: no se puede igualar y la radio de Serrat calla bajo el agua.
+
+**Elmo Serrat**, alguacil de ACE, fallecido a las 09:39. Traje ACE-04, atrapado en la hoja, micrófono en contacto con la actividad que lo cubre.
+
+**Conecta con** C-0 y R-3 (por la ruta baja). El corredor de Milena y J-17 salen de la ruta baja hacia el sur.
 
 ## [4] Galería L-4 — La ruta que nadie debía usar
 
 ![Galería L-4 estrecha y clausurada, con bloques de hielo y una conducción caliente fuera de servicio](fig-l4)
 
-L-4 es la ruta que el plano oficial da por clausurada y que alguien reabrió. Es estrecha, no es respirable y está conectada a cavidades ocupadas. Aquí es donde el grupo empieza a sospechar que un preso movió cosas que no debía.
+> El túnel se cierra hasta dejar pasar a una persona agachada. El hielo no es brillante: es negro, con vetas de sal. Una tubería atraviesa la pared sin humear porque hace tiempo que no lleva nada. Cada paso se oye dos veces: una en el traje, otra en la roca.
 
-**Ambiente.** Galería estrecha y abandonada. Bloques de hielo sucio, barro mineral y una conducción caliente fuera de servicio que cuelga a media altura. **No es respirable.** Los trajes son obligatorios, con depuración propia. La galería está conectada a cavidades ocupadas por costreros, y cada sonido que el grupo haga viaja por la roca.
+**Estado inicial.** Galería estrecha que el plano oficial da por clausurada y que alguien reabrió: la mampostería está rota lo justo para pasar. Gas de cavidad, no respirable. Uno o dos exploradores. A los 10 minutos de la compuerta está la **caja de derivación EL-4**, por donde pasa la línea del actuador de V-12. Atención: 0.
 
-> El túnel se cierra hasta dejar pasar a una persona agachada. El hielo no es brillante: es negro, con vetas de sal. Una tubería caliente atraviesa la pared y no humea porque hace tiempo que no lleva nada. Cada paso se oye dos veces: una en el traje, otra en la roca.
+**Personas.** Nadie.
 
-**Cómo entrar.** Compuerta manual desde C-0 o conducto de inspección exterior. Los planos antiguos la marcan como clausurada, pero la estructura **no está completamente cegada**: alguien rompió la mampostería lo justo para pasar.
+**Accesos.** Compuerta manual desde C-0 (cada ciclo suelta aire en L-4; ver Atención). Al fondo, la cavidad de cría (40–60 min).
+
+**Peligros.** Oscuridad, rocas sueltas, tramos agachados (el esfuerzo gasta mochila: cuenta el tiempo como esfuerzo). Contacto silencioso: un costrero puede adherirse a la pierna de un traje; si nadie lo retira en 1d5 asaltos, muerde, y una mordedura de 3 o más perfora el traje (PA 3).
+
+**Recursos.** La caja EL-4. Un cable sin identificar que alimentaba un ventilador.
 
 **Pistas.**
 
-- **Abrazaderas nuevas**, huellas de botas y marcas de uso **anteriores al accidente**. La galería lleva meses siendo transitada por alguien.
-- **Una conexión de drenaje disimulada** que **no figura en el plano actualizado**. Es el rastro del bypass: un tramo de instalación reciente sobre un papel que lo da por desconectado.
-- **Un cable sin identificación** que alimentaba un pequeño ventilador local. Alguien quería respirar ahí dentro. Alguien tenía planes de volver.
+- **Abrazaderas nuevas**, huellas de botas y marcas de uso de hace meses.
+- **Una conexión de drenaje disimulada** que no figura en el plano actualizado: el rastro del bypass.
+- **Un plano de papel** escondido en un nicho, trazado a mano con anotaciones recientes (documento D08). Si Limen está presente, reconoce la discrepancia que vio en su inspección.
+- **El cable del ventilador**: alguien quería respirar aquí dentro y volver.
 
-Si conocen a Ivo, estas evidencias no prueban por sí solas que sea culpable. Un testimonio, su herramienta marcada o la reconstrucción del registro de Control permiten cerrar la conclusión. Sin eso, es sospecha razonable, no sentencia.
+Estas pruebas no señalan por sí solas a Ivo. Con el testimonio de Isa, el recuerdo de Darío o la soldadura de H-4, sí.
 
-**Encuentro biológico.** Uno o dos costreros pueden seguir las vibraciones de una máquina. Si el grupo avanza sin perturbar la zona de cría, puede pasar con equipo adecuado sin pelea. La jerarquía es clara: primero retirada, luego convergencia, luego defensa. Nadie ataca por ser molesto.
+**Acciones.**
 
-**Contacto silencioso.** En L-4, un costrero puede **adherirse a la pierna del traje** sin que su portador lo note. Los cilios se anclan al tejido y el animal se queda quieto, esperando. El portador no siente más que un peso tibio. Solo cuando la radio de otro compañero lo avisa («tienes algo en la pierna»), descubre lo que lleva encima. Sentir un costrero en el propio traje suma **+1 Estrés**; liberarse exige calma, no prisa, porque los dentículos trabajan el tejido antes de perforarlo.
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Reparar la línea del actuador en EL-4 | 30–45 min | Atención +1 | V-12 se puede cerrar desde C-0 |
+| Cruzar hasta la cría | 40–60 min | Mochila | — |
+| Avanzar en silencio absoluto | +15 min | — | La Atención no sube por los pasos |
 
-**Obstáculos.** Oscuridad, rocas sueltas, tramos a presión variable y gases no respirables. Algunas zonas obligan a desplazarse agachados y elevan el consumo de aire si se trabaja con esfuerzo. La **Atención de la colonia** sube con cada percusión.
+**Cambios según la Atención.** Sube 1 cada dos ciclos de la compuerta de C-0. Una evacuación de trece personas por aquí la lleva a 5 o 6 si no se espacian las tandas.
 
 ::: ficha Costrero aislado
 Crustivermis nadirensis
-Combate 25 · Instinto 35 · Salud 6 · Heridas 1 · Armadura 0
-Ataques: mordedura (1d10)
-Rasgos: ciego, percibe vibraciones por sólidos; busca refugio húmedo tras atacar; 10–20 minutos de tolerancia en aire seco
+Combate 25 · Instinto 35 · Heridas 1(6) · Armadura 0
+Ataques: mordedura (1d10, Sangrado)
+Rasgos: ciego, percibe vibraciones por sólidos; busca refugio húmedo tras atacar; 10–20 min en aire seco
 :::
 
-**Tiempo de travesía.** 40–60 minutos sin incidentes, más lo que el grupo invierta en observación, rodeos o reparaciones.
-
-**Qué pasa si…**
-
-- **Pasan sin tocar la cría:** L-4 es un atajo funcional hacia el portillo superior. No hay pelea gratuita.
-- **Usan taladros o martillos:** la Atención sube y llegan exploradores. El grupo puede tener que apagar todo y esperar a oscuras.
-- **Encuentran la conexión disimulada:** tienen la prueba material del bypass. Lo que hagan con ella (mostrarla, guardarla, destruirla) decide cómo se juzga a Ivo en el Acto IV.
+**Conecta con** C-0, la caja EL-4 y la cavidad de cría.
 
 ## [5] Cavidad de cría — Algo que tiene su razón
 
 ![Cúpula natural de cría con dos docenas de estructuras ovaladas adheridas a la pared húmeda](fig-cria)
 
-Aquí el complejo deja de parecer roto y empieza a parecer habitado. La cavidad no es una guarida: es una sala de partos, un taller de sellado y, en la pared, un archivo. Si los jugadores vienen con taladros y explosivos, tienen una pelea. Si vienen con ojos, tienen la clave del desastre.
+> La cúpula respira. Las paredes vibran cuando arranca una bomba lejana y se quedan quietas cuando para. En la pared, veinticuatro formas ovaladas del mismo material que la costra de las juntas. Al fondo, sobre una repisa, hay un bulto con forma de persona cubierto de mineral, y una placa de pecho asoma entre la costra.
 
-**Ambiente.** Una cúpula natural húmeda, con cristales blandos que ceden bajo la bota. Dos docenas de estructuras ovaladas cuelgan de una pared, del tamaño de un torso humano, grises y lisas. Las paredes **vibran suavemente** cuando las bombas cercanas entran en funcionamiento. El aire es cálido, húmedo, con sabor salado. Hay costreros cerca, pero no llegan todos de golpe.
+**Estado inicial.** Cúpula natural húmeda, con cristales blandos que ceden bajo la bota. Una fuga de aire humano entra por una válvula auxiliar de ventilación vieja y mal cerrada. Seis a diez costreros dispersos; tres defensores en una franja de unos veinte metros alrededor de la puesta. Atención: 1.
 
-> La cúpula respira. Las paredes vibran cuando arranca una bomba lejana y se quedan quietas cuando para. En la pared, veinticuatro formas ovaladas, del mismo material que la costra de las juntas. Al fondo, sobre una repisa, hay un bulto con forma de persona cubierto de mineral, y una placa de pecho asoma entre la costra.
+**Personas.** Héctor Lisán, mineralizado en la pared desde hace tres años.
 
-**Comportamiento.** Tres defensores permanecen en una franja de unos **veinte metros** alrededor de la puesta. No persiguen a quienes retroceden y dejan de tocarla. Reaccionan con violencia si se usan explosivos o taladros, o si alguien daña los huevos. No abandonan fácilmente la zona.
+**Accesos.** Desde L-4. Al otro lado, el paso alto.
 
-**Descubrimiento científico.** Las estructuras de cría y el material de sellado **comparten composición orgánica**. Las deposiciones se acumulan **en la dirección de las fugas de gas humano**. Cerrar una fuga es una estrategia viable para apartar a los animales de la zona: sin gradiente, no hay trabajo. Esto convierte a los costreros en lo que son, no en lo que parecen: una especie que tapa agujeros.
+**Peligros.** Los defensores no persiguen a quien retrocede, pero cargan si se usan explosivos o taladros, o si alguien daña la puesta (Atención a 6).
 
-**El cuerpo del muro.** En la pared hay un **cuerpo muy antiguo**, completamente mineralizado, fundido con la roca. El traje es de un modelo viejo, anterior a los actuales. La placa de pecho, legible a través de la costra, dice **H. LISÁN**. No lleva tres días ahí. Lleva años.
+**Recursos.** La válvula auxiliar de ventilación (cerrarla corta la fuga).
 
-> El traje está soldado a la pared por la misma costra que cubre las juntas. Bajo el mineral, la forma de un hombre se adivina por la placa: H. LISÁN. No hay sangre. No hay heridas visibles. Solo la roca, cerrándose sobre él desde hace tiempo, como si la cavidad lo hubiera tomado por una grieta más.
+**Pistas.**
 
-**Causa física para el Guardián.** Los registros de ACE sostienen que **Héctor Lisán se evadió hace tres años** y que «se presume muerto en superficie». Mintieron, o nadie lo buscó: llegó por las galerías antiguas, igual que planea Ivo, y no salió. Murió en la cavidad y los costreros lo sellaron como sellan todo lo que gotea. Lisán es el **espejo de Ivo**: la prueba de que Nádir no deja marchar a todo el mundo. No cambia ningún reloj. Encontrarlo impone **Miedo [−]** o **+1d5 Estrés**, y abre la puerta al expediente de evasión que ACE archivó sin resolver.
+- La puesta y el material de sellado **comparten composición orgánica**.
+- Los depósitos se acumulan **en la dirección de las fugas de gas humano**: la colonia trabaja la fuga más intensa. Cerrar una fuga desplaza el trabajo a la siguiente.
+- **H. LISÁN** en la placa de pecho. El traje es de un modelo antiguo. Lleva años aquí. Encontrarlo: **salvación de Miedo [−] o 1d5 de Estrés**. Confirma que las galerías viejas conectan con C-7 y abre el expediente de evasión (documento D13).
 
 ![El cuerpo mineralizado de Héctor Lisán fundido con la pared de la cavidad, con la placa de pecho aún legible](fig-lisan)
 
+**Acciones.**
+
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Rodear la puesta por el talud | +25–40 min | Velocidad si se hace deprisa | Paso sin pelea |
+| Cerrar la válvula auxiliar | 20–30 min de espera | — | Los animales se retraen; Atención −1. El sellado pasa al portillo superior |
+| Señuelo vibratorio en un corredor lateral | 15 min | El señuelo | Los exploradores se van hacia el señuelo durante 30 min |
+| Atacar | — | Atención a 6 | Pelea con los defensores |
+
+**Consecuencias.** Cerrar la válvula es la solución más limpia y desplaza el problema: en 30–60 minutos el portillo superior se llena de costra (+20 min para abrirlo, Atención del portillo +1) e Isa oye arañar el techo de R-3 con más fuerza. Si el portillo ya está abierto, no pasa nada grave: los animales sellan la cámara de servicio por fuera mientras el grupo pasa.
+
+**Cambios según los relojes.** Cuando V-12 se cierra, 1d3+2 ejemplares del tramo bajo llegan aquí en 30–90 minutos por la galería de servicio. La cavidad se llena.
+
 ::: ficha Costrero defensor de puesta
 Crustivermis nadirensis
-Combate 35 · Instinto 45 · Salud 8 · Heridas 2 · Armadura 0
-Ataques: mordedura (1d10+2)
+Combate 35 · Instinto 45 · Heridas 2(8) · Armadura 0
+Ataques: mordedura (1d10+2, Sangrado)
 Rasgos: no abandona la zona de cría
 :::
 
-::: ficha Enjambre pequeño (3–6)
-Crustivermis nadirensis
-Combate 30 · Instinto 40 · Salud 6 · Heridas 1 · Armadura 0
-Ataques: mordeduras individuales (1d10 c/u)
-Rasgos: rodea una fuente de vibración o sangre; no son seis ataques automáticos
-:::
-
-**Tres formas claras de pasar.**
-
-- **Rodear la puesta por un talud estable:** +25–40 minutos y desplazamiento difícil.
-- **Cortar la fuga de aire desde una válvula auxiliar:** 20–30 minutos y esperar a que los animales se retraigan.
-- **Distraerlos con un vibrador** a través de un corredor conectado: funciona si el señuelo no está sobre la puesta ni abre un nuevo frente de peligro.
-
-Atacarlos es posible, pero debe ser una elección, no la única ruta.
-
-**Qué pasa si…**
-
-- **Dañan los huevos o usan explosivos:** los tres defensores cargan y la Atención salta a 6. La cavidad deja de ser un lugar de paso y se convierte en un frente.
-- **Cierran la fuga de aire:** en 20–30 minutos los animales dejan de trabajar y se retraen. La vía de paso se abre sola.
-- **Investigan a Lisán:** obtienen un nombre, una fecha antigua y una mentira institucional. Es una de las pruebas más duras del escenario y no exige tirada: solo estar cerca.
+**Conecta con** L-4 y el paso alto.
 
 ## [6] Paso alto — Por encima de la fractura
 
 ![Repisa mineral que cruza el tramo hundido, con los restos de un viejo pasamanos doblado](fig-paso)
 
-El paso alto es una solución de geometría, no un combate. Una repisa cruza por encima de la zona hundida y lleva a la parte superior del refugio. El peligro no es que algo empuje a nadie: es el vacío, la roca y un traje.
+> La repisa es ancha para un pie y no para dos. El pasamanos cuelga hacia dentro, torcido por algo que pasó hace tiempo. Abajo no se ve el fondo. Al otro lado, la silueta del refugio asoma entre la roca, a treinta metros y a un mal paso de la caída.
 
-**Ambiente.** Una repisa mineral cruza un tramo hundido. Quedan restos de un viejo pasamanos, doblado y corroído. Debajo, el complejo se hunde en la oscuridad. Del otro lado se llega a la parte superior del refugio. Es alto, estrecho y no perdona un mal paso.
+**Estado inicial.** Repisa mineral sobre el tramo hundido. Restos de pasamanos. Al otro lado, el portillo superior y la galería de servicio hacia V-12.
 
-> La repisa es ancha para un pie y no para dos. El pasamanos cuelga hacia dentro, torcido por algo que pasó hace tiempo. Abajo no se ve fondo. Al otro lado, la silueta del refugio asoma entre la roca, a treinta metros de distancia real y a un paso de la muerte.
+**Peligros.** Caída: 3d10 de daño contundente y traje en riesgo. Ninguna criatura empuja a nadie: el peligro es el sitio.
 
-**Peligro.** Caída, herramienta perdida, golpe contra la roca o daño del traje. No aparece una criatura para empujar a alguien si la situación ya es peligrosa. El riesgo es el sitio mismo.
+**Acciones.**
 
-**Soluciones.** Cuerda y anclajes. Un puente de mantenimiento plegable. Corte por un pasillo alternativo. Desplazamiento sin equipo si asumen el riesgo. Si diseñan una solución viable, ofréceles un éxito sin tirada o una sola tirada para la parte que de verdad es incierta. Un cruce con anclajes colocados probablemente no exige tirada; un cruce sin protección mientras algo vibra bajo los pies sí, con **Velocidad** y el riesgo de caída anunciado de antemano.
+| Acción | Tiempo | Resultado |
+|---|---|---|
+| Colocar anclajes y cuerda | 15–30 min | Cruces sin tirada |
+| Cruzar sin protección | 5 min | Tirada de Velocidad [−] (el traje); si falla, caída |
+| Cruzar ya anclado | 5–10 min por persona | — |
+| Pasar a un herido o una camilla flexible | 20–30 min, dos personas | Sin camillas rígidas |
 
-**Tiempo.** 15–30 minutos con preparación razonable. Más si un herido necesita camilla y hay que improvisar un sistema de izado.
+**Cambios.** Cuando V-12 se cierra, la migración del tramo bajo cruza por debajo y por la galería de servicio: quien esté colgado de la cuerda en ese momento tiene animales pasando a dos metros. Quietud y luces apagadas.
 
-**Qué pasa si…**
-
-- **Preparan anclajes:** cruzan sin drama. Es trabajo bien hecho, no heroicidad.
-- **Cruzan a la carrera:** tirada de Velocidad. Un fallo cuesta el traje, una herramienta o un hueso, anunciado antes.
-- **Llevan a un herido:** el paso alto se vuelve lento y exige dos personas dedicadas al izado. Consume tiempo y aire.
+**Conecta con** la cría, el portillo y la galería de servicio.
 
 ## [7] Refugio R-3 — Trece respiraciones
 
 ![Interior del refugio R-3 con trece personas alrededor de un ventilador cansado y un cartel de aforo de emergencia](fig-r3)
 
-R-3 es el corazón del acto. Trece personas vivas en una sala certificada para diez, alrededor de un ventilador que suena mal. Aquí no hay monstruo: hay matemáticas de CO₂, un cartel que nadie mira y un sumidero en el suelo.
-
-**Ambiente.** Trece personas sentadas alrededor de un ventilador que suena cansado. Mantas sobre el suelo, un puesto médico improvisado con vendas y férulas, y dos alguaciles que ya no pueden aparentar que lo controlan todo. Al abrir una pequeña compuerta, un cartel anuncia: **AFORO DE EMERGENCIA: 10**.
-
 > El ventilador sube y baja como si le costara. Trece respiraciones llenan la sala de un calor quieto. Sobre la compuerta pequeña, un cartel que alguien pegó hace años: aforo de emergencia, diez. Hay trece. Nadie lo comenta en voz alta. Todos lo han leído.
 
-**Estado inicial.** Mara y Duarte (dos alguaciles), diez presos y la técnica civil **Inés Calder**. Dos presos están heridos: uno tiene una **fractura**; otra presenta una **hemorragia ya contenida** pero necesita seguimiento. Hay discusiones, miedo y sed, pero **no un motín obligatorio**. La tensión es humana y administrable.
+**Estado inicial.** Presurizado. Seis kilos de absorción de CO₂ a las 09:36 (reloj A). Treinta kilos de reserva de oxígeno. Ventilación con batería propia. Un puesto médico improvisado. Dos trajes de escape. Un **sumidero** con rejilla en el suelo, conectado al drenaje inferior. Dos salidas: la **esclusa principal** (ciclo de 10 min, cuatro personas) hacia la ruta baja y E-1, y la **compuerta pequeña** hacia la cámara de servicio y el portillo superior (ciclo de 10 min, dos personas).
 
-> «Estoy bien para hablar. No lo estoy para hacerme la valiente. Antes de intentar abrir, decidme qué está pasando al otro lado. Aquí somos trece. Los filtros no van a durar.»
+**Personas.**
 
-**Lo que saben.** Mara recuerda el cierre y lo defiende con datos. Inés vio el inicio de la rotura. Nora observó costreros **concentrándose en la junta**, tapiando rendijas cada vez que entraba aire de una galería nueva. Otro preso vio a Ivo trabajando en drenajes días atrás. Nadie ha elaborado el relato completo: cada uno tiene una pieza y ninguno la ha unido.
+| Persona | Ficha | Estado | Lo que aporta o complica |
+|---|---|---|---|
+| Mara Venn, alguacil | C45 · I50 · H2(14) | Agotada | Mando; defiende su cierre con datos |
+| Tomás Duarte, alguacil | C40 · I35 · H2(13) | Nervioso | Listas y custodia; quiere esposar a Kroll |
+| Inés Calder, técnica HRF | C15 · I45 · H1(8) | Pierna herida | Electricidad y radio de R-3 |
+| Nora Ilias | C20 · I50 · H1(9) | — | Vio sellar rendijas; amiga de Vera |
+| Gaspar Kroll | C45 · I45 · H2(15) | — | No tolera que lo aten junto al agua |
+| Román Kes | C30 · I40 · H1(10) | Tibia rota, no camina | Rumor contra Mara; quiere salir el primero |
+| Osian Brev | C30 · I35 · H1(10) | Hemorragia contenida | Su sangre es el problema del sumidero |
+| Ulma Senn | C25 · I40 · H1(10) | — | Ejecutó la limpieza de J-17 |
+| Isa Rehn | C30 · I45 · H1(10) | — | Vio a Ivo con herramientas; oye el techo |
+| Celia Brax | C25 · I40 · H1(10) | — | Inventario: sabe de los dos C-12 del armario |
+| Yusef Daren | C35 · I35 · H1(12) | — | Fuerte; leal a Kroll |
+| Mar Haddi | C25 · I45 · H1(10) | — | Atenta al registro de la evacuación |
+| Peo Varek | C25 · I40 · H1(10) | — | Ayuda a Inés con la radio y el bus de datos |
 
-**Qué necesitan.** Filtros de CO₂, presión estable, una ruta de extracción y un plan para evacuar heridos. Si se abre una portilla pequeña, se pueden introducir cartuchos **antes** de disponer de una salida para personas. Ese orden salva vidas y los jugadores deberían verlo.
+**Accesos.** Por la ruta baja hasta la esclusa principal (con E-1 igualada). Por el portillo superior y la cámara de servicio. No hay otro.
 
-**Hipercapnia: el miedo de los trece.** El oxígeno no es la amenaza inmediata; el CO₂ sí. Con R-3 en **Degradado** o **Crítico**, aparecen dolores de cabeza, temblores y confusión. **Alguien cuenta catorce personas cuando son trece y no se convence.** Alguien duerme y cuesta despertarlo. Isa Rehn insiste en que oyó a alguien arañar el techo, y es verdad si hay fuga por el portillo superior. Mara empieza a repetir frases. Es horror humano, y no mata a nadie fuera de las reglas del original.
+**Peligros.** El aire (reloj A). La rejilla del sumidero (H-4 en 4). El desorden en una evacuación.
 
-| Estado | Condición | Efecto narrativo |
-|---|---|---|
-| Estable | >3 h de capacidad absorbente | Comunicación, trabajos y heridos atendibles |
-| Degradado | 1–3 h restantes | Dolor de cabeza, torpeza y cansancio; +1 Estrés al constatarlo |
-| Crítico | Capacidad agotada y sin mitigación | Salvaciones de Cuerpo al esforzarse o decidir; mareos, confusión, incapacitación progresiva |
-| Recuperación | Entra filtrado nuevo o se evacúa | Mejora gradual; los daños y heridas no desaparecen solos |
-
-**El sumidero.** En el suelo de R-3 hay una rejilla de desagüe conectada a la red de drenaje inferior. El **Desagüe de R-3** es la «barrera concreta y explicable» que permite el horror sin romper ninguna verdad. Si la **Fuga H-4 llega a 4**, la línea se inunda de salmuera húmeda hasta la rejilla, y un costrero puede **entrar por el sumidero** atraído por la sangre de Osian Brev, el preso con hemorragia. Los atrapados taponan la rejilla con mantas y con su propio peso. **Gaspar Kroll se sienta encima** y no se levanta. Escena de terror coral: no hay monstruo gigante, hay una rejilla, diez mantas, un hombre de ciento quince kilos y algo blanco empujando desde abajo.
-
-::: ficha Mara Venn
-Alguacil militar ACE (R-3) · 36
-Combate 45 · Instinto 50 · Salud 14 · Heridas 2 · Armadura 0
-Ataques: carabina reglamentaria (según PSG)
-Rasgos: pareja del alguacil PJ o vínculo cercano; ordenó el aislamiento de C-7, no provocó el accidente; con hipercapnia repite frases
-:::
-
-::: ficha Tomás Duarte
-Alguacil ACE (R-3) · 31
-Combate 40 · Instinto 35 · Salud 13 · Heridas 2 · Armadura 0
-Ataques: pistola reglamentaria (según PSG)
-Rasgos: rígido y nervioso; cumple tareas definidas
-:::
-
-::: ficha Inés Calder
-Técnica civil HRF (R-3) · 29
-Combate 15 · Instinto 45 · Salud 8 · Heridas 1 · Armadura 0
-Ataques: ninguna
-Rasgos: pierna herida; vio desprenderse las costras antes del fallo del colector
-:::
-
-::: ficha Gaspar Kroll
-Preso, dos homicidios (R-3) · 46
-Combate 45 · Instinto 45 · Salud 15 · Heridas 2 · Armadura 0
-Ataques: herramienta contundente (1d10)
-Rasgos: no tolera que lo aten junto a agua; se sienta sobre la rejilla del sumidero
-:::
-
-::: ficha Nora Ilias
-Presa (R-3) · 34
-Combate 20 · Instinto 50 · Salud 9 · Heridas 1 · Armadura 0
-Ataques: ninguna
-Rasgos: amiga de Vera; vio a los costreros tapiar rendijas
-:::
-
-::: ficha Preso de C-7
-Interno genérico
-Combate 30 · Instinto 35 · Salud 10 · Heridas 1 · Armadura 0
-Ataques: puños o herramienta (1d5)
-Rasgos: usar para los ocho presos de R-3
-:::
-
-**Qué necesitan y qué no debes hacer.** No conviertas la respuesta moral en un examen. Mara se preocupa por todos los atrapados; algunos presos son peligrosos, pero eso no autoriza al Guardián a hacerlos suicidas ni absurdos. Un cartucho de rover instalado correctamente suma **+2 h** al reloj. **No avances el reloj de R-3 porque toca**: avanza porque pasa el tiempo o porque el grupo no ha hecho nada, y detente en cuanto actúen.
-
-**Qué pasa si…**
-
-- **Introducen cartuchos antes de abrir salida:** ganan tiempo real y los heridos aguantan mejor. Es la jugada más inteligente del acto.
-- **H-4 llega a 4 con Osian herido:** el sumidero se convierte en amenaza. Kroll se sienta. La escena es de cohesión, no de matanza.
-- **R-3 entra en Crítico:** pide Cuerpo al esforzarse o al decidir, y narra mareo y confusión. Los daños no desaparecen solos aunque llegue el filtrado.
-
-## [8] Estación P-2 — Quienes sujetan la situación
-
-**Ambiente.** Un motor eléctrico golpea a ritmo irregular. Un depósito de decantación sube de nivel por momentos. Dos figuras con ropa de emergencia trabajan alrededor de un panel abierto, con las manos manchadas de salmuera y grasa. Es una escena de esfuerzo, no de persecución. Aquí se sostiene la vida de trece personas a base de válvulas.
-
-**Supervivientes.** **Lara Quiroga** y **Ivo Sen**. Lara tiene un hombro lesionado. Ivo está agotado y tiene cortes superficiales. Llevan horas colaborando, discutiendo poco y trabajando mucho. Ninguno de los dos es un monstruo que espera a los jugadores.
-
-**Condición crucial.** La bomba da salida a un caudal residual que, sin ese desvío, iría contra una **junta dañada del tramo bajo**. Si ambos se marchan, el sistema puede funcionar un rato solo, pero una obstrucción o la descarga de batería hará progresar **H-4**.
-
-**El canto del casco desde dentro.** En P-2 se oye el chirrido que ya no viene de la bomba: es el mismo **raspado de dentículos contra el acero** que atormenta a Quiroga. Lleva horas oyéndolo y el ruido la está quebrando. Sabe que al otro lado de la portilla hay algo que trabaja la junta, y que cada golpe de herramienta que ellos den para salir **atrae** a más. Trabajar la portilla con percusión sube la Atención de la colonia; la alternativa es la paciencia.
-
-**Soluciones viables.**
-
-- **Conectar una batería externa y ajustar control automático:** 45 minutos; 30 con ayuda de Ivo.
-- **Redirigir la descarga hacia un depósito de emergencia, verificando capacidad:** 60–90 minutos y herramientas.
-- **Cerrar V-12 aguas arriba y esperar caída de presión:** 45–90 minutos desde la posición de la válvula; reduce la exigencia de la bomba.
-- **Instalar una derivación temporal diseñada por los jugadores:** funciona si soporta presión, caudal y sellado. No la descartes por no estar en la lista.
-
-**Revelación emocional.** Ivo, condenado por homicidio, está ayudando a salvar a otras trece personas aunque su plan de fuga haya contribuido al desastre. Esto **no lo absuelve**. La bomba que sostiene con las manos no borra lo que rompió con el bypass.
-
-::: ficha Ivo Sen
-Preso, técnico de drenajes (P-2) · 44
-Combate 30 · Instinto 45 · Salud 12 · Heridas 2 · Armadura 0
-Ataques: herramientas (1d5)
-Rasgos: instaló el bypass clandestino; opera la bomba que protege R-3; primero minimiza, con datos reconoce
-:::
-
-**Tiempo.** Cada solución tiene su coste, ya listado. Resolver la energía de la bomba detiene el reloj de P-2; no resuelve el filtro de aire de P-2, que es independiente y sigue corriendo.
-
-**Qué pasa si…**
-
-- **Estabilizan la bomba:** H-4 deja de avanzar por falta de desvío y el grupo puede centrarse en R-3.
-- **Evacúan P-2 sin sustituir la bomba:** el aviso es explícito. El agua rebosa sobre la junta debilitada y H-4 progresa.
-- **Ivo ve una oportunidad de huir:** puede planteársela, según circunstancias, cansancio y vínculos creados. No lo conviertas en un giro de combate gratuito en el momento más útil para el guion.
-
-## [9] Drenaje H-4 — El precio de una redundancia
-
-![Tramo de inspección del drenaje H-4 con tubería abierta, presión fluctuante y depósito de alivio a medio llenar](fig-h4)
-
-H-4 es una tubería, no un pasillo. No se puede bajar por ella caminando, y quien lo intente se ahoga o se rompe. Es el lugar donde se entiende **qué hizo el bypass** y qué precio tiene una redundancia que alguien tocó.
-
-**Ambiente.** Tubería abierta por un tramo de inspección. La presión fluctúa: el agua sube y baja con un ruido de garganta. Un depósito de alivio, parcialmente lleno, se queja por las juntas. La salmuera tiene un olor mineral que se pega al filtro. **No se puede bajar caminando por ella; no es un atajo mágico.**
+**Recursos.** Dos trajes de escape (30 min). Reserva de O₂ para tres purgas. La radio local. El conocimiento de los trece.
 
 **Pistas.**
 
-- La pieza de **bypass fue instalada a mano**. La soldadura es irregular y presenta marcas de herramienta manual, no de taller.
-- La **soldadura es anterior al accidente**: meses, no horas.
-- El **canal de alivio quedó limitado**: la derivación robó capacidad a la vía que debía absorber el exceso.
-- Una **cámara de servicio** conserva fecha y curva de caudal, y permite cruzar la evidencia con los datos de Control.
+- **Mara** recuerda el cierre y lo defiende con datos: «La presión salía por dos galerías».
+- **Inés** vio desprenderse la costra de J-17 antes de que saltara el colector.
+- **Ulma** ejecutó la limpieza y vio la costra «sangrar» gel antes de soltarse.
+- **Nora** vio a los costreros tapiar rendijas cada vez que entraba aire de una galería nueva.
+- **Isa** vio a Ivo llevar herramientas al drenaje dos veces la semana pasada.
+- **Celia** sabe que hay dos C-12 en el armario del pasillo de servicio, al otro lado del portillo.
 
-**Prueba de causalidad.** El bypass **agravó** la rotura al impedir que la vía alternativa absorbiese el exceso; **no originó** la grieta en J-17. Un técnico puede verificar ambas afirmaciones con registros y daños físicos. Esta distinción es el corazón del acto: Ivo tiene culpa, pero no es el origen. El origen está en el macizo rocoso y en el mantenimiento.
+**Acciones.**
 
-**Consecuencia.** Restituir la redundancia demora **45–75 minutos**, pero baja la presión del circuito y hace más seguro el rescate. Aislar una fuga de aire puede hacer que los costreros dejen de sellarla y regresen a su medio.
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Instalar un cartucho | 10 min | El cartucho | +1,2 kg |
+| Purga parcial | 15 min | 6 kg de O₂ | +0,6 kg; riesgo de fuego desde la segunda |
+| Montar el depurador portátil | 30 min | 1 UE/h | Detiene el reloj A |
+| Evacuar por la esclusa principal | 10 min por ciclo de cuatro | Trajes; E-1 igualada | Ver Acto IV |
+| Evacuar por la compuerta pequeña | 10 min por ciclo de dos | Trajes con mochila; portillo abierto | Ver Acto IV |
 
-**Horror físico.** En el tramo de inspección, si la fuga humana sigue activa, puede haber uno o dos exploradores atraídos por el **giro ciego de los anillos** buscando la fuente de vibración y de fluido. No huelen sangre a kilómetros: llegan porque el agua corre y el metal canta. Describir su búsqueda a ciegas, no su ataque.
+Si se abre la compuerta pequeña, se pueden meter cartuchos **antes** de tener una salida para personas. Ese orden salva vidas.
 
-**Obstáculo.** Presión variable y salmuera residual. Trabajar aquí exige herramientas y calma. La **Atención de la colonia** sube con cada percusión; apagar y esperar diez minutos la baja.
+**Cambios según los relojes.**
 
-**Qué pasa si…**
+- **R-3 Degradado** (16:36 sin ayuda): dolores de cabeza, temblores. Alguien cuenta catorce personas cuando son trece y no se convence. Mara empieza a repetir frases.
+- **R-3 Crítico** (19:36): [−] a todo; Duarte recuenta en voz alta sin parar; alguien duerme y cuesta despertarlo. Isa insiste en que oyó arañar el techo, y tiene razón si hay costreros sellando el portillo.
+- **H-4 en 4:** la salmuera llega a la rejilla. Si alguien sangra (Osian, sobre todo), un costrero sube por el sumidero. Ver la escena en el Acto IV.
+- **H-4 en 5:** el sello inferior rezuma. **H-4 en 6:** cuenta atrás de 120 minutos para el sello.
 
-- **Restituyen la redundancia:** el circuito pierde presión y el rescate se vuelve más seguro en toda la ruta baja.
-- **Sobrecargan la derivación:** H-4 sube. El canal de alivio limitado no perdona.
-- **Dejan la fuga abierta:** los exploradores siguen acudiendo y la zona nunca queda limpia.
+**Conecta con** la ruta baja (esclusa principal) y la cámara de servicio (compuerta pequeña).
 
-## [10] Válvula V-12 — Cortar antes de abrir
+## [8] Estación P-2 — Quienes sujetan la situación
+
+> Un motor eléctrico golpea a ritmo irregular. Un depósito de decantación sube de nivel por momentos. Dos figuras con ropa de emergencia trabajan alrededor de un panel abierto, con las manos manchadas de salmuera y grasa. Al otro lado de la portilla, el raspado no cesa.
+
+**Estado inicial.** Compartimento presurizado pequeño. Bomba de trasiego a potencia reducida, depósito de decantación, panel abierto, filtro de emergencia (reloj B), batería de 12 UE. El túnel de servicio interior hacia H-4 está inundado.
+
+**Personas.**
+
+| Persona | Ficha | Estado |
+|---|---|---|
+| Lara Quiroga, alguacil | C40 · I45 · H2(13) | Hombro derecho lesionado: [−] en tareas físicas exigentes |
+| Ivo Sen, preso | C30 · I45 · H2(12) | Agotado, cortes superficiales |
+
+**Accesos.** Solo por la cámara de paso de la portilla. El túnel interior hacia H-4 es la vía desesperada (ver la ficha de Ivo).
+
+**Peligros.** El aire (14:36). La bomba (15:36 sin energía externa; 45 min sin atender sin automatismo).
+
+**Recursos.** Un traje (el de Quiroga). La hoja manual de la bomba (D07). El diario de Quiroga (D14). La tableta de Ivo, con el plano de su ruta, que no entrega voluntariamente.
+
+**Pistas.** El panel de caudales confirma lo que dice Quiroga. Ivo reconoce, si se le pregunta por el circuito, que «hay muchas galerías que no están digitalizadas»: verdad y evasiva a la vez.
+
+**Acciones.**
+
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Restablecer el automatismo | 45 min (30 con Ivo) | Energía estable | La bomba sigue sola |
+| Redirigir la descarga a otro depósito | 60–90 min | Herramientas | El depósito de decantación deja de ser un límite |
+| Meter aire | 5 min (cámara de paso) | Cartucho o filtro | Reloj B (aire) |
+| Evacuar a Quiroga e Ivo | 10 min | Un traje para Ivo | Solo sin peligro si hay automatismo o V-12 cerrada |
+| Diseñar una derivación propia | Lo que digan los jugadores | — | Funciona si soporta presión, caudal y sellado |
+
+**Consecuencias.** Sacar a los dos sin automatismo ni V-12 cerrada para la bomba 45 minutos después: H-4 empieza a subir. Ivo, condenado por homicidio, está salvando a trece personas aunque su plan de fuga contribuyó al desastre. Eso no lo absuelve.
+
+**Cambios según los relojes.** P-2 Degradado: Quiroga habla más bajo, como si el raspado pudiera oírla; Ivo concede menos. Crítico: los dos se duermen sobre el panel; la bomba queda sin atender.
+
+**Conecta con** la portilla.
+
+## [9] Tramo de inspección de H-4 — El precio de una redundancia
+
+![Tramo de inspección del drenaje H-4 con tubería abierta, presión fluctuante y depósito de alivio a medio llenar](fig-h4)
+
+> Tubería abierta por un tramo de inspección. El agua sube y baja con un ruido de garganta. Un depósito de alivio, a medio llenar, se queja por las juntas. La salmuera tiene un olor mineral que se pega al filtro.
+
+**Estado inicial.** Un registro de la conducción H-4 junto a la galería de servicio, a 10 minutos de V-12. No se puede recorrer la tubería caminando. Uno o dos exploradores si hay fuga de aire.
+
+**Pistas.**
+
+- La pieza del **bypass fue instalada a mano**: soldadura irregular, marcas de herramienta manual.
+- La soldadura tiene **meses**, no horas.
+- La **derivación B** quedó limitada: el bypass le robó capacidad.
+- Una **cámara de servicio** conserva fecha y curva de caudal, cruzable con los datos de C-0.
+
+**Prueba de causalidad.** El bypass **agravó** la rotura al impedir que la derivación B absorbiera el exceso; **no originó** la grieta en J-17. Un técnico puede verificar las dos cosas.
+
+**Acciones.**
+
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Restituir el alivio (quitar el bypass) | 45–75 min | Herramientas; Atención +1 | H-4 −1; las paradas de bomba cuentan cada 60 min |
+| Fotografiar y documentar la soldadura | 10 min | — | Prueba para el Acto IV |
+
+**Consecuencias.** Quitar el bypass destruye la mejor prueba física contra Ivo si nadie la documenta antes. Es una decisión.
+
+**Conecta con** la galería de servicio y V-12.
+
+## [10] Válvula V-12 y galería de servicio — Cortar antes de abrir
 
 ![Válvula de aislamiento V-12 de alto caudal en una galería seca, con el actuador parcialmente sin alimentación](fig-v12)
 
-V-12 es la llave que corta el agua antes de tocar la puerta. Está detrás de una esclusa que comunica con L-4, en una galería seca, y es la pieza que convierte un rescate imposible en uno difícil.
+> Una válvula de aislamiento de alto caudal, del tamaño de una persona sentada. El volante de emergencia tiene una marca de pintura vieja. El actuador está muerto. La galería está seca, y eso la hace más segura para los humanos.
 
-**Ambiente.** Válvula de aislamiento de alto caudal, accesible desde una galería seca. El actuador está parcialmente sin alimentación: no responde desde Control. Detrás hay una esclusa que comunica con L-4, así que el ruido del trabajo llega lejos. La galería está seca, y eso la hace más segura para humanos y más prometedora para lo que esté al otro lado.
+**Estado inicial.** Galería de servicio seca entre el paso alto y el tramo de inspección de H-4. V-12 abierta; su actuador sin alimentación desde que se cortó la línea en EL-4.
 
-**Qué hace.** **Reduce el caudal entrante desde la bolsa de salmuera** hacia las líneas humanas. No elimina instantáneamente el agua ya presente ni repara la junta J-17. Es una compuerta, no una cura. Los jugadores deben entender esta diferencia antes de creer que han resuelto el problema.
+**Qué hace.** **Reduce el caudal entrante** desde la bolsa de salmuera hacia las líneas humanas. No vacía el agua que ya está ni repara J-17. Con V-12 cerrada, la bomba de P-2 deja de ser necesaria y H-4 baja una hora tras otra.
 
-**Procedimiento.** Restaurar energía o mover un **volante de emergencia con herramienta de par**. Después, **purgar lentamente** el tramo atrapado. **45–90 minutos** según herramientas y ayuda, más el tiempo de observar el descenso de presión. El plano hidráulico, si lo tienen, permite hacerlo bien a la primera.
+**Accesos.** A mano: por L-4, la cría y el paso alto (1 h 30 min–2 h 30 min desde C-0). A distancia: desde la consola de C-0 tras reparar la línea en EL-4.
 
-**Error avisado.** Cerrar bruscamente sin aliviar puede **golpear un colector y aumentar la Fuga H-4 en 1**. Si alguien propone una secuencia gradual o usa el plano hidráulico, evita ese riesgo. Anuncia la consecuencia antes de la tirada, nunca después.
+**Acciones.**
 
-**Causa de horror.** V-12 está conectada a L-4, y L-4 está conectada a cavidades. Cualquier percusión aquí sube la Atención de la colonia. Un grupo que fuerce el volante a martillazos puede tener que apagar todo y esperar a oscuras mientras algo blanco cruza el techo.
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Cierre gradual (a mano o desde C-0) | 45 min desde C-0; 45–90 a mano | Herramienta de par o 4 UE | H-4 −1 al terminar y −1/h después |
+| Cierre brusco | Minutos | — | **H-4 +1** por golpe de ariete; luego baja igual |
+| Observar el manómetro durante el cierre | +10 min | — | Evita la sorpresa aguas abajo |
 
-**Qué pasa si…**
+**Consecuencias.** En 30–90 minutos tras el cierre, la colonia del tramo bajo migra por esta galería hacia la cría: 1d3+2 ejemplares. Quien esté aquí, en el paso alto o en el tramo de inspección los ve pasar. Si se quedan quietos y a oscuras, pasan de largo.
 
-- **Secuencia gradual y documentada:** la Fuga H-4 baja sin sobresaltos y la ruta a R-3 se estabiliza.
-- **Cierre brusco sin aliviar:** Fuga H-4 +1. El tramo bajo se compromete y E-1 empeora.
-- **Dedican el tiempo a observar el manómetro:** confirman que el caudal cede y evitan sorpresas aguas abajo.
+**Conecta con** el paso alto y H-4.
 
 ## [11] Portillo superior — El acceso discreto
 
 ![Portillo superior de diámetro humano sellado con pernos, sobre la línea de inundación, con filtros apilados al lado](fig-portillo)
 
-El portillo superior es la salida que no se ve. Un agujero de diámetro humano por encima del agua, sellado con pernos, que conecta el paso alto con la cámara de servicio que desemboca en R-3. No es una esclusa grande: es una grieta trabajada.
+> Un acceso técnico de diámetro humano por encima de la línea de inundación, sellado con pernos. Rodeado de tuberías y de un pasillo de servicio seco y estrecho. Al lado, un armario de mantenimiento con la puerta entreabierta.
 
-**Ambiente.** Acceso técnico de diámetro humano por encima de la línea de inundación, sellado con pernos. Rodeado de tuberías y de un pasillo de servicio. La humedad no llega hasta aquí. Es seco, estrecho y silencioso. Al lado, filtros y herramientas de mantenimiento esperan desde antes del accidente.
+**Estado inicial.** Portillo atornillado desde este lado. Pequeña fuga de aire por la junta hacia el paso alto: hay costra empezando a formarse. Detrás, la **cámara de servicio**, despresurizada, y la compuerta pequeña de R-3.
 
-**Ventajas.** Permite **pasar personas de una en una**, recuperar herramientas y proporcionar filtros **antes** de abrir la esclusa grande. Es la vía que reconcilia la prisa con el cuidado: se puede empezar a sacar gente y cartuchos mientras la puerta principal sigue cerrada.
+**Recursos.** El **armario de servicio**: **dos cartuchos C-12**, herramientas, cuerda, un arnés de izado.
 
-**Límites.** Un herido inmovilizado necesita férulas y protección; **no caben camillas rígidas grandes**. Es imposible sacar a trece personas en pocos minutos sin orden ni preparación. El portillo exige cola, turnos y alguien arriba y alguien abajo coordinando.
+**Acciones.**
 
-**Tiempo.** 30–50 minutos para abrir sin comprometer la estanqueidad. Después, **5–10 minutos por persona ambulante** y **20–30 minutos por herido** que necesite transporte adaptado. La evacuación del grupo completo es una operación de **horas**, no un fundido cinematográfico.
+| Acción | Tiempo | Coste | Resultado |
+|---|---|---|---|
+| Abrir el portillo | 30–50 min (+20 desde las 17:36) | Atención +1 | Acceso a la cámara de servicio |
+| Pasar cartuchos | 10 min por ciclo | — | Llegan a R-3 antes que las personas |
+| Evacuar | 10 min por ciclo de dos; 20–30 min por herido | Trajes con mochila | Una persona cada 5–10 min hacia el paso alto |
 
-**Qué pasa si…**
+**Límites.** No caben camillas rígidas: los heridos salen con camilla flexible, férulas y arnés. Evacuar a trece por aquí es una operación de **horas**, y cada evacuado necesita un traje con mochila para L-4.
 
-- **Organizan turnos y usan el portillo con los filtros primero:** R-3 gana tiempo y la evacuación empieza antes de tocar E-1.
-- **Intentan meter una camilla rígida:** no cabe. Pierden tiempo y pueden dañar la junta. La solución es férulas y carga a mano.
-- **Se colapsa el orden:** trece personas en cola en un pasillo seco es un problema de disciplina, no de criaturas. Deja que Duarte o Mara lo gestionen si se lo piden.
+**Cambios.** Desde las 17:36 la costra añade 20 minutos a la apertura. Si se cierra la fuga de la cría, la costra crece más rápido (+20 min más). Con R-3 en Crítico, Isa oye el techo.
 
-## [12] Junta J-17 — Lo que realmente se rompió
+**Conecta con** el paso alto, la cámara de servicio y R-3.
+
+## [12] Junta J-17 y tramo bajo — Lo que realmente se rompió
 
 ![Fractura de la junta J-17 sobre la línea de producción, con placas minerales adheridas a los bordes y una herramienta partida](fig-j17)
 
-J-17 es el origen. No de un sabotaje, no de un monstruo, no de una maldición: de una rotura. Aquí está la fractura, la herramienta partida, los restos del operario y el tramo bajo donde los muertos se han convertido en pared.
+> Una fractura sobre una línea de producción, con placas minerales adheridas a los bordes como labios abiertos. Marcas de limpieza térmica. Una herramienta partida en dos. Salmuera residual por las paredes. Era un lugar de trabajo.
 
-**Ambiente.** Una fractura sobre una línea de producción, con placas minerales adheridas a los bordes como labios abiertos. Marcas de limpieza térmica. Una herramienta partida en dos. Restos de equipo del operario fallecido. Salmuera residual por las paredes. Es un lugar de trabajo que se convirtió en una tumba.
+**Estado inicial.** La fractura de origen, con tres costreros resellándola. Teo Mahr, sellado contra la roca. En el corredor que lleva hasta aquí, Milena Tey, sellada contra la pared. Agua según H-4.
+
+**Accesos.** Desde la ruta baja (tras E-1), por el corredor dañado. Con H-4 ≥ 2, solo con V-12 cerrada.
+
+**Peligros.** Salmuera residual, derrumbes de material suelto, Atención alta si se trabaja con herramientas.
 
 **Pistas.**
 
-- El **depósito fue retirado con maquinaria de mantenimiento normal**. Nadie saboteó nada con explosivos.
-- La **salmuera procedía de dentro del macizo rocoso**, no de un sabotaje explosivo. El agua vino de la roca, no de un bidón.
-- Los **animales han empezado a construir nuevos sellos** en microfracturas próximas: están tapando la herida que el mantenimiento abrió.
-- El **protocolo de mantenimiento describía los depósitos como incrustación mineral**, no como parte de un sistema biológico. La ignorancia, no la maldad, abrió la junta.
+- El depósito se retiró con **maquinaria de mantenimiento normal**: el limpiador térmico.
+- La **salmuera vino del macizo rocoso**, no de un sabotaje.
+- Los animales **resellan microfracturas próximas**: están tapando la herida.
+- La **orden 517-J** describía los depósitos como incrustación mineral (D04).
 
-**Peligros.** Acceso difícil, salmuera residual y un posible nuevo derrumbe de material suelto. Si la fuga ha sido controlada mediante V-12 y H-4, el riesgo se reduce claramente. Si no, trabajar aquí es trabajar dentro de una herida que sigue sangrando.
-
-**El relicario de Teo Mahr.** En el tramo bajo, junto a J-17, está **Teo Mahr**, el preso que murió en T0.
+**El relicario de Teo Mahr.** Medio cubierto por una costra blanquecina y translúcida que lo une a la roca. Los costreros se alimentan bajo la costra y el cuerpo se mueve. **Salvación de Miedo [−] o 1d5 de Estrés.**
 
 ![El cuerpo de Teo Mahr medio soldado a la roca por la costra, con los dentículos moviéndose bajo el mineral](fig-relicario)
 
-Está medio cubierto por una **costra blanquecina y translúcida** que lo une a la roca. Varios costreros se alimentan **bajo la costra**, y el cuerpo **se mueve** por el trabajo de los dientes en su interior. No es un cadáver que revive: es un cuerpo siendo digerido por dentro mientras la costra lo mantiene pegado a la roca. Es un **relicario**, y es el primer contacto visual fuerte del acto. Ver moverse el cadáver exige **Miedo [−]** o **+1d5 Estrés**.
+> Contra la pared, medio hundido en la roca, hay un hombre con el mono de preso. La costra le cubre el pecho y lo une a la piedra como una escultura a medio hacer. Cada pocos segundos, el bulto del torso se mueve un poco, hacia dentro, como si algo lo estuviera recogiendo desde el otro lado.
 
-> Contra la pared, medio hundido en la roca, hay un hombre vestido con el mono de preso. La costra le cubre el pecho y lo une a la piedra como una escultura a medio hacer. Cada pocos segundos, el bulto del torso se mueve un poco, hacia dentro, como si algo lo estuviera recogiendo desde el otro lado.
+**Milena Tey** (o Inés, si se intercambiaron) está en el corredor, con la cara visible tras la costra como tras un cristal empañado, los ojos y la boca abiertos. **+1 de Estrés** al reconocerla.
 
-**Milena Tey en el corredor dañado.** En el corredor que lleva a J-17 hay **otra** figura sellada contra la pared: **Milena Tey**, la civil fallecida, con la **cara visible tras la costra**, como tras un cristal empañado. Los ojos abiertos, la boca abierta, la piel a un dedo de distancia por debajo del mineral. Es un cuerpo entero convertido en superficie. (Si en tu mesa has intercambiado el balance de bajas, ocupa su papel **Inés**; el horror es el mismo y la mecánica no cambia.) Ver un cuerpo «sellado» con la cara reconocible suma **+1 Estrés**.
+**Acciones.** Recoger pruebas (fotografías y muestras: 20 min, sin ruido; con el limpiador o martillo: 10 min, Atención +2 y el resellado natural se retrasa doce horas). Recuperar los cuerpos (muy lento; Duarte lo pedirá).
 
-**Resultado.** Los jugadores pueden concluir que el accidente se produjo por falta de comprensión ecológica, una política de mantenimiento insuficiente y una redundancia de drenaje alterada. **No existe un único «monstruo culpable».** Esa conclusión es una victoria: significa que entienden el complejo.
+**Consecuencia.** Si nadie trabaja la fractura con herramientas, la colonia termina de resellarla hacia las 03:36 del día siguiente (H-4 −1 y la bomba deja de ser necesaria).
 
-**Qué pasa si…**
-
-- **Controlaron V-12 y H-4 antes de bajar:** J-17 se puede inspeccionar con riesgo reducido y se recogen pruebas limpias de la causa real.
-- **Bajan sin controlar la fuga:** salmuera residual, derrumbe y Atención de la colonia alta. La prueba cuesta sangre.
-- **Se llevan la herramienta partida o fotografían las placas:** obtienen el material con el que reconstruir la verdad ante Vidal y Oria en el Acto IV. Es la prueba que desmonta la versión de «sabotaje» sin absolver a Ivo.
+**Conecta con** la ruta baja.
 
 ::: caja La verdad de J-17
-Cuando el grupo entienda que en J-17 no hay un culpable único, no añadas uno. La catástrofe es ecológica, industrial y humana, y el horror nace de esa indiferencia. Si los jugadores traen pruebas, deja que cambien decisiones fuera de C-7. Si traen miedo, no lo castigues con reglas: descríbelo. Y recuerda que Teo Mahr no ataca, Milena no susurra y Lisán no reclama nada. Solo están ahí, siendo pared, como todo lo que gotea termina siendo pared en Nádir.
+Cuando el grupo entienda que en J-17 no hay un culpable único, no añadas uno. La catástrofe es ecológica, industrial y humana. Si los jugadores traen pruebas, deja que cambien decisiones fuera de C-7. Teo Mahr no ataca, Milena no susurra y Lisán no reclama nada: solo están ahí, siendo pared.
 :::

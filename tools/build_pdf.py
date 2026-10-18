@@ -23,13 +23,15 @@ for _i in json.load(open(os.path.join(ROOT, "docs", "arte", "prompts.json")))["i
     _i["w"], _i["h"] = map(int, _i["size"].split("x"))
     PROMPTS[_i["id"]] = _i
 
-ORDEN = ["00-presentacion", "01-nadir", "02-verdad", "03-costreros", "04-actos-1-2", "05-acto-3", "06-acto-4",
-         "07-pnj", "08-reglas", "09-documentos", "10-tripulacion"]
-SECCION = {"00-presentacion": "Presentación", "01-nadir": "Contexto", "02-verdad": "Informe técnico", "03-costreros": "Artículo",
+ORDEN = ["00-presentacion", "01-nadir", "02-verdad", "02b-sistemas", "03-costreros", "04-actos-1-2", "05-acto-3", "06-acto-4",
+         "07-pnj", "08-reglas", "08b-herramientas", "09-documentos", "10-tripulacion"]
+SECCION = {"00-presentacion": "Presentación", "01-nadir": "Contexto", "02-verdad": "Informe técnico", "02b-sistemas": "Sistemas", "03-costreros": "Artículo",
            "04-actos-1-2": "Actos I y II", "05-acto-3": "Acto III", "06-acto-4": "Acto IV", "07-pnj": "Personas",
-           "08-reglas": "Métodos", "09-documentos": "Anexos", "10-tripulacion": "Cuadrilla M-4"}
+           "08-reglas": "Métodos", "08b-herramientas": "Herramientas", "09-documentos": "Anexos", "10-tripulacion": "Cuadrilla M-4"}
 MAPAS = {"04-actos-1-2": [("b4", "Plano del Frente B-4, punto de partida."), ("ruta", "Rutas de superficie de B-4 a C-7.")],
-         "05-acto-3": [("c7", "Esquema funcional del Sector C-7 con sus doce localizaciones.")]}
+         "05-acto-3": [("c7-operativo.svg", "Plano operativo del Sector C-7: atmósferas, zonas que se inundan según H-4, compuertas, rutas, conducciones y equipos críticos."),
+                       ("c7", "Planta cuadriculada del Sector C-7 (la misma de las escenas de Foundry).")],
+         "08b-herramientas": [("c7-operativo.svg", "Plano operativo del Sector C-7 para consulta rápida.")]}
 
 fig_n = [0]
 usadas = set()
@@ -88,7 +90,8 @@ def parse_table(lines):
     head, body = rows[0], rows[1:]
     h = "".join("<th>%s</th>" % inline(c) for c in head)
     b = "".join("<tr>%s</tr>" % "".join("<td>%s</td>" % inline(c) for c in r) for r in body)
-    cls = ' class="wide"' if len(head) >= 4 else ""
+    largo = sum(len(" ".join(r)) for r in body) / max(len(body), 1)
+    cls = ' class="wide"' if len(head) >= 4 or (len(head) == 3 and largo > 75) else ""
     return '<table%s><thead><tr>%s</tr></thead><tbody>%s</tbody></table>' % (cls, h, b)
 
 
@@ -105,6 +108,16 @@ def ficha(title, body):
         rest += ("<p><b>%s.</b> %s</p>" % (esc(m.group(1)), inline(m.group(2)))) if m else "<p>%s</p>" % inline(l)
     return '<aside class="ficha"><header><h4>%s</h4><span>%s</span></header><div class="chips">%s</div>%s</aside>' % (
         esc(title), inline(sub), chips, rest)
+
+
+def lineas(body):
+    """En los documentos cada línea es un renglón propio (registros, listas de horas)."""
+    out = []
+    for l in body.splitlines():
+        if out and l.strip() and out[-1].strip() and not l.lstrip().startswith((">", "|")) and not out[-1].lstrip().startswith((">", "|")):
+            out.append("")
+        out.append(l)
+    return "\n".join(out)
 
 
 def md_blocks(text, ctx):
@@ -148,7 +161,7 @@ def md_blocks(text, ctx):
                 inner = "".join(x for k, x in md_blocks(body, {}) if k == "flow")
                 cur.append('<div class="leer"><h4>%s</h4>%s</div>' % (esc(title), inner))
             elif kind == "documento":
-                inner = "".join(x for k, x in md_blocks(body, {}) if k == "flow")
+                inner = "".join(x for k, x in md_blocks(lineas(body), {}) if k == "flow")
                 cur.append('<div class="documento"><span class="tape">DOCUMENTO</span><h4>%s</h4>%s</div>' % (esc(title), inner))
             else:
                 inner = "".join(x for k, x in md_blocks(body, {}) if k == "flow")
@@ -241,7 +254,9 @@ def md_blocks(text, ctx):
 
 def mapa(deck, cap):
     fig_n[0] += 1
-    src = "file://%s/%s-paper.png" % (MAPS, deck)
+    if deck == "c7-operativo.svg":
+        return '<figure class="plano pagina"><img src="file://%s/c7-operativo-v.svg"><figcaption><b>Fig. %d.</b> %s</figcaption></figure>' % (MAPS, fig_n[0], cap)
+    src = "file://%s/%s" % (MAPS, deck) if deck.endswith(".svg") else "file://%s/%s-paper.png" % (MAPS, deck)
     return '<figure class="wide plano"><img src="%s"><figcaption><b>Fig. %d.</b> %s</figcaption></figure>' % (src, fig_n[0], cap)
 
 
@@ -274,8 +289,9 @@ def hojas():
            '<div class="abstract"><b>Resumen</b><p>Cinco hojas de la cuadrilla M-4 listas para imprimir: estadísticas, salvaciones, equipo, motivo, vínculo, conflicto e información privada.</p></div></section>']
     for pid, p in CANON["pregenerados"].items():
         e, s = p["estadisticas"], p["salvaciones"]
-        sk = "".join("<li><b>%s</b> · entrenado</li>" % esc(x) for x in p["habilidades"].get("entrenado", [])) + \
-             "".join("<li><b>%s</b> · experto</li>" % esc(x) for x in p["habilidades"].get("experto", []))
+        sk = "".join("<li><b>%s</b> · entrenada</li>" % esc(x) for x in p["habilidades"].get("entrenado", [])) + \
+             "".join("<li><b>%s</b> · experta</li>" % esc(x) for x in p["habilidades"].get("experto", [])) + \
+             "".join("<li><b>%s</b> · maestra</li>" % esc(x) for x in p["habilidades"].get("maestro", []))
         rec = "".join('<div class="rec"><span>%s</span><p>%s</p><i></i></div>' % (k, inline(v)) for k, v in p["recuerdos"].items())
         ret = img_path("ret-" + pid)
         out.append('''<section class="hoja">
@@ -293,12 +309,27 @@ def hojas():
 
 
 def plano_conductos():
-    fig_n[0] += 1
-    n1 = fig_n[0]
-    fig_n[0] += 1
+    n = []
+    for _ in range(3):
+        fig_n[0] += 1
+        n.append(fig_n[0])
     return ('<section class="opener" id="cap-planos"><div class="kicker">Apéndice</div><h1>Planos</h1>'
-            '<figure class="plano"><img src="file://%s/c7-paper.png"><figcaption><b>Fig. %d.</b> Sector C-7.</figcaption></figure>'
-            '<figure class="plano"><img src="file://%s/ruta-paper.png"><figcaption><b>Fig. %d.</b> Superficie de Nádir: rutas y atajo.</figcaption></figure></section>') % (MAPS, n1, MAPS, fig_n[0])
+            '<figure class="plano"><img src="file://%s/ruta-paper.png"><figcaption><b>Fig. %d.</b> Superficie de Nádir: rutas y atajo.</figcaption></figure>'
+            '<figure class="plano"><img src="file://%s/c7-paper.png"><figcaption><b>Fig. %d.</b> Sector C-7: planta cuadriculada (escenas de Foundry).</figcaption></figure>'
+            '<figure class="plano pagina"><img src="file://%s/c7-operativo-v.svg"><figcaption><b>Fig. %d.</b> Sector C-7: plano operativo.</figcaption></figure></section>') % (
+        MAPS, n[0], MAPS, n[1], MAPS, n[2])
+
+
+def imprimibles():
+    """Apéndice con los documentos de 09-documentos.md tal cual los ven los jugadores (sin notas del Guardián)."""
+    texto = open(os.path.join(ROOT, "docs", "texto", "09-documentos.md")).read()
+    docs = re.findall(r"^::: documento (.+?)\n(.*?)\n^:::\s*$", texto, re.S | re.M)
+    cajas = "".join('<div class="documento imp"><span class="tape">%s</span><h4>%s</h4>%s</div>' % (
+        esc(t.split(" · ")[0]), esc(t.split(" · ", 1)[-1]), "".join(h for k, h in md_blocks(lineas(b), {}) if k == "flow")) for t, b in docs)
+    return ('<section class="opener" id="cap-imprimibles"><div class="kicker">Apéndice · Imprimible</div><h1>Documentos imprimibles</h1>'
+            '<div class="abstract"><b>Resumen</b><p>Los documentos que pueden obtener los jugadores, sin notas del Guardián. Recorta y entrega cada uno solo cuando lo obtengan. '
+            'Los registros por tramos (D12-B y D14) se entregan solo hasta la hora en que se consultan y en la variante que corresponda a lo ocurrido.</p></div>'
+            '<div class="imps">%s</div></section>') % cajas
 
 
 CSS = r"""
@@ -394,8 +425,10 @@ figure { max-width:100%; }
 .stats.sv { margin-top:0; border-top:0; background:#f4f1e8; }
 .vit { display:flex; gap:3mm; margin:4mm 0; } .vit div { flex:1; border:.3mm solid var(--ink); text-align:center; padding:2mm; min-height:14mm; } .vit em { display:block; font:normal 600 6.5pt 'Avenir Next Condensed'; letter-spacing:.18em; text-transform:uppercase; color:var(--mut);} .vit b { font:700 16pt 'Avenir Next Condensed'; }
 .dos { display:flex; gap:8mm; } .dos > div { flex:1; } .hoja h3 { margin:3mm 0 1.5mm; } .hoja ul { font-size:8.6pt; margin:0; padding-left:4mm; }
-.recs { display:grid; grid-template-columns:1fr 1fr; gap:3mm; } .rec { border:.3mm solid var(--ink); padding:2.4mm 3mm 3mm; position:relative; font-size:8.2pt; line-height:1.35; min-height:28mm; } .rec span { font:700 11pt 'Avenir Next Condensed'; color:var(--amb); } .rec p { margin:1mm 0 0; } .rec i { position:absolute; right:2mm; top:2mm; width:5mm; height:5mm; border:.3mm solid var(--ink); }
+.recs { display:grid; grid-template-columns:1fr 1fr; gap:3mm; } .rec { border:.3mm solid var(--ink); padding:2.4mm 3mm 3mm; position:relative; font-size:8.2pt; line-height:1.35; min-height:22mm; } .rec span { font:700 11pt 'Avenir Next Condensed'; color:var(--amb); } .rec p { margin:1mm 0 0; } .rec i { position:absolute; right:2mm; top:2mm; width:5mm; height:5mm; border:.3mm solid var(--ink); }
 .hoja .nota { font-size:7.5pt; color:var(--mut); margin-top:3mm; }
+figure.plano.pagina { column-span:all; break-before:page; break-after:page; margin:0; } figure.plano.pagina img { height:248mm; width:auto; max-width:100%; margin:0 auto; border:0; }
+.imps { column-count:2; column-gap:7mm; } .documento.imp { break-inside:avoid; margin:6mm 0 5mm; }
 """
 
 
@@ -437,9 +470,11 @@ def construir(paginas):
         cuerpo.append(h)
     items.append(("cap-hojas", "Apéndice", "Archivos personales"))
     cuerpo.append(hojas())
+    items.append(("cap-imprimibles", "Apéndice", "Documentos imprimibles"))
+    cuerpo.append(imprimibles())
     items.append(("cap-planos", "Apéndice", "Planos"))
     cuerpo.append(plano_conductos())
-    doc = '<!doctype html><html lang="es"><meta charset="utf-8"><title>Nádir: Sangre bajo el hielo</title><style>%s</style><body>%s%s%s%s</body></html>' % (
+    doc = '<!doctype html><html lang="es"><meta charset="utf-8"><title>Nádir: Sangre bajo el hielo · Edición revisada</title><style>%s</style><body>%s%s%s%s</body></html>' % (
         CSS.replace("BRANDDIR", "file://" + ROOT + "/brand"), portada(), indice(items, paginas), "".join(cuerpo), contraportada())
     return doc, items
 
@@ -458,7 +493,7 @@ def paginas_de(out, items):
     res = {}
     for cid, k, t in items:
         m = re.match(r"cap-(\d+)$", cid)
-        clave = norm("%s·N.º%02d" % (k, int(m.group(1)))) if m else norm(k + ("·IMPRIMIBLE" if cid == "cap-hojas" else "")) + norm(t)
+        clave = norm("%s·N.º%02d" % (k, int(m.group(1)))) if m else norm(k + ("·IMPRIMIBLE" if cid in ("cap-hojas", "cap-imprimibles") else "")) + norm(t)
         for pno in range(2, len(d)):
             if clave in norm(d[pno].get_text()):
                 res[cid] = str(pno + 1)
@@ -466,8 +501,20 @@ def paginas_de(out, items):
     return res
 
 
+def construir_material():
+    """Segundo PDF: herramientas del Guardián, documentos imprimibles, hojas de PJ y planos."""
+    fig_n[0] = 0
+    usadas.clear()
+    k = ORDEN.index("08b-herramientas")
+    _, _, herr = capitulo("08b-herramientas", k)
+    cuerpo = herr + imprimibles() + hojas() + plano_conductos()
+    return '<!doctype html><html lang="es"><meta charset="utf-8"><title>Nádir · Material de juego</title><style>%s</style><body>%s</body></html>' % (
+        CSS.replace("BRANDDIR", "file://" + ROOT + "/brand"), cuerpo)
+
+
 def main():
     os.makedirs(os.path.join(BUILD, "pdf"), exist_ok=True)
+    subprocess.run([sys.executable, os.path.join(ROOT, "tools", "plano_operativo.py")], check=True, stdout=subprocess.DEVNULL)
     hp = os.path.join(BUILD, "pdf", "libro.html")
     out = os.path.join(BUILD, "Nadir-Sangre-bajo-el-hielo.pdf")
     doc, items = construir({})
@@ -478,7 +525,13 @@ def main():
         doc, items = construir(pg)
         open(hp, "w").write(doc)
         pdf(hp, out)
+    hm = os.path.join(BUILD, "pdf", "material.html")
+    om = os.path.join(BUILD, "Nadir-Material-de-juego.pdf")
+    open(hm, "w").write(construir_material())
+    pdf(hm, om)
     import fitz
+    print("material:", len(fitz.open(om)), "páginas")
+    construir({})  # deja fig_n con la numeración del libro para el informe
     print("páginas:", len(fitz.open(out)), "figuras:", fig_n[0], "sin arte:", sorted(i for i in PROMPTS if i.startswith(("fig-", "ret-", "lam-")) and not img_path(i)))
 
 

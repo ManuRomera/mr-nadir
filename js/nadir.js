@@ -1,27 +1,18 @@
 // MR- Nádir · Panel de emergencia del Guardián: hora desde T0 y los relojes del escenario
-// (R-3, P-2, Fuga H-4, energía del rover, cartuchos y Atención de la colonia).
-// El estado vive en un ajuste de mundo; sólo el GM lo modifica y puede publicarlo en el chat.
+// (R-3, P-2, Fuga H-4, banco de C-0, rover y Atención de la colonia).
+// El estado es un registro de acciones con hora; los relojes se recalculan minuto a minuto
+// con las mismas reglas que tools/relojes.py y el capítulo «Relojes, recursos y cronología».
 
 const MOD = "mr-nadir";
 const T0_MIN = 9 * 60 + 36;          // 09:36
-const INICIO = 12;                   // se empieza a jugar a T+12 min (mensaje de Mara)
+const CO2 = 0.046 / 60;              // kg por persona y minuto
+const CARTUCHO = 1.2, FILTRO = 0.3, PURGA = 0.6;
+const DEPOSITO_MIN = 1044;           // minutos de bombeo hasta llenar el depósito (≈ 02:40)
 
-const ESTADO_INICIAL = {
-  min: INICIO,        // minutos transcurridos desde T0
-  r3Extra: 0,         // horas añadidas a R-3 (cartuchos +2 h c/u, mitigaciones)
-  r3Pausa: false,     // filtración industrial activa: R-3 no consume
-  r3PausaDesde: 0,
-  r3Pausado: 0,       // minutos acumulados en pausa
-  filtroExtra: 0,     // horas añadidas al filtro de P-2
-  bateriaExtra: 0,    // horas añadidas a la batería de P-2
-  h4: 1,              // Fuga H-4 (0-6)
-  ue: 90,             // energía del rover 1
-  cartuchos: 2,       // cartuchos de CO₂ del rover 1
-  atencion: 0         // Atención de la colonia (zona actual, 0-6)
-};
+const ESTADO_INICIAL = { min: 0, ev: [], ue: 90, atencion: 0 };
 
 const fmtHora = (m) => {
-  const t = (T0_MIN + m) % 1440;
+  const t = ((T0_MIN + Math.round(m)) % 1440 + 1440) % 1440;
   return `${String(Math.floor(t / 60)).padStart(2, "0")}:${String(t % 60).padStart(2, "0")}`;
 };
 const fmtDur = (m) => {
@@ -30,17 +21,82 @@ const fmtDur = (m) => {
   return `${s}${Math.floor(m / 60)} h ${String(m % 60).padStart(2, "0")} min`;
 };
 
+function estadoR3(kg, n) {
+  const h = kg / (0.046 * Math.max(n, 1));
+  if (kg > 0) return h > 3 ? "Estable" : "Degradado";
+  return -h < 3 ? "Crítico" : -h < 6 ? "Grave" : "Colapso";
+}
+function estadoP2(kg, n) {
+  if (kg > 0) return "Estable";
+  const h = -kg / (0.046 * Math.max(n, 1));
+  return h < 2 ? "Degradado" : h < 5 ? "Crítico" : "Colapso";
+}
+
+/** Recalcula todos los relojes desde T0 hasta e.min aplicando las acciones registradas. */
 function calcular(e) {
-  const pausa = e.r3Pausado + (e.r3Pausa ? e.min - e.r3PausaDesde : 0);
-  const r3 = 600 + e.r3Extra * 60 - (e.min - pausa);
-  const filtro = 300 + e.filtroExtra * 60 - e.min;
-  const bateria = 360 + e.bateriaExtra * 60 - e.min;
-  const estadoR3 = r3 > 180 ? "Estable" : r3 > 60 ? "Degradado" : r3 > 0 ? "Degradado (crítico inminente)" : "Crítico";
-  const h4 = e.h4 >= 6 ? "E-1 y la ruta baja inundadas; riesgo estructural en R-3"
-    : e.h4 >= 4 ? "Daños serios en pasillos inferiores · el sumidero de R-3 se llena" : "Contenida";
-  const at = e.atencion >= 6 ? "Defensores o enjambre (3–6) en la zona" : e.atencion >= 4 ? "3 ejemplares convergen"
-    : e.atencion >= 2 ? "1 explorador se acerca (5–15 min)" : "Sin respuesta";
-  return { r3, filtro, bateria, estadoR3, h4, at, pausa };
+  const s = { r3: 6, r3n: 13, dep: false, p2: 0.46, p2n: 2, bat: 12, port: 12, ind: 30, banco: 48, rover: e.ue,
+    bomba: true, fuente: "p2", auto: false, atend: 0, h4: 1, parada: 0, alivio: false, v12: null, sello: null, deposito: 20, avisos: [] };
+  const ev = [...(e.ev ?? [])].sort((a, b) => a.m - b.m);
+  let k = 0;
+  const subir = (m, motivo) => {
+    if (s.h4 >= 6) return;
+    s.h4 += 1;
+    s.avisos.push(`${fmtHora(m)} H-4 sube a ${s.h4} (${motivo})`);
+    if (s.h4 === 6 && s.sello === null) s.sello = m + 120;
+  };
+  for (let m = 0; m <= e.min; m++) {
+    while (k < ev.length && ev[k].m <= m) {
+      const a = ev[k++];
+      switch (a.t) {
+        case "cartR3": s.r3 += CARTUCHO; break;
+        case "filtroR3": s.r3 += FILTRO; break;
+        case "purga": s.r3 += PURGA; break;
+        case "dep": s.dep = !s.dep; break;
+        case "r3n": s.r3n = Math.max(0, s.r3n + a.v); break;
+        case "cartP2": s.p2 += CARTUCHO; break;
+        case "filtroP2": s.p2 += FILTRO; break;
+        case "p2n": s.p2n = Math.max(0, s.p2n + a.v); break;
+        case "fuente": s.fuente = a.v; s.bomba = a.v !== "parada"; s.atend = m; break;
+        case "auto": s.auto = true; break;
+        case "v12": s.v12 = m; s.h4 = Math.max(0, s.h4 - 1); break;
+        case "v12golpe": s.v12 = m; subir(m, "cierre brusco de V-12"); break;
+        case "alivio": s.alivio = true; s.h4 = Math.max(0, s.h4 - 1); break;
+        case "parche": s.h4 = Math.max(0, s.h4 - 1); break;
+        case "e1": subir(m, "E-1 forzada"); break;
+        case "h4": s.h4 = Math.min(6, Math.max(0, s.h4 + a.v)); break;
+        case "banco": s.banco += a.v; break;
+        case "rover": s.rover += a.v; break;
+      }
+    }
+    if (m === e.min) break;
+    if (s.r3n > 0 && !s.dep) s.r3 -= CO2 * s.r3n;
+    if (s.p2n > 0) s.p2 -= CO2 * s.p2n;
+    if (s.p2n > 0 && ["Estable", "Degradado"].includes(estadoP2(s.p2, s.p2n))) s.atend = m;
+    if (s.bomba) {
+      const gasto = 2 / 60;
+      if (s.fuente === "p2") { s.bat -= gasto; if (s.bat <= 0) { s.bomba = false; s.avisos.push(`${fmtHora(m)} batería de P-2 agotada`); } }
+      else if (s.fuente === "portatil") { s.port -= gasto; if (s.port <= 0) { s.bomba = false; s.avisos.push(`${fmtHora(m)} batería portátil agotada`); } }
+      else if (s.fuente === "industrial") { s.ind -= gasto; if (s.ind <= 0) { s.bomba = false; s.avisos.push(`${fmtHora(m)} batería industrial agotada`); } }
+      else if (s.fuente === "rover") s.rover -= gasto;
+      else if (s.fuente === "banco") s.banco -= gasto;
+      if (s.bomba && s.v12 === null && ++s.deposito >= DEPOSITO_MIN) { s.bomba = false; s.avisos.push(`${fmtHora(m)} depósito de decantación lleno`); }
+      if (s.bomba && !s.auto && m - s.atend >= 45) { s.bomba = false; s.avisos.push(`${fmtHora(m)} bomba sin atender: se desceba`); }
+    }
+    s.banco -= 2 / 60;
+    if (s.v12 === null) {
+      if (s.bomba) s.parada = 0;
+      else if (++s.parada >= (s.alivio ? 60 : 30)) { s.parada = 0; subir(m, "bomba parada"); }
+    } else if (s.h4 > (s.alivio ? 0 : 1) && m > s.v12 && (m - s.v12) % 60 === 0) s.h4 -= 1;
+    if (s.h4 < 6) s.sello = null;
+    if (s.sello !== null && m >= s.sello && s.r3n > 0) { s.avisos.push(`${fmtHora(m)} FALLA EL SELLO DE R-3`); s.sello = null; }
+  }
+  const nH4 = ["Escurrido · E-1 en 60 min", "Agua al tobillo · E-1 en 60–90 min", "Media pierna · E-1 en 90–120 min · J-17 solo con V-12",
+    "Rodilla · E-1 solo con V-12 cerrada · ruta baja lenta", "Cintura · agua en la rejilla de R-3 · E-1 imposible · la radio de Serrat calla",
+    "El sello inferior de R-3 rezuma", "Ruta baja inundada · el sello de R-3 falla en 120 min"][s.h4];
+  const at = e.atencion >= 6 ? "Defensores o grupo de 3–6" : e.atencion >= 5 ? "Uno prueba el contacto" : e.atencion >= 3 ? "Tres ejemplares convergen"
+    : e.atencion >= 2 ? "Un explorador se acerca (5–15 min)" : "Inactiva";
+  return { ...s, eR3: estadoR3(s.r3, s.r3n), eP2: s.p2n ? estadoP2(s.p2, s.p2n) : "Evacuada", nH4, at,
+    selloEn: s.sello !== null ? s.sello - e.min : null };
 }
 
 class PanelEmergencia extends foundry.applications.api.ApplicationV2 {
@@ -48,11 +104,12 @@ class PanelEmergencia extends foundry.applications.api.ApplicationV2 {
     id: "mr-nadir-panel",
     classes: ["mr-nadir-panel"],
     window: { title: "Nádir · Panel de emergencia", icon: "fa-solid fa-gauge-high", resizable: true },
-    position: { width: 430, height: "auto" },
+    position: { width: 470, height: "auto" },
     actions: {
       tiempo: PanelEmergencia.#tiempo,
+      accion: PanelEmergencia.#accion,
       ajustar: PanelEmergencia.#ajustar,
-      pausa: PanelEmergencia.#pausa,
+      deshacer: PanelEmergencia.#deshacer,
       chat: PanelEmergencia.#chat,
       reiniciar: PanelEmergencia.#reiniciar
     }
@@ -68,23 +125,30 @@ class PanelEmergencia extends foundry.applications.api.ApplicationV2 {
 
   async _renderHTML() {
     const e = this.estado, c = calcular(e), gm = game.user.isGM;
-    const btn = (accion, campo, delta, txt) => gm ? `<button type="button" data-action="${accion}" data-campo="${campo}" data-delta="${delta}">${txt}</button>` : "";
+    const b = (t, txt, v = "") => gm ? `<button type="button" data-action="accion" data-t="${t}" data-v="${v}">${txt}</button>` : "";
+    const aj = (campo, d, txt) => gm ? `<button type="button" data-action="ajustar" data-campo="${campo}" data-delta="${d}">${txt}</button>` : "";
     const fila = (titulo, valor, nota, botones = "", alerta = false) =>
       `<div class="fila ${alerta ? "alerta" : ""}"><div class="t">${titulo}</div><div class="v">${valor}</div><div class="n">${nota}</div><div class="b">${botones}</div></div>`;
+    const fuentes = { p2: "batería de P-2", rover: "rover", portatil: "batería portátil", industrial: "batería industrial", banco: "banco de C-0", parada: "ninguna" };
     const div = document.createElement("div");
     div.className = "mr-nadir-body";
     div.innerHTML = `
       <div class="reloj"><span>T+${fmtDur(e.min)}</span><b>${fmtHora(e.min)}</b></div>
       ${gm ? `<div class="tiempo">${[-10, 10, 30, 60].map(d => `<button type="button" data-action="tiempo" data-delta="${d}">${d > 0 ? "+" : ""}${d} min</button>`).join("")}</div>` : ""}
-      ${fila("Refugio R-3", fmtDur(c.r3), `${c.estadoR3}${e.r3Pausa ? " · filtración industrial activa" : ""}`,
-        btn("ajustar", "r3Extra", 2, "+2 h (cartucho)") + (gm ? `<button type="button" data-action="pausa">${e.r3Pausa ? "Quitar filtración" : "Filtración industrial"}</button>` : ""), c.r3 <= 180)}
-      ${fila("P-2 · filtro", fmtDur(c.filtro), c.filtro > 0 ? "Aire aceptable" : "El aire de P-2 se degrada", btn("ajustar", "filtroExtra", 1, "+1 h"), c.filtro <= 60)}
-      ${fila("P-2 · batería", fmtDur(c.bateria), c.bateria > 0 ? "La bomba funciona" : "Protección por bajo voltaje: la bomba se para", btn("ajustar", "bateriaExtra", 1, "+1 h"), c.bateria <= 60)}
-      ${fila("Fuga H-4", `${e.h4}/6`, c.h4, btn("ajustar", "h4", -1, "−1") + btn("ajustar", "h4", 1, "+1"), e.h4 >= 4)}
-      ${fila("Rover 1 · energía", `${e.ue} UE`, "1 UE/2 km fácil · 2 UE/2 km difícil · electrólisis 3 UE/h", btn("ajustar", "ue", -1, "−1") + btn("ajustar", "ue", -5, "−5") + btn("ajustar", "ue", 5, "+5"), e.ue <= 15)}
-      ${fila("Cartuchos CO₂", `${e.cartuchos}`, "Cada uno: ~2 h más para R-3", btn("ajustar", "cartuchos", -1, "−1") + btn("ajustar", "cartuchos", 1, "+1"))}
-      ${fila("Atención de la colonia", `${e.atencion}/6`, c.at, btn("ajustar", "atencion", -1, "−1") + btn("ajustar", "atencion", 1, "+1") + btn("ajustar", "atencion", 2, "+2"), e.atencion >= 4)}
-      ${gm ? `<div class="pie"><button type="button" data-action="chat"><i class="fa-solid fa-comment"></i> Publicar en el chat</button><button type="button" data-action="reiniciar">Reiniciar</button></div>` : ""}`;
+      ${fila("Refugio R-3", `${c.r3.toFixed(2)} kg · ${c.r3n}`, `${c.eR3}${c.dep ? " · depurador portátil activo" : ""}`,
+        b("cartR3", "+cartucho") + b("filtroR3", "+filtro") + b("purga", "purga") + b("dep", "depurador") + b("r3n", "−1 persona", -1) + b("r3n", "+1", 1), c.eR3 !== "Estable")}
+      ${fila("P-2 · aire", c.p2n ? `${c.p2.toFixed(2)} kg · ${c.p2n}` : "—", c.eP2,
+        b("cartP2", "+cartucho") + b("filtroP2", "+filtro") + b("p2n", "−1 persona", -1) + b("p2n", "+1", 1), !["Estable", "Evacuada"].includes(c.eP2))}
+      ${fila("Bomba de P-2", c.bomba ? "en marcha" : "PARADA", `Fuente: ${fuentes[c.fuente] ?? c.fuente}${c.fuente === "p2" ? ` (${c.bat.toFixed(1)} UE)` : ""}${c.auto ? " · automatismo" : " · sin automatismo: 45 min sin atender y se para"}${c.v12 !== null ? " · V-12 cerrada: ya no es necesaria" : ""}`,
+        b("fuente", "rover", "rover") + b("fuente", "portátil", "portatil") + b("fuente", "industrial", "industrial") + b("fuente", "banco", "banco") + b("fuente", "parar", "parada") + b("auto", "automatismo"), !c.bomba && c.v12 === null)}
+      ${fila("Fuga H-4", `${c.h4}/6`, c.nH4 + (c.selloEn !== null ? ` · <b>sello de R-3 en ${fmtDur(c.selloEn)}</b>` : ""),
+        b("v12", "V-12 gradual") + b("v12golpe", "V-12 de golpe") + b("alivio", "alivio") + b("parche", "parche") + b("e1", "E-1 forzada") + b("h4", "−1", -1) + b("h4", "+1", 1), c.h4 >= 4)}
+      ${fila("Banco de C-0", `${c.banco.toFixed(1)} UE`, "2 UE/h fijos · V-12 4 · E-1 6", b("banco", "−4", -4) + b("banco", "−6", -6) + b("banco", "−1", -1), c.banco <= 6)}
+      ${fila("Rover 1", `${c.rover.toFixed(1)} UE`, "1 UE/2 km de roca · 1 UE/km de glaciar · 3 UE/h ocupado · 2 UE/h si alimenta la bomba",
+        b("rover", "−5", -5) + b("rover", "−1", -1) + b("rover", "+5", 5), c.rover <= 15)}
+      ${fila("Atención de la colonia", `${e.atencion}/6`, c.at, aj("atencion", -1, "−1") + aj("atencion", 1, "+1") + aj("atencion", 2, "+2"), e.atencion >= 4)}
+      ${c.avisos.length ? `<div class="fila"><div class="t">Registro</div><div class="n">${c.avisos.slice(-6).join("<br>")}</div></div>` : ""}
+      ${gm ? `<div class="pie"><button type="button" data-action="deshacer">Deshacer</button><button type="button" data-action="chat"><i class="fa-solid fa-comment"></i> Publicar en el chat</button><button type="button" data-action="reiniciar">Reiniciar</button></div>` : ""}`;
     return div;
   }
 
@@ -96,19 +160,21 @@ class PanelEmergencia extends foundry.applications.api.ApplicationV2 {
     await this.guardar(e);
   }
 
-  static async #ajustar(ev, target) {
-    const e = this.estado, k = target.dataset.campo, d = Number(target.dataset.delta);
-    e[k] = Number(e[k]) + d;
-    if (k === "h4" || k === "atencion") e[k] = Math.min(6, Math.max(0, e[k]));
-    if (k === "ue" || k === "cartuchos") e[k] = Math.max(0, e[k]);
-    if (k === "r3Extra" && d > 0 && e.cartuchos > 0) e.cartuchos -= 1;
+  static async #accion(ev, target) {
+    const e = this.estado, v = target.dataset.v;
+    e.ev = [...(e.ev ?? []), { m: e.min, t: target.dataset.t, v: v === "" ? null : (isNaN(Number(v)) ? v : Number(v)) }];
     await this.guardar(e);
   }
 
-  static async #pausa() {
+  static async #ajustar(ev, target) {
+    const e = this.estado, k = target.dataset.campo;
+    e[k] = Math.min(6, Math.max(0, Number(e[k]) + Number(target.dataset.delta)));
+    await this.guardar(e);
+  }
+
+  static async #deshacer() {
     const e = this.estado;
-    if (e.r3Pausa) { e.r3Pausado += e.min - e.r3PausaDesde; e.r3Pausa = false; }
-    else { e.r3Pausa = true; e.r3PausaDesde = e.min; }
+    e.ev = (e.ev ?? []).slice(0, -1);
     await this.guardar(e);
   }
 
@@ -116,15 +182,15 @@ class PanelEmergencia extends foundry.applications.api.ApplicationV2 {
     const e = this.estado, c = calcular(e);
     await ChatMessage.create({
       speaker: { alias: "Nádir · ACE/HRF" },
-      content: `<div class="mr-nadir-chat"><h3>Estado de C-7 · ${fmtHora(e.min)} (T+${fmtDur(e.min)})</h3>
-        <p><b>R-3:</b> ${c.estadoR3} · margen ${fmtDur(c.r3)}</p>
-        <p><b>P-2:</b> filtro ${fmtDur(c.filtro)} · batería ${fmtDur(c.bateria)}</p>
-        <p><b>Fuga H-4:</b> ${e.h4}/6 — ${c.h4}</p></div>`
+      content: `<div class="mr-nadir-chat"><h3>Estado de C-7 · ${fmtHora(e.min)}</h3>
+        <p><b>R-3:</b> ${c.eR3} · ${c.r3n} personas</p>
+        <p><b>P-2:</b> ${c.eP2} · bomba ${c.bomba ? "en marcha" : "parada"}</p>
+        <p><b>Fuga H-4:</b> ${c.h4}/6 — ${c.nH4}</p></div>`
     });
   }
 
   static async #reiniciar() {
-    const ok = await foundry.applications.api.DialogV2.confirm({ window: { title: "Reiniciar relojes" }, content: "<p>¿Volver a T+12 min con los valores iniciales?</p>" });
+    const ok = await foundry.applications.api.DialogV2.confirm({ window: { title: "Reiniciar relojes" }, content: "<p>¿Volver a las 09:36 con los valores iniciales?</p>" });
     if (ok) await this.guardar(foundry.utils.deepClone(ESTADO_INICIAL));
   }
 }

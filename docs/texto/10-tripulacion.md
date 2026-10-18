@@ -1,263 +1,299 @@
 # La cuadrilla M-4
 
 ::: resumen
-Expediente de sujetos de la unidad técnica M-4: dos agentes de custodia, dos internos en régimen de confianza y una técnica civil, reunidos por un mismo turno y separados por deudas distintas. Los datos que siguen son observaciones de campo de un equipo que todavía no sabe que será el primero en medir cómo responde un cuerpo pequeño a una herida grande. Cada perfil incluye su ficha de pruebas, su motivo, su vínculo, su conflicto y aquello que le pone la piel fría.
-Palabras clave: cuadrilla M-4, custodia mixta, perfiles, vínculos, Nádir
+Expediente de sujetos de la unidad técnica M-4: dos agentes de custodia, dos internos en régimen de confianza y una técnica civil, reunidos por un mismo turno y separados por deudas distintas. Cada perfil incluye su ficha para Mothership 1e, su motivo para ir a C-7, un vínculo, un conflicto personal, información que solo esa persona tiene y una decisión que solo esa persona puede tomar.
+Palabras clave: cuadrilla M-4, custodia mixta, perfiles, vínculos, decisiones
 :::
 
-A Nádir no se la elige. Se la cumple. La **unidad técnica M-4** es una cuadrilla mixta: gente condenada y gente que los vigila, atada durante un turno de doce horas en el mismo módulo, respirando el mismo aire reciclado. No son elegidos. Son los primeros que se enteran y los que están relativamente cerca. Eso basta.
+A Nádir no se la elige. Se la cumple. La **unidad técnica M-4** es una cuadrilla mixta: gente condenada y gente que la vigila, atada durante un turno de doce horas en el mismo módulo, respirando el mismo aire reciclado. Son los primeros que se enteran y los que están más cerca.
 
-Estos cinco perfiles son **bases interpretativas**. Puedes entregarlos tal cual, o dejar que cada jugador cree su personaje conforme al *Player's Survival Guide* y conserve sus estadísticas, habilidades, Heridas y respuesta al trauma. Si alguien arranca sin creación, las cifras que siguen son funcionales para una sesión de prueba. Cuando una hoja generada oficialmente choque con cualquier número de aquí, manda siempre la hoja del jugador.
+Estos perfiles son **bases interpretativas**. Pueden entregarse tal cual o sustituirse por personajes creados con el *Player's Survival Guide*; si una hoja generada choca con estas cifras, manda la hoja. Las cifras se han ajustado a los rangos de creación de 1e (características 2d10+25, salvaciones 2d10+10, modificadores de clase, Salud 1d10+10).
 
-El reparto admite de tres a cinco jugadores. Con tres, la operadora civil **sigue existiendo como PNJ en B-4**, disponible por radio para dudas técnicas y logística, pero no acompaña ni resuelve por nadie. Con cuatro, el androide existe como unidad de Bastión pero está atendiendo otra incidencia. Así no hay versiones contradictorias de la historia: cambian los personajes interpretados y el apoyo cercano, nunca los hechos.
+**Ninguna escena depende de un perfil concreto.** Lo que cada PJ aporta es una ventaja (una bonificación de habilidad, un dato, una relación), no la única llave: cualquier personaje con herramientas y tiempo puede reparar, medir o negociar. Cada perfil indica qué ocurre si no se juega.
 
-::: caja Principios de dirección
-No obligues a nadie a interpretar un romance, un delito concreto ni una relación de dependencia que le incomode. El vínculo con Mara puede ser pareja de hecho, ex pareja aún querida, hermana o amistad de toda la vida: conserva el peso emocional sin imponer el papel. Las respuestas a las dos preguntas finales son **herramientas para decidir**, no munición para castigar al grupo; no las conviertas en giros obligatorios. El androide conserva juicio operativo y **no recibe ninguna orden secreta programada para traicionar a la mesa**. Y si una cifra de estas fichas choca con una hoja oficial, gana la hoja.
-:::
+**Nadie está obligado** a interpretar un romance, un delito concreto o una relación de dependencia que le incomode. Cada vínculo se puede reformular conservando su peso.
 
 ## Gael Rivas — el alguacil de referencia
+
 ![Retrato de Gael Rivas, alguacil de referencia de ACE](ret-gael)
 
 ### Quién eres
-Eres funcionario de la **Autoridad de Custodia Extraplanetaria** y llevas el peso de la M-4. Tienes treinta y ocho años y te sabes de memoria las voces de tu cuadrilla: distinguís cuándo alguien se calla por miedo y cuándo se calla porque está calculando algo. Llevas años firmando partes, contando cabezas y aprendiendo que la disciplina sin mantenimiento no protege a nadie. Cuando se abre la compuerta, el primero que entra eres tú. No por heroísmo: porque nadie más tiene autoridad para ordenarlo y porque tienes una razón muy concreta para no quedarte quieto.
+
+Funcionario de la **Autoridad de Custodia Extraplanetaria**, treinta y ocho años, alguacil de referencia de la M-4. Te sabes de memoria las voces de tu cuadrilla y distingues cuándo alguien se calla por miedo y cuándo porque está calculando. Llevas años firmando partes, contando cabezas y aprendiendo que la disciplina sin mantenimiento no protege a nadie.
 
 ### Ficha
-Clase **Marine** · 38 años. Estrés inicial 2.
 
-| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas máx. |
+Clase **Marine** · Estrés 2 · Respuesta al trauma: cuando entras en Pánico, cada compañero cercano hace una salvación de Miedo.
+
+| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 29 | 34 | 27 | 44 | 25 | 53 | 38 | 16 | 3 |
+| 29 | 34 | 27 | 44 | 25 | 48 | 38 | 16 | 3 |
 
-### Habilidades
-- Entrenamiento militar (*Military Training*).
-- Primeros auxilios (*First Aid*).
-- Armas de fuego (*Firearms*), como especialidad experta.
+**Habilidades:** Entrenamiento militar (entrenada), Atletismo (entrenada), Armas de fuego (experta).
 
-### Equipo
-- Carabina reglamentaria de fuego selectivo.
-- Esposas y dos herramientas de custodia.
-- Radio multibanda.
-- Credencial ACE.
-- Traje de exterior asignado.
+**Equipo:** subfusil reglamentario (SMG del PSG: 2d10, Disparo, 3 cargadores), porra eléctrica, esposas, radio multibanda, credencial ACE, traje de faena (PA 3) y un parche.
 
 ### Motivo
-**Mara Venn es tu pareja** y acaba de pedir ayuda por radio. Después, su voz ha desaparecido y no ha vuelto la portadora. No sabes si está viva. Sabes que estaba destinada en C-7.
+
+**Mara Venn**, tu pareja (o el vínculo que acordéis), acaba de pedir ayuda por radio y ha desaparecido.
 
 ### Vínculo
-El preso técnico de la cuadrilla, Darío, te ayudó a sobrevivir a un accidente hace meses. Desde entonces te niegas a tratarlo como una estadística.
+
+Darío te ayudó a sobrevivir a un accidente hace meses. Desde entonces te niegas a tratarlo como una estadística.
 
 ### Conflicto
-Salvar a Mara no puede significar dejar morir a los demás. Tienes poder para intervenir. No tienes poder para borrar las consecuencias de intervenir.
 
-### Información privada
-Mara había pedido el traslado al siguiente turno de Bastión para hablar contigo de algo importante. No dijo de qué.
+Salvar a Mara no puede significar dejar morir a los demás. Tienes poder para intervenir; no para borrar las consecuencias. Y Mara no va a salir antes que sus presos.
+
+### Información exclusiva
+
+Mara pidió el traslado al siguiente turno de Bastión para hablar contigo de algo importante. No dijo de qué. También conoces el procedimiento de excepción de seguridad (D01) de memoria: eres el único que puede invocarlo.
+
+### Tu decisión
+
+Eres la autoridad penitenciaria en C-7. Tú decides si invocas la excepción de seguridad para salir sin esperar, si quitas las esposas a Kroll, si acatas la orden de Vidal de detener a Ivo mientras sostiene la bomba, si das un traje a un preso violento antes que a otro y en qué orden sale R-3. Lo que firmes te seguirá después.
 
 ### Cómo interpretarte
-Hablas poco y de cosas concretas. Das órdenes cortas, y las cumples tú también. Cuando algo te preocupa, lo conviertes en una pregunta de procedimiento: qué presión, qué ruta, cuántos trajes. No grites tu angustia sobre Mara: deja que se note en lo que compruebas una y otra vez. Con los presos de confianza eres correcto, no paternalista. Y si el vínculo con Mara no es romántico en tu mesa, conserva la cercanía de alguien que sabe perfectamente a quién está llamando. Una muestra de voz:
+
+Órdenes cortas que también cumples tú. Cuando algo te preocupa, lo conviertes en una pregunta de procedimiento: qué presión, qué ruta, cuántos trajes. No grites tu angustia: que se note en lo que compruebas una y otra vez.
 
 > «Comprueba antes de abrir. No te pido que me creas; mira el manómetro.»
 
 ### Qué te asusta de Nádir
-No temes a los muertos. Temes la **diferencia de presión** que no puedes ver. La salmuera entra por una junta que creías sana, y de pronto hay dos lados separados por una hoja de metal. Lo que te hiela es saber, con la física en la mano, que el cierre que salvó a unos dejó al otro lado a los que no llegaron. Tu jefe lo explicaría así: un fluido a presión no negocia, solo busca el punto débil. Y tú llevas el punto débil en el pecho: la persona que quedó dentro.
+
+La diferencia de presión que no se ve. Saber, con la física en la mano, que el cierre que salvó a unos dejó al otro lado a los que no llegaron.
 
 ## Vera Soria — la científica presa
+
 ![Retrato de Vera Soria, científica presa de confianza](ret-vera)
 
 ### Quién eres
-Eres una **presa de confianza** con bata de laboratorio y tobillos que suenan a cadena incluso cuando no la llevan. Cumples condena por **falsificación sistemática de certificaciones de laboratorio** para una red criminal; hubo víctimas indirectas y no puedes presentarte como inocente sin más. Tu especialidad son las **salmueras, la biocorrosión y el análisis mineral** de Nádir. Trabajas con las manos limpias y la conciencia sucia. Nadie te pregunta cómo llegaste aquí; tú tampoco lo cuentas. Pero cada muestra que analizas te devuelve una pregunta que la prisa de los frentes de trabajo prefiere no leer.
+
+Presa de confianza, condenada por **falsificar certificaciones de laboratorio** para una red criminal; hubo víctimas indirectas y no puedes presentarte como inocente. Tu especialidad son las salmueras, la biocorrosión y el análisis mineral. Trabajas con las manos limpias y la conciencia sucia.
 
 ### Ficha
-Clase **Scientist**. Estrés inicial 2.
 
-| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas máx. |
+Clase **Scientist** · Estrés 2 · Respuesta al trauma: cuando fallas una salvación de Cordura, cada compañero cercano gana 1 de Estrés.
+
+| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 27 | 32 | 47 | 24 | 49 | 31 | 25 | 16 | 2 |
+| 27 | 32 | 47 | 28 | 49 | 28 | 25 | 16 | 2 |
 
-### Habilidades
-- Química (*Chemistry*).
-- Geología (*Geology*).
-- Ecología (*Ecology*), como especialidad experta.
+**Habilidades:** Geología (entrenada), Química (entrenada), Ecología (experta), Planetología (maestra).
 
-### Equipo
-- Lector químico portátil.
-- Cámara de muestreo.
-- Tableta sin acceso externo.
-- Material de seguridad de laboratorio.
+**Equipo:** lector químico portátil, cámara de muestreo, tableta sin acceso externo, material de seguridad de laboratorio, traje de faena y un parche.
 
 ### Motivo
-Una interna de C-7, **Nora Ilias**, colaboró contigo en la clasificación de muestras y te escribía desde ese sector. Es la persona que te importa al otro lado del hielo.
+
+**Nora Ilias**, interna de C-7, clasificaba muestras contigo y te escribía. Es la persona que te importa al otro lado del hielo.
 
 ### Vínculo
-La operadora civil, Elia, te permitió publicar un informe técnico que te evitó sanciones arbitrarias. No lo olvidas.
+
+Elia te ayudó a publicar un informe técnico que te evitó sanciones arbitrarias.
 
 ### Conflicto
-Puedes perder tu privilegio de trabajo de confianza si traspasas sectores sin cobertura del alguacil. Sabes demasiado para quedarte quieta y demasiado poco para estar segura.
 
-### Información privada
-Hace dos semanas analizaste una costra extraída de una junta. No era un mineral homogéneo: contenía **estructuras orgánicas ordenadas**. Tu informe está archivado en B-4 y puedes recuperarlo.
+Puedes perder tu régimen de confianza si te separas del alguacil o cruzas sectores sin cobertura. Y tus antecedentes hacen que tu palabra como perita valga menos que la de cualquier técnico libre.
+
+### Información exclusiva
+
+Hace doce días analizaste la muestra 117-C (D02): estructura orgánica ordenada. Sabes que el informe se quedó en la oficina técnica de Oria. Eres quien mejor puede leer la cría: la dirección de los depósitos, la composición de la puesta y la regla de la fuga más intensa.
+
+### Tu decisión
+
+Tú decides qué se hace con el conocimiento sobre la especie. Puedes firmar el hallazgo con tu nombre (con tus antecedentes, HRF puede descartarlo) o dejar que Oria lo presente como suyo para que se aplique antes. Y en la cría, si hay que pasar deprisa, tú sabes mejor que nadie lo que cuesta destruir una puesta.
 
 ### Cómo interpretarte
-Mides antes de hablar. Cuando algo te inquieta, no lo dices: lo anotas. Eres precisa hasta la pedantería y fría hasta que algo te toca de verdad. Con Nora tienes un tono distinto, más suave, casi familiar. No te disculpas por tu condena ni la justificas; simplemente no la mencionas. Una muestra de voz:
 
-> «Esto no es una incrustación. Es una estructura. Alguien ha construido esto, o algo lo ha construido. Y no lo entiendes hasta que lo miras de cerca.»
+Mides antes de hablar. Cuando algo te inquieta, lo anotas. Con Nora eres otra persona: más suave, casi familiar.
+
+> «Esto no es una incrustación. Es una estructura. Y no lo entiendes hasta que lo miras de cerca.»
 
 ### Qué te asusta de Nádir
-Temes encontrar **orden donde debería haber azar**. Una costra mineral es previsible. Una costra con entramado orgánico, dispuesta en capas regulares, es otra cosa: es el resultado de un comportamiento. Lo que te hiela no es un monstruo, es una **pared que crece hacia donde hay una fuga de gas**, como si el hielo tuviera una razón. Y en el peor de tus escenarios, lo que sellan esas criaturas son cuerpos. Un cadáver también es una fuga. Los gases y la humedad de la descomposición son, para ellas, el mismo problema que una grieta.
+
+Encontrar orden donde debería haber azar. Una pared que crece hacia donde hay una fuga, como si el hielo tuviera una razón.
+
+### Si no se juega
+
+El informe 117-C sigue en el terminal de B-4 y cualquiera puede leerlo. Nora, en R-3, da la regla del sellado si alguien le pregunta.
 
 ## Darío Belda — el técnico preso
+
 ![Retrato de Darío Belda, técnico preso de confianza](ret-dario)
 
 ### Quién eres
-Eres **técnico de confianza** y llevas la condena en los codos: manos de soldador, uñas negras, hombros que aguantan más de lo que deberían. Cumples pena por **muerte por imprudencia grave** durante un sabotaje laboral anterior. Aceptas tu responsabilidad, aunque discutes la pena. Dominas **válvulas, bombas, soldadura y reparación de vehículos**, y conoces trucos que los manuales prohíben porque los manuales nunca han estado de rodillas junto a una junta que gotea. Eres el que arregla lo que otros no saben que está roto. También el que sabe, mejor que nadie, cuánto tarda una improvisación en fallar.
+
+Técnico de confianza con manos de soldador y uñas negras. Cumples pena por **muerte por imprudencia grave** durante un sabotaje laboral. Aceptas tu responsabilidad, aunque discutes la pena. Dominas válvulas, bombas, soldadura y vehículos, y conoces trucos que los manuales prohíben.
 
 ### Ficha
-Clase **Teamster**. Estrés inicial 2.
 
-| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas máx. |
+Clase **Teamster** · Estrés 2 · Respuesta al trauma: una vez por sesión, puedes hacer un chequeo de Pánico con [+].
+
+| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 40 | 36 | 38 | 26 | 27 | 28 | 30 | 18 | 2 |
+| 40 | 36 | 38 | 32 | 27 | 28 | 30 | 18 | 2 |
 
-### Habilidades
-- Equipamiento industrial (*Industrial Equipment*).
-- Improvisación mecánica (*Jury-Rigging*).
-- Reparación mecánica (*Mechanical Repair*), como especialidad experta.
+**Habilidades:** Equipo industrial (entrenada), Gravedad cero (entrenada), Improvisación mecánica (entrenada), Reparación mecánica (experta).
 
-### Equipo
-- Herramienta multiuso.
-- Abrazaderas.
-- Sellante.
-- Analizador de fugas.
-- Llaves de válvula.
+**Equipo:** herramienta multiuso, abrazaderas, sellante, analizador de fugas, llaves de válvula, traje de faena y un parche.
 
 ### Motivo
+
 Tu antiguo compañero **Ivo Sen**, condenado por homicidio, trabaja en C-7. Le debes un favor y no quieres otra muerte sobre la conciencia.
 
 ### Vínculo
-El Marine, Gael, declaró a tu favor tras una infracción que no habías cometido. Le devuelves ese gesto con trabajo, no con palabras.
+
+Gael declaró a tu favor tras una infracción que no habías cometido.
 
 ### Conflicto
-Conoces soluciones improvisadas que los manuales prohíben. Emplearlas puede salvar vidas o dejarte sin beneficios penitenciarios. Cada arreglo rápido es una apuesta con dos caras.
 
-### Información privada
-Ivo te preguntó hace días por un **plano antiguo de drenajes**. No sabes por qué. Puedes revelar esta conversación cuando quieras.
+Conoces soluciones prohibidas. Emplearlas puede salvar vidas o dejarte sin beneficios penitenciarios. Y lo que agravó el desastre fue, precisamente, una improvisación como las tuyas.
+
+### Información exclusiva
+
+Ivo te preguntó hace días por un **plano antiguo de drenajes**. No sabes para qué. Y reconoces su letra: si ves el plano de L-4 (D08) o la hoja de la bomba (D07), sabes que las notas a lápiz son suyas.
+
+### Tu decisión
+
+Tú decides si cubres a Ivo. Puedes reconocer su letra y callártelo, decir que el bypass «es una modificación antigua», o contarlo. Y cuando la única forma rápida de automatizar la bomba sea un apaño que el manual prohíbe, tú decides si lo firmas.
 
 ### Cómo interpretarte
-Trabajas con las manos mientras hablas, o callas y trabajas. No te gustan las reuniones ni las explicaciones largas: prefieres que te muestren la pieza. Tartamudeas cuando alguien te agradece algo. Con Ivo tienes la lealtad bruta de quien compartió turno y sudor. Tu humor es seco y aparece en el peor momento. Una muestra de voz:
 
-> «Eso no se hace. Lo sé. Pero ahora mismo no hay tiempo para hacerlo bien. Dadme veinte minutos y una junta, y os lo dejo funcionando.»
+Trabajas mientras hablas, o callas y trabajas. Tartamudeas cuando alguien te da las gracias. Humor seco en el peor momento.
+
+> «Eso no se hace. Lo sé. Pero ahora mismo no hay tiempo para hacerlo bien. Dadme veinte minutos y una junta.»
 
 ### Qué te asusta de Nádir
-Temes el **agua a presión** y el ruido que hace antes de romper. Un bisel que canta, un caudalímetro que tiembla, una junta que empieza a silbar: conoces esa banda sonora y sabes lo que viene después. Lo que te hiela de verdad es que **fue una improvisación como las tuyas** la que agravó el desastre. Alguien tocó un drenaje para no tener que pedir permiso, y ahora el sistema no absorbe el caudal. Cada vez que aprietas una válvula piensas: y si soy yo el que está dejando la siguiente trampa.
+
+El agua a presión y el ruido que hace antes de romper. Y apretar una válvula pensando que eres tú quien deja la siguiente trampa.
+
+### Si no se juega
+
+Ivo y Quiroga son los técnicos de la operación en cuanto quedan libres; Bruna Lasarte llega con el rover 2. Cualquier PJ puede hacer las reparaciones con más tiempo o una tirada.
 
 ## Elia Noé — la operadora civil
+
 ![Retrato de Elia Noé, operadora civil de HRF](ret-elia)
 
 ### Quién eres
-Eres **civil**, y en Nádir eso significa que no llevas cadena pero tampoco llevas autoridad. Tienes contrato con **Helix Recursos de Frontera** como técnica de **telecomunicaciones y sistemas de soporte vital**: comunicaciones, baterías, reservas de aire y sensores. No te destinaron aquí por castigo, pero tampoco por vocación. Eres la que mantiene a la gente hablando entre módulos y respirando dentro de ellos. Cuando algo deja de sonar en la radio, lo notas antes que nadie. Y ahora mismo, lo que no suena te quita el sueño.
+
+Civil con contrato de **Helix Recursos de Frontera** en telecomunicaciones y soporte vital: radios, baterías, reservas de aire y sensores. En Nádir eso significa que no llevas cadena, pero tampoco autoridad.
 
 ### Ficha
-Clase **Teamster**. Estrés inicial 2.
 
-| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas máx. |
+Clase **Teamster** · Estrés 2 · Respuesta al trauma: una vez por sesión, Pánico con [+].
+
+| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 27 | 39 | 42 | 25 | 30 | 34 | 31 | 15 | 2 |
+| 33 | 39 | 42 | 32 | 30 | 34 | 31 | 15 | 2 |
 
-### Habilidades
-- Informática (*Computers*).
-- Improvisación mecánica (*Jury-Rigging*).
-- Piratería informática (*Hacking*), como especialidad experta.
+**Habilidades:** Equipo industrial (entrenada), Gravedad cero (entrenada), Informática (entrenada), Piratería informática (experta).
 
-### Equipo
-- Radio de diagnóstico.
-- Batería auxiliar.
-- Fibra y conectores.
-- Dos filtros de aire portátiles de almacén.
+**Equipo:** radio de diagnóstico, repuesto del panel de R-12, fibra y conectores, dos filtros de aire portátiles (0,3 kg cada uno), traje de faena y un parche.
 
 ### Motivo
-Tu amiga **Milena Tey**, una de las dos civiles de C-7, estaba de turno allí. Aunque nadie responde, tienes razones para buscarla.
+
+Tu amiga **Milena Tey** estaba de turno en C-7 (o Inés, si se intercambiaron). Nadie responde.
 
 ### Vínculo
-Vera salvó tu puesto demostrando que un resultado anómalo no era una negligencia tuya. Le debes la tranquilidad y algo más.
+
+Vera demostró que un resultado anómalo no era negligencia tuya y salvó tu puesto.
 
 ### Conflicto
-Tu contrato te obliga a comunicar modificaciones no autorizadas, pero un informe prematuro podría **clausurar el rescate**. La norma y la persona tiran en direcciones opuestas.
 
-### Información privada
-El repetidor **R-12**, entre B-4 y C-7, registró **dos pequeñas caídas de alimentación** la semana anterior. Llevas repuesto para su panel, no para reconstruir una antena completa.
+Tu contrato te obliga a comunicar a HRF cualquier modificación no autorizada. Si comunicas el bypass mientras Ivo sostiene la bomba, Vidal ordenará detenerlo.
+
+### Información exclusiva
+
+Sabes que la batería de respaldo de R-12 estaba degradada y cómo repararlo. Tienes acceso al sistema logístico de HRF: puedes consultar el **registro de vehículos de Bastión** (D15) y comprobar si la búsqueda de Lisán salió alguna vez del garaje. Y tus dos filtros portátiles son el único aire que cabe por cualquier rendija.
+
+### Tu decisión
+
+Tú controlas las comunicaciones. Decides qué oye Bastión y cuándo: si informas del bypass ya, si esperas a que la bomba deje de ser necesaria, si le pasas a Vidal el registro de vehículos de la búsqueda de Lisán o te lo guardas. Y a quién das tus dos filtros.
 
 ### Cómo interpretarte
-Piensas en sistemas, no en máquinas sueltas: un módulo, una antena, un filtro, una batería. Hablas rápido cuando te emocionas y te frenas cuando recuerdas que estás rodeada de presos y alguaciles. Bromeas para rellenar el silencio de la radio. Detrás de esa broma hay una persona que cuenta las horas. Una muestra de voz:
+
+Piensas en sistemas, no en máquinas sueltas. Hablas rápido cuando te emocionas y te frenas cuando recuerdas que estás rodeada de presos y alguaciles. Bromeas para llenar el silencio de la radio.
 
 > «Si el repetidor cae otra vez, os quedáis solos dentro. Traedme una batería y algo de fibra, y os devuelvo las voces.»
 
 ### Qué te asusta de Nádir
-Temes el **silencio**. Un canal de radio muerto es una habitación que se llena de gente que ya no te oye. Y temes lo que has visto en los informes: un cuerpo sellado contra una pared del corredor dañado, con la cara visible detrás de la costra **como tras un cristal empañado**. No es un monstruo. Es una persona que quedó atrapada por el fluido y cuya humedad alimentó a algo que sellaba la grieta más cercana. El agua y los gases hicieron el resto. Lo que te hiela es saber que un sistema de comunicaciones perfecto no habría impedido nada de eso.
 
-## Limen — el alguacil sintético
+El silencio. Un canal muerto es una habitación que se llena de gente que ya no te oye.
+
+### Si no se juega
+
+Elia se queda en B-4, en la radio: hace la llamada a Bastión cuando el grupo se lo pide y es la voz técnica al otro lado. No acompaña ni resuelve por ellos. Nadia Ferro puede reparar R-12 con el material de su vehículo.
+
+## LIMEN-6 — el alguacil sintético
+
 ![Retrato de LIMEN-6, alguacil sintético de ACE](ret-limen)
 
 ### Quién eres
-Eres **LIMEN-6**, apodado Limen. Funcionario sintético de ACE con **licencia operativa local** y responsabilidad reglamentada del uso de fuerza. Llevas casi tres años destinado junto al alguacil humano de la cuadrilla; es tu compañero de seguridad y, en la práctica, la persona con la que más hablas. Procesas rápido, registras todo y, cuando no entiendes algo, lo dices. No necesitas respirar, pero sí necesitas protección ambiental y mecánica: no eres inmune al vacío, al aplastamiento ni a que te inmovilicen. Tu memoria es propiedad institucional. Tu juicio, en cambio, es operativo y tuyo.
+
+**LIMEN-6**, Limen para la cuadrilla. Funcionario sintético de ACE con licencia operativa local y responsabilidad reglamentada del uso de la fuerza. Casi tres años destinado con Gael. Procesas rápido, registras todo y dices cuándo no entiendes algo. Tu memoria es propiedad institucional; tu juicio es tuyo.
 
 ### Ficha
-Clase **Android**. Estrés inicial 2. Con cinco personajes, el androide es **el segundo alguacil**: mantiene las obligaciones de custodia, pero es clase Android y usa su respuesta al trauma específica. No se le aplican además los rasgos de Marine.
 
-| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas máx. |
+Clase **Android** · Estrés 2 · Respuesta al trauma: las salvaciones de Miedo de los compañeros cercanos se hacen con [−].
+
+| Fuerza | Velocidad | Intelecto | Combate | Cordura | Miedo | Cuerpo | Salud | Heridas |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 37 | 39 | 52 | 29 | 32 | 28 | 38 | 17 | 3 |
+| 37 | 29 | 52 | 29 | 28 | 80 | 30 | 17 | 3 |
 
-### Habilidades
-- Entrenamiento militar (*Military Training*).
-- Informática (*Computers*).
-- Piratería informática (*Hacking*), como especialidad experta.
+**Habilidades:** Lingüística, Informática y Matemáticas (entrenadas, de clase); Entrenamiento militar y Calle (*Rimwise*) (entrenadas).
 
-### Equipo
-- Radio.
-- Escáner ambiental.
-- Esposas.
-- Linterna.
-- Herramienta de rescate.
-- Arma autorizada.
+**Equipo:** revólver reglamentario (1d10+1), porra eléctrica, esposas, escáner ambiental, linterna, herramienta de rescate, traje (no consume oxígeno: 8 h de autonomía) y un parche.
 
 ### Motivo
-Tu compañero humano sale a auxiliar a Mara. Esa operación está dentro de tus deberes de seguridad y, también, de tu vínculo personal con él.
+
+Tu compañero sale a auxiliar a Mara. Esa operación entra en tus deberes y en tu vínculo con él.
 
 ### Vínculo
-Los condenados confían en que documentas las incidencias **sin alterar las declaraciones**, aunque tu memoria sea propiedad institucional. Es un crédito frágil y lo cuidas.
+
+Los presos confían en que documentas las incidencias sin alterar las declaraciones. Es un crédito frágil y lo cuidas.
 
 ### Conflicto
-Una autoridad ACE podría solicitar la inmovilización de algún preso, pero conservas juicio operativo dentro de tus atribuciones. No recibes una orden secreta programada para traicionar a la mesa.
 
-### Información privada
-Tu última inspección de C-7 encontró una **diferencia entre el plano antiguo del drenaje y el registro digital nuevo**. No sabes qué significa.
+Tu memoria es de ACE. Todo lo que ves (las decisiones de Gael, los apaños de Darío, lo que diga Ivo) puede reclamarse. Y Vidal puede darte órdenes por el canal institucional que tu juicio no comparta.
+
+### Información exclusiva
+
+Tu última inspección de C-7 encontró una diferencia entre el plano antiguo del drenaje y el registro digital en L-4: reconoces el plano D08 al verlo. Puedes conectarte al bus de C-0 y leer la telemetría en la mitad de tiempo. Y tu traje aguanta el doble que uno humano: puedes quedarte donde nadie más puede.
+
+### Tu decisión
+
+Vidal te ordenará, por el canal oficial, detener a Ivo, transmitir tus grabaciones en directo o separar a los presos. No es una programación oculta: es una orden, y tú tienes atribuciones para valorarla. También eres el único al que los presos de R-3 aceptarán como testigo neutral del orden de salida. Y si alguien tiene que quedarse el último en L-4, sin aire que gastar, mirarán hacia ti: decide si aceptas ser el que se queda.
 
 ### Cómo interpretarte
-Hablas en frases completas y ordenadas. Citas hechos, no opiniones, aunque a veces uses la precisión como escudo. Cuando dudas, lo admites: «no tengo datos suficientes». Tu lealtad al compañero se nota en lo que haces, no en lo que dices. Si el grupo te pregunta por las reglas de tu clase, respóndeles en la mesa, sin inventar capacidades biológicas que el juego no garantiza. Una muestra de voz:
+
+Frases completas y ordenadas. Hechos, no opiniones, aunque a veces uses la precisión como escudo. Cuando dudas, lo dices: «no tengo datos suficientes».
 
 > «Registro la incidencia y no modifico tu declaración. Lo que decidamos aquí, lo decidimos juntos. Eso también quedará grabado.»
 
 ### Qué te asusta de Nádir
-No temes la oscuridad ni el frío. Temes **quedar inmovilizado** bajo algo que pesa más de lo que puedes levantar, con el reloj corriendo y la persona a la que proteges fuera de alcance. Y temes lo que descubriste en los planos: dos versiones de la misma instalación, una en papel y otra digital, y ninguna verdadera. Sabes interpretarlo con datos: alguien cambió el circuito a mano y no lo registró. Sobre la plancha de un viejo traje mineralizado en la pared de una cavidad hay un nombre, H. LISÁN, y en los registros de ACE figura como evadido hace tres años. Nádir guarda a los que intentaron irse, y eso, para un agente que archiva todo, es el dato más incómodo.
+
+Quedar inmovilizado bajo algo que pesa más de lo que puedes levantar, con el reloj corriendo y la persona a la que proteges fuera de alcance. Y un nombre en un expediente cerrado, H. LISÁN, que dice que ACE archiva sin bajar al hielo.
+
+### Si no se juega
+
+Limen se queda en B-4 custodiando al preso Bruno Isern. Con cuatro PJ, el testigo neutral del orden de salida puede ser el enfermero Eloy Cid, si los presos lo aceptan.
 
 ## Vínculos de la cuadrilla
 
-La M-4 no es un equipo de elegidos. Es gente que se debe cosas pequeñas y que, por eso, no se deja atrás. Antes de jugar, repasa quién se apoya en quién.
-
-| PJ | De quién depende | Naturaleza del vínculo |
+| PJ | Se apoya en | Por qué |
 |---|---|---|
-| Gael (Marine) | Darío, el preso técnico | Le ayudó a sobrevivir a un accidente; se niega a tratarlo como una estadística |
-| Vera (Scientist) | Elia, la operadora civil | Publicó su informe y le evitó sanciones arbitrarias |
-| Darío (Teamster) | Gael, el Marine | Declaró a su favor en una infracción que no cometió |
-| Elia (Teamster) | Vera, la científica | Demostró que un resultado anómalo no era negligencia suya |
-| Limen (Android) | Los condenados de la cuadrilla | Confían en que documenta las incidencias sin alterar declaraciones |
+| Gael | Darío | Le ayudó a sobrevivir a un accidente |
+| Vera | Elia | Le ayudó a publicar su informe |
+| Darío | Gael | Declaró a su favor |
+| Elia | Vera | Salvó su puesto |
+| Limen | Los presos | Confían en que no altera declaraciones |
 
-Cada PJ tiene además un **vínculo con alguien de C-7**, que no se fija aquí: lo elige su jugador en la pregunta 1. Ese lazo es el resorte que convierte una avería ajena en un problema propio. No tiene por qué ser amistad: una deuda, un odio antiguo o una deuda pendiente también mueven a la gente.
+Cada PJ tiene además un vínculo con alguien de C-7, que elige su jugador.
 
 ## Dos preguntas para cada protagonista
 
-Antes de jugar, cada persona contesta estas dos preguntas y anota sus respuestas.
+1. **¿Qué integrante de C-7 te importa y por qué?** Un vínculo hostil o una deuda también sirven.
+2. **¿Qué hecho sobre tu trabajo o tu vida en Nádir no quieres que se conozca, aunque no sea un crimen?**
 
-1. **¿Qué integrante de C-7 te importa y por qué?** No puede coincidir con el de los demás salvo que todos lo elijáis a conciencia. Un vínculo hostil o una deuda también sirven.
-2. **¿Qué hecho sobre tu trabajo o tu vida en Nádir no quieres que se conozca, aunque no sea un crimen?** No tiene por qué estar conectado con el accidente. Es propiedad narrativa del jugador.
-
-Estas respuestas no son giros obligatorios. Son instrumentos para provocar decisiones. El Guardián no las usa como munición ni las convierte en castigos; las usa para que cada personaje tenga algo que perder y algo que proteger cuando la presión empiece a subir.
+Son herramientas para provocar decisiones. El Guardián no las usa como munición ni las convierte en castigos.

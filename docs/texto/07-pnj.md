@@ -1,224 +1,148 @@
 # Dramatis personae
 
 ::: resumen
-Relación del personal presente en ND-17 la mañana del suceso de C-7, reconstruida a partir de hojas de custodia, entrevistas posteriores y telemetría de refugio. Cada entrada separa lo que un Guardián puede decir en voz alta de lo que solo debe saber él. La dotación es pequeña, concreta y culpable a medias: nadie es inocente del todo y nadie es un monstruo.
-Palabras clave: dotación, custodia, hipercapnia, supervivientes, confesión
+Relación del personal presente en ND-17 la mañana del suceso de C-7, reconstruida a partir de hojas de custodia, entrevistas posteriores y telemetría de refugio. Cada entrada recoge lo que la persona quiere, teme y sabe, lo que sacrificaría y lo que nunca aceptaría, cómo se comporta bajo presión y qué decide por su cuenta. Nadie es inocente del todo y nadie es un monstruo.
+Palabras clave: dotación, custodia, motivaciones, conflictos, respuesta autónoma
 :::
 
-Este expediente no es un censo. Es una lista de personas que estarán vivas o no según lo que la cuadrilla haga durante las próximas horas. Úsala como referencia rápida: cada figura trae lo que quiere, lo que teme, lo que sabe con certeza y cómo se rompe cuando el aire se ensucia. Las cifras de combate, instinto y salud proceden del registro de condecoraciones de ACE y de las fichas médicas de HRF; no inventes valores distintos a los de la tabla.
+Este expediente es una lista de personas que estarán vivas o no según lo que la cuadrilla haga en las próximas horas. Las relaciones importan más que las estadísticas: Mara es pareja (o vínculo cercano) del alguacil jugador; Ivo es antiguo compañero del técnico preso; Nora colaboró con la científica; Milena (o Inés) es amiga de la operadora civil. Esa red es el motor emocional del suceso.
 
-Las relaciones importan más que las estadísticas. Mara es pareja del alguacil jugador. Ivo es conocido del técnico preso. Nora colaboró con la científica. Inés es la amiga de la operadora civil. El androide es el compañero del Marine. La aventura no empieza porque el grupo sea el único capaz de reparar una instalación, sino porque es el primero que se entera, está relativamente cerca y cada miembro tiene un motivo propio para moverse. Esa red de vínculos es el motor emocional del suceso; sin ella solo hay una avería.
-
-::: caja Principios de dirección
-No conviertas a estos personajes en piezas de un mecanismo. No hay motín obligatorio, ni traición programada, ni sacrificio forzado. Mara no muere porque el guion lo pida; Ivo no se vuelve un santo por estar arrepentido; Duarte no dispara porque alguien falte una tirada. Los PNJ actúan según la tabla de respuesta autónoma —por tiempo, recursos y carácter—, no para tensar la escena. Si un personaje cambia de bando, que sea por una causa física o una decisión mostrada en mesa, nunca por sorpresa.
-:::
+Las fichas siguen el formato de criaturas y PNJ de Mothership 1e: **Combate**, **Instinto**, **Heridas (Salud por herida)** y **Armadura**. Cuando un PNJ hace algo que para un PJ sería una salvación, tira Instinto.
 
 ## Mara Venn
 
 ![Mara Venn, alguacil militar, la mirada fija en un manómetro que ya no cree](ret-mara)
 
-### Quién es
+Alguacil militar de ACE, treinta y seis años, jefa del destacamento de C-7 desde hace unas semanas. Delgada, seca de gesto, siempre con algo en las manos. Habla poco porque en un módulo presurizado hablar de más gasta aire y crea expectativas.
 
-Alguacil militar de ACE, treinta y seis años, destinada en Bastión hasta hace semanas y trasladada a C-7 para cubrir un turno. Delgada, seca de gesto, con las manos siempre ocupadas en algo: una llave, un precinto, un trapo. Habla poco porque ha descubierto que hablar de más en un módulo presurizado solo gasta aire y crea expectativas. Es la pareja del alguacil jugador, o el vínculo cercano que el grupo decida: se puede jugar como pareja de hecho, ex pareja aún querida, hermana o amistad de toda la vida sin perder nada de su peso.
+- **Quiere:** sacar a los trece con vida, en el orden que ella cree justo.
+- **Teme:** que su pareja sacrifique a otros por ella; que su cierre se recuerde como un castigo.
+- **Sabe:** que aisló el sector después de la entrada de salmuera; que abrir E-1 sin igualar inunda la ruta baja. Cree muertos a Quiroga e Ivo. No sabe nada del bypass.
+- **Sacrificaría:** su sitio en la cola; su carrera, si hace falta firmar algo.
+- **Nunca aceptaría:** salir antes que sus presos mientras quede alguien dentro; que se deje atrás a un preso por ser preso.
+- **Bajo presión:** procedimiento. Cuenta, comprueba, ordena. Escucha datos y cambia de plan si se los dan.
+- **Al empeorar:** con R-3 Degradado repite frases («comprueba antes de abrir», «los filtros no van a durar») sin darse cuenta. Es el CO₂. En Crítico se queda mirando el manómetro como si fuera a responder.
+- **Decide por su cuenta:** turnos y reparto de agua; aprobar la purga que propone Nora; enviar a Yusef con un traje de escape a la cámara de servicio cuando H-4 llega a 5.
 
-Antes del accidente pidió el traslado al siguiente turno de Bastión. No dijo por qué. Lo que quería contarle a su pareja quedó pendiente en el canal de radio, detrás de la estática y de un repetidor que se apagó.
+> «Estoy bien para hablar. No lo estoy para hacerme la valiente. Antes de intentar abrir, decidme qué está pasando al otro lado. Aquí somos trece. Los filtros no van a durar.»
 
-### Cómo habla
-
-- «Comprueba antes de abrir.»
-- «No te pido que me creas; mira el manómetro.»
-- «Estoy bien para hablar. No lo estoy para hacerme la valiente. Antes de intentar abrir, decidme qué hay al otro lado.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere mantener con vida a los trece atrapados en R-3 y evitar que el resto de Nádir sufra un accidente igual. Teme que su pareja arriesgue la vida para rescatarla a ella mientras deja atrás a otros, y teme que su propia orden de cierre —correcta según los datos que tenía— sea recordada como un castigo.
-
-Sabe con certeza que aisló el sector manualmente y que trece personas alcanzaron R-3. Cree muertos a Quiroga e Ivo y desconoce por completo el bypass clandestino de Ivo. Si la contradicen con pruebas, escucha y cambia de plan; si la amenazan, protege a su grupo y busca ganar tiempo, pero no se suicida heroicamente por nadie.
-
-### Cómo reacciona al horror
-
-**Hipercapnia.** Cuando R-3 entra en estado Degradado o Crítico, el CO₂ acumulado convierte su disciplina en una repetición mecánica. Empieza a repetir frases —«comprueba antes de abrir», «los filtros no van a durar»— sin darse cuenta. Es un síntoma físico de la saturación de absorbentes, no una posesión ni una señal sobrenatural. Si los jugadores ya han introducido cartuchos, no la hagas recaer en este estado.
-
-**El ruido.** Deja de oír el ventilador a los pocos minutos; se ha convertido en fondo. Lo que la altera es el silencio: cuando la depuración de otro módulo se detiene, se queda mirando la rejilla del suelo sin saber por qué.
-
-**Los cuerpos.** No esconde lo que siente al saber que hay tres muertos al otro lado de la chapa. Nombra a los fallecidos y sigue. Una persona marcada por el trabajo penitenciario no se derrumba ante un cadáver; se derrumba ante una cuenta que no cuadra.
+Antes del accidente pidió el traslado al siguiente turno de Bastión para hablar con su pareja de algo importante. Qué era lo decide la mesa, si quiere: una petición de matrimonio, una oferta de destino fuera de Nádir, o que había visto el registro de vehículos de la búsqueda de Lisán y no sabía qué hacer con él. Nunca lo uses para forzar un giro.
 
 ::: ficha Mara Venn
 Alguacil militar ACE (R-3) · 36 años
-Combate 45 · Instinto 50 · Salud 14 · Heridas 2 · Armadura 0
-Ataques: carabina reglamentaria (daño según PSG)
-Rasgos: pareja del alguacil PJ o vínculo cercano; ordenó el aislamiento de C-7, no provocó el accidente; con hipercapnia repite frases
+Combate 45 · Instinto 50 · Heridas 2(14) · Armadura 1
+Ataques: subfusil reglamentario (SMG del PSG: 2d10, Disparo)
+Rasgos: ordenó el aislamiento, no provocó el accidente; con hipercapnia repite frases
 :::
 
 ## Lara Quiroga
 
 ![Lara Quiroga junto a la portilla de P-2, un hombro caído y la radio pegada al oído](ret-quiroga)
 
-### Quién es
+Alguacil de ACE, cuarenta y dos años, más de uno en C-7. Ironía de cuartel, disciplina de veinte años de servicio y el hombro derecho lesionado durante la rotura. Discutía a menudo con Mara sobre protocolos; cada una confiaba en la competencia de la otra.
 
-Alguacil de ACE, cuarenta y dos años, destinada en C-7 desde hace más de un año. Ironía de cuartel, disciplina de veinte años de servicio y un hombro lesionado durante la rotura que no ha dejado de dolerle. Fue la última persona en ver a Mara antes de que el sector se partiera en dos. Discutían a menudo sobre protocolos; cada una confiaba en la competencia de la otra, lo cual no siempre se decía en voz alta.
-
-### Cómo habla
-
-- «Si sacáis a los dos y dejáis esto parado, la presión se va a la puerta del refugio. Poned una alimentación estable o cerrad V-12. Entonces sacadnos.»
-- «Yo también quiero salir. Llevo aquí desde el accidente.»
-- «Tranquilo, el hombro solo me servía para firmar informes.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere que la bomba de P-2 siga activa hasta que exista una alternativa real, aunque eso retrase su propia evacuación. Teme que la den por muerta y que alguien desconecte su suministro por ahorro. Sabe los parámetros de P-2, conoce la existencia del bypass y sospecha que Ivo lo instaló; ignora por completo el estado de R-3.
-
-Si alguien resuelve la válvula V-12, se convierte en la mejor aliada del rescate y no usa el código penitenciario como excusa para no ayudar. No es árbitra moral: describe una realidad técnica y su criterio profesional. Cuando alguien amenaza con dejar morir a Ivo, se opone con firmeza porque «ahora mismo os está manteniendo a todos con vida».
-
-### Cómo reacciona al horror
-
-**El canto del casco.** Lleva horas oyendo cómo sellan la portilla exterior desde fuera: un chirrido de dentículos contra acero que no para. La causa física es sencilla —los costreros aplican secreciones a la junta para contener la fuga de aire humano, y el roce de sus anillos trituradores contra el metal se transmite por la estructura—, pero el efecto en ella es real. Empieza a hablar más bajo, como si el ruido pudiera oírla. En el estado Crítico de P-2, con el filtro agotándose, su ironía se vuelve más cortante y desordenada.
-
-**Los cuerpos.** No ha visto ninguno. Sabe que hay muertos en el tramo bajo y eso le pesa más que cualquier criatura. Si los jugadores le describen lo que han encontrado —la costra sobre Teo Mahr, la cara tras el cristal mineral—, no pide detalles; pide coordenadas y caudal.
-
-**El dolor.** El hombro lesionado le impone [−] en cualquier tarea física exigente hasta que la atiendan. No lo menciona salvo que se lo pregunten; prefiere que la subestimen. Si alguien la obliga a trabajar con ese brazo, cede el turno a Ivo sin discutir.
+- **Quiere:** que la bomba siga hasta que haya una alternativa real.
+- **Teme:** que la den por muerta y alguien desconecte su suministro por ahorrar; el raspado de la portilla, que no para.
+- **Sabe:** los parámetros de P-2; que Ivo conoce el drenaje viejo demasiado bien (sospecha del bypass, no tiene pruebas). Ignora el estado de R-3.
+- **Sacrificaría:** su evacuación, su hombro, su aire («que suban el filtro antes que a mí»).
+- **Nunca aceptaría:** dejar morir a Ivo mientras sostenga la bomba; apagar la bomba para «hacer justicia».
+- **Bajo presión:** pide coordenadas y caudal, no consuelo.
+- **Al empeorar:** con P-2 Degradado habla más bajo, como si el raspado pudiera oírla; en Crítico su ironía se vuelve desordenada y escribe en el diario frases que se repiten.
+- **Decide por su cuenta:** escribir el diario (D14); transmitir en bucle «energía antes que socorro» cuando se agota el aire; dejar que Ivo salga por el túnel inundado si a las 15:50 la bomba sigue parada y nadie ha respondido por radio en la última hora.
 
 ::: ficha Lara Quiroga
 Alguacil ACE (P-2) · 42 años
-Combate 40 · Instinto 45 · Salud 13 · Heridas 2 · Armadura 0
-Ataques: pistola reglamentaria (daño según PSG)
-Rasgos: hombro lesionado, [−] en tareas físicas exigentes hasta ser atendida; lleva horas oyendo cómo sellan la portilla desde fuera
+Combate 40 · Instinto 45 · Heridas 2(13) · Armadura 3 (traje)
+Ataques: revólver reglamentario (PSG: 1d10+1, Disparo)
+Rasgos: hombro lesionado, [−] en tareas físicas exigentes hasta que la atiendan; el único traje de P-2
 :::
 
 ## Ivo Sen
 
 ![Ivo Sen inclinado sobre un panel abierto de P-2, manos negras de grasa y salmuera](ret-ivo)
 
-### Quién es
+Preso técnico de drenajes, cuarenta y cuatro años, condenado por matar a un hombre durante un robo. Lo admitió. Sigue creyéndose capaz de vivir fuera de la autoridad penitenciaria. Uñas rotas, quemaduras viejas en los antebrazos, y un plan de fuga de cuatro meses que nunca llegó a intentar.
 
-Preso técnico de drenajes, cuarenta y cuatro años, condenado por homicidio durante un robo. No hay absolución escondida en su expediente: cometió el crimen, lo admitió y sigue considerándose capaz de sobrevivir fuera de la autoridad penitenciaria. Especialista en reparación de maquinaria y conducciones, con las uñas rotas y cicatrices de quemadura en los antebrazos. Lleva meses preparando una evasión que nunca llegó a intentar.
-
-### Cómo habla
-
-- «Yo instalé una derivación del drenaje hace unos meses. No pretendía romper nada.»
-- «Lo que hice cambió el caudal. No voy a negar eso.»
-- «Ahora decidid si queréis que pare el motor para ponerme las esposas o si primero sacamos vivos a los demás.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere salir vivo y evitar que su error cause más muertes. Su deseo persistente es no terminar sus días en Nádir. Teme que su modificación haya originado la rotura —cosa que no es cierta— y teme que los protagonistas lo ejecuten sumariamente al descubrirlo. Sabe que el bypass es suyo, que alteró la capacidad de drenaje y que P-2 mantiene un equilibrio precario; ignora si su cambio causó el desastre y si lo van a denunciar.
-
-Primero minimiza. Con datos delante —un registro de H-4, un plano antiguo, una huella de soldadura—, reconoce los hechos. No necesita una tirada imposible para confesar. Si ve una oportunidad de huir, puede planteársela, pero no abandona a Quiroga en el momento más útil para fabricar un combate; decide según el cansancio, las circunstancias y los vínculos que el grupo haya creado.
-
-### Cómo reacciona al horror
-
-**La bomba.** El motor golpea a ritmo irregular. Ivo ha aprendido a leer ese golpeteo como un médico lee un pulso. Cuando el sonido cambia, deja lo que esté haciendo. Es su forma de no mirar a Quiroga cuando empeora.
-
-**El aire de P-2.** A T+5 h, si nadie ha traído absorbentes, su respiración se vuelve corta y aparece el dolor de cabeza por CO₂. No es buen conversador bajo hipercapnia: se vuelve todavía más lacónico y concede menos.
-
-**El agua.** Teme el agua de una manera concreta, no simbólica. Sabe lo que hace la salmuera a presión contra una junta blanda y ha visto cómo se comporta un tramo inundado. Si el grupo le propone una maniobra que él cree que aumentará el caudal, se negará, y lo explicará con medidas, no con moral.
+- **Quiere:** salir vivo y que su error no mate a nadie más. A largo plazo, no morir en Nádir.
+- **Teme:** haber causado la rotura (no la causó); que lo ejecuten o lo dejen atrás al descubrirlo; acabar como Lisán.
+- **Sabe:** que el bypass es suyo; que robó capacidad a la derivación B; el trazado de L-4 y del drenaje viejo hacia el sur; que P-2 sostiene un equilibrio precario.
+- **Sacrificaría:** su ruta de fuga (revelar L-4 delata su plan, y aun así lo hará si salva a alguien); su salud.
+- **Nunca aceptaría:** entregar voluntariamente su tableta con el plano completo de la ruta sur; volver a una celda sin haber visto salir a los de R-3.
+- **Bajo presión:** técnico y lacónico. Lee el golpeteo de la bomba como un pulso. Si una maniobra le parece que aumentará el caudal, se niega y lo explica con medidas.
+- **Al empeorar:** con hipercapnia concede menos; si lo amenazan con ejecutarlo, se calla y solo habla con Darío.
+- **Decide por su cuenta:** si la bomba se para a las 15:36 y nadie llega, propone salir con el traje de Quiroga por el túnel inundado hasta V-12 (40 min a ciegas) para cerrarla a mano. Tira Instinto: si tiene éxito, V-12 queda cerrada de forma gradual hacia las 17:15; si falla, llega a la galería de servicio sin herramienta de par y se queda allí con su mochila, que se agota hacia las 19:50. Quiroga se queda en P-2 sin traje. En el traslado final, si ve una ocasión real (traje, mochila, L-4 sin vigilancia), puede intentar la fuga hacia el sur.
 
 ::: ficha Ivo Sen
 Preso, técnico de drenajes (P-2) · 44 años
-Combate 30 · Instinto 45 · Salud 12 · Heridas 2 · Armadura 0
-Ataques: herramientas (1d5)
-Rasgos: instaló el bypass clandestino; opera la bomba que protege R-3; primero minimiza, con datos reconoce
+Combate 30 · Instinto 45 · Heridas 2(12) · Armadura 1
+Ataques: llave de válvula (1d5, Contundente)
+Rasgos: instaló el bypass; opera la bomba que protege R-3; primero minimiza, con datos reconoce
 :::
 
 ## Tomás Duarte
 
 ![Tomás Duarte de espaldas al grupo, una lista de reclusos apretada en el puño](ret-duarte)
 
-### Quién es
+Alguacil de ACE, treinta y un años. Rígido, nervioso, convencido de que la disciplina es lo único que mantiene el orden cuando el aire escasea. Lleva bien una tarea definida y mal una decisión abierta.
 
-Alguacil de ACE, treinta y un años, destinado en C-7. Rígido, nervioso, convencido de que la disciplina es lo único que mantiene el orden cuando el aire escasea. Lleva bien una tarea definida y mal una decisión abierta. Es joven para su cargo y lo sabe; compensa la inexperiencia con celo.
-
-### Cómo habla
-
-- «Todos sentados y en el mismo orden de la última lista.»
-- «Nadie sale sin que su nombre esté apuntado.»
-- «Si hay que atender a un herido, se atiende. Pero después volvemos al registro.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere que ningún preso inicie una fuga durante la evacuación. Teme que Mara pierda el mando y que la decisión recaiga sobre él. Ayuda a organizar turnos, atender heridos y mantener listas; se resiste a liberar a los condenados sin registro, pero acepta una custodia razonable. Si el Marine jugador lo humilla, se cierra; si le delegan una tarea concreta, la cumple con precisión.
-
-### Cómo reacciona al horror
-
-**Hipercapnia.** Con R-3 Degradado, el CO₂ le acentúa la rigidez. Repite el orden de la lista aunque nadie pregunte. Es un síntoma reconocible: si los jugadores preguntan a Duarte cuántas personas quedan y tarda en responder, probablemente está contando mal por la falta de oxígeno útil, no por cálculo.
-
-**El ruido.** No soporta los chirridos estructurales. Cada golpe de la chapa lo interpreta como el inicio de una despresurización. Su nerviosismo es contagioso y puede arrastrar a otros presos si el Guardián lo deja crecer sin causa.
-
-**Los cuerpos.** Es el único de R-3 que insiste en identificar a los muertos antes de evacuar. No por respeto, sino porque sin nombres no hay registro. Esa obstinación puede costar tiempo real o salvar la contabilidad de la operación; ambas cosas son ciertas.
+- **Quiere:** que ningún preso escape durante la evacuación y que cada nombre tenga una hora.
+- **Teme:** que Mara pierda el mando y la decisión caiga sobre él; los chirridos estructurales.
+- **Sabe:** la lista, las condenas y quién se lleva mal con quién.
+- **Sacrificaría:** tiempo, comodidad, su propia salida.
+- **Nunca aceptaría:** que Kroll salga sin esposar ni escolta.
+- **Bajo presión:** listas. Repite el orden de la última lista aunque nadie pregunte.
+- **Al empeorar:** con hipercapnia cuenta mal y no lo sabe; su nerviosismo se contagia.
+- **Decide por su cuenta:** hacia las 12:36, tras una discusión, esposa a Kroll a una tubería cerca de la rejilla. Mara, agotada, lo permite. Si los PJ contactan antes con R-3, pueden evitarlo.
 
 ::: ficha Tomás Duarte
 Alguacil ACE (R-3) · 31 años
-Combate 40 · Instinto 35 · Salud 13 · Heridas 2 · Armadura 0
-Ataques: pistola reglamentaria (daño según PSG)
-Rasgos: rígido y nervioso; cumple tareas definidas
+Combate 40 · Instinto 35 · Heridas 2(13) · Armadura 1
+Ataques: revólver reglamentario (PSG: 1d10+1, Disparo)
+Rasgos: rígido y nervioso; cumple tareas definidas con precisión
 :::
 
 ## Roque Vidal
 
 ![Roque Vidal al otro lado de una radio de Bastión, una libreta de custodia abierta](ret-vidal)
 
-### Quién es
+Jefe de ACE en Bastión, cincuenta y cinco años. Seco, minucioso, nada teatral. Le interesa que cada nombre tenga una hora, un lugar y un responsable. Firmó, hace tres años, el cierre del caso Lisán.
 
-Jefe de ACE en Bastión, cincuenta y cinco años, responsable de las condenas y de la trazabilidad de cada preso de la instalación. Seco, minucioso, nada teatral. No le interesan las cámaras ni los discursos; le interesa que cada nombre tenga una hora, un lugar y un responsable. Está en Bastión, no en C-7, y se comunica por radio cuando el enlace vuelve.
+- **Quiere:** trazabilidad; ningún preso perdido; un informe que se sostenga.
+- **Teme:** una fuga durante la evacuación con su firma en la autorización; que alguien abra el caso Lisán.
+- **Sabe:** dotaciones, normas, condenas; que la búsqueda de Lisán no salió de la sala de mando.
+- **Sacrificaría:** su comodidad administrativa; firma excepciones si se las justifican.
+- **Nunca aceptaría:** presos fuera de registro; un preso saboteador con las manos libres «porque sí».
+- **Bajo presión:** pide datos y responsables, nunca grita.
+- **Al empeorar:** si alguien menciona a Lisán por radio, se vuelve más duro y más lento; si se lo dicen en privado, más razonable.
+- **Decide por su cuenta:** pedir un parte en treinta minutos; mandar a Eloy en el rover 2; ordenar la detención de Ivo en cuanto sepa del bypass; pedir que vuelvan antes del cambio de turno de las 20:00 si el grupo parece agotado.
 
-### Cómo habla
-
-- «Custodia no objeta una evacuación médica. Objeta que trece presos salgan sin registro y que nadie sepa hacia dónde.»
-- «Dame nombres, lugar de llegada y quién responde por ellos.»
-- «Si necesitas una excepción, justifícala y la firmo con tu nombre.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere impedir una emergencia de custodia y mantener el control documental de cada condenado. Teme que una evacuación desordenada se convierta en una fuga y que la responsabilidad caiga sobre su firma. Sabe las dotaciones y las normas, pero no los detalles completos del accidente.
-
-Si el grupo justifica su intervención, la autoriza o la ratifica con condiciones proporcionadas. Si aparecen datos de sabotaje, exige preservar evidencias sin frenar la asistencia urgente. No puede teletransportar un pelotón ni ordenar el cierre de todos los respiradores a distancia. Cede ante datos creíbles. No es una barrera absoluta, ni un villano corporativo.
-
-### Cómo reacciona al horror
-
-**La radio de Serrat.** Vidal es quien puede reconocer, en el canal de alguaciles, el raspado rítmico y húmedo que precede a cualquier voz. Su reacción no es terror: es sospecha administrativa. Querrá saber si la emisora sigue asignada a un agente vivo. La causa física la tiene el Guardián: el micrófono del casco de Elmo Serrat sigue abierto, en contacto con lo que ocurre dentro del cuerpo, y transmite un sonido de dentículos y fluido. Vidal no lo dirá por radio; lo callará y pedirá confirmación por otra vía.
-
-**Hipercapnia.** No está en R-3, así que no la sufre. Su horror es de otra clase: la sensación de que la instalación que custodia se le está deshaciendo entre los dedos mientras él redacta condiciones.
-
-**Los cuerpos.** Un alguacil muerto es un caso. Vidal pedirá el cadáver, el número de placa y la causa. Ninguna de esas tres cosas llegará completa.
+Cede ante datos creíbles. No puede teletransportar un pelotón ni cerrar nada a distancia. Al oír la radio de Serrat no siente terror sino sospecha administrativa: quiere saber si la emisora sigue asignada a un agente vivo.
 
 ::: ficha Roque Vidal
 Jefe ACE en Bastión · 55 años
-Combate 35 · Instinto 45 · Salud 12 · Heridas 2 · Armadura 0
-Ataques: ninguno
-Rasgos: exige trazabilidad de cada preso; cede ante datos creíbles
+Combate 35 · Instinto 45 · Heridas 2(12) · Armadura 0
+Ataques: ninguno en escena
+Rasgos: exige trazabilidad; firmó el cierre del caso Lisán
 :::
 
 ## Oria Sable
 
 ![Oria Sable en la sala de mando de Bastión, el mapa de concesión lleno de chinchetas](ret-oria)
 
-### Quién es
+Directora de operaciones de HRF, cuarenta y nueve años. Eficiente, defensiva, agotada. Dio el visto bueno a la orden 517-J sin entender lo que se retiraba; el informe de Vera dormía en su oficina técnica.
 
-Directora de operaciones de HRF, cuarenta y nueve años, responsable de la concesión industrial y de la producción que mantiene con vida a otros campamentos. Eficiente, defensiva, agotada. Autorizó la retirada rutinaria de las costras de J-17 sin entender su naturaleza; no destruyó el informe de nadie ni era consciente del desastre futuro, pero la firma está en el papel.
-
-### Cómo habla
-
-- «A mí me importa que nadie abra un circuito de salmuera sin saber su presión.»
-- «Podéis emplear el almacén industrial. No puedo daros una galería que sé que está fallando.»
-- «Decidme qué equipo falta.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere evitar más muertes, no perder una infraestructura que mantiene vivos a otros campamentos y preparar un parte que no la arruine profesionalmente. Teme que el accidente cierre la concesión o la señale como responsable única. Sabe que hubo una rotura a presión y que C-7 está aislado; necesita proteger B-4 y sobreestima el riesgo de abrir cualquier acceso porque no dispone de vídeo completo.
-
-Acepta gastar material si recibe una explicación técnica concreta. Puede minimizar la importancia del informe de Vera, pero no lo destruyó. Cuando le demuestren la ecología del sellado, empezará a suspender las limpiezas en otras galerías. Organiza un segundo rover con cartuchos y batería, aunque no finge que llegará al instante.
-
-### Cómo reacciona al horror
-
-**La culpa material.** El horror de Oria no es físico; es administrativo. Cada minuto de radio con C-7 le recuerda que firmó la orden de quitar el tapón. No se derrumba; calcula. Si alguien le pone delante la composición orgánica de una costra, se queda en silencio el tiempo suficiente para que se note.
-
-**Las costras vivas.** Si los jugadores le describen el cadáver de Teo Mahr sellado contra la roca, entenderá por primera vez lo que la limpieza estaba rompiendo. Ahí es donde cede: no por piedad, sino porque comprende que su protocolo de mantenimiento era incorrecto.
-
-**Los cuerpos.** Reacciona con inventario, no con llanto. Preguntará por el estado del recinto, no por los nombres. Que un director de operaciones no nombre a un muerto dice más de su cargo que de su carácter.
+- **Quiere:** evitar más muertes, no perder una infraestructura que sostiene a otros campamentos y un parte que no la arruine.
+- **Teme:** que el accidente cierre la concesión o la señale como única responsable; abrir cualquier acceso sin datos.
+- **Sabe:** que hubo una rotura y que C-7 está aislado; que firmó. No sabe que el informe de Vera estaba en su bandeja.
+- **Sacrificaría:** material, mucho, si le explican para qué.
+- **Nunca aceptaría:** autorizar la apertura de una galería que sabe que falla sin ver presiones; vaciar el almacén por un «traed de todo».
+- **Bajo presión:** inventario. Pregunta por el estado del recinto antes que por los nombres.
+- **Al empeorar:** si alguien le pone delante la composición orgánica de una costra, se queda en silencio el tiempo suficiente para que se note; desde ahí, coopera.
+- **Decide por su cuenta:** preparar el rover 2; ordenar al personal de HRF (Elia, Nadia, Bruna) que no toque válvulas de C-7 sin aprobación de ingeniería; pedir que se preserve J-17 como prueba; suspender las limpiezas en otros frentes cuando entienda el sellado.
 
 ::: ficha Oria Sable
 Directora de operaciones HRF · 49 años
-Combate 20 · Instinto 50 · Salud 9 · Heridas 1 · Armadura 0
+Combate 20 · Instinto 50 · Heridas 1(9) · Armadura 0
 Ataques: ninguno
 Rasgos: autorizó la retirada de costras sin entenderlas; cede material ante explicaciones técnicas
 :::
@@ -227,31 +151,18 @@ Rasgos: autorizó la retirada de costras sin entenderlas; cede material ante exp
 
 ![Inés Calder sentada contra una consola de R-3, una pierna vendada y cables en el regazo](ret-ines)
 
-### Quién es
+Técnica civil de HRF, veintinueve años. Amiga y compañera de la operadora civil (si se intercambió con Milena, Milena ocupa este lugar). Pierna herida; cabeza clara para la electricidad.
 
-Técnica civil de HRF, veintinueve años, destinada en C-7. Amiga y compañera de la operadora civil jugadora; si el Guardián ha intercambiado los papeles con Milena Tey, Inés ocupa el lugar de la fallecida y el vínculo se traslada. Está herida en una pierna, pero conserva la cabeza para la electricidad y las comunicaciones locales.
-
-### Cómo habla
-
-- «La luz se ha ido dos veces esta hora. La segunda no volvió sola.»
-- «La costra se desprendió antes. Antes de que saltara el colector, lo vi.»
-- «No me levanto, pero os digo dónde meter el cable.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere mantener la electricidad y las comunicaciones de R-3 el mayor tiempo posible y orientar las reparaciones desde el suelo. Teme que la dejen atrás por ser la más lenta de evacuar. Sabe que las costras se desprendieron antes del fallo del colector de drenaje: una pista que sitúa la causa en la junta, no en el drenaje, antes de que nadie lo entienda.
-
-### Cómo reacciona al horror
-
-**La pierna.** Su herida es un problema real en un refugio con el aire cargado. La sangre en un tramo húmedo atrae a los costreros si Fuga H-4 llega a 4 y el sumidero de R-3 se inunda: la física es explícita —humedad y tejido sangrante equivalen a un alimento oportunista—. Taponar la rejilla y tapar la herida son actos médicos y de seguridad a la vez.
-
-**Hipercapnia.** Cuando R-3 pasa a Degradado, la falta de oxígeno útil le nubla el cálculo. Puede confundir colores de cable o invertir un orden de conmutación. Es un síntoma del CO₂, no un fallo de carácter. Si ya recibió filtros, no la hagas equivocarse «por drama».
-
-**Los cuerpos.** No ha visto ninguno de cerca, pero oyó cómo se cerró la compuerta. Ese sonido la persigue más que cualquier imagen.
+- **Quiere:** mantener la luz y la radio de R-3; guiar las reparaciones desde el suelo.
+- **Teme:** que la dejen la última por ser lenta.
+- **Sabe:** que la costra de J-17 se desprendió antes de que saltara el colector.
+- **Nunca aceptaría:** que la saquen en brazos delante de alguien que puede andar.
+- **Al empeorar:** con hipercapnia confunde colores de cable o invierte un orden de conmutación.
+- **Decide por su cuenta:** hacia las 13:36, con Peo, recupera el bus de datos de R-3 y ve la telemetría de C-0: si nadie se lo ha dicho, R-3 descubre que hay alguien vivo en P-2.
 
 ::: ficha Inés Calder
 Técnica civil HRF (R-3) · 29 años
-Combate 15 · Instinto 45 · Salud 8 · Heridas 1 · Armadura 0
+Combate 15 · Instinto 45 · Heridas 1(8) · Armadura 0
 Ataques: ninguno
 Rasgos: pierna herida; vio desprenderse las costras antes del fallo del colector
 :::
@@ -260,31 +171,18 @@ Rasgos: pierna herida; vio desprenderse las costras antes del fallo del colector
 
 ![Nora Ilias con la espalda pegada al panel de R-3, los ojos en la rejilla del suelo](ret-nora)
 
-### Quién es
+Presa, treinta y cuatro años, condenada por tráfico de datos de patentes. Amiga de Vera: intercambiaban muestras y se escribían. En trabajo general, lejos de su especialidad, veía cosas que nadie miraba.
 
-Presa, treinta y cuatro años, condenada por participar en una red de tráfico de datos de patentes. No es violenta y no lo pretende. Amiga de Vera, la científica jugadora: intercambiaban muestras y se escribían desde C-7. Cumplía condena en trabajo general, lejos de su especialidad, y por eso veía cosas que otros no miraban.
-
-### Cómo habla
-
-- «Los vi tapar las rendijas una a una. Como si cosieran.»
-- «Cada vez que entraba aire de una galería nueva, aparecían.»
-- «Yo también sé contar, y en esta sala somos más de los que deberíamos.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere salir con vida y no volver a C-7. Teme que la tomen por loca cuando describe lo que vio. Sabe que los costreros tapiaban pequeñas rendijas cada vez que entraba aire de una galería nueva; es una de las primeras confirmaciones de que sellan fugas. También registra detalles que nadie más anota: quién entró, quién salió y a qué hora.
-
-### Cómo reacciona al horror
-
-**Hipercapnia.** Es quien, en el estado Degradado, cuenta **catorce personas** cuando son trece y no se convence. Su insistencia es un síntoma real de la saturación de absorbentes; úsala como señal de que el aire está fallando, no como fantasía. La causa es el CO₂, siempre.
-
-**El ruido.** Insiste en que oyó a alguien arañar el techo. No es imaginación: si hay una fuga en el portillo superior, un costrero puede estar trabajando sobre la chapa. Trata su testimonio como una pista verificable, no como una alucinación.
-
-**Los cuerpos.** Si encuentra a Teo Mahr sellado bajo la costra, es la persona que mejor entiende lo que ve, porque ya observó el mismo comportamiento en pequeño. Puede guiar al grupo hacia la función biológica del sellado antes de que ningún informe lo diga.
+- **Quiere:** salir viva y no volver a C-7.
+- **Teme:** que la tomen por loca.
+- **Sabe:** que los costreros tapiaban rendijas cada vez que entraba aire de una galería nueva; quién entró y salió y a qué hora.
+- **Nunca aceptaría:** quedarse callada si ve que van a repetir el error de J-17.
+- **Al empeorar:** es quien cuenta catorce personas cuando son trece. Es el CO₂.
+- **Decide por su cuenta:** con R-3 Degradado propone la purga parcial; insiste en que el ruido del techo es real (lo es, si sellan el portillo).
 
 ::: ficha Nora Ilias
 Presa (R-3) · 34 años
-Combate 20 · Instinto 50 · Salud 9 · Heridas 1 · Armadura 0
+Combate 20 · Instinto 50 · Heridas 1(9) · Armadura 0
 Ataques: ninguno
 Rasgos: amiga de Vera; vio a los costreros tapiar rendijas
 :::
@@ -293,130 +191,117 @@ Rasgos: amiga de Vera; vio a los costreros tapiar rendijas
 
 ![Gaspar Kroll sentado sobre la rejilla del sumidero de R-3, el cuerpo quieto y pesado](ret-kroll)
 
-### Quién es
+Preso, cuarenta y seis años, dos homicidios deliberados. Desconfiado, duro, buen trabajador de fuerza. Hace años vio ahogarse a dos presos esposados en la inundación de otra mina.
 
-Preso, cuarenta y seis años, cumpliendo condena por dos homicidios deliberados. Desconfiado, duro, buen trabajador de fuerza. No es un psicópata gratuito: puede transportar a un herido hasta el portillo porque también necesita la ruta despejada. Eso no reescribe su pasado ni lo convierte en un aliado fiable.
-
-### Cómo habla
-
-- «No me atéis. Si tiembla la roca, quiero poder moverme.»
-- «Necesito la salida despejada igual que vosotros. Eso es todo lo que os debo.»
-- «Señala la ruta y yo cargo. Pero las manos no me las pongas detrás.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere salir vivo. No tolera que lo inmovilicen en una galería que puede llenarse de agua; su temor es concreto y razonable, y no le falta razón al tenerlo. No sabe nada del bypass ni de la biología, pero conoce la fuerza de su propio cuerpo y la de una compuerta cerrada.
-
-Se resiste a que lo aten antes de poder arrastrarse por la abertura del portillo. Se le puede registrar, pactar un orden, vigilarlo y establecer custodia en la salida. Si lo humillan o amenazan, puede reaccionar mal, pero no inicia una matanza porque falte acción.
-
-### Cómo reacciona al horror
-
-**El sumidero.** Si Fuga H-4 llega a 4, el desagüe de R-3 se inunda de salmuera húmeda hasta la rejilla y un costrero puede entrar atraído por la sangre de Osian Brev. Kroll se sienta encima del sumidero. No lo hace por heroísmo: sabe que es el que más pesa y que una inmovilización a disgusto es peor que un peso útil. La causa es física —humedad, sangre, rejilla abierta—; el acto es suyo.
-
-**Hipercapnia.** Con el aire degradado, su desconfianza se vuelve paranoia muda. Mira las manos de los alguaciles antes que sus caras. Si el grupo ya ha pactado con él, ese pacto es el único ancla que lo mantiene sentado.
-
-**Los cuerpos.** No le impresionan. Lo que le altera es un cuerpo que se mueve, y el de Teo Mahr se mueve por el trabajo de los dientes bajo la costra. Eso sí puede romper su compostura, porque contradice su idea de lo que un muerto puede hacer.
+- **Quiere:** salir vivo.
+- **Teme:** quedar inmovilizado junto al agua.
+- **Sabe:** nada del bypass ni de la biología; la fuerza de su cuerpo y la de una compuerta cerrada.
+- **Sacrificaría:** su comodidad, su espalda: cargará con un herido si la ruta está despejada.
+- **Nunca aceptaría:** que lo aten junto a la rejilla o en un tramo que pueda inundarse.
+- **Bajo presión:** mira las manos de los alguaciles antes que sus caras.
+- **Al empeorar:** con hipercapnia, paranoia muda; un pacto previo es lo único que lo mantiene sentado.
+- **Decide por su cuenta:** sentarse sobre la rejilla del sumidero si sube el agua (si no está esposado); romper la abrazadera o pelear si lo está y el agua sube.
 
 ::: ficha Gaspar Kroll
 Preso, dos homicidios (R-3) · 46 años
-Combate 45 · Instinto 45 · Salud 15 · Heridas 2 · Armadura 0
-Ataques: herramienta contundente (1d10)
-Rasgos: no tolera que lo aten junto a agua; se sienta sobre la rejilla del sumidero
+Combate 45 · Instinto 45 · Heridas 2(15) · Armadura 0
+Ataques: puños o herramienta (1d10, Contundente)
+Rasgos: no tolera que lo aten junto al agua; pesa ciento quince kilos
 :::
 
-## Los otros presos de C-7
+## Román Kes
 
-Ocho internos más permanecen en R-3 al margen de las figuras principales. Ninguno es un héroe ni un obstáculo programático. Son manos, memoria y problemas de aforo. Úsalos para poblar la escena, aportar una habilidad concreta o poner cara a la evacuación. Todos usan la ficha genérica del preso de C-7.
+Preso, cuarenta años, cohecho y extorsión. Tibia rota: no puede andar. Sabe que eso lo pone al final de cualquier cola lógica, y por eso negocia.
 
-| Nombre | Delito / rasgo | Situación y posible aporte |
+- **Quiere:** salir el primero y salir con algo que ofrecer a ACE (una rebaja de condena).
+- **Teme:** que lo dejen el último por no poder andar.
+- **Sabe:** que Ulma manejaba el limpiador; que Isa vio a Ivo con herramientas.
+- **Sacrificaría:** a cualquiera, con palabras.
+- **Nunca aceptaría:** quedarse en R-3 cuando los demás se van.
+- **Bajo presión:** rumor. Dice que Mara los encerró como castigo.
+- **Al empeorar:** con hipercapnia se vuelve más persuasivo, no menos.
+- **Decide por su cuenta:** hacia las 11:36 empieza el rumor contra Mara; cuando se abre una salida, consigue que dos presos se nieguen a obedecerla si nadie lo ha desmentido con el registro de C-0.
+
+::: ficha Román Kes
+Preso (R-3) · 40 años
+Combate 30 · Instinto 40 · Heridas 1(10) · Armadura 0
+Ataques: ninguno en su estado
+Rasgos: tibia rota; negocia con información
+:::
+
+## Ulma Senn
+
+Presa, treinta y ocho años, condenada por negligencia industrial. Manejaba el limpiador térmico en J-17 a las 09:36. Vio la costra «sangrar» gel antes de soltarse y a Teo Mahr desaparecer en el chorro.
+
+- **Quiere:** que no la culpen de la muerte de Teo; que alguien entienda que cumplía una orden firmada.
+- **Teme:** ser la cabeza de turco perfecta (y lo es).
+- **Sabe:** cómo se ejecutó la orden 517-J y qué vio.
+- **Nunca aceptaría:** volver a J-17.
+- **Decide por su cuenta:** callar lo que vio hasta que alguien la señale; entonces lo cuenta todo, con detalle y en voz alta.
+
+## Osian Brev
+
+Preso, veintiséis años, robo a mano armada. Hemorragia en el muslo contenida con un torniquete improvisado. Camina despacio y no debe esforzarse. Su sangre es lo que atrae al costrero del sumidero si H-4 llega a 4. Teme quedarse el último; si ve que lo dejan para el final, intenta colarse en una tanda.
+
+## Los demás presos de R-3
+
+| Nombre | Delito | Lo que aporta o complica |
 |---|---|---|
-| Isa Rehn | Contrabando; muy observadora | Registró mentalmente la secuencia de alarmas |
-| Román Kes | Cohecho y extorsión | Quiere negociar su liberación, pero no organiza un motín |
-| Celia Brax | Fraude logístico | Lleva inventario de comida y absorbentes |
-| Yusef Daren | Agresión grave | Ayuda a inmovilizar una fractura y conoce a Gaspar |
-| Ulma Senn | Negligencia industrial | Conoce la distinción entre conducto primario y emergencia |
-| Osian Brev | Robo a mano armada | Está herido y teme quedarse el último |
-| Mar Haddi | Falsificación de identidades | Se interesa por el registro penitenciario de la evacuación |
-| Peo Varek | Intrusión informática | Puede auxiliar a Inés a recuperar un registro local |
-
-**Horror humano del grupo.** Con R-3 en Degradado o Crítico, alguien duerme y cuesta despertarlo; el CO₂ lo explica sin recurrir a nada sobrenatural. Osian Brev, el herido, es el que alimenta la escena del sumidero: su sangre atrae. Isa Rehn es quien confirma el ruido del techo. Ninguno muere fuera de las reglas del original; el aire no los mata de golpe.
+| Isa Rehn | Contrabando | Vio a Ivo con herramientas en el drenaje; oye el techo |
+| Celia Brax | Fraude logístico | Inventario: sabe de los dos C-12 del armario del portillo; propone un sorteo |
+| Yusef Daren | Agresión grave | Fuerte; inmovilizó la fractura de Román; leal a Kroll |
+| Mar Haddi | Falsificación de identidades | Se ofrece a llevar la lista; en el caos, una pulsera puede cambiar de muñeca |
+| Peo Varek | Intrusión informática | Ayuda a Inés con la radio y el bus de datos |
 
 ::: ficha Preso de C-7
 Interno (genérico) · —
-Combate 30 · Instinto 35 · Salud 10 · Heridas 1 · Armadura 0
-Ataques: puños o herramienta (1d5)
-Rasgos: usar para los ocho presos de R-3
+Combate 30 · Instinto 35 · Heridas 1(10) · Armadura 0
+Ataques: puños o herramienta (1d5, Contundente)
+Rasgos: usar para los presos de R-3 sin ficha propia
 :::
 
-**Comprobación del reparto.** R-3 contiene a Nora, Gaspar y estos ocho presos: diez internos. Mara y Duarte suman dos alguaciles; Inés es la única civil. P-2 contiene a Quiroga e Ivo. Los tres fallecidos de T0 completan los dieciocho de C-7. No cambies estas cuentas: son el esqueleto del balance humano.
+**Comprobación del reparto.** R-3: Mara, Duarte, Inés y diez presos (Nora, Kroll, Román, Ulma, Osian, Isa, Celia, Yusef, Mar, Peo). P-2: Quiroga e Ivo. Fallecidos: Serrat, Milena, Teo. Dieciocho.
 
-## Salcedo
+## Personal de apoyo
 
-![Salcedo detrás de una roca, el traje abollado y una suspensión rota a pocos metros](ret-salcedo)
-
-### Quién es
-
-Técnico de HRF, cuarenta años, herido junto al repetidor R-12. Salió antes que la cuadrilla a diagnosticar la caída de señal, en un vehículo de servicio que rompió una suspensión al esquivar una grieta. Su ayudante se ha desplazado a pie, con traje, hacia el repetidor, a pocos centenares de metros. No es un encuentro sobrenatural: es un hombre roto esperando a que alguien pase.
-
-### Cómo habla
-
-- «No me mováis la pierna. El resto del traje aguanta.»
-- «R-12 recibe de una línea secundaria de C-7. Por eso se cayó cuando C-7 se cayó.»
-- «Mi compañera fue andando hasta la antena. No ha vuelto.»
-
-### Qué quiere, qué teme, qué sabe
-
-Quiere ser recogido y que su ayudante vuelva. Teme que el grupo pase de largo y lo deje con el traje y la pierna mal. Sabe que R-12 se alimenta desde una línea secundaria asociada a C-7 y que perdió corriente tras el accidente.
-
-Ayudarlo gasta recursos médicos y tiempo, pero puede aportar otro par de manos o un vehículo averiado que luego se recupera. No es obligatorio detenerse: si lo ignoran, las radios locales de corto alcance siguen funcionando al entrar en C-7 y solo perderán parte del apoyo remoto. Reparar el módulo eléctrico cuesta 25–45 min con material adecuado y devuelve las comunicaciones entre B-4, C-7 y Bastión, aunque no reconstruye los cables destruidos dentro de C-7.
-
-### Cómo reacciona al horror
-
-**El traje.** Su lesión no es espectacular; es un hombre que no puede cargar su propio peso y lo sabe. Si el Guardián quiere una imagen dura, basta con el hielo pegándose a la abolladura del casco.
-
-**La antena.** No sabe qué ha sido de su ayudante. Puede ser que siga viva en R-12, puede ser que no. No conviertas su desaparición en un monstruo: el terreno y el vacío bastan.
-
-**Los cuerpos.** Si la cuadrilla le describe lo que ha visto en la ruta, Salcedo no lo creerá hasta que le enseñen una medida. Es un técnico: quiere número, no testimonio.
-
-::: ficha Salcedo
-Técnico HRF herido junto a R-12 · 40 años
-Combate 20 · Instinto 40 · Salud 9 · Heridas 1 · Armadura 0
+::: ficha Bruna Lasarte
+Mecánica HRF, conductora del rover 2 · 33 años
+Combate 30 · Instinto 45 · Heridas 1(11) · Armadura 3 (traje)
 Ataques: ninguno
-Rasgos: su vehículo rompió una suspensión
+Rasgos: buena con baterías y actuadores; obedece a Oria, pero escucha a quien sabe más que ella
 :::
+
+::: ficha Eloy Cid
+Enfermero ACE, rover 2 · 41 años
+Combate 30 · Instinto 40 · Heridas 1(11) · Armadura 3 (traje)
+Ataques: porra eléctrica (PSG: 1d5, Contundente)
+Rasgos: responde ante Vidal de la custodia en su rover; sabe atender fracturas y hemorragias
+:::
+
+Salcedo y Nadia Ferro tienen ficha en el Acto II. La jefa de frente **Tamar Oyá** y el preso **Bruno Isern** se quedan en B-4.
 
 ## Los tres fallecidos
 
-Tres personas murieron en T0 y son hechos pasados al empezar la partida: no se convierten en muertes evitables por una tirada de suerte. Son el alguacil **Elmo Serrat**, la civil **Milena Tey** —intercambiable por Inés Calder según el balance del original, sin cambiar los números— y el preso **Teo Mahr**.
+**Elmo Serrat**, alguacil, en la hoja de E-1, con la radio abierta. **Milena Tey**, civil (intercambiable con Inés), sellada en el corredor de J-17. **Teo Mahr**, preso, junto a J-17, el relicario. Son pasado y no se convierten en muertes evitables por una tirada.
 
-Sus cuerpos son, además, la primera lección de biología del lugar: para los costreros, un cadáver en descomposición es una fuga, y las colonias sellan las fugas con gel mineral.
+## Respuesta autónoma
 
-- **Teo Mahr**, en el tramo bajo junto a J-17: medio cubierto por una costra blanquecina y translúcida que lo une a la roca. Varios costreros se alimentan bajo la costra y el cuerpo se mueve por el trabajo de los dientes en su interior. Es el primer contacto visual fuerte: un relicario, no un resucitado. Causa física: gases, humedad y tejido blando en un entorno conectado a cavidades.
-- **Elmo Serrat**, atrapado en la hoja deformada de E-1: su radio de traje sigue abierta. En el canal de alguaciles se oye, en mitad de la estática, un raspado rítmico y húmedo. El micrófono del casco está en contacto con lo que ocurre dentro. Nadie dice que sea Serrat hasta que lo encuentran.
-- **Milena Tey**, sellada contra una pared del corredor dañado, con la cara visible tras la costra, como tras un cristal empañado.
+Lo que pasa si nadie interviene. Cada línea es una tendencia con su causa, no un destino: si los PJ actúan antes, cambia.
 
-## Respuesta autónoma de los PNJ
+| Hora | Sin intervención… | Cambia si… |
+|---|---|---|
+| 10:36 | Mara organiza turnos y cuenta absorbentes; Celia hace inventario (sabe de los C-12 del armario) | — |
+| 11:36 | Román empieza el rumor de que Mara los encerró como castigo | Alguien con el registro de C-0 habla con R-3 |
+| 12:36 | Duarte esposa a Kroll a una tubería cerca de la rejilla | Los PJ contactan antes con R-3 |
+| 13:36 | Inés y Peo recuperan el bus de datos: R-3 sabe que P-2 está habitada | — |
+| 14:36 | Se agota el aire de P-2; Quiroga transmite en bucle «energía antes que socorro» | Llega aire a P-2 |
+| 15:36 | Se para la bomba. Ivo propone salir por el túnel inundado hasta V-12 | Hay energía externa en P-2 |
+| 15:50 | Quiroga deja salir a Ivo con su traje si nadie ha respondido por radio en la última hora | Alguien responde |
+| 16:36 | R-3 Degradado. Nora propone la purga; Mara la hace a las 16:50 (+0,6 kg) | R-3 ya recibió cartuchos |
+| 17:06 | H-4 en 4: escena del sumidero si Osian sigue dentro | La bomba volvió a funcionar o V-12 está cerrada |
+| 17:36 | H-4 en 5: Mara manda a Yusef con un traje de escape a la cámara de servicio. No puede desatornillar el portillo (los pernos están por fuera), pero oye a los costreros en la junta, y a los PJ si están al otro lado | — |
+| 18:06 | H-4 en 6: cuenta atrás de 120 min para el sello de R-3 | — |
+| 19:36 | R-3 agotado; segunda purga; Mara reparte los dos trajes de escape a los heridos | — |
+| 20:06 | Falla el sello de R-3 si H-4 sigue en 6 | H-4 baja de 6 antes |
 
-Los personajes no esperan congelados a que los jugadores actúen. Esta tabla marca lo que harán por su cuenta si nadie interviene. Úsala como presión de fondo, no como sentencia.
-
-| Cuando llegue aproximadamente… | Sin intervención de los jugadores… |
-|---|---|
-| T+1 h | Mara organiza turnos, cuenta filtros y pide herramientas a Inés |
-| T+2 h | Quiroga comprueba la caída de batería; Ivo intenta ajustar la bomba |
-| T+3 h | Duarte confecciona una lista y prepara traslado de heridos |
-| T+4 h | Nora propone dosificar actividad física para reducir CO₂; Inés busca una alimentación alternativa |
-| T+5 h | Quiroga acusa agotamiento y síntomas respiratorios en P-2 si no llegó ayuda |
-| T+6 h | La bomba está próxima a detenerse por falta de energía; el refugio aún puede resistir si conserva filtros |
-| T+8 h | Los ocupantes de R-3 discuten prioridades de evacuación; no hay violencia por defecto |
-| T+10 h | R-3 entra en fase crítica si nadie ha mejorado filtración o evacuación |
-
-**Modifica esta tabla por las acciones reales.** Si los jugadores proporcionan filtros a T+4, no narres después «todos empiezan a ahogarse» a T+10 como si no hubieran ayudado. Si evacúan a un herido pronto, el sumidero puede no inundarse. La respuesta autónoma describe tendencias, no destinos.
-
-## Cómo usar estas fichas en mesa
-
-Las estadísticas de Combate e Instinto son cifras altas porque estos personajes son profesionales: no las alteres para «equilibrar» un combate. Ninguno de ellos entra en conflicto con los jugadores salvo traición o violencia manifiesta. Recuerda además:
-
-- **Salvaciones.** Cordura, Miedo y Cuerpo siguen las reglas de Mothership 1e. La hipercapnia pide salvaciones de Cuerpo cuando alguien realiza esfuerzo o toma decisiones importantes; no es daño automático.
-- **Ventaja y desventaja.** Aplica [+] y [−] por posición, herramienta y estado, no como adorno. El hombro de Quiroga, la pierna de Inés y el nerviosismo de Duarte son modificadores reales.
-- **Estrés y Pánico.** No pidas salvaciones por cada criatura que huye. Reserva el horror para los momentos con causa física explicada: el cuerpo que se mueve, la radio que raspa, el aire que se agota.
-- **Nadie es una estadística.** Un PNJ con dos Heridas de margen no está a un disparo de ser un cadáver decorativo; está a un disparo de ser un problema humano más.
+Si los jugadores aportan cartuchos a las 14:00, no narres después una asfixia a las 19:36. Si sacan pronto a Osian, el sumidero puede no tener visita.

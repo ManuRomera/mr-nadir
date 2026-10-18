@@ -8,11 +8,11 @@
    "instinto": 50,
    "salud": 14,
    "heridas": 2,
-   "armadura": 0,
+   "armadura": 1,
    "armas": [
     {
-     "n": "Carabina reglamentaria",
-     "dano": "según PSG"
+     "n": "Subfusil reglamentario (SMG)",
+     "dano": "2d10"
     }
    ],
    "rasgos": [
@@ -29,11 +29,11 @@
    "instinto": 45,
    "salud": 13,
    "heridas": 2,
-   "armadura": 0,
+   "armadura": 3,
    "armas": [
     {
-     "n": "Pistola reglamentaria",
-     "dano": "según PSG"
+     "n": "Revólver reglamentario",
+     "dano": "1d10+1"
     }
    ],
    "rasgos": [
@@ -49,10 +49,10 @@
    "instinto": 45,
    "salud": 12,
    "heridas": 2,
-   "armadura": 0,
+   "armadura": 1,
    "armas": [
     {
-     "n": "Herramientas",
+     "n": "Llave de válvula",
      "dano": "1d5"
     }
    ],
@@ -70,11 +70,11 @@
    "instinto": 35,
    "salud": 13,
    "heridas": 2,
-   "armadura": 0,
+   "armadura": 1,
    "armas": [
     {
-     "n": "Pistola reglamentaria",
-     "dano": "según PSG"
+     "n": "Revólver reglamentario",
+     "dano": "1d10+1"
     }
    ],
    "rasgos": [
@@ -152,7 +152,7 @@
    "armadura": 0,
    "armas": [
     {
-     "n": "Herramienta contundente",
+     "n": "Puños o herramienta",
      "dano": "1d10"
     }
    ],
@@ -169,7 +169,7 @@
    "instinto": 40,
    "salud": 9,
    "heridas": 1,
-   "armadura": 0,
+   "armadura": 3,
    "armas": [],
    "rasgos": [
     "Su vehículo rompió una suspensión"
@@ -235,7 +235,7 @@
    ]
   },
   "enjambre": {
-   "nombre": "Enjambre pequeño (3–6)",
+   "nombre": "Grupo pequeño (3–6)",
    "rol": "Crustivermis nadirensis",
    "edad": 0,
    "combate": 30,
@@ -245,8 +245,8 @@
    "armadura": 0,
    "armas": [
     {
-     "n": "Mordeduras individuales",
-     "dano": "1d10 c/u"
+     "n": "Mordedura por ejemplar al alcance",
+     "dano": "1d10"
     }
    ],
    "rasgos": [
@@ -269,33 +269,34 @@
    },
    "salvaciones": {
     "cordura": 25,
-    "miedo": 53,
+    "miedo": 48,
     "cuerpo": 38
    },
    "salud": 16,
    "heridas": 3,
    "habilidades": {
     "entrenado": [
-     "Military Training",
-     "First Aid"
+     "Entrenamiento militar",
+     "Atletismo"
     ],
     "experto": [
-     "Firearms"
+     "Armas de fuego"
     ]
    },
    "equipo": [
-    "Carabina reglamentaria de fuego selectivo",
+    "Subfusil reglamentario (SMG: 2d10, 3 cargadores)",
+    "Porra eléctrica",
     "Esposas",
     "Radio multibanda",
     "Credencial ACE",
-    "Dos herramientas de custodia",
-    "Traje de exterior asignado"
+    "Traje de faena (PA 3) y un parche"
    ],
    "recuerdos": {
-    "Motivo": "Mara Venn, su pareja, acaba de pedir ayuda y ha desaparecido de la radio.",
-    "Vínculo": "El preso técnico le ayudó a sobrevivir a un accidente hace meses.",
-    "Conflicto": "Salvar a Mara no debe significar dejar morir a los demás.",
-    "Información privada": "Mara había pedido trasladarse al siguiente turno de Bastión para hablar con él de algo importante."
+    "Motivo": "Mara Venn, tu pareja (o vínculo cercano), acaba de pedir ayuda y ha desaparecido de la radio.",
+    "Vínculo": "Darío te ayudó a sobrevivir a un accidente; te niegas a tratarlo como una estadística.",
+    "Conflicto": "Salvar a Mara no puede significar dejar morir a los demás, y ella no saldrá antes que sus presos.",
+    "Información exclusiva": "Mara pidió el traslado para hablar contigo de algo importante. Solo tú puedes invocar la excepción de seguridad (D01).",
+    "Tu decisión": "Excepción de seguridad, esposas, la orden de detener a Ivo, el orden de salida de R-3: lo que firmes te seguirá."
    }
   },
   "vera": {
@@ -307,35 +308,40 @@
     "fuerza": 27,
     "velocidad": 32,
     "intelecto": 47,
-    "combate": 24
+    "combate": 28
    },
    "salvaciones": {
     "cordura": 49,
-    "miedo": 31,
+    "miedo": 28,
     "cuerpo": 25
    },
    "salud": 16,
    "heridas": 2,
    "habilidades": {
     "entrenado": [
-     "Chemistry",
-     "Geology"
+     "Geología",
+     "Química"
     ],
     "experto": [
-     "Ecology"
+     "Ecología"
+    ],
+    "maestro": [
+     "Planetología"
     ]
    },
    "equipo": [
     "Lector químico portátil",
     "Cámara de muestreo",
     "Tableta sin acceso externo",
-    "Material de seguridad de laboratorio"
+    "Material de seguridad de laboratorio",
+    "Traje de faena (PA 3) y un parche"
    ],
    "recuerdos": {
-    "Motivo": "Nora Ilias, de C-7, colaboró con ella y le escribía desde ese sector.",
-    "Vínculo": "La operadora civil le permitió publicar un informe técnico que evitó sanciones arbitrarias.",
-    "Conflicto": "Puede perder su privilegio si traspasa sectores sin cobertura del alguacil.",
-    "Información privada": "Hace dos semanas analizó una costra con estructuras orgánicas ordenadas; el informe está en B-4."
+    "Motivo": "Nora Ilias, de C-7, clasificaba muestras contigo y te escribía.",
+    "Vínculo": "Elia te ayudó a publicar un informe que te evitó sanciones.",
+    "Conflicto": "Pierdes el régimen de confianza si te separas del alguacil; tus antecedentes restan valor a tu palabra.",
+    "Información exclusiva": "Tu informe 117-C (estructura orgánica) se quedó en la oficina de Oria. Sabes leer la cría.",
+    "Tu decisión": "Firmar el hallazgo con tu nombre o dejar que Oria lo presente para que se aplique antes."
    }
   },
   "dario": {
@@ -347,7 +353,7 @@
     "fuerza": 40,
     "velocidad": 36,
     "intelecto": 38,
-    "combate": 26
+    "combate": 32
    },
    "salvaciones": {
     "cordura": 27,
@@ -358,11 +364,12 @@
    "heridas": 2,
    "habilidades": {
     "entrenado": [
-     "Industrial Equipment",
-     "Jury-Rigging"
+     "Equipo industrial",
+     "Gravedad cero",
+     "Improvisación mecánica"
     ],
     "experto": [
-     "Mechanical Repair"
+     "Reparación mecánica"
     ]
    },
    "equipo": [
@@ -370,13 +377,15 @@
     "Abrazaderas",
     "Sellante",
     "Analizador de fugas",
-    "Llaves de válvula"
+    "Llaves de válvula",
+    "Traje de faena (PA 3) y un parche"
    ],
    "recuerdos": {
-    "Motivo": "Su antiguo compañero Ivo Sen trabaja en C-7; le debe un favor.",
-    "Vínculo": "El Marine declaró a su favor tras una infracción que no cometió.",
-    "Conflicto": "Sus soluciones improvisadas pueden salvar vidas o costarle los beneficios penitenciarios.",
-    "Información privada": "Ivo preguntó hace días por un plano antiguo de drenajes."
+    "Motivo": "Tu antiguo compañero Ivo Sen trabaja en C-7; le debes un favor.",
+    "Vínculo": "Gael declaró a tu favor tras una infracción que no cometiste.",
+    "Conflicto": "Conoces apaños prohibidos; usarlos puede salvar vidas o costarte los beneficios.",
+    "Información exclusiva": "Ivo te preguntó por un plano antiguo de drenajes. Reconoces su letra.",
+    "Tu decisión": "Cubrir a Ivo o contarlo; firmar o no el apaño que automatiza la bomba."
    }
   },
   "elia": {
@@ -385,10 +394,10 @@
    "edad": 0,
    "papel": "Operadora civil HRF · comunicaciones y soporte vital",
    "estadisticas": {
-    "fuerza": 27,
+    "fuerza": 33,
     "velocidad": 39,
     "intelecto": 42,
-    "combate": 25
+    "combate": 32
    },
    "salvaciones": {
     "cordura": 30,
@@ -399,24 +408,27 @@
    "heridas": 2,
    "habilidades": {
     "entrenado": [
-     "Computers",
-     "Jury-Rigging"
+     "Equipo industrial",
+     "Gravedad cero",
+     "Informática"
     ],
     "experto": [
-     "Hacking"
+     "Piratería informática"
     ]
    },
    "equipo": [
     "Radio de diagnóstico",
-    "Batería auxiliar",
+    "Repuesto del panel de R-12",
     "Fibra y conectores",
-    "Dos filtros de aire portátiles"
+    "Dos filtros de aire portátiles (0,3 kg)",
+    "Traje de faena (PA 3) y un parche"
    ],
    "recuerdos": {
-    "Motivo": "Su amiga Milena Tey estaba de turno en C-7.",
-    "Vínculo": "Vera salvó su puesto demostrando que un resultado anómalo no era negligencia suya.",
-    "Conflicto": "Su contrato la obliga a comunicar modificaciones no autorizadas.",
-    "Información privada": "El repetidor R-12 registró dos caídas de alimentación la semana anterior."
+    "Motivo": "Tu amiga Milena Tey (o Inés) estaba de turno en C-7.",
+    "Vínculo": "Vera salvó tu puesto.",
+    "Conflicto": "Tu contrato te obliga a informar del bypass; si lo haces ya, Vidal ordenará detener a Ivo.",
+    "Información exclusiva": "La batería de R-12 estaba degradada. Puedes consultar el registro de vehículos de Bastión (D15).",
+    "Tu decisión": "Qué oye Bastión y cuándo; a quién das tus dos filtros."
    }
   },
   "limen": {
@@ -426,39 +438,41 @@
    "papel": "Alguacil sintético ACE",
    "estadisticas": {
     "fuerza": 37,
-    "velocidad": 39,
+    "velocidad": 29,
     "intelecto": 52,
     "combate": 29
    },
    "salvaciones": {
-    "cordura": 32,
-    "miedo": 28,
-    "cuerpo": 38
+    "cordura": 28,
+    "miedo": 80,
+    "cuerpo": 30
    },
    "salud": 17,
    "heridas": 3,
    "habilidades": {
     "entrenado": [
-     "Military Training",
-     "Computers"
-    ],
-    "experto": [
-     "Hacking"
+     "Lingüística",
+     "Informática",
+     "Matemáticas",
+     "Entrenamiento militar",
+     "Calle (Rimwise)"
     ]
    },
    "equipo": [
-    "Radio",
-    "Escáner ambiental",
+    "Revólver reglamentario (1d10+1)",
+    "Porra eléctrica",
     "Esposas",
+    "Escáner ambiental",
     "Linterna",
     "Herramienta de rescate",
-    "Arma autorizada"
+    "Traje (8 h: no consume O₂) y un parche"
    ],
    "recuerdos": {
-    "Motivo": "Su compañero humano sale a auxiliar a Mara.",
-    "Vínculo": "Los condenados confían en que documenta sin alterar declaraciones.",
-    "Conflicto": "Una autoridad ACE podría pedir inmovilizar a un preso; conserva juicio propio.",
-    "Información privada": "Su última inspección encontró diferencias entre el plano antiguo del drenaje y el registro digital."
+    "Motivo": "Tu compañero sale a auxiliar a Mara.",
+    "Vínculo": "Los presos confían en que no alteras declaraciones.",
+    "Conflicto": "Tu memoria es de ACE; Vidal puede darte órdenes que tu juicio no comparta.",
+    "Información exclusiva": "Viste la discrepancia de planos en L-4. Lees el bus de C-0 en la mitad de tiempo.",
+    "Tu decisión": "Acatar o no las órdenes de Vidal; ser el testigo neutral del orden de salida; aceptar ser el que se queda."
    }
   }
  }

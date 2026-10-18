@@ -1,7 +1,7 @@
 # *Crustivermis nadirensis*: el costrero
 
 ::: resumen
-Artículo descriptivo del vermiforme que habita las cavidades de salmuera de ND-17. Se documentan su morfología segmentada flexible-mineral, su metabolismo quimiotrófico ligado a la humedad y el comportamiento de sellado que desencadenó la cadena de accidentes de C-7. La especie no es hostil ni inteligente: es indiferente, y confunde con una grieta toda materia que desprenda humedad.
+Artículo descriptivo del vermiforme que habita las cavidades de salmuera de ND-17. Se documentan su morfología segmentada flexible-mineral, su metabolismo quimiotrófico ligado a la humedad y el comportamiento de sellado que desencadenó la cadena de accidentes de C-7. La especie es indiferente: confunde con una grieta toda materia que desprenda humedad o gas, y responde a cada obra humana desplazando su trabajo a la siguiente fuga.
 Palabras clave: exobiología, vermiforme, salmuera, sellado mineral, ND-17, comportamiento territorial
 :::
 
@@ -9,237 +9,195 @@ Palabras clave: exobiología, vermiforme, salmuera, sellado mineral, ND-17, comp
 
 ## Introducción
 
-Este número especial recoge el expediente técnico del suceso de C-7 y lo que el suceso permitió documentar por primera vez: una especie animal autóctona de ND-17, hasta ahora confundida con incrustaciones minerales y tratada como obstrucción de mantenimiento. La especie recibe aquí el nombre provisional de ***Crustivermis nadirensis***. Los trabajadores del sector la llaman **costrero**, y ese nombre se conserva por economía y por costumbre de campo.
+Este número especial recoge el expediente técnico del suceso de C-7 y lo que el suceso permitió documentar por primera vez: una especie animal autóctona de ND-17, hasta ahora confundida con incrustaciones minerales y tratada como obstrucción de mantenimiento. La especie recibe aquí el nombre provisional de ***Crustivermis nadirensis***. Los trabajadores la llaman **costrero**, y el nombre se conserva por economía y costumbre de campo.
 
-Durante años, los informes de galería describieron «costras» que aparecían tras cada presurización de tramos nuevos. Se retiraban. Volvían. Nunca se preguntó qué las reponía. La respuesta es sencilla y no tiene nada de misterioso: un animal las fabrica. Las colonias de *Crustivermis* sellan fisuras para reducir el intercambio entre su cavidad y el exterior. Cuando una máquina humana arranca el sello, la colonia lo rehace. El accidente de C-7 fue, en el fondo, una cadena de mantenimiento industrial chocando contra un reflejo biológico.
-
-Conviene fijar de entrada el principio que gobierna todo el artículo y toda la partida: **los costreros no planean nada.** No tienen intención, no tienen odio, no tienen plan. Detectan vibraciones y cambios químicos; sellan fugas hacia su hábitat; defienden sus zonas de cría; y pueden alimentarse de tejido animal si lo encuentran. Nada más. La criatura no persigue un objetivo, y precisamente por eso resulta tan difícil negociar con ella en mesa.
+Durante años, los informes de galería describieron «costras» que aparecían tras cada presurización de tramos nuevos. Se retiraban. Volvían. Nadie preguntó qué las reponía. Las colonias de *Crustivermis* sellan fisuras para reducir el intercambio entre su cavidad y el exterior; cuando una máquina arranca el sello, la colonia lo rehace. El accidente de C-7 fue una cadena de mantenimiento industrial chocando contra un reflejo biológico.
 
 > La primera vez que se ve uno, no parece un animal. Parece un tubo de cal con anillos, apoyado en la roca, sin cabeza y sin ojos. Hasta que el anillo delantero se abre y empieza a girar. Entonces entiendes que lleva toda la vida ahí, y que tú eres el que ha venido a su casa.
 
 ### Fuentes y método
 
-Este artículo no procede de un muestreo planificado. Procede de un accidente y de lo que se pudo reconstruir después. Las observaciones se apoyan en tres tipos de material: **restos recuperados** en el tramo bajo de C-7 y en la interfaz de J-17; **análisis químicos de costras** practicados en B-4 con un lector portátil, que detectaron estructuras orgánicas ordenadas en un material que se creía mineral; y **testimonios de trabajadores** que habían convivido con la especie sin reconocerla. Entre esos testimonios, el de la interna **Nora Ilias** resulta especialmente útil: describió cómo los animales tapian rendijas por la noche, y su relato coincide con lo que después se observó en la cámara de cría. Los informes que ya sugerían vida en las costras eran recientes, parciales y no habían llegado a C-7 con una recomendación operativa clara. Ese retraso, y no la especie, forma parte de la cadena de causas del suceso.
+Este artículo procede de un accidente y de lo que se pudo reconstruir después. Las observaciones se apoyan en tres tipos de material: **restos recuperados** en el tramo bajo de C-7 y en la interfaz de J-17; **análisis químicos de costras** practicados en B-4 con un lector portátil, que detectaron estructuras orgánicas ordenadas en un material que se creía mineral; y **testimonios de trabajadores** que habían convivido con la especie sin reconocerla, entre ellos el de la interna **Nora Ilias**, que describió cómo los animales tapian rendijas cada vez que entra aire de una galería nueva.
 
-La nomenclatura es provisional. *Crustivermis* («gusano de costra») describe un hábito, no una filogenia; *nadirensis* sitúa el hallazgo en ND-17. No se propone parentesco con ningún taxón terrestre. La biología de Nádir es una **hipótesis especulativa de ciencia ficción** con reglas internas consistentes, no una afirmación sobre la vida extraterrestre real.
+La nomenclatura es provisional. *Crustivermis* («gusano de costra») describe un hábito, no una filogenia; *nadirensis* sitúa el hallazgo en ND-17. La biología de Nádir es una hipótesis de ciencia ficción con reglas internas consistentes, no una afirmación sobre la vida extraterrestre real.
 
 ## Morfología
 
 ### Aspecto general
 
-Los costreros son animales vermiformes, ciegos, de **entre 40 y 80 cm de largo y 12–20 cm de diámetro**. Algunos ejemplares reproductores superan el metro. El cuerpo entero está cubierto por **segmentos flexible-minerales de color blanquecino o gris ceniza**, semirrígidos, con brillo apagado de sal seca. No tienen ojos ni rostro. No hay nada en ellos que devuelva la mirada.
+Animales vermiformes y ciegos de **40 a 80 cm de largo y 12–20 cm de diámetro**; algunos reproductores superan el metro. El cuerpo está cubierto por **segmentos flexible-minerales** blanquecinos o gris ceniza, semirrígidos, con el brillo apagado de la sal seca. No tienen ojos ni rostro.
 
-Su extremo anterior contiene un **anillo de dentículos trituradores** que raspan costras, carroña y tejidos blandos. Ese anillo es el único órgano de ataque y la única «expresión» de la criatura: gira, muerde y vuelve a cerrarse. Sus extremidades de agarre son **cortos cilios musculares distribuidos bajo los segmentos**. Avanzan por contracción, empuje y anclaje, ondulando sobre la roca, no como una serpiente terrestre perfecta.
+El extremo anterior contiene un **anillo de dentículos trituradores** que raspa costras, carroña y tejidos blandos. Es su único órgano de ataque y su única «expresión»: gira, muerde y se cierra. Se desplazan con **cilios musculares** bajo los segmentos: se anclan, se contraen y tiran del cuerpo hacia delante. No corren. Trepan y se arriman.
 
 ![Lám. 2. Detalle del anillo de dentículos trituradores en un ejemplar fijado en campo.](lam-boca)
 
 ### Superficie y locomoción
 
-La cubierta segmentada funciona a la vez como armadura ligera y como reserva de humedad. Los surcos entre segmentos retienen una película mucosa que la criatura renueva desde glándulas internas. Esa película explica por qué un ejemplar recién alimentado soporta el aire seco humano más tiempo que uno hambriento. Los cilios inferiores permiten el anclaje: el animal tira de sí mismo hacia delante apoyándose en cada segmento, lo que le da una marcha lenta, táctil y muy difícil de desequilibrar. No corre. Trepa y se arrima.
+La cubierta segmentada es a la vez armadura ligera y reserva de humedad. Los surcos entre segmentos retienen una película mucosa que el animal renueva desde glándulas internas; por eso un ejemplar recién alimentado soporta el aire seco humano más tiempo que uno hambriento. El anclaje por cilios da una marcha lenta, táctil y muy difícil de desequilibrar, y es silencioso: un costrero puede fijarse a una superficie sin que nadie lo note.
 
-### Órganos de percepción
+### Percepción
 
-Carecen de visión. Tienen **quimiorreceptores de proximidad** repartidos por el extremo anterior, sensibles a gradientes de sal, humedad y descomposición. Pero su sentido dominante es otro: **detectan vibraciones que llegan por roca, barro y metal.** Un golpe transmitido por el sólido vale más para ellos que cualquier olor.
+No ven. Tienen **quimiorreceptores de proximidad** sensibles a gradientes de sal, humedad, gas y descomposición, y un sentido dominante: **las vibraciones que llegan por roca, barro y metal**. Un golpe transmitido por el sólido vale más que cualquier olor. Una radio dentro de un casco no los convoca; un martillo neumático, sí; unas botas corriendo sobre una chapa suspendida, también. La pregunta del Guardián no es «¿hacen ruido?», sino «¿qué vibra y a qué está unido?».
 
-Esto tiene una consecuencia de mesa que conviene subrayar a los jugadores sin regalarla: **una radio funcionando dentro del casco no los convoca.** El sonido viaja por aire o por el propio casco, no por la estructura. En cambio, **un martillo neumático sí**, y **unas botas corriendo sobre una chapa suspendida también**. Cuando el Guardián quiera hacer aparecer un costrero, la pregunta correcta no es «¿hacen ruido?», sino «¿qué está vibrando, y a qué está unido eso?».
+### Defensa
 
-### Organización interna y defensa
-
-Bajo la cubierta segmentada, el cuerpo es un tubo muscular con una cavidad digestiva simple y un depósito de secreción que se vacía por poros de la piel. No hay esqueleto rígido: la rigidez la aporta la propia costra que el animal segrega y que a veces crece sobre su dorso. Un ejemplar muy viejo puede llevar encima su propia obra, un abrigo de cal que lo confunde aún más con una formación mineral.
-
-La defensa es limitada y local. No tiene aguijón, no inocula nada y no paraliza. Su único recurso ofensivo es el anillo de dentículos, y lo usa de cerca, cuando el cuerpo a cuerpo es inevitable. Recibir un golpe seco sobre los segmentos puede agrietarlos y hacer que la criatura se repliegue; el daño contundente no la mata tanto por el impacto como por la pérdida de humedad que abre en su envoltura.
+Sin aguijón, sin veneno, sin parálisis. Un golpe seco sobre los segmentos los agrieta y suele hacer que el animal se repliegue: el daño contundente lo mata menos por el impacto que por la pérdida de humedad que abre en su envoltura.
 
 ### Identificación en campo
 
-Se distingue de una incrustación mineral por tres rasgos. **Uno:** los círculos concéntricos de una costra verdadera no tienen dirección; los de una colonia activa se ordenan alrededor de una grieta. **Dos:** la superficie de un costrero cede ligeramente a la presión, mientras que la roca no. **Tres:** si se golpea el suelo cercano con algo metálico, la costra no reacciona, pero un ejemplar entierra el extremo anterior o lo levanta hacia la vibración. Ese gesto, breve y sin ojos, es la prueba.
+Tres rasgos separan una colonia de una incrustación. Los círculos concéntricos de una costra mineral no tienen dirección; los de una colonia activa se ordenan alrededor de una grieta. La superficie de un costrero cede un poco a la presión; la roca no. Y si se golpea el suelo cercano con algo metálico, la costra no reacciona, pero un ejemplar entierra el extremo anterior o lo levanta hacia la vibración.
 
 ## Hábitat y metabolismo
 
-### El ecosistema de salmuera
-
-El hábitat natural de la especie son **cavidades húmedas de salmuera y bolsas de gas pobre en oxígeno**, con microorganismos capaces de aprovechar reacciones químicas de los minerales. Ese mundo no necesita luz y no la tolera bien. Los costreros se alimentan de otros animales locales pequeños, de materia orgánica y de **costras nutritivas** que crecen en las interfaces minerales.
-
-La especie necesita **humedad y condiciones químicas determinadas.** El aire humano, seco y oxigenado, **le provoca estrés metabólico y deshidratación**. Ese es el mecanismo, y todo lo que sigue se deriva de él.
+El hábitat de la especie son **cavidades húmedas de salmuera con gas pobre en oxígeno**, con microorganismos que aprovechan reacciones químicas de los minerales. Se alimentan de animales locales pequeños, de materia orgánica y de **costras nutritivas** que crecen en las interfaces minerales. El aire humano, seco y oxigenado, les provoca estrés metabólico y deshidratación.
 
 ![Lám. 3. Detalle de costra de sellado con tejido mineralizado en la interfaz entre galería y cavidad.](lam-costra)
 
 > La cavidad huele a sal y a cobre. El suelo está blando, no mojado del todo, como barro que respira. En las paredes hay parches de cal que se ordenan en círculos, uno dentro de otro, y en el centro de cada círculo hay una grieta que ya casi no es una grieta. El aire se te pega al visor. Algo se mueve a tu espalda, despacio, sin sonar.
 
-### El sellado mineral y su función ecológica
+### El sellado y su función
 
-La secreción mineral tiene una función ecológica concreta: **al detectar un gradiente químico peligroso, los animales sellan las grietas** para reducir el intercambio con el exterior. Lo hacen solos y en colonia. Tapona primero las fisuras pequeñas, luego las mayores. El resultado se parece a una incrustación y engaña a quien no la conoce. Las colonias **siguen reparando el sello cuando las máquinas humanas lo arrancan.** Ese comportamiento, y no ninguna maldad, está detrás de la cadena industrial de accidentes que llevó al suceso de C-7.
+Al detectar un **gradiente químico** (aire humano entrando en la cavidad, gas de descomposición, humedad que escapa), los animales sellan la abertura para reducir el intercambio. Taponan primero las fisuras pequeñas y luego las mayores, siempre empezando por **la fuga más intensa al alcance de la colonia**. Cuando una fuga se cierra, el trabajo se desplaza a la siguiente. Esa regla sencilla explica casi todo lo que hacen en C-7, incluidas las consecuencias que no se ven venir.
 
-Un sello de costrero **no sustituye una barrera industrial certificada**, pero puede ocultar que detrás existe una fractura creciente. Es una reparación viva sobre un problema que sigue ahí.
+Un sello de costrero no sustituye una barrera industrial certificada. Es una reparación viva sobre un problema que sigue ahí.
 
 ### Sangre y permanencia en zonas humanas
 
-La sangre humana es **alimento oportunista, no combustible sobrenatural.** Un costrero puede digerir sus nutrientes y rehidratarse con fluidos; la humedad y la secreción mucosa resultante le permiten aguantar **más tiempo** en un corredor respirable. Eso es todo. **No se vuelve inmune al oxígeno, no crece de tamaño tras morder y no se reproduce de forma instantánea.**
+La sangre es alimento oportunista: los nutrientes y los fluidos rehidratan al animal y le permiten aguantar más tiempo en un corredor seco. No lo vuelven inmune al oxígeno, no lo hacen crecer y no aceleran su reproducción.
 
-| Medio | Conducta y tolerancia ficticias |
+| Medio | Tolerancia (convención de diseño) |
 |---|---|
-| Cavidad húmeda pobre en O₂ | Hábitat normal; puede permanecer indefinidamente |
-| Corredor humano presurizado y seco | Movimiento y ataque posibles durante 10–20 minutos; después busca grieta húmeda |
-| Corredor húmedo después de alimentarse | Puede resistir 30–45 minutos; después debe regresar o muere |
-| Superficie al vacío | Sobrevive como mucho unos instantes de exposición; no patrulla el exterior |
+| Cavidad húmeda pobre en O₂ | Indefinida |
+| Corredor humano presurizado y seco | 10–20 minutos; después busca una grieta húmeda |
+| Corredor húmedo, tras alimentarse | 30–45 minutos |
+| Superficie al vacío | Unos segundos; no sale a la superficie |
 
-Esas cifras son **convenciones de diseño de esta especie ficticia**, no medidas de laboratorio. Sirven para decidir cuánto aguanta un ejemplar lejos de su medio. Cuando una criatura ha perdido su vía de retirada, puede atacar desesperadamente. Cuando puede regresar a la humedad, habitualmente lo hará.
+Primero pierde coordinación; después busca activamente una junta, una gotera o una rejilla por la que volver; si no la encuentra, se repliega y muere. Una criatura seca es una criatura con prisa: su objetivo casi siempre es irse. Si pierde la vía de retirada, puede atacar a la desesperada.
 
-### Crecimiento y reproducción
+### Reproducción
 
-Los ejemplares reproductores superan el metro y concentran la **puesta** en cámaras húmedas laterales. La especie no se multiplica de golpe ni responde al estrés con una eclosión súbita: cría despacio, en zonas concretas, y protege esas zonas. Ahí está su único punto verdaderamente agresivo.
+Los reproductores concentran la **puesta** en cámaras húmedas laterales. La especie cría despacio, en lugares concretos, y protege esas zonas: es su único comportamiento verdaderamente agresivo.
 
 ![Lám. 4. Cámara de cría secundaria en L-4: puesta adherida a la roca y costra de anclaje.](lam-puesta)
 
-### Fisiología del estrés osmótico
-
-El aire de un corredor humano tiene dos propiedades que matan al costrero por acumulación: es **seco** y es **rico en oxígeno**. La primera lo deshidrata; la segunda altera su metabolismo quimiotrófico. Los síntomas observables siguen un orden previsible y son una herramienta de dirección: primero el animal **pierde coordinación** y su marcha se vuelve errática; después **busca activamente una junta, una gotera o una rejilla** por la que volver; finalmente, si no encuentra humedad, **se repliega y muere** en cuestión de minutos. Un ejemplar que se ha alimentado retrasa ese final porque la sangre y los fluidos le aportan agua y la mucosa le sella la piel durante un rato. Nada de esto lo hace más grande, más rápido ni más resistente a las balas.
-
-La consecuencia táctica es directa: **una criatura seca es una criatura con prisa.** Su objetivo casi siempre es irse, no quedarse a pelear. El Guardián puede decir en voz alta que el animal «va hacia la junta» y dejar que los jugadores decidan si eso es bueno o malo para ellos.
-
 ## Conducta
 
-### Reglas de comportamiento reproducibles
+### Jerarquía de respuesta
 
-El comportamiento sigue una jerarquía. Se aplica **en orden** y nunca se sustituye por capricho del Guardián. En particular, **no se elige «atacar al jugador más molesto»**:
+Se aplica en orden. Nunca se sustituye por «atacar al personaje más molesto».
 
-1. **Retirada.** Si el entorno es seco, iluminado y no hay contacto físico ni una abertura húmeda próxima, la criatura intenta volver a su cavidad.
-2. **Convergencia.** Las vibraciones intensas y repetidas transmitidas por sólido atraen a costreros desde un refugio conectado.
-3. **Defensa.** Al tocar o excavar en una cámara de cría, los animales residentes defienden la puesta incluso si hacerlo les cuesta exposición al aire.
-4. **Alimentación.** Si una criatura está junto a tejido sangrante o fluido orgánico, intenta morder o aprovecharlo. **No puede oler sangre a kilómetros.**
-5. **Sellado.** Ante una fuga química persistente, varios ejemplares aplican secreciones a los bordes, taponando primero las grietas pequeñas.
+1. **Retirada.** En un entorno seco y sin contacto ni abertura húmeda cercana, vuelve a su cavidad.
+2. **Convergencia.** Las vibraciones intensas y repetidas transmitidas por sólido atraen ejemplares desde cavidades conectadas.
+3. **Defensa.** Si se toca o excava una cámara de cría, los residentes la defienden aunque les cueste exposición.
+4. **Alimentación.** Junto a tejido sangrante o fluido orgánico, intenta morder o aprovecharlo. No huele sangre a distancia.
+5. **Sellado.** Ante una fuga química persistente, varios ejemplares aplican secreción a los bordes, empezando por la fuga más intensa.
 
-### Escala de respuesta de una colonia
+No atraviesan paredes intactas ni conocen los accesos por arte de magia. Una compuerta cerrada sin fisuras los detiene. Pueden desgastar juntas blandas y conductos flexibles si la fuga persiste, pero tardan un tiempo medible y el Guardián describe el desgaste antes de que ceda.
 
-| Señal verificable | Respuesta habitual |
-|---|---|
-| Pasos aislados o charla por radio | Observación o ninguna; no hay persecución automática |
-| Arranque de taladro en galería unida a una cavidad | 1–2 exploradores se acercan en 5–15 min |
-| Explosión o martilleo continuo | 3–6 ejemplares se congregan desde zonas próximas |
-| Apertura de nido o destrucción de puesta | Defensa inmediata de individuos residentes |
-| Apagado de herramienta y cierre de fuga | Actividad decae gradualmente; posible retirada |
-| Sangre fresca en tramo húmedo comunicado | 1–3 individuos próximos pueden investigar |
+### Atención de la colonia (silencio sólido)
 
-**No atraviesan paredes intactas ni conocen los accesos por arte de magia.** Una compuerta cerrada, sin fisuras suficientes para su cuerpo, los bloquea. Pueden desgastar juntas blandas y conductos flexibles si la fuente de vibración o fuga persiste, pero tardan un tiempo medible. El Guardián describe el desgaste antes de que ceda, nunca lo anuncia sin aviso.
+Regla de escenario. Lleva una cuenta de 0 a 6 por zona conectada a cavidades: **portilla de P-2, L-4, cavidad de cría, galería de servicio y V-12, tramo de inspección de H-4, tramo bajo y J-17**. La cuenta sube y baja con lo que ocurre en el mundo.
 
-### Interacción con la maquinaria humana
-
-La actividad industrial de Nádir actúa sobre la colonia como un estímulo continuo. Cada presurización de un tramo nuevo, cada limpieza de juntas y cada prueba de drenaje produce **gradientes** que los animales leen como fugas y responden sellando. Ese ciclo explica el patrón registrado en C-7: costras que reaparecían después de cada intervención, en el mismo sitio y a las pocas horas.
-
-Hay dos lecturas útiles para mesa. La primera: **detener la máquina calma a la colonia**, pero no borra a los individuos ya presentes ni deshace el sello que ya han puesto. La segunda: **cerrar una fuga de aire desincentiva el sellado** y suele empujar a los animales de vuelta a su cavidad; es la contramedida más limpia que existe y no dispara un solo tiro. Enfrente, abrir un tramo con agua a presión es el peor gesto posible: sube la Atención, atrae ejemplares de varias zonas y puede desprender un sello que sostenía una fractura.
-
-### El canto del casco
-
-Las vibraciones de los costreros raspando metal se transmiten por las estructuras sólidas. En **P-2, en E-1 y en L-4** se oye un **chirrido de dentículos contra acero que no para.** Es la manifestación acústica más reconocible de la especie y conviene usarla como firma sonora del capítulo.
-
-En P-2 los dos supervivientes llevan horas oyendo cómo **alguien sella la portilla exterior desde fuera**. La costra alrededor de la junta es parte de por qué la portilla aparece «soldada» por deformación. Quiroga empieza a quebrarse por el ruido: el raspado no cesa, no varía y no responde a nada de lo que ella hace. Al otro lado de la portilla, cuando los PJ la trabajen con herramientas, la vibración **atrae** exploradores. Hay que elegir entre rapidez y silencio, y el canto no es una señal de inteligencia: es dentícula contra acero, repetida.
-
-> La portilla está fría al tacto, vibra un poco y, si apoyas la oreja en el metal, oyes el raspado. No es un golpe. Es un arrastre húmedo, con pausas irregulares, como si algo estuviera pasando la lengua por la junta desde fuera. Lleva horas así. Quiroga ya no apoya la oreja.
-
-### Silencio sólido
-
-**Atención de la colonia (0–6)**, una cuenta por zona conectada a cavidades: **L-4, cámara de cría, H-4, J-17, tramo bajo y portilla de P-2.** La cuenta sube y baja con lo que ocurre en el mundo, no con la tensión que el Guardián quiera imprimir. Es la versión visible de la escala de respuesta anterior.
-
-- **+1:** herramienta de percusión o taladro durante una escena; disparo; caída de algo pesado; botas sobre chapa suspendida a la carrera.
-- **+2:** explosivo, martilleo continuo, abrir un tramo con agua a presión.
-- **−1:** apagar la máquina y esperar 10 minutos quietos; cerrar la fuga de aire de la zona.
+- **+1:** herramienta de percusión o taladro durante una escena; un disparo; caída de algo pesado; carrera sobre chapa suspendida; cada ciclo de una compuerta que deja escapar aire humano a la zona.
+- **+2:** explosivo; martilleo continuo; abrir un tramo con agua a presión.
+- **−1:** diez minutos quietos con las máquinas apagadas; cerrar la fuga de aire de la zona.
 
 | Atención | Estado de la colonia |
 |---|---|
-| 0–1 | Inactiva. Nada se acerca; el canto es de fondo |
-| 2 | **1 explorador** se acerca en 5–15 min |
-| 3–4 | **3 ejemplares** convergen hacia la fuente |
-| 5 | Los ejemplares presentes se vuelven audaces; uno prueba el contacto |
-| 6 | **Defensores o enjambre pequeño (3–6)** en la zona |
-
-La cuenta es coherente con la «Escala de respuesta» y solo la hace visible en mesa. **Escena típica:** los PJ apagan todo y se quedan quietos, con las luces del casco apagadas, mientras algo blanco se desliza por el techo a dos palmos.
+| 0–1 | Inactiva; el raspado es de fondo |
+| 2 | Un explorador se acerca en 5–15 min |
+| 3–4 | Tres ejemplares convergen hacia la fuente |
+| 5 | Los presentes se vuelven audaces: uno prueba el contacto |
+| 6 | Defensores o un grupo de 3–6 en la zona |
 
 > Todo se apaga. Nadie respira a propósito. En el silencio, la vibración del casco se apaga poco a poco, y con ella el raspado. Durante medio minuto no ocurre nada. Luego, por encima de vuestras cabezas, algo blando y pesado se desplaza por la roca. Va despacio. No lleva prisa. No sabe que estáis ahí.
 
+### La colonia responde a vuestras obras
+
+El silencio no es la única herramienta, ni siempre la mejor. Las reglas de la especie son predecibles, pero sus consecuencias cambian el complejo de formas que hay que prever. Estas son las seis reacciones que el Guardián debe tener presentes. Todas se derivan de la regla del sellado (la colonia trabaja en la fuga más intensa a su alcance) o de la tolerancia a la humedad.
+
+| Obra humana | Lo que pasa después | Cuándo | Cómo se anticipa |
+|---|---|---|---|
+| **Cerrar la fuga de aire de la cría** (válvula auxiliar) | Los defensores se calman y la cría se cruza mejor, pero el trabajo de sellado se desplaza a la siguiente fuga: el **portillo superior**. Isa oye arañar el techo de R-3 con más fuerza y la costra del portillo crece: abrirlo cuesta +20 min y su Atención sube 1 | 30–60 min después | Vera o Nora deducen la regla en la cría; el raspado en el portillo se oye desde R-3 |
+| **Cerrar V-12** | El tramo bajo escurre y deja de ser hábitat. Los ejemplares que trabajaban en J-17 y en el tramo bajo (1d3+2) migran por la galería de servicio hacia la cría. Quien esté en la galería, en V-12 o en el paso alto se los cruza | 30–90 min después del cierre | Cualquiera que entienda que la colonia necesita humedad; la radio de Serrat cambia de ritmo cuando el agua baja |
+| **Abrir la portilla de P-2** | Cada ciclo de la cámara de paso deja escapar aire humano. Los ejemplares que sellaban la portilla vuelven a trabajarla; si se abre y cierra muchas veces, la junta del exterior se llena de costra y un traje que pase por ahí puede llevarse uno pegado | Tras el tercer ciclo | La costra fresca brilla húmeda alrededor de la junta |
+| **Usar L-4 como ruta de evacuación** | Cada paso por la compuerta de C-0 suelta una bocanada de aire en L-4 (+1 de Atención por cada dos ciclos). Un corredor que estaba tranquilo a mediodía se llena de exploradores al caer la tarde | Tras cuatro o cinco ciclos | Llevar la cuenta; escoltar; espaciar los pasos; dejar diez minutos de silencio entre tandas |
+| **Igualar E-1** | Al bombear aire a la ruta baja se crea un gradiente nuevo: los costreros del tramo bajo acuden al marco de E-1 (donde está Serrat) a sellarlo. La ruta baja queda abierta, pero con dos o tres ejemplares trabajando en el marco por el que pasa todo el mundo | 20–40 min después | El raspado de la radio de Serrat se intensifica; se oyen por el casco al apoyarse en la hoja |
+| **Dejar a un herido sangrando** | La sangre en un tramo húmedo atrae a los ejemplares próximos. Con H-4 en 4, la salmuera lleva esa sangre hasta la rejilla de R-3 | Inmediato | Vendar, sacar pronto a los heridos, no lavar heridas en el suelo |
+
+Estas reacciones no son castigos. Son el precio de decisiones correctas. Un grupo que las prevé (cerrar V-12 cuando nadie va a estar en la galería de servicio, abrir el portillo antes de cortar la fuga de la cría, escoltar las tandas de L-4) gana tiempo y seguridad; un grupo que no las prevé aprende sobre la marcha, pero nunca sin aviso: cada reacción tiene una señal previa que el Guardián describe.
+
+### El canto del casco
+
+El roce de los dentículos contra el metal viaja por las estructuras sólidas. En P-2, en E-1 y en L-4 se oye un chirrido de acero que no para. En P-2, Quiroga e Ivo llevan horas oyendo cómo sellan la portilla desde fuera; la costra alrededor de la junta es parte de por qué la portilla parece soldada. Es la firma sonora de la especie: dentículos contra acero, repetidos, sin ritmo que responda a nada.
+
+> La portilla está fría al tacto, vibra un poco y, si apoyas el casco en el metal, oyes el raspado. No es un golpe. Es un arrastre húmedo, con pausas irregulares, como si algo estuviera pasando la lengua por la junta desde fuera. Lleva horas así.
+
 ### Contacto
 
-El contacto puede empezar sin que nadie lo note. En L-4, un costrero puede **adherirse a la pierna de un traje** y pasar desapercibido hasta que la radio de otro lo dice. El anclaje por cilios es silencioso; el traje no alerta de una carga tan leve.
+El anclaje por cilios es silencioso y el traje no avisa de una carga tan leve. En L-4 un costrero puede **adherirse a la pierna de un traje** y pasar inadvertido hasta que otro lo vea (+1 de Estrés al descubrirlo). Mientras está adherido, trabaja el tejido: si nadie lo retira en **1d5 asaltos**, muerde.
 
-Una mordedura sobre traje hace el daño del original (**1d10**), pero la escena no es una cifra, es **sentir los dentículos trabajar el tejido antes de perforarlo**: el asedio lento, el tirón, la presión que cede. La mordedura busca el punto débil, no el punto más cercano.
+**La mordedura y el traje (PSG 28.3).** El traje de faena tiene PA 3. El daño menor que los PA se ignora: una mordedura de 1 o 2 puntos raspa el tejido y nada más. Una mordedura de **3 o más** destruye la armadura (el traje queda perforado) y se sufre el daño restante. En una galería sin aire respirable, el traje perforado se despresuriza en 1d5 asaltos: o se parchea o empieza la cuenta del PSG 33.1. Ese es el verdadero peligro del costrero y la razón por la que nadie entra en L-4 sin parches.
 
-La sangre en un tramo húmedo atrae en la medida del original. Se describe el **giro ciego de los anillos buscando**, orientándose por gradiente, sin saber qué es lo que sangra.
+> El anillo de dentículos gira sin ojos y roza el metal buscando el temblor de tu bota. No embiste: se ancla. Notas el peso subir por la caña del traje antes de verlo. Cuando el tejido empieza a ceder, ya llevas un segundo sintiendo cómo trabaja.
 
-## Fichas de amenaza para Mothership 1e
+## Fichas para Mothership 1e
 
-Los valores usan el formato breve de criaturas: **C** Combate, **I** Instinto, **W** Heridas máximas. El daño se resuelve con las reglas habituales del juego. La Salud se añade conforme al criterio general de 1e. Si la mesa usa fichas más extensas, tutelar el resto de campos no cambia la conducta descrita.
+Formato de criaturas del manual: **Combate**, **Instinto**, **Heridas (Salud por herida)**.
 
 ::: ficha Costrero aislado
 Crustivermis nadirensis · adulto
-Combate 25 · Instinto 35 · Salud 6 · Heridas 1 · Armadura 0
-Ataques: mordedura (1d10)
-Rasgos: ciego, percibe vibraciones por sólidos; busca refugio húmedo tras atacar; tolera aire seco 10–20 min
-:::
-
-::: ficha Dos costreros en corredor
-Crustivermis nadirensis · pareja
-Combate 30 · Instinto 40 · Salud 6 · Heridas 1 · Armadura 0
-Ataques: mordedura (1d10 c/u)
-Rasgos: evitan enfrentarse si se cierra la fuga
+Combate 25 · Instinto 35 · Heridas 1(6) · Armadura 0
+Ataques: mordedura (1d10, Sangrado)
+Rasgos: ciego, percibe vibraciones por sólidos; tolera el aire seco 10–20 min; busca una grieta húmeda tras atacar
 :::
 
 ::: ficha Costrero defensor de puesta
 Crustivermis nadirensis · residente de cría
-Combate 35 · Instinto 45 · Salud 8 · Heridas 2 · Armadura 0
-Ataques: mordedura (1d10+2)
-Rasgos: no abandona la zona de cría
+Combate 35 · Instinto 45 · Heridas 2(8) · Armadura 0
+Ataques: mordedura (1d10+2, Sangrado)
+Rasgos: no abandona la zona de cría (unos veinte metros alrededor de la puesta)
 :::
 
-::: ficha Enjambre pequeño (3–6)
+::: ficha Grupo pequeño (3–6)
 Crustivermis nadirensis · grupo
-Combate 30 · Instinto 40 · Salud 6 · Heridas 1 · Armadura 0
-Ataques: mordeduras individuales (1d10 c/u); no son seis ataques automáticos
-Rasgos: rodea una fuente de vibración o sangre
+Combate 30 · Instinto 40 · Heridas 1(6) cada uno · Armadura 0
+Ataques: una mordedura por ejemplar que esté de verdad al alcance (1d10)
+Rasgos: rodea una fuente de vibración o sangre; nunca son seis ataques automáticos contra la misma persona
 :::
 
-**Efecto adicional de mordedura:** si la víctima ya está sangrando o tiene una herida abierta, un costrero próximo prefiere esa fuente. **No hay contagio universal, ni parálisis mágica, ni control mental.** Las heridas pueden causar una hemorragia que exige asistencia según las reglas habituales. **No impongas una Herida automática** por una mordedura que no la haya causado mecánicamente.
+La munición puede matarlos. Disparar también perfora conductos, destroza filtros, hiere compañeros o abre una junta (anuncia el riesgo antes de la tirada). Una mordedura no impone una Herida que el daño no haya causado; las Heridas siguen la tabla del PSG (tipo Sangrado).
 
-### Ataques y contramedidas útiles
+## Dónde están y cómo se mueven
 
-- Detener un taladro disminuye la atracción; **no hace desaparecer** a los animales ya presentes.
-- Aislar una fuga de aire puede hacer que dejen de sellarla y regresen a su medio.
-- Un señuelo de vibración puede desviar a exploradores hacia un tramo conectado; debe existir ruta física, fuente de energía y tiempo de reacción.
-- Pulverizar agua o colocar gel crea humedad y puede **alargar**, no acortar, el tiempo que la criatura soporta un pasillo humano.
-- La munición puede matarlos. Disparar también puede perforar conductos, destrozar filtros, herir compañeros o empeorar una junta; anuncia los riesgos materiales antes de las tiradas.
-- Las salidas al vacío pueden proteger frente a costreros, **no** frente a despresurización o fallo de un traje.
+| Lugar | Al empezar | Cambia si… |
+|---|---|---|
+| Junta J-17 y tramo bajo | Tres resellando la fractura; varios bajo la costra de Teo Mahr | V-12 se cierra (migran); se trabaja J-17 con herramientas (Atención +2 y el resellado se interrumpe) |
+| Portilla de P-2 (exterior) | Dos o tres sellando la junta desde la cavidad de debajo | Se cicla la cámara de paso muchas veces |
+| L-4 | Uno o dos exploradores | Se usa como ruta (Atención sube con cada ciclo de la compuerta) |
+| Cavidad de cría | Seis a diez dispersos y tres defensores junto a la puesta | Se corta la fuga de aire (se calman y el sellado pasa al portillo); se toca la puesta (defensa) |
+| Galería de servicio y V-12 | Ninguno | V-12 se cierra (migración desde el tramo bajo) |
+| Tramo de inspección de H-4 | Uno o dos si hay fuga de aire | Se restituye el alivio con percusión |
+| Rejilla de R-3 | Ninguno | H-4 llega a 4 y hay sangre dentro |
+| Superficie, B-4, C-0 | Ninguno | Nunca, salvo una abertura húmeda creada durante la partida |
 
-## Cómo describirlos
+**El resellado de J-17.** Si nadie trabaja J-17 con herramientas y su Atención se queda en 0–1, la colonia termina de sellar la fractura hacia las **03:36** del día siguiente: H-4 baja 1 y la bomba deja de ser necesaria aunque V-12 siga abierta. Es lento, gratuito e invisible para quien no lo sepa. Recoger pruebas en J-17 con el limpiador o el martillo lo retrasa doce horas.
 
-Ocho imágenes de campo para usar tal cual o como plantilla. Todas son físicas; ninguna sugiere intención.
+## Ritmo del descubrimiento
 
-- **El tubo de cal.** Un cilindro blanquecino pegado a la roca, quieto, sin cabeza ni cola visibles. Al tocarlo con la luz, la superficie devuelve un brillo de sal, no de piel.
-- **El anillo.** El extremo delantero se abre en pétalos de dientes pequeños y regulares. Gira en vacío, buscando, sin urgencia.
-- **El avance.** No repta: se arrima. Cada segmento se ancla y tira del siguiente, y el cuerpo se queda donde estaba menos un trecho.
-- **El sonido.** Un chirrido húmedo de dentículos contra metal, con pausas. No cambia de ritmo cuando uno se acerca.
-- **La humedad dejada atrás.** A su paso queda una película mucosa que refleja la linterna y huele a mar cerrado.
-- **La costra.** Los parches circulares de cal en la pared, uno dentro de otro, y en el centro una grieta que ya no lo es.
-- **El cuerpo.** Una forma humana medio hundida en la costra, con el contorno unido a la roca, y un bulto que se mueve por dentro a compás de los dientes.
-- **La retirada.** Cuando el aire pesa y la luz es demasiado, el animal se deshilacha hacia una grieta húmeda y desaparece antes de que nadie lo vea irse.
+Los jugadores no deberían conocer la biología completa demasiado pronto, ni depender de una revelación final. Cada fuente da una pieza y ninguna es imprescindible.
 
-## Dónde se encuentran al empezar
-
-- **Junta J-17:** **tres individuos** buscan volver a sellar una fisura tras la limpieza.
-- **Galería L-4:** **seis a diez ejemplares dispersos**, con tres defensores asociados a una puesta en un lateral. **No son una horda compacta.**
-- **Tubo de desagüe H-4:** **uno o dos exploradores** si persiste una fuga humana.
-- **B-4:** **no hay costreros en las zonas sanas al inicio.** Si aparecen allí será por un cambio físico producido durante la partida, no para subir arbitrariamente la tensión.
-
-> En J-17 el anillo de roca está destrozado y el colector, partido. Sobre la fractura, tres tubos de cal trabajan despacio, aplicando gel a los bordes. No os miran, porque no ven. Solo uno levanta el extremo delantero cuando vuestras botas tocan la chapa, y el anillo empieza a girar.
+| Pieza | Fuentes posibles | Lo que permite hacer |
+|---|---|---|
+| Las costras son orgánicas | Filtro de B-4, informe 117-C, lector de Vera | Sospechar de las «incrustaciones»; tratarlas con cuidado |
+| Vibración → presencia → sellado | Filtro abandonado, L-4, portilla de P-2 | Medir el ruido propio; elegir entre rapidez y silencio |
+| Sellan fugas, también cuerpos | Relicario de Teo, Serrat, Milena | Sacar a los vivos y a los heridos pronto |
+| Trabajan la fuga más intensa y luego la siguiente | Cría (orientación de los depósitos), Nora, análisis de Vera | Prever adónde se desplaza la colonia; usar fugas como señuelo |
+| Necesitan humedad | Tolerancia observada, migración tras V-12 | Usar rutas secas; no rociar agua para «limpiar» |
+| Defienden la puesta | Cría | Rodear, no tocar |
 
 ## Discusión
 
-El costrero es un animal de mantenimiento, no un depredador. Su interés por los humanos pasa por dos vías: el **sellado** (toda humedad que se pierde hacia fuera se tapa) y la **alimentación** oportunista junto a tejido sangrante. Todo lo demás —presencia, persecución, convergencia— es **respuesta a vibración o a química**, y se puede leer, prever y contrarrestar con las tablas anteriores.
+El costrero es un animal de mantenimiento. Su relación con los humanos pasa por el **sellado** (toda humedad o gas que escapa se tapa) y la **alimentación** oportunista junto a tejido sangrante. Lo demás es respuesta a vibración o a química, y se puede leer, prever y contrarrestar, aunque nunca con garantía absoluta.
 
-De ahí la utilidad de mesa: el Guardián no necesita un villano. Necesita recordar **qué vibra, qué gotea y qué está conectado con una cavidad.** Si los jugadores comprenden esas tres cosas, empiezan a ganar terreno. Si no, la criatura les enseñará el terreno a base de dentículos.
-
-Para el desarrollo del suceso de C-7, el dato clave no es la amenaza que representan, sino la función que cumplen: **sellaban una fractura que el mantenimiento humano abrió.** Respetar ese hecho evita convertirlos en monstruos y mantiene el horror donde nace: en la materia, la humedad y la oscuridad.
-
-::: caja Principios de dirección
-- No añadas telepatía, plan colectivo, inteligencia ni maldad. El costrero es indiferente.
-- No impongas Heridas automáticas por mordeduras que no las hayan causado; aplica el daño del original.
-- No los saques al vacío, no los hagas crecer al instante ni crear un monstruo gigante.
-- No aparezcan en B-4 sin un cambio físico causado en la partida.
-- No avances la Atención de la colonia «porque toca»: muévela por vibración o química reales, y anúncialas antes.
-:::
+Para el suceso de C-7, el dato clave es la función que cumplían: **sellaban una fractura que el mantenimiento humano abrió**, y siguen haciéndolo mientras las personas intentan salir.

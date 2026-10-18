@@ -1,52 +1,43 @@
 # Documentos para los jugadores
 
 ::: resumen
-Compendio documental del expediente ND-17: catorce piezas recuperadas entre B-4, C-0, R-3 y P-2 durante las horas posteriores a la rotura de la junta J-17. Se ordenan por vía de obtención, no por peso probatorio. Ninguna pieza, por sí sola, cierra el caso.
-Palabras clave: documento, evidencia, trazabilidad, R-3, P-2, J-17
+Compendio documental del expediente ND-17: piezas recuperadas entre B-4, R-12, C-0, R-3 y P-2 durante las horas posteriores a la rotura de la junta J-17. Se ordenan por vía de obtención, no por peso probatorio. Los registros que crecen con el tiempo se entregan por tramos y solo hasta la hora en que se consultan.
+Palabras clave: documento, evidencia, trazabilidad, registro, diario, R-3, P-2, J-17
 :::
 
 ## Cómo usar estos documentos
 
-Cada pieza está escrita para copiarse a una nota, enviarse por chat o imprimirse en papel sucio. Los encabezados de entrega son material del Guardián: no forman parte del texto que leen los jugadores. Ningún documento es imprescindible. Cada hecho del escenario tiene al menos dos vías de acceso, y varias de estas hojas solo confirman lo que ya se puede deducir en la mesa.
+Cada pieza está escrita para copiarse a una nota, enviarse por chat o imprimirse; el apéndice «Documentos imprimibles» las reproduce sin ninguna nota del Guardián. Lo que va fuera de los recuadros (cuándo se entrega, qué significa) es solo para ti.
 
-::: caja Principios de dirección
-- Entrega cada documento solo si lo obtienen; nunca todos de golpe.
-- No conviertas una hoja en un examen: no pidas tiradas para leer un papel que ya tienen en las manos.
-- Los documentos se recuperan por vía de obtención, no por orden de guion.
-- La declaración de Ivo (D11) puede ser parcial, completa, ante el grupo o grabada de otro modo. No obligue al preso a pronunciar la última frase si su conducta en mesa fue otra.
-- El registro de radio (D12) no explica el raspado. Nadie identifica la voz ni el origen hasta encontrar el cuerpo en E-1.
-- El expediente de Lisán (D13) es una pista y un espejo, no un reloj nuevo: no retrase la evacuación por él.
-- El diario de Quiroga (D14) muestra desgaste humano, no un mensaje cifrado.
-:::
-
-### Vías de obtención
-
-La tabla no es un orden de juego: es una red. Cada pieza puede llegar por dos caminos distintos, y ninguna bloquea el avance si se pierde.
+- Entrega cada documento solo si lo obtienen, y nunca todos a la vez.
+- No pidas tiradas para leer un papel que ya tienen en las manos.
+- **Los registros vivos** (D12-B y D14) se entregan por tramos: solo los tramos cuya hora de cierre ya ha pasado cuando se consultan, y solo las variantes que corresponden a lo que ha ocurrido en la partida. Un documento recuperado nunca anticipa un hecho que no ha sucedido.
+- Ningún documento es imprescindible: cada hecho tiene al menos dos vías más (matriz de pistas).
 
 | Pieza | Vía principal | Vía alternativa |
 |---|---|---|
-| D01 | Pregunta directa al inicio | Puesto de guardia de B-4 |
-| D02 | Consulta de Vera en terminal local | Investigar el filtro de la escena inicial |
-| D03 | Escena de radio inicial | Repesca del paquete sin confirmar en C-0 |
-| D04 | Inspección de J-17 | Archivo local de Control C-0 |
-| D05 | Diagnóstico en Control C-0 | Reconstrucción técnica desde los manómetros |
-| D06 | Comunicación con R-3 | Revisión de inventario de soporte vital |
-| D07 | Radio con Quiroga | Llegada a P-2 |
-| D08 | Tableta de Ivo | Rastros y abrazaderas en L-4 |
-| D09 | Archivo de muestras en B-4 | Examen de la cavidad de cría |
-| D10 | Restaurar R-12 | Radio con línea de visión a Bastión |
-| D11 | Colaboración de Ivo | Reconstrucción de la modificación clandestina |
-| D12 | Reparar el panel de R-12 | Registro local del canal al entrar en C-7 |
-| D13 | Archivo penitenciario de Bastión | Placa de pecho hallada en la cavidad de cría |
-| D14 | Llegada a P-2 | Comunicación con Quiroga |
-
-Ninguna hoja es una llave única. Si los jugadores no recuperan un documento, la misma información sigue disponible por testimonio, daño físico o inspección directa.
+| D01 Permiso de cuadrilla | Preguntar por los permisos al inicio | Puesto de guardia de B-4 |
+| D02 Informe 117-C | Terminal de B-4 | Analizar el filtro de la escena inicial |
+| D03 Último mensaje de Mara | Escena de radio | Registro de C-0 |
+| D04 Orden 517-J | Archivo de C-0 | Copia pedida a Bastión; Ulma |
+| D05 Registro de presión | Diagnóstico en C-0 | Reconstrucción desde los manómetros |
+| D06 Manifiesto de R-3 | Radio con R-3 | Inventario de soporte vital en C-0 |
+| D07 Hoja de la bomba | Radio con Quiroga | Llegada a P-2 |
+| D08 Plano antiguo de L-4 | Nicho de L-4 | Tableta de Ivo (si la entrega) |
+| D09 Informe de fauna | Archivo de B-4 | Petición a HRF por radio |
+| D10 Mensaje de Bastión | R-12 reparado | Radio desde B-4 antes de salir |
+| D11 Declaración de Ivo | Si Ivo colabora | Reconstrucción de la modificación |
+| D12-A Búfer de R-12 | Panel de R-12 al repararlo | — (D12-B lo cubre) |
+| D12-B Registro del canal de alguaciles | Panel de C-0 | Radio de Serrat recuperada en E-1 |
+| D13 Expediente Lisán | Archivo penitenciario de Bastión | Placa en la cría + consulta a ACE |
+| D14 Diario de Quiroga | Llegada a P-2 | Quiroga lo lee por radio |
+| D15 Registro de vehículos de Bastión | Elia o cualquiera con acceso HRF | Bruna, si se le pregunta |
 
 ## Documentos de campo
 
-### D01 · Cuándo se entrega: al inicio de la partida, si los jugadores preguntan por sus permisos.
+### D01 · Al inicio, si preguntan por sus permisos
 
-::: documento Autorización de cuadrilla de confianza
+::: documento D01 · Autorización de cuadrilla de confianza
 **ACE / HRF · NÁDIR · PERMISO DE TRABAJO MIXTO**
 Unidad técnica M-4. Habilitación diaria 07:00–19:00.
 **Áreas autorizadas:** Bastión, B-4, rutas señalizadas y sectores habilitados por orden de emergencia.
@@ -56,249 +47,289 @@ Unidad técnica M-4. Habilitación diaria 07:00–19:00.
 **Registro obligatorio:** indicativos, número de trajes, ruta, materiales peligrosos y retorno previsto.
 :::
 
-El permiso es real y está en regla. La excepción de seguridad inmediata es la cláusula que permite a un alguacil moverse rápido sin pedir permiso a Bastión; conviene que los jugadores la lean con atención antes de que la necesiten.
+La excepción de seguridad es la cláusula que permite al alguacil moverse sin esperar a Bastión.
 
-### D02 · Cuándo se entrega: si Vera consulta su análisis de B-4 o si investigan el filtro de la escena inicial.
+### D02 · Si consultan el terminal de B-4 o investigan el filtro
 
-::: documento Registro de B-4 · el material orgánico
-**LAB B-4 / INFORME DE MUESTRA 117-C**
+::: documento D02 · Registro de B-4: muestra 117-C
+**LAB B-4 / INFORME DE MUESTRA 117-C** · Analista: V. Soria (interna, programa especializado)
 Origen: depósito retirado de junta de bombeo.
 Morfología: cristalización mineral no homogénea. Fase secundaria con entramado orgánico microscópico.
 Hipótesis preliminar: precipitación mediada por organismo local, **no demostrada**.
 **Recomendación:** no clasificar automáticamente los depósitos como incrustación inerte hasta comparar con muestras de cavidades naturales.
-Estado: revisión pendiente. No distribuido a todos los frentes.
+Estado: **pendiente de revisión — Oficina técnica HRF, Bastión.** No distribuido a los frentes.
 :::
 
-Vera reconoce la letra: es suya. El informe quedó bloqueado en revisión y nunca llegó al frente de C-7. Ese bloqueo es parte de la cadena que nadie firmó.
+Vera reconoce el informe: es suyo. Lleva doce días en la bandeja de la oficina técnica de Oria.
 
-### D03 · Cuándo se entrega: en la escena de radio inicial. Es opcional que la graben.
+### D03 · En la escena de radio; también en el registro de C-0
 
-::: documento Último mensaje de Mara
-**ACE / RADIO DE SERVICIO**
-Emisor: M. Venn, C-7.
-Hora: 09:48.
+::: documento D03 · Último mensaje de Mara
+**ACE / CANAL DE ALGUACILES · BANDA C**
+Emisor: M. Venn, C-7. Hora: 09:48:00.
 
-> «Gael, ¿me recibes? Se nos ha ido el colector de presión. Hay heridos y las compuertas se están cerrando. Estamos entrando en el refugio… Escúchame. No abras la esclusa principal sin comprobar el diferencial. Dile a Vidal que necesitamos…»
+> «Gael, ¿me recibes? Sector C-7. Se nos ha ido el colector de presión. Hay heridos y las compuertas se están cerrando. Estamos entrando en el refugio… Escúchame. No abras la esclusa principal sin comprobar el diferencial. No sé cuánto aguantará. Dile a Vidal que necesitamos…»
 
-**Fin de señal:** pérdida de alimentación del repetidor R-12.
-Último paquete recibido sin confirmación.
+**Fin de señal:** 09:48:40. Batería de respaldo del repetidor R-12 agotada.
 :::
 
-Si el Marine se llama de otro modo, use su nombre. Si el vínculo con Mara no es romántico, conserve el tono cercano de alguien que sabe a quién llama. La radio se cortó porque R-12 perdió energía, no porque alguien pulsara un botón en el momento dramático.
+Si el alguacil se llama de otro modo, usa su nombre.
 
 ## Documentos técnicos del complejo
 
-### D04 · Cuándo se entrega: archivo local de Control C-0, inspección de J-17 o copia solicitada a Bastión.
+### D04 · Archivo de C-0, copia de Bastión o testimonio de Ulma
 
-::: documento Parte de mantenimiento de C-7
+::: documento D04 · Orden de trabajo 517-J
 **HRF · ORDEN DE TRABAJO 517-J**
 Operación: retirada de costras en junta J-17.
 Motivo: pérdida de rendimiento del drenaje y retención de humedad.
 Riesgo descrito: obstrucción y corrosión.
 Procedimiento: aislamiento parcial de línea, calentamiento localizado y retirada mecánica.
-Responsable de autorización: jefe técnico C-7 (fallecido durante la rotura).
-**Observación sin resolver:** «depósito reaparece después de cualquier ciclo de presurización».
+Autoriza: A. Rius, jefe técnico de C-7. Visto bueno: O. Sable, dirección de operaciones.
+Ejecución asignada: U. Senn (limpiador térmico), T. Mahr (línea). Supervisión: guardia ACE de turno.
+**Observación sin resolver:** «el depósito reaparece después de cualquier ciclo de presurización».
 :::
 
-La orden es impecable en forma. El problema no está en el procedimiento: está en lo que el procedimiento no sabía que estaba retirando.
+La orden es impecable en la forma. El problema está en lo que no sabía que retiraba.
 
-### D05 · Cuándo se entrega: diagnóstico en Control C-0; requiere acceso o reconstrucción técnica.
+### D05 · Diagnóstico en C-0
 
-::: documento Registro de presión
-**C-0 / HISTÓRICO INDUSTRIAL 09:34–09:45**
-09:34: presión de J-17 estable.
-09:36: caída súbita de resistencia en junta; entrada de fluido de proceso no identificado.
-09:37: caudal de drenaje principal por encima de nominal.
-09:37: derivación B — **respuesta inferior a lo esperado**.
-09:39: deformación de E-1; cierre incompleto.
-09:40: cierre manual de sector solicitado por ACE/M. Venn.
-09:43: separación efectiva de galerías habitables.
-09:44: alimentación secundaria R-12 interrumpida.
-**NOTA:** la orden de cierre se emitió **después de la entrada de salmuera**.
+::: documento D05 · Registro de presión de C-7
+**C-0 / HISTÓRICO INDUSTRIAL 09:34–09:56**
+09:34 — presión de J-17 estable.
+09:36 — caída súbita de resistencia en junta; entrada de fluido de proceso no identificado.
+09:37 — caudal de drenaje principal por encima de nominal.
+09:37 — derivación B: **respuesta inferior a la esperada**. Válvula secundaria DB-3: ABIERTA (plano de operación: CERRADA).
+09:39 — deformación de E-1; cierre incompleto.
+09:40 — cierre manual de sector solicitado por ACE / M. Venn.
+09:43 — separación efectiva de galerías habitables.
+09:44 — alimentación secundaria del repetidor R-12 interrumpida (línea C-7).
+09:45 — R-3: 13 biométricas. P-2: 2 biométricas.
+09:48 — enlace R-12: fin de portadora.
+09:56 — bomba de trasiego P-2: arranque manual, potencia reducida.
+**NOTA AUTOMÁTICA:** la orden de cierre se emitió **después** de la entrada de salmuera.
 :::
 
-Ese orden de filas es el corazón del caso. La salmuera llegó primero; la orden de cierre llegó cuatro minutos después. Quien lea la nota sin buscar un culpable verá una decisión tomada con datos incompletos.
+La salmuera llegó primero; la orden de cierre, cuatro minutos después. La válvula DB-3 es el rastro del bypass.
 
-### D06 · Cuándo se entrega: en la comunicación con R-3 o al revisar inventario de soporte vital.
+### D06 · Por radio con R-3 o en el inventario de C-0
 
-::: documento Manifiesto de filtros del refugio
+::: documento D06 · Manifiesto del refugio R-3
 **REFUGIO INDUSTRIAL R-3**
-Aforo certificado: 10 personas.
-Ocupación comunicada: 13.
-Oxígeno almacenado: reserva suficiente a corto plazo.
-Capacidad absorbente de CO₂ restante: 6 kg aproximados.
-Producción respiratoria estimada del grupo: 0,585 kg de CO₂/h.
+Aforo certificado: 10 personas. Ocupación comunicada: 13.
+Oxígeno almacenado: suficiente a corto plazo.
+Capacidad absorbente de CO₂ restante a las 09:45: 6 kg aproximados.
+Producción respiratoria estimada del grupo: 0,6 kg de CO₂ por hora.
 **AVISO:** la amenaza dominante es el agotamiento de absorbentes, no el oxígeno.
-Compatible con cartucho industrial HRF modelo C-12 si la instalación conserva estanqueidad.
+Compatible con cartucho industrial HRF C-12. Recambios en armario del pasillo de servicio (lado exterior del portillo): 2.
+Trajes de escape: 2.
 :::
 
-El documento marca la cuenta que decide la operación: trece personas en un refugio de diez, y un reloj que corre por filtros, no por aire. Inyectar oxígeno a una cámara saturada de CO₂ no salva a nadie.
+Seis kilos entre 0,6 por hora: diez horas desde las 09:36. La línea de los recambios es la que Celia recuerda.
 
-### D07 · Cuándo se entrega: radio con Quiroga, llegada a P-2 o reconstrucción de la bomba.
+### D07 · Por radio con Quiroga o en P-2
 
-::: documento Anotación de la bomba P-2
-**P-2 · HOJA MANUAL ESCRITA SOBRE ETIQUETA**
-Bomba principal OK a potencia reducida.
+::: documento D07 · Hoja manual de la bomba P-2
+**P-2 · HOJA ESCRITA SOBRE ETIQUETA**
+Bomba principal OK a potencia reducida desde 09:56.
 Descarga de emergencia al depósito de decantación.
-Batería auxiliar ≈ 6 h de servicio desde la rotura, según carga.
-Si cae caudal, aumenta presión contra junta del tramo hacia R-3.
-**No evacuar P-2 dejando bomba sin sustitución.**
+Batería auxiliar: unas 6 h de servicio desde la rotura.
+Si cae caudal, sube presión contra la junta del tramo hacia R-3.
+Cebar cada poco. Sin automatismo: no dejar sola.
+**No evacuar P-2 dejando la bomba sin sustitución.**
 Opciones: traer batería, restablecer automatismo o cerrar V-12 y esperar caída de presión.
 Firmas: L. Quiroga / I. Sen.
 :::
 
-Las dos firmas comparten renglón. La caligrafía de Quiroga es firme; la de Ivo, pequeña y apretada. Es el único papel donde los dos aparecen juntos, y sale de una estación que estaba dada por perdida.
+Las dos firmas comparten renglón. La de Quiroga es firme; la de Ivo, pequeña y apretada.
 
-### D08 · Cuándo se entrega: registro físico de C-0, tableta de Ivo o rastros hallados en L-4.
+### D08 · En el nicho de L-4 o en la tableta de Ivo
 
-::: documento Plano antiguo de L-4
-**PLANO INDUSTRIAL · VERSIÓN ANTIGUA**
-Corredor de inspección L-4.
-Nota manuscrita: «conducto de drenaje B desconectado según versión 4.1».
-**Discrepancia observada:** abrazaderas y un tramo de conexión de instalación reciente.
-No se identifica responsable.
-El acceso a la portilla superior de R-3 está señalado en tinta sobre el papel, pero el trazado pasa por una cavidad natural.
+::: documento D08 · Plano antiguo de L-4
+**PLANO INDUSTRIAL · VERSIÓN 3.2 (anterior a la digitalización)**
+Corredor de inspección L-4. Rotulado a máquina: «clausurado».
+Notas a lápiz, recientes: «DB-3 abierta = L-4 seca», «caja EL-4: línea V-12», «sur: tramo viejo hacia el macizo».
+Acceso a la portilla superior de R-3 señalado a tinta; el trazado atraviesa una cavidad natural.
 :::
 
-El plano miente por omisión: marca clausurado un corredor que sigue abierto y conecta con el refugio por una cavidad natural. No prueba por sí solo quién hizo la obra. Un testigo, una herramienta marcada o la reconstrucción de Control completan la conclusión.
+El plano marca clausurado un corredor que sigue abierto. Las notas a lápiz no dicen de quién son; la letra es pequeña y apretada, como la de D07.
 
-### D09 · Cuándo se entrega: archivo de muestras, puesto de fauna en B-4 o examen de una cavidad.
+### D09 · En el archivo de B-4 o pidiéndolo a HRF
 
-::: documento Informe de incidente de fauna
+::: documento D09 · Informe de incidencias de fauna
 **HRF / ANOMALÍAS BIOLÓGICAS LOCALES**
 Denominación popular: COSTRERO.
 Observación: animales ciegos, excavadores, muy sensibles a vibraciones en sólidos.
 Presencia frecuente en uniones con fuga de gas; producción de material mineralizado.
-Ataques: principalmente en contacto físico, cercanía a puestas y presencia de tejido orgánico.
+Ataques: en contacto físico, cerca de puestas y en presencia de tejido orgánico.
 Exposición a aire seco: tolerancia limitada.
-**Estado científico:** información incompleta. No se ha demostrado comportamiento coordinado ni intención de sabotaje.
+**Estado científico:** información incompleta. Ningún indicio de comportamiento coordinado ni intencional.
 :::
-
-El informe describe sin entender. La frase que importa es la última: nada indica un plan. El daño es ecológico, no malicioso, y eso lo hace más difícil de negociar.
 
 ## Documentos de enlace y declaración
 
-### D10 · Cuándo se entrega: tras restaurar R-12 o conseguir radio con línea de visión.
+### D10 · Con enlace con Bastión
 
-::: documento Mensaje de Bastión
+::: documento D10 · Mensaje de Bastión
 **BASTIÓN A UNIDAD M-4**
 La enfermería prepara material de trauma. Segundo rover disponible cuando finalice carga y revisión.
-Tiempo estimado hasta salida: 2–3 h desde solicitud confirmada. Traslado por ruta señalizada según estado del glaciar.
-ACE solicita lista de internos, situación médica y responsable del traslado.
-HRF autoriza extracción de cartuchos absorbentes y batería industrial con registro de consumo.
+Salida estimada: 2 h desde solicitud con relación de material justificada; 3 h en otro caso. Traslado por ruta de R-12: 2 h 30 min a 3 h.
+ACE solicita lista de internos, situación médica y responsable de cada traslado.
+HRF autoriza extracción de cartuchos absorbentes, batería industrial y depurador portátil con registro de consumo.
 **NO EXISTE EVACUACIÓN ORBITAL INMEDIATA DESDE C-7.**
-Fin.
 :::
 
-El mensaje es ayuda real, no rescate instantáneo. Dos o tres horas hasta que el rover salga, más el camino. Los relojes de R-3 y P-2 no esperan a Bastión.
+### D11 · Si Ivo colabora o se reconstruye la modificación
 
-### D11 · Cuándo se entrega: si Ivo decide colaborar o tras reconstruir la modificación clandestina.
-
-::: documento Declaración provisional de Ivo
+::: documento D11 · Declaración provisional de Ivo Sen
 **DECLARACIÓN NO FORMAL · I. SEN**
 Yo instalé una derivación del drenaje hace unos meses. No pretendía romper nada. La hice para mantener seca una galería vieja y poder salir por allí cuando encontrara transporte.
 No fui quien ordenó limpiar J-17. No sabía que detrás había una bolsa a presión.
-Cuando empezó a entrar agua, Quiroga y yo fuimos a la estación de bombeo. Seguimos aquí.
+Cuando empezó a entrar agua, Quiroga y yo estábamos en la bomba. Seguimos aquí.
 Lo que hice cambió el caudal. No voy a negar eso.
 
 > «Ahora decidid si queréis que pare el motor para ponerme las esposas o si primero sacamos vivos a los demás.»
-
 :::
 
-La confesión no absuelve a Ivo: su bypass agravó la rotura al impedir que la vía alternativa absorbiese el exceso. Tampoco la originó. Las dos afirmaciones son verificables con registros y daños físicos, y ninguna de las dos convierte a un preso en el monstruo de la historia.
+Puede ser parcial o completa según lo que haya pasado en mesa. No obligues a Ivo a decir la última frase si su conducta fue otra.
 
 ## Anexos recuperados
 
-### D12 · Cuándo se entrega: durante el viaje, si reponen el panel de R-12, o al entrar en C-7 y recuperar el registro local del canal de alguaciles.
+### D12-A · Al reparar R-12
 
-::: documento Registro de radio · canal de alguaciles
-**CANAL CERRADO DE ALGUACILES · BANDA C**
-Receptor: panel de servicio C-0. Recuperación parcial. Portadora abierta.
-Transpondedor TRAJE ACE-04. Titular asignado: SERRAT, E.
-Sin cambio de canal. Sin palabra clave de emergencia. Sin voz identificable tras 09:39.
+El repetidor guarda en su búfer lo que retransmitió en el canal de alguaciles hasta que se apagó. No contiene nada posterior a las 09:48:40.
 
+::: documento D12-A · Búfer del repetidor R-12 · canal de alguaciles
+**R-12 / BÚFER DE RETRANSMISIÓN · BANDA C**
+Transpondedor: TRAJE ACE-04. Titular asignado: SERRAT, E.
 09:39:02 — portadora abre. Ruido de junta forzada. Dos golpes metálicos.
 09:39:14 — respiración amplificada por casco. Sin voz.
 09:39:41 — raspado. Rítmico. Húmedo. Seis segundos. Silencio.
-09:40:33 — segunda portadora, breve, sobre la misma frecuencia. Sin palabra.
-09:43:10 — raspado. Intermitente. Se pierde y vuelve.
-09:47:58 — pico de ruido. Sin voz.
-09:48:00 — superposición con mensaje de servicio de M. Venn. Dura 40 s. Vuelve la estática.
-10:12:44 — portadora sin variación. Raspa.
+09:40:33 — portadora breve, sin voz.
+09:43:10 — raspado. Intermitente.
+09:48:00 — entra mensaje de servicio de M. Venn en la misma banda. Superposición: 40 s.
+09:48:40 — fin de retransmisión (alimentación del repetidor agotada).
+:::
+
+### D12-B · En el panel de C-0, por tramos
+
+El panel de C-0 ha seguido grabando el canal. **Entrega solo los tramos que ya han terminado cuando lo consultan.** Si el canal se cortó (H-4 llegó a 4 y el agua cubrió el traje, o alguien recuperó la radio en E-1), entrega la línea de cierre correspondiente en lugar de los tramos posteriores.
+
+::: documento D12-B · Registro de C-0 · canal de alguaciles · tramo 1 (09:48–12:00)
+**C-0 / RECEPCIÓN LOCAL · BANDA C · TRAJE ACE-04 (SERRAT, E.)**
+Portadora abierta desde 09:39:02. Sin cambio de canal. Sin código de emergencia.
+10:12:44 — portadora sin variación. Raspado.
 10:58:19 — raspado. Cuatro pulsos. Silencio largo.
 11:31:02 — ruido de contacto. Húmedo. Sin voz.
-12:07:51 — raspado continuo. Dura 2 min 10 s. Sin voz.
-12:40:00 — portadora estable. Nada más registrado hasta 13:02.
+:::
+
+::: documento D12-B · tramo 2 (12:00–14:00)
+12:07:51 — raspado continuo. 2 min 10 s. Sin voz.
+12:40:00 — portadora estable.
 13:02:17 — raspado. Rápido. Se detiene.
-13:44:26 — campo magnético del traje al 40 %. Raspado.
+13:44:26 — batería del traje al 40 %. Raspado.
+:::
+
+::: documento D12-B · tramo 3 (14:00–16:00)
 14:19:03 — ruido de arrastre. Seis segundos. Sin voz.
 14:55:40 — raspado. Lento. Muy cerca del micrófono.
 15:33:11 — portadora abierta. Sin variación.
-16:04:09 — raspado. Se repite el patrón de 09:39:41.
-
-Fin del registro recuperado.
 :::
 
-Nadie en el complejo explica qué produce el raspado. La frecuencia no cambió, no hubo respuesta de voz y el traje no transmitió código de socorro. El canal sigue abierto cuando encuentran el registro. No aporte la explicación hasta que los jugadores hallen el cuerpo atrapado en la hoja de E-1.
+::: documento D12-B · tramo 4 (16:00–18:00)
+16:04:09 — raspado. Se repite el patrón de las 09:39:41.
+16:51:30 — batería del traje al 25 %. Raspado intermitente.
+17:40:12 — portadora estable. Sin voz.
+:::
 
-### D13 · Cuándo se entrega: al consultar el archivo penitenciario de Bastión, en el registro de C-0 o junto a la placa de pecho encontrada en la cavidad de cría.
+::: documento D12-B · cierre por agua
+[hora] — ruido de burbujeo. Portadora degradada.
+[hora + 2 min] — fin de portadora. Transpondedor ACE-04 sin señal.
+:::
 
-::: documento Expediente ACE de evasión · H. Lisán
+::: documento D12-B · cierre por recuperación
+[hora] — manipulación del equipo. Voces del personal de rescate.
+[hora + 1 min] — portadora cerrada manualmente.
+:::
+
+Nadie explica el raspado hasta que encuentran el cuerpo en E-1. Rellena la hora de los cierres con la hora real de la partida.
+
+### D13 · En el archivo de Bastión, o pidiéndolo a ACE tras encontrar la placa
+
+::: documento D13 · Expediente ACE de evasión · H. Lisán
 **ACE · DIRECCIÓN DE ESTABLECIMIENTOS PENITENCIARIOS · NÁDIR**
 EXPEDIENTE DE EVASIÓN E-14-C7
 Interno: LISÁN, HÉCTOR.
-Hecho: abandono de turno de mantenimiento exterior sin retorno a recuento.
+Hecho: abandono de turno de mantenimiento sin retorno a recuento.
 Fecha: hace tres años.
 Última posición conocida: galerías antiguas al sureste del macizo, clausuradas.
-Registro de búsqueda: dos equipos durante setenta y dos horas. Sin contacto.
-Motivo de suspensión: coste operativo y condiciones del glaciar. Prioridad reasignada a frentes activos.
+Búsqueda: equipos B-1 y B-2 asignados durante setenta y dos horas. Sin contacto.
+Motivo de suspensión: coste operativo. Prioridad reasignada a frentes activos.
 **Estado del caso:** SE PRESUME MUERTO EN SUPERFICIE.
-Sin notificación a familiares. Caso cerrado por decisión administrativa.
+Sin notificación a familiares. Caso cerrado por decisión administrativa. Firma: R. Vidal.
 
 Anotación manuscrita al margen: «El plano viejo sigue abierto por el sur. Nadie baja allí y vuelve a subir».
-
 :::
 
-La fecha encaja con otra ruta antigua acondicionada años después. Lisán es el espejo de Ivo: intentó marcharse por las galerías viejas y no lo buscaron de verdad. El expediente no mueve ningún reloj, pero cambia lo que significa escapar de Nádir.
+El expediente se contradice: sitúa a Lisán en las galerías y lo declara muerto en superficie. D15 demuestra que los equipos «asignados» no salieron de Bastión.
 
-### D14 · Cuándo se entrega: al llegar a P-2, recuperar la hoja de la bomba o comunicarse con Quiroga.
+### D14 · Diario de Quiroga, por tramos y según lo ocurrido
 
-::: documento Diario de turno de Quiroga en P-2
+Quiroga escribe en la hoja de turno. **Entrega la parte base y solo las entradas cuya hora ya ha pasado**, eligiendo en cada tramo la variante que corresponde a lo que ha ocurrido en la partida. Si los PJ llegan a P-2 a las 13:30, el diario termina en la entrada de las 13:20 o en la de contacto.
+
+::: documento D14 · Hoja de turno de L. Quiroga · base (09:44–13:20)
 **HOJA DE TURNO · L. QUIROGA · P-2**
-Hombro derecho vendado. Escritura con la mano izquierda. No hay más papel.
-
-09:44 — La rotura nos pilló sellando la bomba. No hay señal. La portilla exterior está combada. Ivo dice que el filtro aguanta unas cinco horas. Yo no se lo discuto. Primero hay que sostener el caudal.
-
-10:10 — Bomba a potencia reducida. Decantación sube despacio. Si paramos, el agua se va a la junta del tramo del refugio. La batería auxiliar trae unas seis horas desde la rotura. Las contamos en voz alta cada vez que baja el motor.
-
-10:55 — Siguen ahí fuera. Se oye un chirrido de algo raspando acero. No para. Ivo cree que es la junta; yo creo que es algo al otro lado. Da igual lo que crea: la portilla no cede desde dentro.
-
-11:40 — El chirrido continúa. Escribo para no escuchar. Comida: media ración. Agua racionada. Ivo revisa el cebado.
-
-12:30 — El hombro no me deja girar el volante. Ivo lo hace. No le he puesto las esposas. No es un acto de bondad; es que necesito las dos manos y él tiene una.
-
-13:20 — La costra alrededor de la portilla crece. Estoy segura. No está soldada: algo la está sellando desde fuera. Ivo dice que son depósitos. Yo digo que son horas. Las dos cosas son verdad.
-
-14:10 — El filtro va justo. Si alguien viene, que traiga cartuchos antes que nada. Energía para la bomba antes que para nosotros. Se lo he dicho por radio, por si alguien escucha. Repetí: energía antes que socorro.
-
-15:00 — Tres horas de chirrido. He dejado de distinguir cuándo para y cuándo empieza. Ivo ha dejado de proponer planes. Bomba en verde intermitente. Batería al cuarenta.
-
-15:50 — sellan la portilla sellan la portilla sellan desde fuera no es junta no es junta
-16:30 — hombro bien. agua bien. Ivo bien. rascan rascan rascan
-17:05 — si cae la bomba se va al refugio cerrar V-12 cerrar V-12 cerrar
-17:40 — no dormir. el chirrido en el hombro. en el hierro. en el hueso.
-18:00 — (ilegible) ...Ivo sigue... las doce... no son las doce...
-
-Última línea, con trazo cambiado: «Que suban el filtro antes que a mí».
-
+Hombro derecho vendado. Escribo con la izquierda. No hay más papel.
+09:44 — La rotura nos pilló revisando la bomba. Portilla combada. Túnel inundado. Ivo dice que el filtro aguanta unas cinco horas.
+10:10 — Bomba a potencia reducida desde las 09:56. Decantación sube despacio. Si paramos, el agua va a la junta del tramo del refugio. Batería: unas seis horas desde la rotura. Las contamos en voz alta.
+10:55 — Se oye un chirrido de algo raspando acero, al otro lado de la portilla. No para. Ivo cree que es la junta; yo creo que es algo.
+11:40 — El chirrido continúa. Escribo para no escuchar. Media ración. Agua racionada. Ivo revisa el cebado.
+12:30 — El hombro no me deja girar el volante. Ivo lo hace. No le he puesto las esposas. No es bondad: necesito las dos manos y él tiene una.
+13:20 — La costra alrededor de la portilla crece. Algo la está sellando desde fuera. Ivo dice que son depósitos. Yo digo que son horas. Las dos cosas son verdad.
 :::
 
-Quiroga no ha perdido la razón: pierde la caligrafía y el orden de las frases por cansancio, dolor y horas de ruido constante. El diario no contiene un mensaje oculto ni un código. Contiene a una persona sosteniéndose con la mano que le queda. Al otro lado de la portilla, el chirrido sigue.
+::: documento D14 · entrada de contacto (solo si alguien ha contactado con P-2)
+[hora] — Hay alguien fuera. Voces en la placa. Les he dicho lo primero: energía antes que socorro.
+:::
+
+::: documento D14 · sin aire (solo si P-2 no ha recibido aire antes de las 14:36)
+14:40 — El filtro se ha acabado. Dolor de cabeza. Ivo respira por la boca. Si alguien viene, que traiga cartuchos antes que nada.
+15:20 — Tres horas de chirrido. No distingo cuándo para. Ivo ha dejado de proponer planes.
+:::
+
+::: documento D14 · con aire (solo si P-2 recibió aire)
+[hora] — Ha entrado un cartucho por la cámara de paso. Respiro. Ivo se ha reído por primera vez en el día.
+:::
+
+::: documento D14 · bomba parada (solo si la bomba se paró a las 15:36 sin sustituto)
+15:36 — Bajo voltaje. La bomba se ha parado. El silencio del motor es peor que el raspado.
+15:50 — Ivo dice que puede llegar a V-12 por el túnel con mi traje. Le he dejado ir. Que conste que fue decisión mía.
+:::
+
+::: documento D14 · Crítico (solo si P-2 lleva más de dos horas sin aire)
+sellan la portilla sellan la portilla sellan desde fuera no es junta no es junta
+hombro bien. agua bien. Ivo bien. rascan rascan rascan
+si cae la bomba se va al refugio cerrar V-12 cerrar V-12 cerrar
+Última línea, con otro trazo: «Que suban el filtro antes que a mí».
+:::
+
+La línea de las 15:50 del tramo «bomba parada» solo se incluye si Ivo salió de verdad por el túnel.
+
+Quiroga no pierde la razón: pierde la caligrafía por cansancio, dolor, CO₂ y horas de ruido. El diario no tiene códigos ni mensajes ocultos.
+
+### D15 · Con acceso al sistema logístico de HRF
+
+::: documento D15 · Registro de vehículos de Bastión (extracto)
+**HRF · BASTIÓN · MOVIMIENTOS DE VEHÍCULOS · hace tres años**
+Día 1: Lince-6 n.º 1 — en garaje (mantenimiento de orugas). Lince-6 n.º 2 — en garaje.
+Día 2: Lince-6 n.º 1 — en garaje. Lince-6 n.º 2 — salida 14:10, B-4, carga de filtros; regreso 15:30.
+Día 3: Lince-6 n.º 1 — en garaje. Lince-6 n.º 2 — en garaje.
+Consumo de energía de vehículos en esos tres días: 9 UE.
+Equipos de búsqueda B-1 / B-2: sin asignación de vehículo.
+:::
+
+Los equipos B-1 y B-2 del expediente de Lisán no tuvieron vehículo. La búsqueda fue de radio y telemetría. Esto no mueve ningún reloj; cambia lo que significa la firma de Vidal.
 
 ## Cierre del expediente
 
-Recogidas en conjunto, las catorce piezas cuentan una cadena, no una conspiración. Un mantenimiento que limpió lo que no entendía. Un informe de laboratorio que se quedó en revisión. Una redundancia alterada por un hombre que quería escapar. Una orden de cierre emitida tarde. Y debajo de todo, una fauna indiferente que sella fugas porque sellar fugas es lo que sabe hacer.
-
-El Guardián no necesita que los jugadores reconstruyan la secuencia completa para jugar. Cada documento que obtengan es una pieza de presión sobre las decisiones: a quién creen, qué priorizan, a quién dejan atrás. Cuando terminen, ordene las hojas recuperadas sobre la mesa. Las que falten dirán tanto como las que queden.
-
-Un detalle transversal: la caligrafía. Quiroga, Vera e Ivo escriben de formas distintas, y se reconocen entre sí. Un papel que aparece donde no debería ya es una pista antes de que nadie lo lea.
+Juntas, las piezas cuentan una cadena, no una conspiración: un mantenimiento que limpió lo que no entendía, un informe que se quedó en una bandeja, una redundancia alterada por un hombre que quería escapar, una orden de cierre emitida cuatro minutos tarde y, debajo de todo, una fauna indiferente que sella fugas porque es lo que sabe hacer. Al final, ordena sobre la mesa las hojas recuperadas. Las que falten dirán tanto como las que queden.
