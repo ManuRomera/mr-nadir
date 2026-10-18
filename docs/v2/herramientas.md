@@ -2,6 +2,11 @@
 
 Esta guía explica, de una en una, todas las herramientas del módulo en Foundry: qué hace cada botón, quién lo usa y cuándo. La idea de fondo es una: **el Guardián dirige y mueve la hora; los jugadores llevan sus trajes y su carga**. Las cuentas las hace el módulo.
 
+## Se instala solo y trae tutorial
+
+- **Instalación automática.** Al activar el módulo en un **mundo vacío** (sin personajes, objetos, diarios, escenas propias, listas de reproducción, macros ni tablas), el Guardián importa la aventura solo, deja activa la escena del Frente B-4 y se asegura de que el sistema Mothership esté en su 1.ª edición. Solo lo hace una vez. En un mundo que ya tiene contenido no toca nada: importa tú desde Configuración → **MR- Nádir** → *Importar la aventura* (avisa antes de sobrescribir).
+- **Tutorial guiado.** La primera vez que entras te lo ofrece: el Guardián recibe un paseo de unos cinco minutos por todas las herramientas (guía, escenas, barra, Panel, consola, visor, alarma) y cada jugador uno de dos minutos sobre su visor y su traje. Se repiten cuando quieras desde Configuración → **MR- Nádir** o Configuración → **Tours**.
+
 ## En dos minutos
 
 1. Importa la aventura desde el compendio **MR- Nádir: Sangre bajo el hielo** (botón *Import*).

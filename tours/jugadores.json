@@ -1,0 +1,67 @@
+{
+  "title": "Nádir · Tu visor y tu traje",
+  "description": "Dos minutos para aprender a usar el visor de tu casco, tu traje y la consola de la cuadrilla.",
+  "display": true,
+  "canBeResumed": true,
+  "steps": [
+    {
+      "id": "bienvenida",
+      "title": "Estás dentro del traje",
+      "content": "Bienvenido a <b>Nádir</b>. En esta partida el aire, la energía y el tiempo son lo que decide quién sale vivo, y lo llevas tú.\nEl módulo te da un <b>visor en el cristal de tu casco</b> y una <b>consola</b> para tu traje y la carga del rover. Dos minutos y ya está."
+    },
+    {
+      "id": "visor",
+      "title": "Tu visor de casco",
+      "content": "Arriba en el centro ves la <b>hora de traje</b>, el estado de <b>tu traje</b> y los <b>relojes que ya habéis descubierto</b>. Al principio solo tendrás tu traje; los demás irán apareciendo según lo que vuestros personajes averigüen (un manifiesto, una radio, una pantalla).",
+      "selector": "#mr-nadir-visor",
+      "tooltipDirection": "DOWN"
+    },
+    {
+      "id": "casco",
+      "title": "Enciéndelo y apágalo a tu gusto",
+      "content": "Este botón de casco activa o desactiva tu visor. Si te estorba, apágalo: lo de la pantalla no cambia, solo tu proyección. También está en Configuración → Visor del casco.",
+      "selector": "#mr-nadir-visor-boton",
+      "tooltipDirection": "LEFT"
+    },
+    {
+      "id": "consola",
+      "title": "La Consola de la cuadrilla",
+      "content": "Aquí llevas lo vuestro: <b>tu traje</b>, <b>lo que sabéis de C-7</b>, <b>lo que habéis hecho</b> y <b>la carga del rover</b>. Se abre con el botón ☰ de tu visor o desde los controles de token.",
+      "selector": "#mr-nadir-cuadrilla",
+      "tooltipDirection": "RIGHT"
+    },
+    {
+      "id": "traje",
+      "title": "Tu traje de faena",
+      "content": "Mientras vas conectado al rover o a una toma de Control, tu mochila no se gasta. Cuando te desconectes, pulsa <b>Pasar a mochila</b>; al volver, <b>Conectar umbilical</b>. Si haces un esfuerzo (cargar, trepar, forzar), pulsa <b>Esfuerzo</b>: la mochila dura un tercio.\nDura 12 horas a ritmo normal y 4 con esfuerzo. Con <b>Recambio</b> pones una mochila nueva (gasta uno de la carga).\nCuando te queden menos de 30 minutos, tu visor parpadea.",
+      "selector": "#mr-nadir-cuadrilla .rap.traje",
+      "tooltipDirection": "RIGHT"
+    },
+    {
+      "id": "acciones",
+      "title": "Lo que habéis hecho",
+      "content": "Cuando metáis un cartucho en el refugio, conectéis la bomba al rover o cerréis una válvula, <b>pulsad el botón</b>. Se anota a la hora actual, el Guardián lo ve y lo aplica a los relojes. Si algo no ocurrió así, puede anularlo.\nNo hace falta hacer cuentas: aire, batería y tiempo se calculan solos.",
+      "selector": "#mr-nadir-cuadrilla",
+      "tooltipDirection": "RIGHT"
+    },
+    {
+      "id": "alarma",
+      "title": "La alarma",
+      "content": "Si de pronto un <b>marco rojo y difuso</b> late en los bordes de tu pantalla y tu visor dice «ALERTA», el Guardián te está avisando de que algo va mal en tu traje o a tu alrededor. No te tapa nada: actúa."
+    },
+    {
+      "id": "ficha",
+      "title": "Tu ficha",
+      "content": "En <b>Actores</b> está tu personaje con su equipo y el traje equipado. En su ficha, en <b>Respuesta al trauma</b>, tienes lo que ocurre cuando entras en Pánico o fallas ciertas salvaciones. Bájala siempre a mano.",
+      "selector": "#actors",
+      "tooltipDirection": "LEFT"
+    },
+    {
+      "id": "cierre",
+      "title": "Listo",
+      "content": "Cuando quieras, repite este tutorial desde Configuración → «MR- Nádir». Suerte ahí fuera. Y no sueltes la bomba.",
+      "selector": ".mr-nadir-ajustes",
+      "tooltipDirection": "LEFT"
+    }
+  ]
+}

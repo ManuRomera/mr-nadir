@@ -1,0 +1,141 @@
+{
+  "title": "Nádir · Cómo dirigir",
+  "description": "Un paseo de unos cinco minutos por todas las herramientas del Guardián: guía, barra, Panel, consola, visor y alarma.",
+  "display": true,
+  "canBeResumed": true,
+  "restricted": true,
+  "suggestedNextTours": [
+    "mr-nadir.jugadores"
+  ],
+  "steps": [
+    {
+      "id": "bienvenida",
+      "title": "Una luna de hielo, trece personas y una bomba",
+      "content": "Bienvenido a <b>MR- Nádir</b>. Este módulo trae la aventura completa y las herramientas para dirigirla sin hacer cuentas.\nLa idea es una: <b>tú diriges y mueves la hora; los jugadores llevan sus trajes y su carga</b>. El módulo calcula el aire, la batería y la salmuera, y te susurra cada consecuencia ya redactada.\nPuedes avanzar y retroceder con los botones de abajo y salir cuando quieras; el tutorial se repite desde Configuración → «MR- Nádir»."
+    },
+    {
+      "id": "guias",
+      "title": "Dos diarios para empezar",
+      "content": "En los <b>Diarios</b> tienes <b>★ Guion de dirección</b>, que se lee de arriba abajo mientras juegas: cada marcador es un botón que lanza escenas, mapas, música, efectos, documentos y fichas.\nY <b>★ Cómo usar las herramientas</b>, la guía de todo lo que vas a ver ahora. Además hay una carpeta con la <b>Guía del Guardián</b> (una página por localización) y otra con los <b>documentos para los jugadores</b>.",
+      "selector": "#journal",
+      "tooltipDirection": "LEFT"
+    },
+    {
+      "id": "actores",
+      "title": "Personajes, PNJ y criaturas",
+      "content": "Los <b>5 pregenerados</b> traen su equipo, su traje equipado y su respuesta al trauma. Los <b>26 PNJ y las criaturas</b> traen habilidades, ataques y una tabla «Si… / Entonces» en la biografía: qué quieren, qué temen y cómo reaccionan si los amenazan, los ayudan, les mienten o les disparan.\nArrástralos a la escena cuando aparezcan.",
+      "selector": "#actors",
+      "tooltipDirection": "LEFT"
+    },
+    {
+      "id": "escenas",
+      "title": "Mapas y escenas de imagen",
+      "content": "Hay <b>3 mapas</b> (Frente B-4, Superficie y Sector C-7): pantalla de fósforo verde con barrido de radar, muros, puertas y luces. Al entrar un personaje en una sala, te llega un aviso con un botón para mostrar su escena.\nY <b>una escena de imagen por estancia</b>, con su lectura, su música y su ambiente, que arrancan solos al activarla.",
+      "selector": "#scenes",
+      "tooltipDirection": "LEFT"
+    },
+    {
+      "id": "sonido",
+      "title": "Música y efectos",
+      "content": "Banda sonora original: 10 pistas y 25 efectos. Las escenas arrancan su música y su ambiente; los efectos manuales (temblor, alarma, el raspado de Serrat…) los lanzas con los botones de la barra del Guardián o del guion.",
+      "selector": "#playlists",
+      "tooltipDirection": "LEFT"
+    },
+    {
+      "id": "barra",
+      "title": "Tu barra, siempre arriba",
+      "content": "Esta es <b>tu herramienta durante la partida</b>. Vive arriba en el centro, en cualquier escena, y solo la ves tú. Enseña lo que importa <b>en la escena en la que estás</b> y nada más.",
+      "selector": "#mr-nadir-hud",
+      "tooltipDirection": "DOWN",
+      "restricted": true
+    },
+    {
+      "id": "hora",
+      "title": "Lo único que tienes que mover: la hora",
+      "content": "La partida empieza a las 09:36. Con <b>−10, +10, +30 y +60</b> avanzas el tiempo de juego. El módulo recalcula todos los relojes y, si alguno cruza una marca, <b>te susurra en el chat la consecuencia</b> lista para leer en voz alta («H-4 en 3: agua a la rodilla en la ruta baja…»).\nEl tiempo de mesa no es tiempo de juego: avanza la hora cuando pasen las tareas, no cuando discutan.",
+      "selector": "#mr-nadir-hud .mr-nadir-hora",
+      "tooltipDirection": "DOWN",
+      "restricted": true
+    },
+    {
+      "id": "chips",
+      "title": "Los relojes de esta escena",
+      "content": "Cada chip enseña las casillas que quedan de un reloj: <b>R-3</b> (el aire del refugio), <b>P-2</b> (aire y bomba), <b>H-4</b> (la salmuera), el <b>banco de C-0</b> y la <b>Atención</b> de la colonia. Una casilla es una hora.\nPasa el ratón por uno para ver su estado y <b>qué ocurrirá si nadie hace nada</b>. Si un reloj entra en alerta, aparece en rojo aunque no sea de esta escena. Pulsa un chip para abrir el Panel.",
+      "selector": "#mr-nadir-hud .mr-nadir-chip",
+      "tooltipDirection": "DOWN",
+      "restricted": true
+    },
+    {
+      "id": "acciones",
+      "title": "Acciones de la escena",
+      "content": "Atajos de lo que suele pasar en esa estancia: «Cartucho a R-3» en el refugio, «Automatismo» en la estación de bombeo, «Cerrar V-12 desde C-0» en Control… Púlsalos cuando ocurra en la ficción. Si los jugadores ya lo han anotado en su consola, no lo pulses tú.",
+      "selector": "#mr-nadir-hud [data-clave^=\"accion-\"]",
+      "tooltipDirection": "DOWN",
+      "restricted": true
+    },
+    {
+      "id": "alarma",
+      "title": "La alarma, jugador por jugador",
+      "content": "Desde aquí enciendes un <b>marco rojo, difuso y parpadeante</b> en la pantalla del jugador que elijas, o en la de todos. No tapa nada y en su visor aparece «ALERTA». Úsala cuando su traje o su entorno le griten: la mochila a punto de acabarse, un traje perforado, algo pegado a la pierna.",
+      "selector": "#mr-nadir-hud details[data-menu=\"alarmas\"]",
+      "tooltipDirection": "DOWN",
+      "restricted": true
+    },
+    {
+      "id": "panel",
+      "title": "El Panel de emergencia",
+      "content": "Es la vista completa de los relojes, para cuando necesites más que los chips. Arriba, cada reloj en casillas y, debajo, <b>«Si nadie hace nada»</b>: las próximas consecuencias con su hora. Se abre desde la barra o desde los controles de token.",
+      "selector": "#mr-nadir-panel .rapida",
+      "tooltipDirection": "LEFT",
+      "restricted": true
+    },
+    {
+      "id": "ojo",
+      "title": "Qué ven los jugadores",
+      "content": "Los jugadores <b>no ven los relojes desde el principio</b>. Cada reloj aparece en su visor cuando sus personajes lo descubren: el refugio al enseñar el manifiesto D06, la bomba con la hoja D07, la aguja del tramo bajo con D05 o en Control. Al mostrar esos documentos o escenas se abren solos.\nEl <b>ojo</b> de cada fila lo enseña u oculta a mano. La Atención y la cuenta atrás del sello no se enseñan nunca: se oyen.",
+      "selector": "#mr-nadir-panel button.ojo",
+      "tooltipDirection": "LEFT",
+      "restricted": true
+    },
+    {
+      "id": "detalle",
+      "title": "Cifras y acciones del Guardián",
+      "content": "Aquí están los kilos, las UE y <b>todos tus botones</b>, incluidos los que no están en ninguna escena: V-12 de golpe, E-1 forzada, la Atención de la colonia, el rover 2 pedido con o sin lista, deshacer, publicar el estado en el chat y reiniciar.",
+      "selector": "#mr-nadir-panel details.detalle summary",
+      "tooltipDirection": "LEFT",
+      "restricted": true
+    },
+    {
+      "id": "consola",
+      "title": "La Consola de la cuadrilla",
+      "content": "Esto es lo que usan los jugadores para llevar lo suyo: <b>su traje</b> (umbilical, mochila, esfuerzo, recambios), <b>la carga y la batería del rover</b> y <b>lo que han hecho</b> («Cartucho → R-3», «Bomba al rover»…). Cada acción se anota a la hora actual y te llega al chat con un botón <b>Anular</b>.\nPuedes abrirla en todas las pantallas con el botón de personas de tu barra.",
+      "selector": "#mr-nadir-cuadrilla",
+      "tooltipDirection": "RIGHT",
+      "restricted": true
+    },
+    {
+      "id": "visor",
+      "title": "El visor de casco",
+      "content": "Cada jugador ve, arriba en el centro, una <b>proyección en el cristal de su casco</b>: la hora, su traje y solo los relojes que ya ha descubierto. Con su botón de casco lo enciende o lo apaga, cada uno a su gusto.\nTú puedes previsualizarlo con este botón; para ti empieza apagado.",
+      "selector": "#mr-nadir-visor-boton",
+      "tooltipDirection": "DOWN",
+      "restricted": true
+    },
+    {
+      "id": "documentos",
+      "title": "Documentos para los jugadores",
+      "content": "En el guion, cada documento lleva un enlace y un botón <b>Mostrar</b> que lo enseña a todos. Los <b>registros vivos</b> se entregan por partes: el canal de alguaciles (D12-B) por tramos de hora y el diario de Quiroga (D14) por variantes según lo ocurrido. Enseña solo las que ya han pasado.",
+      "selector": "#journal",
+      "tooltipDirection": "LEFT",
+      "restricted": true
+    },
+    {
+      "id": "cierre",
+      "title": "Si algo no cuadra",
+      "content": "• Un reloj va mal: abre el Panel → «Cifras y acciones» y pulsa <b>Deshacer</b>, o <b>Anular</b> en el mensaje de un jugador.\n• Os habéis saltado tiempo: avanza la hora de una vez; el aviso te da el estado final.\n• Empezar de cero: Panel → Reiniciar.\n• ¿Sin Foundry o sin cuentas? El libro trae un <b>modo de dirección rápida</b> con hojas de casillas.\nEn Configuración → <b>MR- Nádir</b> puedes repetir este tutorial, ver el de jugadores, abrir la guía o volver a importar la aventura. Buena partida.",
+      "selector": ".mr-nadir-ajustes",
+      "tooltipDirection": "LEFT",
+      "restricted": true
+    }
+  ]
+}

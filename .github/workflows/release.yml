@@ -32,6 +32,8 @@ jobs:
           node scripts/build.mjs
           unzip -l dist/mr-nadir.zip | grep -q "packs/aventura/CURRENT"
           unzip -l dist/mr-nadir.zip | grep -q "assets/maps/c7.webp"
+          unzip -l dist/mr-nadir.zip | grep -q "tours/direccion.json"
+          unzip -l dist/mr-nadir.zip | grep -q "js/inicio.js"
 
       - name: Extract release notes
         shell: bash

@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.3.0 — 2026-10-18
+- **Instalación automática:** al activar el módulo en un mundo vacío, el Guardián importa la aventura solo (una vez), activa la escena del Frente B-4 y deja Mothership en su 1.ª edición. En un mundo con contenido no toca nada.
+- **Tutorial guiado** con los tours de Foundry: «Cómo dirigir» (17 pasos: guía, escenas, barra, Panel, ojo, consola, visor, alarma, documentos) y «Tu visor y tu traje» (9 pasos para jugadores). Se ofrecen la primera vez y se repiten desde Configuración → MR- Nádir o Configuración → Tours.
+- Configuración → **MR- Nádir**: tutoriales, guía de las herramientas e importar la aventura.
+
 ## 2.2.1 — 2026-10-18
 - La alarma roja es algo más visible (sigue siendo difusa, baja y sin tapar nada).
 - README rehecho con capturas: visor de casco y alarma, barra y Panel del Guardián, Consola de la cuadrilla y plano del Sector C-7 con los nombres de sala tachados.
