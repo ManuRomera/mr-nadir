@@ -7,7 +7,7 @@ Palabras clave: dotación, custodia, motivaciones, conflictos, respuesta autóno
 
 **Los vínculos ya existen antes de la llamada:** Mara conoce al alguacil jugador; Darío trabajó con Ivo; Vera intercambiaba muestras con Nora; Elia es amiga de Milena, o de Inés si se intercambiaron. Usa esos nombres cuando alguien responda por radio.
 
-Las fichas siguen el formato de criaturas y PNJ de Mothership 1e: **Combate**, **Instinto**, **Heridas (Salud por herida)** y **Armadura**. Cuando un PNJ hace algo que para un PJ sería una salvación, tira Instinto.
+Las fichas siguen el formato de criaturas y PNJ de Mothership 1.2: **Combate**, **Instinto**, **Heridas (Salud por herida)** y **Armadura**. Cuando un PNJ hace algo que para un PJ sería una salvación, tira Instinto.
 
 ## Mara Venn
 

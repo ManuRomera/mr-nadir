@@ -153,7 +153,7 @@ El anclaje por cilios es silencioso y el traje no avisa de una carga tan leve. E
 
 > El anillo de dentículos gira sin ojos y roza el metal buscando el temblor de tu bota. No embiste: se ancla. Notas el peso subir por la caña del traje antes de verlo. Cuando el tejido empieza a ceder, ya llevas un segundo sintiendo cómo trabaja.
 
-## Fichas para Mothership 1e
+## Fichas para Mothership 1.2
 
 Formato de criaturas del manual: **Combate**, **Instinto**, **Heridas (Salud por herida)**.
 

@@ -21,7 +21,7 @@ La limpieza de una junta retiró un tapón que había construido una colonia ani
 
 ### Qué es esta aventura
 
-Una operación de rescate para **Mothership 1e**, **tres a cinco jugadores** y **seis a nueve horas de mesa**, idealmente en dos sesiones. Se empieza con las manos dentro de una bomba y se termina decidiendo quién espera el siguiente viaje a Bastión.
+Una operación de rescate para **Mothership 1.2**, **tres a cinco jugadores** y **seis a nueve horas de mesa**, idealmente en dos sesiones. Se empieza con las manos dentro de una bomba y se termina decidiendo quién espera el siguiente viaje a Bastión.
 
 El grupo puede abrir la ruta baja, evacuar por arriba o estabilizar los refugios y esperar ayuda. Cada camino exige tiempo, aire y personas capaces de sostenerlo. Durante el rescate habrá que trabajar con culpables, discutir órdenes sensatas y confiar en alguien a quien se vigila.
 

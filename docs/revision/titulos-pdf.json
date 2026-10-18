@@ -1,0 +1,2861 @@
+{
+  "titulos_comprobados": 238,
+  "titulos_sin_primer_bloque": [],
+  "comprobaciones": [
+    {
+      "titulo": "Guía rápida del Guardián",
+      "paginas": [
+        3
+      ],
+      "contenido_en_misma_pagina": [
+        3
+      ],
+      "primer_bloque": "Fig. 1. La luna ND-17 desde órbita: hielo sucio, grietas y las luces dispersas de los campamentos en la cara nocturna."
+    },
+    {
+      "titulo": "La situación en tres párrafos",
+      "paginas": [
+        3
+      ],
+      "contenido_en_misma_pagina": [
+        3
+      ],
+      "primer_bloque": "Mara alcanza a decir tu nombre antes de que se corte la radio. Hay heridos en C-7. Se están cerrando las compuertas. Su última ins"
+    },
+    {
+      "titulo": "Qué es esta aventura",
+      "paginas": [
+        3
+      ],
+      "contenido_en_misma_pagina": [
+        3
+      ],
+      "primer_bloque": "Una operación de rescate para Mothership 1.2, tres a cinco jugadores y seis a nueve horas de mesa, idealmente en dos sesiones. Se "
+    },
+    {
+      "titulo": "Las cuatro verdades que nunca cambian",
+      "paginas": [
+        4
+      ],
+      "contenido_en_misma_pagina": [
+        4
+      ],
+      "primer_bloque": "Mara aisló el sector después del accidente. La orden de las 09:40 llega cuatro minutos después de la entrada de salmuera. Evitó un"
+    },
+    {
+      "titulo": "Principios del Guardián",
+      "paginas": [
+        4
+      ],
+      "contenido_en_misma_pagina": [
+        4
+      ],
+      "primer_bloque": "Usa estas seis reglas para resolver lo que el libro no haya previsto. Las fichas de lugar aportan los riesgos concretos."
+    },
+    {
+      "titulo": "Preparación en quince minutos",
+      "paginas": [
+        4
+      ],
+      "contenido_en_misma_pagina": [
+        4
+      ],
+      "primer_bloque": "Reparte los perfiles de la cuadrilla M-4 (capítulo «La cuadrilla M-4») o deja que se creen con el Player's Survival Guide. Necesit"
+    },
+    {
+      "titulo": "Meter el horror en mesa",
+      "paginas": [
+        4
+      ],
+      "contenido_en_misma_pagina": [
+        4
+      ],
+      "primer_bloque": "Empieza por algo que funciona mal: un filtro blando, una junta que vuelve a cerrarse, una radio sin voz. Deja que el grupo lo toqu"
+    },
+    {
+      "titulo": "La escalera del horror",
+      "paginas": [
+        5
+      ],
+      "contenido_en_misma_pagina": [
+        5
+      ],
+      "primer_bloque": "1. Una textura que no es mineralFiltro de B-4 (Acto I)Las costras tienen estructura orgánicaAlguien empieza a sospechar de las «in"
+    },
+    {
+      "titulo": "Lo que nunca se hace",
+      "paginas": [
+        5
+      ],
+      "contenido_en_misma_pagina": [
+        5
+      ],
+      "primer_bloque": "Ante un suceso extraño, identifica qué vibra, qué pierde presión o qué desprende humedad. Esa causa determina qué ocurre si los pe"
+    },
+    {
+      "titulo": "Seguridad en la mesa",
+      "paginas": [
+        5
+      ],
+      "contenido_en_misma_pagina": [
+        5
+      ],
+      "primer_bloque": "Este escenario toca privación de libertad, violencia carcelaria, mordeduras, hemorragias, asfixia y muerte de conocidos. La capa d"
+    },
+    {
+      "titulo": "Reparto para tres, cuatro o cinco jugadores",
+      "paginas": [
+        6
+      ],
+      "contenido_en_misma_pagina": [
+        6
+      ],
+      "primer_bloque": "Gael Rivas — alguacil de referencia✓✓✓MarineObligatorio"
+    },
+    {
+      "titulo": "Estructura por actos",
+      "paginas": [
+        6
+      ],
+      "contenido_en_misma_pagina": [
+        6
+      ],
+      "primer_bloque": "IEl mensaje cortado45–60 min≈09:25–10:25Avería en B-4, último mensaje de Mara, llamadas a Bastión, carga del rover"
+    },
+    {
+      "titulo": "Lo que hay que saber antes de arrancar",
+      "paginas": [
+        6
+      ],
+      "contenido_en_misma_pagina": [
+        6
+      ],
+      "primer_bloque": "Comienzo: unos minutos antes de las 09:36, en mitad de una reparación en B-4. El temblor llega a las 09:36 y el mensaje de Mara a "
+    },
+    {
+      "titulo": "Los tres relojes en una página",
+      "paginas": [
+        7
+      ],
+      "contenido_en_misma_pagina": [
+        7
+      ],
+      "primer_bloque": "A · R-3kg de absorción de CO₂ (6 kg en T0; 13 personas gastan 0,6 kg/h)Degradado 16:36 · agotado 19:36 · Grave 22:36 · Colapso 01:"
+    },
+    {
+      "titulo": "El mundo",
+      "paginas": [
+        8,
+        17,
+        29,
+        55,
+        91
+      ],
+      "contenido_en_misma_pagina": [
+        8
+      ],
+      "primer_bloque": "En los partes pone ND-17. Quienes trabajan aquí dicen Nádir. Hielo sucio y roca cubren una luna menor calentada por las mareas. De"
+    },
+    {
+      "titulo": "La prisión sin muros",
+      "paginas": [
+        8
+      ],
+      "contenido_en_misma_pagina": [
+        8
+      ],
+      "primer_bloque": "La salida al vacío exige traje, energía y un destino alcanzable. Para llegar a la órbita hace falta además un transporte de carga."
+    },
+    {
+      "titulo": "Autoridad real",
+      "paginas": [
+        8
+      ],
+      "contenido_en_misma_pagina": [
+        8
+      ],
+      "primer_bloque": "ACE: custodia, rutas y medidas inmediatas sobre los condenados. Ante peligro industrial, el alguacil puede cerrar accesos y dar in"
+    },
+    {
+      "titulo": "Distribución de la población",
+      "paginas": [
+        9
+      ],
+      "contenido_en_misma_pagina": [
+        9
+      ],
+      "primer_bloque": "Bastión18Barracones mixtos, enfermería de cuatro camas, mando local de ACE y HRF, almacén industrial, segundo rover8 km · 25–40 mi"
+    },
+    {
+      "titulo": "El frente B-4",
+      "paginas": [
+        9
+      ],
+      "contenido_en_misma_pagina": [
+        9
+      ],
+      "primer_bloque": "Nueve personas: la cuadrilla M-4 (el alguacil Gael Rivas, el alguacil sintético LIMEN-6, la científica presa Vera Soria, el técnic"
+    },
+    {
+      "titulo": "Bastión y los barracones",
+      "paginas": [
+        10
+      ],
+      "contenido_en_misma_pagina": [
+        10
+      ],
+      "primer_bloque": "Bastión contiene dos hileras de barracones presurizados unidos por esclusas, una enfermería de cuatro camas, comedor, taller, depó"
+    },
+    {
+      "titulo": "Lo que se cuenta en los barracones",
+      "paginas": [
+        10
+      ],
+      "contenido_en_misma_pagina": [
+        10
+      ],
+      "primer_bloque": "En el comedor dicen que las galerías antiguas siguen conectadas. Que alguien dejó donde estaba una bota de un modelo retirado. Que"
+    },
+    {
+      "titulo": "El evadido del muro",
+      "paginas": [
+        10
+      ],
+      "contenido_en_misma_pagina": [
+        10
+      ],
+      "primer_bloque": "Hace tres años faltó Héctor Lisán al recuento de mantenimiento. ACE registró dos equipos de búsqueda durante setenta y dos horas, "
+    },
+    {
+      "titulo": "La cuadrilla protagonista",
+      "paginas": [
+        11
+      ],
+      "contenido_en_misma_pagina": [
+        11
+      ],
+      "primer_bloque": "Los perfiles completos de la cuadrilla M-4, con su ficha, motivo, vínculo, conflicto, información exclusiva y decisión personal, e"
+    },
+    {
+      "titulo": "Qué ocurrió realmente",
+      "paginas": [
+        12
+      ],
+      "contenido_en_misma_pagina": [
+        12
+      ],
+      "primer_bloque": "La costra sujetaba una fractura. La orden era retirarla. Los costreros sellan con gel mineral las aberturas entre cavidades y gale"
+    },
+    {
+      "titulo": "La cadena que nadie firmó",
+      "paginas": [
+        12
+      ],
+      "contenido_en_misma_pagina": [
+        12
+      ],
+      "primer_bloque": "Fractura → sello biológico → limpieza térmica → entrada de salmuera → drenaje insuficiente."
+    },
+    {
+      "titulo": "Cómo se reconstruye",
+      "paginas": [
+        12
+      ],
+      "contenido_en_misma_pagina": [
+        12
+      ],
+      "primer_bloque": "La verdad admite varias puertas de entrada y ninguna es obligatoria:"
+    },
+    {
+      "titulo": "Lo que queda de los muertos",
+      "paginas": [
+        13
+      ],
+      "contenido_en_misma_pagina": [
+        13
+      ],
+      "primer_bloque": "Los cadáveres desprenden gas y humedad. Los costreros acuden, se alimentan y depositan mineral hasta cerrar la fuga. Teo, Serrat y"
+    },
+    {
+      "titulo": "Lo que sabe cada persona",
+      "paginas": [
+        13
+      ],
+      "contenido_en_misma_pagina": [
+        13
+      ],
+      "primer_bloque": "Mara Venn (R-3)Aisló el sector; trece llegaron a R-3; abrir E-1 sin igualar inunda la ruta bajaCree muertos a Quiroga e Ivo; desco"
+    },
+    {
+      "titulo": "Cronología inmutable",
+      "paginas": [
+        14
+      ],
+      "contenido_en_misma_pagina": [
+        14
+      ],
+      "primer_bloque": "T−3 añosHéctor Lisán desaparece por las galerías antiguas; ACE cierra el caso «en superficie»"
+    },
+    {
+      "titulo": "Balance humano de C-7",
+      "paginas": [
+        14
+      ],
+      "contenido_en_misma_pagina": [
+        14
+      ],
+      "primer_bloque": "Presos121 (Teo Mahr)101 (Ivo Sen)"
+    },
+    {
+      "titulo": "Modo de dirección rápida",
+      "paginas": [
+        15,
+        24,
+        74
+      ],
+      "contenido_en_misma_pagina": [
+        15
+      ],
+      "primer_bloque": "Las cifras de este capítulo son la simulación completa del complejo. Para dirigir no hacen falta. Este modo traduce cada reloj a u"
+    },
+    {
+      "titulo": "Quién lleva qué",
+      "paginas": [
+        15
+      ],
+      "contenido_en_misma_pagina": [
+        15
+      ],
+      "primer_bloque": "GuardiánLa hora, las filas de los relojes y la Atención de la coloniaTacha casillas cuando pasa el tiempo y lee en voz alta la con"
+    },
+    {
+      "titulo": "Las filas",
+      "paginas": [
+        15,
+        16
+      ],
+      "contenido_en_misma_pagina": [
+        16
+      ],
+      "primer_bloque": "R-310 (de 12)Una hora con trece dentro1 por hora con 12–13 dentro; cada 90 min con 9–11; cada 2 h con 6–8; cada 3 h con 4–5; cada "
+    },
+    {
+      "titulo": "Un turno de reloj",
+      "paginas": [
+        16
+      ],
+      "contenido_en_misma_pagina": [
+        16
+      ],
+      "primer_bloque": "Cuando pasa una hora de juego (media, si la bomba está parada y V-12 abierta), tacha en cada fila lo que toque.Si una fila cruza u"
+    },
+    {
+      "titulo": "Atmósferas de Nádir",
+      "paginas": [
+        17
+      ],
+      "contenido_en_misma_pagina": [
+        17
+      ],
+      "primer_bloque": "SuperficieVacío práctico; sin viento, sin sonido por el aire, frío extremoTraje cerradoNinguna: un costrero expuesto muere en segu"
+    },
+    {
+      "titulo": "Trajes",
+      "paginas": [
+        6,
+        15,
+        16,
+        17,
+        18,
+        19,
+        23,
+        24,
+        33,
+        39,
+        42,
+        45,
+        46,
+        47,
+        50,
+        54,
+        56,
+        57,
+        58,
+        65,
+        68,
+        69,
+        72,
+        75,
+        77,
+        78,
+        84,
+        90
+      ],
+      "contenido_en_misma_pagina": [
+        17
+      ],
+      "primer_bloque": "Los trajes de Nádir son trajes de faena HRF/ACE: el traje de vacío (VALECORE MK2) del PSG tal cual (PA 3, 12 horas de oxígeno, Vel"
+    },
+    {
+      "titulo": "Recuento de trajes disponibles",
+      "paginas": [
+        17
+      ],
+      "contenido_en_misma_pagina": [
+        17
+      ],
+      "primer_bloque": "Cada PJ1Puesto desde la salida"
+    },
+    {
+      "titulo": "Rovers y transporte",
+      "paginas": [
+        18
+      ],
+      "contenido_en_misma_pagina": [
+        18
+      ],
+      "primer_bloque": "Velocidad15–25 km/h en roca; 10–15 km/h en glaciar fracturado"
+    },
+    {
+      "titulo": "Energía en C-7",
+      "paginas": [
+        18
+      ],
+      "contenido_en_misma_pagina": [
+        18
+      ],
+      "primer_bloque": "Banco de emergencia de C-048 UE a las 09:362 UE/h fijos (luces, telemetría, depuración de C-0, radio local). Usos extra: actuador "
+    },
+    {
+      "titulo": "Reloj A · Refugio R-3",
+      "paginas": [
+        19
+      ],
+      "contenido_en_misma_pagina": [
+        19
+      ],
+      "primer_bloque": "kg de CO₂ por hora0,60,550,50,460,410,370,320,280,230,180,140,090,05"
+    },
+    {
+      "titulo": "Reloj B · Estación P-2",
+      "paginas": [
+        20
+      ],
+      "contenido_en_misma_pagina": [
+        20
+      ],
+      "primer_bloque": "EstableQueda filtroNinguno"
+    },
+    {
+      "titulo": "Reloj C · Fuga H-4",
+      "paginas": [
+        20
+      ],
+      "contenido_en_misma_pagina": [
+        20
+      ],
+      "primer_bloque": "0EscurridoE-1 se iguala en 60 min. J-17 accesible con traje"
+    },
+    {
+      "titulo": "Atención de la colonia",
+      "paginas": [
+        15,
+        21,
+        29,
+        66,
+        67
+      ],
+      "contenido_en_misma_pagina": [
+        21
+      ],
+      "primer_bloque": "La cuenta de Atención (0–6) por zona conectada a cavidades está en el artículo sobre el costrero. Resumen para la hoja: herramient"
+    },
+    {
+      "titulo": "Tiempos de tarea",
+      "paginas": [
+        21,
+        67
+      ],
+      "contenido_en_misma_pagina": [
+        21
+      ],
+      "primer_bloque": "Esclusa exterior de C-0 (ciclo)10 min—"
+    },
+    {
+      "titulo": "Rutas dentro de C-7",
+      "paginas": [
+        22
+      ],
+      "contenido_en_misma_pagina": [
+        22
+      ],
+      "primer_bloque": "SuperficieAtracadero ↔ portilla de P-25 minTrajeLibreNunca"
+    },
+    {
+      "titulo": "Refuerzos de Bastión",
+      "paginas": [
+        23
+      ],
+      "contenido_en_misma_pagina": [
+        23
+      ],
+      "primer_bloque": "09:58 con lista justificada11:5814:45"
+    },
+    {
+      "titulo": "Cronología de referencia",
+      "paginas": [
+        15,
+        23,
+        56
+      ],
+      "contenido_en_misma_pagina": [
+        23
+      ],
+      "primer_bloque": "09:48Mensaje de Mara5,9 kg0,44 kg / 11,6 UE1"
+    },
+    {
+      "titulo": "Recalcular cuando la mesa se desvía",
+      "paginas": [
+        24
+      ],
+      "contenido_en_misma_pagina": [
+        24
+      ],
+      "primer_bloque": "Anota la hora cada vez que se cierra una tarea, con los tiempos de la tabla anterior. El tiempo de mesa no es tiempo de juego: cin"
+    },
+    {
+      "titulo": "Introducción",
+      "paginas": [
+        25
+      ],
+      "contenido_en_misma_pagina": [
+        25
+      ],
+      "primer_bloque": "Durante años, mantenimiento raspó los depósitos de las galerías. Los partes los clasificaban como sal. Después de cada presurizaci"
+    },
+    {
+      "titulo": "Fuentes y método",
+      "paginas": [
+        25
+      ],
+      "contenido_en_misma_pagina": [
+        25
+      ],
+      "primer_bloque": "El examen reúne restos de J-17 y del tramo bajo, análisis de costras en B-4 y testimonios del personal. La muestra 117-C reveló es"
+    },
+    {
+      "titulo": "Morfología",
+      "paginas": [
+        26,
+        77
+      ],
+      "contenido_en_misma_pagina": [
+        26
+      ],
+      "primer_bloque": "40–80 cm de largo; 12–20 cm de diámetro. Algunos reproductores superan el metro. Segmentos semirrígidos de blanco sucio o gris cen"
+    },
+    {
+      "titulo": "Aspecto general",
+      "paginas": [
+        26
+      ],
+      "contenido_en_misma_pagina": [
+        26
+      ],
+      "primer_bloque": "40–80 cm de largo; 12–20 cm de diámetro. Algunos reproductores superan el metro. Segmentos semirrígidos de blanco sucio o gris cen"
+    },
+    {
+      "titulo": "Superficie y locomoción",
+      "paginas": [
+        26
+      ],
+      "contenido_en_misma_pagina": [
+        26
+      ],
+      "primer_bloque": "La cubierta conserva humedad y protege el tejido interior. Entre segmentos queda una película mucosa renovada por glándulas. Un ej"
+    },
+    {
+      "titulo": "Percepción",
+      "paginas": [
+        26
+      ],
+      "contenido_en_misma_pagina": [
+        26
+      ],
+      "primer_bloque": "Vibración por sólidos; química a corta distancia. Un martillo neumático transmite una señal por toda la estructura. Las botas corr"
+    },
+    {
+      "titulo": "Defensa",
+      "paginas": [
+        26,
+        28,
+        31,
+        74
+      ],
+      "contenido_en_misma_pagina": [
+        26
+      ],
+      "primer_bloque": "El anillo triturador es su arma. Carece de aguijón, veneno y efecto paralizante."
+    },
+    {
+      "titulo": "Identificación en campo",
+      "paginas": [
+        26
+      ],
+      "contenido_en_misma_pagina": [
+        26
+      ],
+      "primer_bloque": "Forma: los anillos de una colonia activa se orientan hacia una grieta.Tacto: la superficie cede ligeramente a la presión.Respuesta"
+    },
+    {
+      "titulo": "Hábitat y metabolismo",
+      "paginas": [
+        27
+      ],
+      "contenido_en_misma_pagina": [
+        27
+      ],
+      "primer_bloque": "El hábitat de la especie son cavidades húmedas de salmuera con gas pobre en oxígeno, con microorganismos que aprovechan reacciones"
+    },
+    {
+      "titulo": "El sellado y su función",
+      "paginas": [
+        27
+      ],
+      "contenido_en_misma_pagina": [
+        27
+      ],
+      "primer_bloque": "El animal sigue un gradiente químico: gas, humedad o aire humano que cruza hacia la cavidad. Deposita gel mineral en el borde de l"
+    },
+    {
+      "titulo": "Sangre y permanencia en zonas humanas",
+      "paginas": [
+        27
+      ],
+      "contenido_en_misma_pagina": [
+        27
+      ],
+      "primer_bloque": "Cavidad húmeda pobre en O₂Indefinida"
+    },
+    {
+      "titulo": "Reproducción",
+      "paginas": [
+        27,
+        28
+      ],
+      "contenido_en_misma_pagina": [
+        28
+      ],
+      "primer_bloque": "Los reproductores concentran la puesta en cámaras húmedas laterales. La especie cría despacio, en lugares concretos, y protege esa"
+    },
+    {
+      "titulo": "Conducta",
+      "paginas": [
+        4,
+        8,
+        28,
+        79
+      ],
+      "contenido_en_misma_pagina": [
+        28
+      ],
+      "primer_bloque": "Se aplica en orden. Nunca se sustituye por «atacar al personaje más molesto»."
+    },
+    {
+      "titulo": "Jerarquía de respuesta",
+      "paginas": [
+        28
+      ],
+      "contenido_en_misma_pagina": [
+        28
+      ],
+      "primer_bloque": "Se aplica en orden. Nunca se sustituye por «atacar al personaje más molesto»."
+    },
+    {
+      "titulo": "Atención de la colonia (silencio sólido)",
+      "paginas": [
+        29
+      ],
+      "contenido_en_misma_pagina": [
+        29
+      ],
+      "primer_bloque": "0–1Inactiva; el raspado es de fondo"
+    },
+    {
+      "titulo": "La colonia responde a vuestras obras",
+      "paginas": [
+        29,
+        41,
+        67
+      ],
+      "contenido_en_misma_pagina": [
+        29
+      ],
+      "primer_bloque": "Cerrar la fuga de aire de la cría (válvula auxiliar)Los defensores se calman y la cría se cruza mejor, pero el trabajo de sellado "
+    },
+    {
+      "titulo": "El canto del casco",
+      "paginas": [
+        30
+      ],
+      "contenido_en_misma_pagina": [
+        30
+      ],
+      "primer_bloque": "El roce de los dentículos contra el metal viaja por las estructuras sólidas. En P-2, en E-1 y en L-4 se oye un chirrido de acero q"
+    },
+    {
+      "titulo": "Contacto",
+      "paginas": [
+        8,
+        13,
+        17,
+        21,
+        23,
+        28,
+        29,
+        30,
+        35,
+        42,
+        61,
+        72,
+        74,
+        75,
+        79,
+        80,
+        81,
+        83
+      ],
+      "contenido_en_misma_pagina": [
+        30
+      ],
+      "primer_bloque": "El anclaje por cilios es silencioso y el traje no avisa de una carga tan leve. En L-4 un costrero puede adherirse a la pierna de u"
+    },
+    {
+      "titulo": "Fichas para Mothership 1.2",
+      "paginas": [
+        30
+      ],
+      "contenido_en_misma_pagina": [
+        30
+      ],
+      "primer_bloque": "Formato de criaturas del manual: Combate, Instinto, Heridas (Salud por herida)."
+    },
+    {
+      "titulo": "Dónde están y cómo se mueven",
+      "paginas": [
+        31
+      ],
+      "contenido_en_misma_pagina": [
+        31
+      ],
+      "primer_bloque": "Junta J-17 y tramo bajoTres resellando la fractura; varios bajo la costra de Teo MahrV-12 se cierra (migran); se trabaja J-17 con "
+    },
+    {
+      "titulo": "Ritmo del descubrimiento",
+      "paginas": [
+        31
+      ],
+      "contenido_en_misma_pagina": [
+        31
+      ],
+      "primer_bloque": "Las costras son orgánicasFiltro de B-4, informe 117-C, lector de VeraSospechar de las «incrustaciones»; tratarlas con cuidado"
+    },
+    {
+      "titulo": "Discusión",
+      "paginas": [
+        10,
+        24,
+        31,
+        53
+      ],
+      "contenido_en_misma_pagina": [
+        31
+      ],
+      "primer_bloque": "En C-7, la actividad humana y la colonia reparan problemas distintos sobre las mismas conducciones. Los costreros cierran las fuga"
+    },
+    {
+      "titulo": "Acto I · El mensaje cortado",
+      "paginas": [
+        32
+      ],
+      "contenido_en_misma_pagina": [
+        32
+      ],
+      "primer_bloque": "Tiempo de mesa: 45–60 min. Tiempo de juego: de unos minutos antes de las 09:36 a la salida del rover (referencia: 10:25)."
+    },
+    {
+      "titulo": "Escena 1 · La avería ordinaria",
+      "paginas": [
+        32
+      ],
+      "contenido_en_misma_pagina": [
+        32
+      ],
+      "primer_bloque": "El indicador del colector B-4 lleva media hora oscilando en rojo. No hay alarma general: solo una vibración desagradable en las bo"
+    },
+    {
+      "titulo": "Escena 2 · La onda (09:36) y el mensaje (09:48)",
+      "paginas": [
+        32
+      ],
+      "contenido_en_misma_pagina": [
+        32
+      ],
+      "primer_bloque": "A las 09:36 un temblor recorre B-4. Las herramientas vibran contra el metal y la alarma de movimiento del terreno registra un puls"
+    },
+    {
+      "titulo": "Escena 3 · Preparativos",
+      "paginas": [
+        33
+      ],
+      "contenido_en_misma_pagina": [
+        33
+      ],
+      "primer_bloque": "Dos cartuchos C-121+1,2 kg cada uno en R-3 o unas 13 h para P-2"
+    },
+    {
+      "titulo": "Acto II · El camino entre campamentos",
+      "paginas": [
+        34
+      ],
+      "contenido_en_misma_pagina": [
+        34
+      ],
+      "primer_bloque": "Tiempo de mesa: 45–75 min. Tiempo de juego: de 2 a 3 horas. Distancia: 43 km por R-12 o 32 km por el atajo."
+    },
+    {
+      "titulo": "Escena 4 · En la superficie",
+      "paginas": [
+        34
+      ],
+      "contenido_en_misma_pagina": [
+        34
+      ],
+      "primer_bloque": "Por R-122 h–2 h 30 min (+25–45 min si se repara el repetidor)≈ 42 UENavegación fácil; permite reparar R-12 y recoger a SalcedoMás "
+    },
+    {
+      "titulo": "Encuentro en R-12 · La antena y el rover volcado",
+      "paginas": [
+        34
+      ],
+      "contenido_en_misma_pagina": [
+        34
+      ],
+      "primer_bloque": "A unos 18 km de B-4 está el repetidor R-12. Sus balizas de navegación parpadean (tienen pila propia); el módulo de radio está muer"
+    },
+    {
+      "titulo": "La radio de Serrat",
+      "paginas": [
+        20,
+        21,
+        23,
+        29,
+        35,
+        41,
+        42,
+        62,
+        67
+      ],
+      "contenido_en_misma_pagina": [
+        35
+      ],
+      "primer_bloque": "Cuando R-12 vuelve a funcionar, arrastra consigo todos los canales que estaban caídos. En el canal de alguaciles hay una portadora"
+    },
+    {
+      "titulo": "Escena 5 · El filtro abandonado",
+      "paginas": [
+        36
+      ],
+      "contenido_en_misma_pagina": [
+        36
+      ],
+      "primer_bloque": "A unos kilómetros de C-7 hay un antiguo filtro de captación: una tubería que sube del subsuelo y termina en un cuerpo de filtro ox"
+    },
+    {
+      "titulo": "Escena 6 · C-7 desde fuera",
+      "paginas": [
+        37
+      ],
+      "contenido_en_misma_pagina": [
+        37
+      ],
+      "primer_bloque": "Las luces de C-7 están encendidas, pero detrás de los ventanales nadie se mueve. Una escotilla exterior lleva una mancha de barro "
+    },
+    {
+      "titulo": "Cómo leer una ficha",
+      "paginas": [
+        38
+      ],
+      "contenido_en_misma_pagina": [
+        38
+      ],
+      "primer_bloque": "Estado inicial: cómo está el lugar a las 13:00, si nadie lo ha tocado.Personas: quién hay y su ficha en una línea (Combate · Insti"
+    },
+    {
+      "titulo": "El complejo como organismo",
+      "paginas": [
+        38
+      ],
+      "contenido_en_misma_pagina": [
+        38
+      ],
+      "primer_bloque": "J-17 deja entrar salmuera. H-4 y la derivación B intentan evacuarla. P-2 mantiene el nivel a raya; V-12 permite cortar la entrada."
+    },
+    {
+      "titulo": "Lo que se descubre mientras se trabaja",
+      "paginas": [
+        38
+      ],
+      "contenido_en_misma_pagina": [
+        38
+      ],
+      "primer_bloque": "Que la bomba de P-2 protege el tramo de R-3Decidir si sacan a Quiroga e Ivo ya o dejan una fuente de energía"
+    },
+    {
+      "titulo": "[X] Atracadero y esclusa exterior",
+      "paginas": [
+        39
+      ],
+      "contenido_en_misma_pagina": [
+        39
+      ],
+      "primer_bloque": "El lugar. Plataforma de rovers sin energía de red (la toma de recarga murió con el colector). Esclusa exterior de C-0 funcional, c"
+    },
+    {
+      "titulo": "[1] Control C-0 — La versión oficial",
+      "paginas": [
+        39
+      ],
+      "contenido_en_misma_pagina": [
+        39
+      ],
+      "primer_bloque": "Fig. 11. Consola de Control C-0 con la pantalla de alarma parpadeando sobre mapas viejos y nuevos"
+    },
+    {
+      "titulo": "[2] Portilla exterior de P-2 — La segunda voz",
+      "paginas": [
+        40
+      ],
+      "contenido_en_misma_pagina": [
+        40
+      ],
+      "primer_bloque": "Fig. 12. Portilla de servicio de P-2 combada hacia fuera, con la junta rodeada de una costra mineral blanquecina"
+    },
+    {
+      "titulo": "[3] Esclusa E-1 y ruta baja — La puerta equivocada",
+      "paginas": [
+        41
+      ],
+      "contenido_en_misma_pagina": [
+        41
+      ],
+      "primer_bloque": "Fig. 13. Hoja deformada de la esclusa E-1 con el marco marcado por estrías de impacto desde el lado de la salmuera"
+    },
+    {
+      "titulo": "[4] Galería L-4 — La ruta que nadie debía usar",
+      "paginas": [
+        42
+      ],
+      "contenido_en_misma_pagina": [
+        42
+      ],
+      "primer_bloque": "Fig. 14. Galería L-4 estrecha y clausurada, con bloques de hielo y una conducción caliente fuera de servicio"
+    },
+    {
+      "titulo": "[5] Cavidad de cría — Algo que tiene su razón",
+      "paginas": [
+        43
+      ],
+      "contenido_en_misma_pagina": [
+        43
+      ],
+      "primer_bloque": "Fig. 15. Cúpula natural de cría con dos docenas de estructuras ovaladas adheridas a la pared húmeda"
+    },
+    {
+      "titulo": "[6] Paso alto — Por encima de la fractura",
+      "paginas": [
+        45
+      ],
+      "contenido_en_misma_pagina": [
+        45
+      ],
+      "primer_bloque": "Fig. 17. Repisa mineral que cruza el tramo hundido, con los restos de un viejo pasamanos doblado"
+    },
+    {
+      "titulo": "[7] Refugio R-3 — Trece respiraciones",
+      "paginas": [
+        46
+      ],
+      "contenido_en_misma_pagina": [
+        46
+      ],
+      "primer_bloque": "Fig. 18. Interior del refugio R-3 con trece personas alrededor de un ventilador cansado y un cartel de aforo de emergencia"
+    },
+    {
+      "titulo": "[8] Estación P-2 — Quienes sujetan la situación",
+      "paginas": [
+        47
+      ],
+      "contenido_en_misma_pagina": [
+        47
+      ],
+      "primer_bloque": "Ivo está inclinado sobre el panel abierto. Quiroga sostiene el hombro lesionado contra el cuerpo y os señala el indicador de bater"
+    },
+    {
+      "titulo": "[9] Tramo de inspección de H-4 — El precio de una redundancia",
+      "paginas": [
+        48
+      ],
+      "contenido_en_misma_pagina": [
+        48
+      ],
+      "primer_bloque": "Fig. 19. Tramo de inspección del drenaje H-4 con tubería abierta, presión fluctuante y depósito de alivio a medio llenar"
+    },
+    {
+      "titulo": "[10] Válvula V-12 y galería de servicio — Cortar antes de abrir",
+      "paginas": [
+        49
+      ],
+      "contenido_en_misma_pagina": [
+        49
+      ],
+      "primer_bloque": "Fig. 20. Válvula de aislamiento V-12 de alto caudal en una galería seca, con el actuador parcialmente sin alimentación"
+    },
+    {
+      "titulo": "[11] Portillo superior — El acceso discreto",
+      "paginas": [
+        50
+      ],
+      "contenido_en_misma_pagina": [
+        50
+      ],
+      "primer_bloque": "Fig. 21. Portillo superior de diámetro humano sellado con pernos, sobre la línea de inundación, con filtros apilados al lado"
+    },
+    {
+      "titulo": "[12] Junta J-17 y tramo bajo — Lo que realmente se rompió",
+      "paginas": [
+        51
+      ],
+      "contenido_en_misma_pagina": [
+        51
+      ],
+      "primer_bloque": "Fig. 22. Fractura de la junta J-17 sobre la línea de producción, con placas minerales adheridas a los bordes y una herramienta par"
+    },
+    {
+      "titulo": "Cuándo empieza este acto",
+      "paginas": [
+        53
+      ],
+      "contenido_en_misma_pagina": [
+        53
+      ],
+      "primer_bloque": "El Acto IV se superpone al III. Sus escenas se activan cuando la mesa reúne al menos dos de estas piezas:"
+    },
+    {
+      "titulo": "Los conflictos de la evacuación",
+      "paginas": [
+        53
+      ],
+      "contenido_en_misma_pagina": [
+        53
+      ],
+      "primer_bloque": "Usa cada escena cuando aparezca su condición. Presenta la petición de una persona, deja que otra se oponga y pregunta al grupo qué"
+    },
+    {
+      "titulo": "Conflicto 1 · «Si nos sacáis, los perdéis» (P-2)",
+      "paginas": [
+        53
+      ],
+      "contenido_en_misma_pagina": [
+        53
+      ],
+      "primer_bloque": "Cuándo: los PJ llegan a P-2 antes de cerrar V-12 o de restablecer el automatismo."
+    },
+    {
+      "titulo": "Conflicto 2 · Lo que hizo Ivo",
+      "paginas": [
+        53
+      ],
+      "contenido_en_misma_pagina": [
+        53
+      ],
+      "primer_bloque": "Cuándo: el grupo tiene pruebas del bypass (vías en la matriz de pistas) o Ivo decide decirlo."
+    },
+    {
+      "titulo": "Conflicto 3 · El orden de salida",
+      "paginas": [
+        54
+      ],
+      "contenido_en_misma_pagina": [
+        54
+      ],
+      "primer_bloque": "Cuándo: se abre una vía de evacuación desde R-3, sea la esclusa principal o el portillo."
+    },
+    {
+      "titulo": "Conflicto 4 · Los trajes, el aire y los cartuchos",
+      "paginas": [
+        54
+      ],
+      "contenido_en_misma_pagina": [
+        54
+      ],
+      "primer_bloque": "Cuándo: el material no llega para todo a la vez (casi siempre)."
+    },
+    {
+      "titulo": "Conflicto 5 · La custodia en la salida",
+      "paginas": [
+        54
+      ],
+      "contenido_en_misma_pagina": [
+        54
+      ],
+      "primer_bloque": "Cuándo: la evacuación pasa por espacios estrechos (portillo, paso alto, cámara de servicio) o se carga a los presos en los rovers."
+    },
+    {
+      "titulo": "Conflicto 6 · ¿Quién tiene la culpa?",
+      "paginas": [
+        55
+      ],
+      "contenido_en_misma_pagina": [
+        55
+      ],
+      "primer_bloque": "Cuándo: circulan versiones del accidente (el rumor de Román, el registro de C-0, la orden 517-J, el bypass)."
+    },
+    {
+      "titulo": "Conflicto 7 · Órdenes contra necesidades",
+      "paginas": [
+        55
+      ],
+      "contenido_en_misma_pagina": [
+        55
+      ],
+      "primer_bloque": "«No abráis E-1 hasta que yo vea los datos»OriaLa última vez que alguien abrió algo sin datos murieron tresLa ruta baja es la única"
+    },
+    {
+      "titulo": "El sumidero de R-3",
+      "paginas": [
+        20,
+        38,
+        56,
+        63,
+        90
+      ],
+      "contenido_en_misma_pagina": [
+        56
+      ],
+      "primer_bloque": "Cuándo: H-4 llega a 4 con alguien sangrando dentro de R-3 (Osian, si nadie lo ha sacado)."
+    },
+    {
+      "titulo": "Logística de evacuación",
+      "paginas": [
+        56
+      ],
+      "contenido_en_misma_pagina": [
+        56
+      ],
+      "primer_bloque": "Rover 16 puestosCon cuatro o cinco PJ, quedan uno o dos libres para la ida a Bastión"
+    },
+    {
+      "titulo": "Planes de rescate",
+      "paginas": [
+        57
+      ],
+      "contenido_en_misma_pagina": [
+        57
+      ],
+      "primer_bloque": "Cinco planes tipo con su resumen. Las simulaciones completas, minuto a minuto, están en el informe de revisión; los tiempos y regl"
+    },
+    {
+      "titulo": "Plan 1 · Cerrar V-12 y usar E-1",
+      "paginas": [
+        57
+      ],
+      "contenido_en_misma_pagina": [
+        57
+      ],
+      "primer_bloque": "C-0 → reparar la línea en EL-4 → cerrar V-12 desde C-0 → sacar a P-2 → igualar E-1 → ruta baja → evacuar R-3 en tandas de cuatro."
+    },
+    {
+      "titulo": "Plan 2 · Filtrar primero y evacuar por arriba",
+      "paginas": [
+        57
+      ],
+      "contenido_en_misma_pagina": [
+        57
+      ],
+      "primer_bloque": "L-4 → cría → paso alto → abrir el portillo → cartuchos del rover y del armario → evacuar de uno en uno por L-4 → sostener P-2 todo"
+    },
+    {
+      "titulo": "Plan 3 · Estabilizar y esperar refuerzos",
+      "paginas": [
+        57
+      ],
+      "contenido_en_misma_pagina": [
+        57
+      ],
+      "primer_bloque": "Energía y aire para P-2 → cartuchos a R-3 → esperar al rover 2 → depurador portátil en R-3 → batería industrial con automatismo en"
+    },
+    {
+      "titulo": "Plan 4 · Solución creativa",
+      "paginas": [
+        57
+      ],
+      "contenido_en_misma_pagina": [
+        57
+      ],
+      "primer_bloque": "Si proponen congelar una fuga con un circuito térmico, puentear el banco de C-0 hasta P-2 con el carrete, purgar R-3, construir un"
+    },
+    {
+      "titulo": "Plan 5 · Retirada o evacuación parcial",
+      "paginas": [
+        58
+      ],
+      "contenido_en_misma_pagina": [
+        58
+      ],
+      "primer_bloque": "Los PJ pueden retirarse con quien hayan sacado. No es una sentencia automática para los que quedan: calcula qué ayuda llega y cuán"
+    },
+    {
+      "titulo": "Finales y consecuencias",
+      "paginas": [
+        58
+      ],
+      "contenido_en_misma_pagina": [
+        58
+      ],
+      "primer_bloque": "Elige el final según lo ocurrido: quién vive, dónde queda a salvo, qué se pierde y qué pruebas salen del complejo. Ajusta las imág"
+    },
+    {
+      "titulo": "Final A · Los sacan a todos",
+      "paginas": [
+        58
+      ],
+      "contenido_en_misma_pagina": [
+        58
+      ],
+      "primer_bloque": "R-3 recibe aire a tiempo; Quiroga e Ivo sobreviven; H-4 queda controlado y la evacuación termina sin nuevas muertes. Un triunfo di"
+    },
+    {
+      "titulo": "Final B · Salvación parcial",
+      "paginas": [
+        58
+      ],
+      "contenido_en_misma_pagina": [
+        58
+      ],
+      "primer_bloque": "El grupo salva a R-3, pero P-2 se queda sin aire o sin bomba; o salva P-2 y el tramo bajo obliga a una evacuación por arriba con h"
+    },
+    {
+      "titulo": "Final C · El acuerdo amargo",
+      "paginas": [
+        58
+      ],
+      "contenido_en_misma_pagina": [
+        58
+      ],
+      "primer_bloque": "Los dos refugios quedan estables y el grupo acuerda esperar al equipo de Bastión. Salen algunos; otros se quedan sosteniendo la pu"
+    },
+    {
+      "titulo": "Final D · La fuga",
+      "paginas": [
+        58
+      ],
+      "contenido_en_misma_pagina": [
+        58
+      ],
+      "primer_bloque": "Ivo, u otro condenado, aprovecha el traslado para intentar huir. La fuga necesita un medio concreto: traje con mochila, un vehícul"
+    },
+    {
+      "titulo": "Final E · Nueva crisis industrial",
+      "paginas": [
+        59
+      ],
+      "contenido_en_misma_pagina": [
+        59
+      ],
+      "primer_bloque": "Una maniobra violenta (E-1 forzada, V-12 cerrada de golpe, explosivos en la cría) amplía las filtraciones y deja C-7 inutilizable."
+    },
+    {
+      "titulo": "Final F · La retirada",
+      "paginas": [
+        59
+      ],
+      "contenido_en_misma_pagina": [
+        59
+      ],
+      "primer_bloque": "No consiguen acceso ni estabilización suficiente y vuelven a Bastión. Narra con precisión a quién ayudaron y qué costó no interven"
+    },
+    {
+      "titulo": "Lo que queda sobre la mesa",
+      "paginas": [
+        59
+      ],
+      "contenido_en_misma_pagina": [
+        59
+      ],
+      "primer_bloque": "La investigación industrial. Las costras biológicas obligan a cambiar protocolos. El informe de Vera, ahora, pesa.La investigación"
+    },
+    {
+      "titulo": "Epílogos de personaje",
+      "paginas": [
+        59
+      ],
+      "contenido_en_misma_pagina": [
+        59
+      ],
+      "primer_bloque": "Pregunta a cada jugador:"
+    },
+    {
+      "titulo": "Semillas de campaña",
+      "paginas": [
+        59
+      ],
+      "contenido_en_misma_pagina": [
+        59
+      ],
+      "primer_bloque": "El otro frente. Un informe sobre D-1 muestra costras en una válvula crítica. Esta vez se puede prevenir antes de que haya atrapado"
+    },
+    {
+      "titulo": "Mara Venn",
+      "paginas": [
+        10,
+        12,
+        13,
+        14,
+        46,
+        60,
+        72,
+        83,
+        91
+      ],
+      "contenido_en_misma_pagina": [
+        60
+      ],
+      "primer_bloque": "Fig. 27. Mara Venn, alguacil militar, la mirada fija en un manómetro que ya no cree"
+    },
+    {
+      "titulo": "Lara Quiroga",
+      "paginas": [
+        13,
+        14,
+        47,
+        60,
+        61,
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        60
+      ],
+      "primer_bloque": "Fig. 28. Lara Quiroga junto a la portilla de P-2, un hombro caído y la radio pegada al oído"
+    },
+    {
+      "titulo": "Ivo Sen",
+      "paginas": [
+        12,
+        13,
+        14,
+        47,
+        59,
+        61,
+        72,
+        79,
+        85
+      ],
+      "contenido_en_misma_pagina": [
+        61
+      ],
+      "primer_bloque": "Fig. 29. Ivo Sen inclinado sobre un panel abierto de P-2, manos negras de grasa y salmuera"
+    },
+    {
+      "titulo": "Tomás Duarte",
+      "paginas": [
+        14,
+        46,
+        61,
+        62,
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        61
+      ],
+      "primer_bloque": "Fig. 30. Tomás Duarte de espaldas al grupo, una lista de reclusos apretada en el puño"
+    },
+    {
+      "titulo": "Roque Vidal",
+      "paginas": [
+        10,
+        13,
+        62
+      ],
+      "contenido_en_misma_pagina": [
+        62
+      ],
+      "primer_bloque": "Fig. 31. Roque Vidal al otro lado de una radio de Bastión, una libreta de custodia abierta"
+    },
+    {
+      "titulo": "Oria Sable",
+      "paginas": [
+        10,
+        12,
+        13,
+        62
+      ],
+      "contenido_en_misma_pagina": [
+        62
+      ],
+      "primer_bloque": "Fig. 32. Oria Sable en la sala de mando de Bastión, el mapa de concesión lleno de chinchetas"
+    },
+    {
+      "titulo": "Inés Calder",
+      "paginas": [
+        5,
+        13,
+        14,
+        46,
+        63,
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        63
+      ],
+      "primer_bloque": "Fig. 33. Inés Calder sentada contra una consola de R-3, una pierna vendada y cables en el regazo"
+    },
+    {
+      "titulo": "Nora Ilias",
+      "paginas": [
+        14,
+        25,
+        46,
+        63,
+        72,
+        84
+      ],
+      "contenido_en_misma_pagina": [
+        63
+      ],
+      "primer_bloque": "Fig. 34. Nora Ilias con la espalda pegada al panel de R-3, los ojos en la rejilla del suelo"
+    },
+    {
+      "titulo": "Gaspar Kroll",
+      "paginas": [
+        14,
+        46,
+        63,
+        64,
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        63
+      ],
+      "primer_bloque": "Fig. 35. Gaspar Kroll sentado sobre la rejilla del sumidero de R-3, el cuerpo quieto y pesado"
+    },
+    {
+      "titulo": "Román Kes",
+      "paginas": [
+        14,
+        38,
+        46,
+        54,
+        64,
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        64
+      ],
+      "primer_bloque": "Preso, 40 años. Cohecho y extorsión. Tiene la tibia rota y no puede andar. Mira las salidas y habla por encima de quienes callan."
+    },
+    {
+      "titulo": "Ulma Senn",
+      "paginas": [
+        12,
+        13,
+        14,
+        46,
+        64,
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        64
+      ],
+      "primer_bloque": "Treinta y ocho años; condena por negligencia industrial. A las 09:36 manejaba el limpiador térmico de J-17. Vio salir gel de la co"
+    },
+    {
+      "titulo": "Osian Brev",
+      "paginas": [
+        14,
+        46,
+        54,
+        64,
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        64
+      ],
+      "primer_bloque": "Veintiséis años. Robo a mano armada. Un torniquete improvisado contiene la hemorragia del muslo. Anda despacio y debe evitar esfue"
+    },
+    {
+      "titulo": "Los demás presos de R-3",
+      "paginas": [
+        64
+      ],
+      "contenido_en_misma_pagina": [
+        64
+      ],
+      "primer_bloque": "Isa RehnContrabandoVio a Ivo con herramientas en el drenaje; oye el techo"
+    },
+    {
+      "titulo": "Personal de apoyo",
+      "paginas": [
+        65
+      ],
+      "contenido_en_misma_pagina": [
+        65
+      ],
+      "primer_bloque": "Bruna Lasarte"
+    },
+    {
+      "titulo": "Los tres fallecidos",
+      "paginas": [
+        4,
+        65
+      ],
+      "contenido_en_misma_pagina": [
+        65
+      ],
+      "primer_bloque": "Elmo Serrat, alguacil, en la hoja de E-1, con la radio abierta. Milena Tey, civil (intercambiable con Inés), sellada en el corredo"
+    },
+    {
+      "titulo": "Respuesta autónoma",
+      "paginas": [
+        4,
+        54,
+        60,
+        65
+      ],
+      "contenido_en_misma_pagina": [
+        65
+      ],
+      "primer_bloque": "10:36Mara organiza turnos y cuenta absorbentes; Celia hace inventario (sabe de los C-12 del armario)—"
+    },
+    {
+      "titulo": "Mothership 1.2 y las reglas de este escenario",
+      "paginas": [
+        66
+      ],
+      "contenido_en_misma_pagina": [
+        66
+      ],
+      "primer_bloque": "Nádir se juega con el reglamento oficial de Mothership 1.2 (Player's Survival Guide, PSG, y Warden's Operations Manual). Cuando es"
+    },
+    {
+      "titulo": "Reglas del manual que más se usan aquí",
+      "paginas": [
+        66
+      ],
+      "contenido_en_misma_pagina": [
+        66
+      ],
+      "primer_bloque": "Tiradas de característica y salvación (d100 bajo el valor; 90–99 siempre fallan; los dobles son críticos; [+] y [−] = tirar dos ve"
+    },
+    {
+      "titulo": "Reglas propias de este escenario",
+      "paginas": [
+        66
+      ],
+      "contenido_en_misma_pagina": [
+        66
+      ],
+      "primer_bloque": "Todas están en «Relojes, recursos y cronología» salvo la Atención de la colonia, que está en el artículo del costrero."
+    },
+    {
+      "titulo": "Cuándo pedir una tirada",
+      "paginas": [
+        67
+      ],
+      "contenido_en_misma_pagina": [
+        67
+      ],
+      "primer_bloque": "Pide una tirada de característica (Fuerza, Velocidad, Intelecto, Combate) o de salvación (Cordura, Miedo, Cuerpo) solo si el resul"
+    },
+    {
+      "titulo": "El fallo tiene precio",
+      "paginas": [
+        66,
+        67
+      ],
+      "contenido_en_misma_pagina": [
+        67
+      ],
+      "primer_bloque": "En Mothership, fallar una tirada da +1 de Estrés y, con un crítico, un chequeo de Pánico. La ficha de cada lugar dice qué más cues"
+    },
+    {
+      "titulo": "Estrés sugerido",
+      "paginas": [
+        67
+      ],
+      "contenido_en_misma_pagina": [
+        67
+      ],
+      "primer_bloque": "Oír a Mara desaparecer de la radio+1 de Estrés al alguacil"
+    },
+    {
+      "titulo": "Disparos en instalaciones presurizadas",
+      "paginas": [
+        68
+      ],
+      "contenido_en_misma_pagina": [
+        68
+      ],
+      "primer_bloque": "Los alguaciles llevan armas del PSG: subfusil (SMG: 2d10, Disparo) para Mara y Gael, revólver (1d10+1) para Quiroga y Duarte. Lo q"
+    },
+    {
+      "titulo": "Combate con los costreros",
+      "paginas": [
+        68
+      ],
+      "contenido_en_misma_pagina": [
+        68
+      ],
+      "primer_bloque": "Una criatura de medio metro no compite con un alguacil como lo haría un soldado. Es peligrosa por el territorio, la proximidad, lo"
+    },
+    {
+      "titulo": "Heridas y atención médica",
+      "paginas": [
+        68
+      ],
+      "contenido_en_misma_pagina": [
+        68
+      ],
+      "primer_bloque": "Las heridas de los PNJ de R-3 (la fractura de Román, la hemorragia de Osian, la pierna de Inés, el hombro de Quiroga) son estados "
+    },
+    {
+      "titulo": "Ecos del hielo",
+      "paginas": [
+        68
+      ],
+      "contenido_en_misma_pagina": [
+        68
+      ],
+      "primer_bloque": "1Alguien ha empañado tu visor por fueraCondensación por el gradiente térmico entre tu aliento y el cristal"
+    },
+    {
+      "titulo": "Cuando los jugadores hacen algo imprevisto",
+      "paginas": [
+        69
+      ],
+      "contenido_en_misma_pagina": [
+        69
+      ],
+      "primer_bloque": "Piden que los presos salgan solosPueden, si alguien les lleva trajes y abre una salida; R-3 no tiene trajes para trece"
+    },
+    {
+      "titulo": "1 · Cronología de la emergencia",
+      "paginas": [
+        70
+      ],
+      "contenido_en_misma_pagina": [
+        70
+      ],
+      "primer_bloque": "09:36Rotura en J-17. Mueren Teo, Milena (09:38) y Serrat (09:39)—"
+    },
+    {
+      "titulo": "2 · Hoja de los tres relojes",
+      "paginas": [
+        71
+      ],
+      "contenido_en_misma_pagina": [
+        71
+      ],
+      "primer_bloque": "09:366,0 (13)Estable0,4612 / propiasí14890—"
+    },
+    {
+      "titulo": "3 · Recursos consumibles",
+      "paginas": [
+        71
+      ],
+      "contenido_en_misma_pagina": [
+        71
+      ],
+      "primer_bloque": "Cartucho C-12B-4 (rover 1)2+1,2 kg en R-3 o ≈13 h en P-2"
+    },
+    {
+      "titulo": "4 · Estado y localización de las personas",
+      "paginas": [
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        72
+      ],
+      "primer_bloque": "Mara VennR-3Agotada—"
+    },
+    {
+      "titulo": "5 · Matriz de pistas",
+      "paginas": [
+        72
+      ],
+      "contenido_en_misma_pagina": [
+        72
+      ],
+      "primer_bloque": "Mara está vivaMensaje inicial; telemetría de C-0; radio local; Inés y el bus de datosMotivo y prioridad del alguacil"
+    },
+    {
+      "titulo": "6 · Los PNJ en una línea",
+      "paginas": [
+        73
+      ],
+      "contenido_en_misma_pagina": [
+        73
+      ],
+      "primer_bloque": "MaraSacar a los treceSalir antes que sus presosPurga a las 16:50; Yusef a la cámara a las 17:36"
+    },
+    {
+      "titulo": "7 · Los costreros en una tarjeta",
+      "paginas": [
+        74
+      ],
+      "contenido_en_misma_pagina": [
+        74
+      ],
+      "primer_bloque": "Jerarquía: retirada → convergencia → defensa de la puesta → alimentación → sellado.Perciben: vibración por sólidos y gradientes qu"
+    },
+    {
+      "titulo": "8 · Plano operativo de C-7",
+      "paginas": [
+        74
+      ],
+      "contenido_en_misma_pagina": [
+        74
+      ],
+      "primer_bloque": "Superficie: atracadero ↔ portilla P-25 minSiempreLibre"
+    },
+    {
+      "titulo": "9 · Hoja rápida de casillas",
+      "paginas": [
+        74
+      ],
+      "contenido_en_misma_pagina": [
+        74
+      ],
+      "primer_bloque": "R-3□ □ □ □ □ □ □ □ □ □ □ □1 por hora con 12–13; 90 min con 9–11; 2 h con 6–8; 3 h con 4–5; 5 h con 1–3Quedan 3: Degradado · 0: Crí"
+    },
+    {
+      "titulo": "10 · Hoja de la cuadrilla",
+      "paginas": [
+        75
+      ],
+      "contenido_en_misma_pagina": [
+        75
+      ],
+      "primer_bloque": "□ □ □ □ □ □ □ □ □ □ □ □"
+    },
+    {
+      "titulo": "Cómo usar estos documentos",
+      "paginas": [
+        76
+      ],
+      "contenido_en_misma_pagina": [
+        76
+      ],
+      "primer_bloque": "Entrega el recuadro: copiado a una nota, por chat o impreso desde «Documentos imprimibles». Guarda para ti las indicaciones de obt"
+    },
+    {
+      "titulo": "Documentos de campo",
+      "paginas": [
+        77
+      ],
+      "contenido_en_misma_pagina": [
+        77
+      ],
+      "primer_bloque": "D01 · Autorización de cuadrilla de confianza"
+    },
+    {
+      "titulo": "D01 · Al inicio, si preguntan por sus permisos",
+      "paginas": [
+        77
+      ],
+      "contenido_en_misma_pagina": [
+        77
+      ],
+      "primer_bloque": "D01 · Autorización de cuadrilla de confianza"
+    },
+    {
+      "titulo": "D02 · Si consultan el terminal de B-4 o investigan el filtro",
+      "paginas": [
+        77
+      ],
+      "contenido_en_misma_pagina": [
+        77
+      ],
+      "primer_bloque": "D02 · Registro de B-4: muestra 117-C"
+    },
+    {
+      "titulo": "D03 · En la escena de radio; también en el registro de C-0",
+      "paginas": [
+        77
+      ],
+      "contenido_en_misma_pagina": [
+        77
+      ],
+      "primer_bloque": "D03 · Último mensaje de Mara"
+    },
+    {
+      "titulo": "Documentos técnicos del complejo",
+      "paginas": [
+        77
+      ],
+      "contenido_en_misma_pagina": [
+        77
+      ],
+      "primer_bloque": "D04 · Orden de trabajo 517-J"
+    },
+    {
+      "titulo": "D04 · Archivo de C-0, copia de Bastión o testimonio de Ulma",
+      "paginas": [
+        77
+      ],
+      "contenido_en_misma_pagina": [
+        77
+      ],
+      "primer_bloque": "D04 · Orden de trabajo 517-J"
+    },
+    {
+      "titulo": "D05 · Diagnóstico en C-0",
+      "paginas": [
+        78
+      ],
+      "contenido_en_misma_pagina": [
+        78
+      ],
+      "primer_bloque": "D05 · Registro de presión de C-7"
+    },
+    {
+      "titulo": "D06 · Por radio con R-3 o en el inventario de C-0",
+      "paginas": [
+        78
+      ],
+      "contenido_en_misma_pagina": [
+        78
+      ],
+      "primer_bloque": "D06 · Manifiesto del refugio R-3"
+    },
+    {
+      "titulo": "D07 · Por radio con Quiroga o en P-2",
+      "paginas": [
+        78
+      ],
+      "contenido_en_misma_pagina": [
+        78
+      ],
+      "primer_bloque": "D07 · Hoja manual de la bomba P-2"
+    },
+    {
+      "titulo": "D08 · En el nicho de L-4 o en la tableta de Ivo",
+      "paginas": [
+        78
+      ],
+      "contenido_en_misma_pagina": [
+        78
+      ],
+      "primer_bloque": "D08 · Plano antiguo de L-4"
+    },
+    {
+      "titulo": "D09 · En el archivo de B-4 o pidiéndolo a HRF",
+      "paginas": [
+        79
+      ],
+      "contenido_en_misma_pagina": [
+        79
+      ],
+      "primer_bloque": "D09 · Informe de incidencias de fauna"
+    },
+    {
+      "titulo": "Documentos de enlace y declaración",
+      "paginas": [
+        79
+      ],
+      "contenido_en_misma_pagina": [
+        79
+      ],
+      "primer_bloque": "D10 · Mensaje de Bastión"
+    },
+    {
+      "titulo": "D10 · Con enlace con Bastión",
+      "paginas": [
+        79
+      ],
+      "contenido_en_misma_pagina": [
+        79
+      ],
+      "primer_bloque": "D10 · Mensaje de Bastión"
+    },
+    {
+      "titulo": "D11 · Si Ivo colabora o se reconstruye la modificación",
+      "paginas": [
+        79
+      ],
+      "contenido_en_misma_pagina": [
+        79
+      ],
+      "primer_bloque": "D11 · Declaración provisional de Ivo Sen"
+    },
+    {
+      "titulo": "Anexos recuperados",
+      "paginas": [
+        79
+      ],
+      "contenido_en_misma_pagina": [
+        79
+      ],
+      "primer_bloque": "El repetidor guarda en su búfer lo que retransmitió en el canal de alguaciles hasta que se apagó. No contiene nada posterior a las"
+    },
+    {
+      "titulo": "D12-A · Al reparar R-12",
+      "paginas": [
+        79
+      ],
+      "contenido_en_misma_pagina": [
+        79
+      ],
+      "primer_bloque": "El repetidor guarda en su búfer lo que retransmitió en el canal de alguaciles hasta que se apagó. No contiene nada posterior a las"
+    },
+    {
+      "titulo": "D12-B · En el panel de C-0, por tramos",
+      "paginas": [
+        80
+      ],
+      "contenido_en_misma_pagina": [
+        80
+      ],
+      "primer_bloque": "El panel de C-0 ha seguido grabando el canal. Entrega solo los tramos que ya han terminado cuando lo consultan. Si el canal se cor"
+    },
+    {
+      "titulo": "D13 · En el archivo de Bastión, o pidiéndolo a ACE tras encontrar la placa",
+      "paginas": [
+        80
+      ],
+      "contenido_en_misma_pagina": [
+        80
+      ],
+      "primer_bloque": "D13 · Expediente ACE de evasión · H. Lisán"
+    },
+    {
+      "titulo": "D14 · Diario de Quiroga, por tramos y según lo ocurrido",
+      "paginas": [
+        80
+      ],
+      "contenido_en_misma_pagina": [
+        80
+      ],
+      "primer_bloque": "Quiroga escribe en la hoja de turno. Entrega la parte base y solo las entradas cuya hora ya ha pasado, eligiendo en cada tramo la "
+    },
+    {
+      "titulo": "D15 · Con acceso al sistema logístico de HRF",
+      "paginas": [
+        81
+      ],
+      "contenido_en_misma_pagina": [
+        81
+      ],
+      "primer_bloque": "D15 · Registro de vehículos de Bastión (extracto)"
+    },
+    {
+      "titulo": "Cierre del expediente",
+      "paginas": [
+        82
+      ],
+      "contenido_en_misma_pagina": [
+        82
+      ],
+      "primer_bloque": "Juntas, las piezas cuentan una cadena, no una conspiración: un mantenimiento que limpió lo que no entendía, un informe que se qued"
+    },
+    {
+      "titulo": "Gael Rivas — el alguacil de referencia",
+      "paginas": [
+        83
+      ],
+      "contenido_en_misma_pagina": [
+        83
+      ],
+      "primer_bloque": "Fig. 36. Retrato de Gael Rivas, alguacil de referencia de ACE"
+    },
+    {
+      "titulo": "Quién eres",
+      "paginas": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        83
+      ],
+      "primer_bloque": "Tienes treinta y ocho años y firmas los permisos de la M-4 por la Autoridad de Custodia Extraplanetaria. Reconoces la voz de cada "
+    },
+    {
+      "titulo": "Ficha",
+      "paginas": [
+        2,
+        4,
+        11,
+        21,
+        22,
+        30,
+        38,
+        45,
+        46,
+        47,
+        60,
+        64,
+        65,
+        66,
+        67,
+        68,
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        83
+      ],
+      "primer_bloque": "Clase Marine · Estrés 2 · Respuesta al trauma: cuando entras en Pánico, cada compañero cercano hace una salvación de Miedo."
+    },
+    {
+      "titulo": "Motivo",
+      "paginas": [
+        11,
+        12,
+        20,
+        72,
+        77,
+        80,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        83
+      ],
+      "primer_bloque": "Mara Venn, tu pareja (o el vínculo que acordéis), acaba de pedir ayuda por radio y ha desaparecido."
+    },
+    {
+      "titulo": "Vínculo",
+      "paginas": [
+        5,
+        11,
+        33,
+        60,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        83
+      ],
+      "primer_bloque": "Darío te ayudó a sobrevivir a un accidente hace meses. Desde entonces te niegas a tratarlo como una estadística."
+    },
+    {
+      "titulo": "Conflicto",
+      "paginas": [
+        11,
+        53,
+        54,
+        55,
+        60,
+        67,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        83
+      ],
+      "primer_bloque": "Salvar a Mara no puede significar dejar morir a los demás. Tienes poder para intervenir; no para borrar las consecuencias. Y Mara "
+    },
+    {
+      "titulo": "Información exclusiva",
+      "paginas": [
+        11,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Mara pidió el traslado al siguiente turno de Bastión para hablar contigo de algo importante. No dijo de qué. También conoces el pr"
+    },
+    {
+      "titulo": "Tu decisión",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Tu firma permite salir sin esperar autorización. También puede quitar unas esposas, mantener a Ivo trabajando pese a Vidal o cambi"
+    },
+    {
+      "titulo": "Cómo interpretarte",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Da órdenes cortas y cumple la primera. Cuando te preocupes, vuelve a comprobar presión, ruta o número de trajes. Puedes pedir esos"
+    },
+    {
+      "titulo": "Qué te asusta de Nádir",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "La diferencia de presión que no se ve. Saber, con la física en la mano, que el cierre que salvó a unos dejó al otro lado a los que"
+    },
+    {
+      "titulo": "Vera Soria — la científica presa",
+      "paginas": [
+        84
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Fig. 37. Retrato de Vera Soria, científica presa de confianza"
+    },
+    {
+      "titulo": "Quién eres",
+      "paginas": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Tus certificaciones falsas ayudaron a una red criminal y hubo víctimas. Cumples condena trabajando en salmueras, biocorrosión y an"
+    },
+    {
+      "titulo": "Ficha",
+      "paginas": [
+        2,
+        4,
+        11,
+        21,
+        22,
+        30,
+        38,
+        45,
+        46,
+        47,
+        60,
+        64,
+        65,
+        66,
+        67,
+        68,
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Clase Científico · Estrés 2 · Respuesta al trauma: cuando fallas una salvación de Cordura, cada compañero cercano gana 1 de Estrés"
+    },
+    {
+      "titulo": "Motivo",
+      "paginas": [
+        11,
+        12,
+        20,
+        72,
+        77,
+        80,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Nora Ilias, interna de C-7, clasificaba muestras contigo y te escribía. Es la persona que te importa al otro lado del hielo."
+    },
+    {
+      "titulo": "Vínculo",
+      "paginas": [
+        5,
+        11,
+        33,
+        60,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Elia te ayudó a publicar un informe técnico que te evitó sanciones arbitrarias."
+    },
+    {
+      "titulo": "Conflicto",
+      "paginas": [
+        11,
+        53,
+        54,
+        55,
+        60,
+        67,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Puedes perder tu régimen de confianza si te separas del alguacil o cruzas sectores sin cobertura. Y tus antecedentes hacen que tu "
+    },
+    {
+      "titulo": "Información exclusiva",
+      "paginas": [
+        11,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Hace doce días analizaste la muestra 117-C (D02): estructura orgánica ordenada. Sabes que el informe se quedó en la oficina técnic"
+    },
+    {
+      "titulo": "Tu decisión",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Puedes firmar el descubrimiento y arriesgarte a que HRF lo descarte por tus antecedentes. O puedes ofrecer a Oria el crédito para "
+    },
+    {
+      "titulo": "Cómo interpretarte",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Mide antes de opinar. Anota lo que te inquieta. Cuando responda Nora, deja el lector un momento y escucha."
+    },
+    {
+      "titulo": "Qué te asusta de Nádir",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        84
+      ],
+      "primer_bloque": "Encontrar orden donde debería haber azar. Una pared que crece hacia donde hay una fuga, como si el hielo tuviera una razón."
+    },
+    {
+      "titulo": "Si no se juega",
+      "paginas": [
+        83,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "El informe 117-C sigue en el terminal de B-4 y cualquiera puede leerlo. Nora, en R-3, da la regla del sellado si alguien le pregun"
+    },
+    {
+      "titulo": "Darío Belda — el técnico preso",
+      "paginas": [
+        85
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Fig. 38. Retrato de Darío Belda, técnico preso de confianza"
+    },
+    {
+      "titulo": "Quién eres",
+      "paginas": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Válvulas, bombas, soldadura, vehículos: sabes dónde meter la mano. También sabes qué precauciones te saltas cuando tienes prisa. D"
+    },
+    {
+      "titulo": "Ficha",
+      "paginas": [
+        2,
+        4,
+        11,
+        21,
+        22,
+        30,
+        38,
+        45,
+        46,
+        47,
+        60,
+        64,
+        65,
+        66,
+        67,
+        68,
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        85,
+        86
+      ],
+      "primer_bloque": "Clase Tripulación · Estrés 2 · Respuesta al trauma: una vez por sesión, puedes hacer un chequeo de Pánico con [+]."
+    },
+    {
+      "titulo": "Motivo",
+      "paginas": [
+        11,
+        12,
+        20,
+        72,
+        77,
+        80,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Tu antiguo compañero Ivo Sen, condenado por homicidio, trabaja en C-7. Le debes un favor y no quieres otra muerte sobre la concien"
+    },
+    {
+      "titulo": "Vínculo",
+      "paginas": [
+        5,
+        11,
+        33,
+        60,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Gael declaró a tu favor tras una infracción que no habías cometido."
+    },
+    {
+      "titulo": "Conflicto",
+      "paginas": [
+        11,
+        53,
+        54,
+        55,
+        60,
+        67,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Conoces soluciones prohibidas. Emplearlas puede salvar vidas o dejarte sin beneficios penitenciarios. Y lo que agravó el desastre "
+    },
+    {
+      "titulo": "Información exclusiva",
+      "paginas": [
+        11,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Ivo te preguntó hace días por un plano antiguo de drenajes. No sabes para qué. Y reconoces su letra: si ves el plano de L-4 (D08) "
+    },
+    {
+      "titulo": "Tu decisión",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Reconoces la letra de Ivo. Decide si lo dices, lo ocultas o llamas al bypass «una modificación antigua». Si necesitas un apaño pro"
+    },
+    {
+      "titulo": "Cómo interpretarte",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Sigue trabajando mientras hablas. Contesta con humor seco cuando todo va mal. Si te dan las gracias, se te atascan las palabras."
+    },
+    {
+      "titulo": "Qué te asusta de Nádir",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "El agua a presión y el ruido que hace antes de romper. Y apretar una válvula pensando que eres tú quien deja la siguiente trampa."
+    },
+    {
+      "titulo": "Si no se juega",
+      "paginas": [
+        83,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Ivo y Quiroga son los técnicos de la operación en cuanto quedan libres; Bruna Lasarte llega con el rover 2. Cualquier PJ puede hac"
+    },
+    {
+      "titulo": "Elia Noé — la operadora civil",
+      "paginas": [
+        85
+      ],
+      "contenido_en_misma_pagina": [
+        85
+      ],
+      "primer_bloque": "Fig. 39. Retrato de Elia Noé, operadora civil de HRF"
+    },
+    {
+      "titulo": "Quién eres",
+      "paginas": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "HRF te paga por mantener radios, baterías, aire y sensores. Conoces las averías que se reparan y las que se aplazan. La batería de"
+    },
+    {
+      "titulo": "Ficha",
+      "paginas": [
+        2,
+        4,
+        11,
+        21,
+        22,
+        30,
+        38,
+        45,
+        46,
+        47,
+        60,
+        64,
+        65,
+        66,
+        67,
+        68,
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        85,
+        86
+      ],
+      "primer_bloque": "Clase Tripulación · Estrés 2 · Respuesta al trauma: una vez por sesión, Pánico con [+]."
+    },
+    {
+      "titulo": "Motivo",
+      "paginas": [
+        11,
+        12,
+        20,
+        72,
+        77,
+        80,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "Tu amiga Milena Tey estaba de turno en C-7 (o Inés, si se intercambiaron). Nadie responde."
+    },
+    {
+      "titulo": "Vínculo",
+      "paginas": [
+        5,
+        11,
+        33,
+        60,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "Vera demostró que un resultado anómalo no era negligencia tuya y salvó tu puesto."
+    },
+    {
+      "titulo": "Conflicto",
+      "paginas": [
+        11,
+        53,
+        54,
+        55,
+        60,
+        67,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "Tu contrato te obliga a comunicar a HRF cualquier modificación no autorizada. Si comunicas el bypass mientras Ivo sostiene la bomb"
+    },
+    {
+      "titulo": "Información exclusiva",
+      "paginas": [
+        11,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "Sabes que la batería de respaldo de R-12 estaba degradada y cómo repararlo. Tienes acceso al sistema logístico de HRF: puedes cons"
+    },
+    {
+      "titulo": "Tu decisión",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "El canal con Bastión pasa por tus manos. Puedes comunicar el bypass mientras Ivo aún trabaja, esperar a sustituirlo o guardar ese "
+    },
+    {
+      "titulo": "Cómo interpretarte",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "Explica a qué está conectado lo que acaba de fallar. Acelera al encontrar una solución y frénate antes de decir algo que compromet"
+    },
+    {
+      "titulo": "Qué te asusta de Nádir",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "El silencio. Un canal muerto es una habitación que se llena de gente que ya no te oye."
+    },
+    {
+      "titulo": "Si no se juega",
+      "paginas": [
+        83,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "Elia se queda en B-4, en la radio: hace la llamada a Bastión cuando el grupo se lo pide y es la voz técnica al otro lado. No acomp"
+    },
+    {
+      "titulo": "LIMEN-6 — el alguacil sintético",
+      "paginas": [
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "Fig. 40. Retrato de LIMEN-6, alguacil sintético de ACE"
+    },
+    {
+      "titulo": "Quién eres",
+      "paginas": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "LIMEN-6, funcionario sintético de ACE. Llevas casi tres años con Gael, con licencia operativa local y responsabilidad sobre el uso"
+    },
+    {
+      "titulo": "Ficha",
+      "paginas": [
+        2,
+        4,
+        11,
+        21,
+        22,
+        30,
+        38,
+        45,
+        46,
+        47,
+        60,
+        64,
+        65,
+        66,
+        67,
+        68,
+        83,
+        84,
+        85,
+        86
+      ],
+      "contenido_en_misma_pagina": [
+        86
+      ],
+      "primer_bloque": "Clase Androide · Estrés 2 · Respuesta al trauma: las salvaciones de Miedo de los compañeros cercanos se hacen con [−]."
+    },
+    {
+      "titulo": "Motivo",
+      "paginas": [
+        11,
+        12,
+        20,
+        72,
+        77,
+        80,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "Tu compañero sale a auxiliar a Mara. Esa operación entra en tus deberes y en tu vínculo con él."
+    },
+    {
+      "titulo": "Vínculo",
+      "paginas": [
+        5,
+        11,
+        33,
+        60,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "Los presos confían en que documentas las incidencias sin alterar las declaraciones. Es un crédito frágil y lo cuidas."
+    },
+    {
+      "titulo": "Conflicto",
+      "paginas": [
+        11,
+        53,
+        54,
+        55,
+        60,
+        67,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "Tu memoria es de ACE. Todo lo que ves (las decisiones de Gael, los apaños de Darío, lo que diga Ivo) puede reclamarse. Y Vidal pue"
+    },
+    {
+      "titulo": "Información exclusiva",
+      "paginas": [
+        11,
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "Tu última inspección de C-7 encontró una diferencia entre el plano antiguo del drenaje y el registro digital en L-4: reconoces el "
+    },
+    {
+      "titulo": "Tu decisión",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "Vidal puede ordenarte detener a Ivo, transmitir tus grabaciones o separar a los presos. Tus atribuciones te permiten valorar esas "
+    },
+    {
+      "titulo": "Cómo interpretarte",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "Habla en frases completas. Da el dato exacto, sobre todo cuando la pregunta te incomode. Si dudas, dilo: «no tengo datos suficient"
+    },
+    {
+      "titulo": "Qué te asusta de Nádir",
+      "paginas": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "Quedar inmovilizado bajo algo que pesa más de lo que puedes levantar, con el reloj corriendo y la persona a la que proteges fuera "
+    },
+    {
+      "titulo": "Si no se juega",
+      "paginas": [
+        83,
+        85,
+        86,
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "Limen se queda en B-4 custodiando al preso Bruno Isern. Con cuatro PJ, el testigo neutral del orden de salida puede ser el enferme"
+    },
+    {
+      "titulo": "Vínculos de la cuadrilla",
+      "paginas": [
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "GaelDaríoLe ayudó a sobrevivir a un accidente"
+    },
+    {
+      "titulo": "Dos preguntas para cada protagonista",
+      "paginas": [
+        87
+      ],
+      "contenido_en_misma_pagina": [
+        87
+      ],
+      "primer_bloque": "¿Qué integrante de C-7 te importa y por qué? Un vínculo hostil o una deuda también sirven.¿Qué hecho sobre tu trabajo o tu vida en"
+    }
+  ]
+}

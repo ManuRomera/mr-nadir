@@ -5,9 +5,9 @@ Una mordedura puede abrir el traje. Un disparo puede perforar la conducción que
 Palabras clave: tiradas, Estrés, Pánico, armadura, heridas, reglas de escenario
 :::
 
-## Mothership 1e y las reglas de este escenario
+## Mothership 1.2 y las reglas de este escenario
 
-*Nádir* se juega con el reglamento oficial de **Mothership 1e** (*Player's Survival Guide*, PSG, y *Warden's Operations Manual*). Cuando este libro y el manual discrepen, manda el manual. Las reglas propias del escenario están marcadas como tales y se pueden cambiar antes de jugar.
+*Nádir* se juega con el reglamento oficial de **Mothership 1.2** (*Player's Survival Guide*, PSG, y *Warden's Operations Manual*). Cuando este libro y el manual discrepen, manda el manual. Las reglas propias del escenario están marcadas como tales y se pueden cambiar antes de jugar.
 
 ### Reglas del manual que más se usan aquí
 

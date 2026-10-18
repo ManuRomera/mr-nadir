@@ -321,7 +321,7 @@ ChatMessage.create({content: out});""", "icons/svg/biohazard.svg")
 
 
 def aventura():
-    desc = ('<p><b>Nádir: Sangre bajo el hielo</b> — aventura de horror industrial y rescate para Mothership 1e (3–5 jugadores, 6–9 h).</p>'
+    desc = ('<p><b>Nádir: Sangre bajo el hielo</b> — aventura de horror industrial y rescate para Mothership 1.2 (3–5 jugadores, 6–9 h).</p>'
             '<p>Incluye: guía del Guardián en %d diarios, documentos para jugadores, %d PNJ y criaturas, 5 pregenerados con tokens de cuerpo entero, mapas con muros y puertas, %d tablas, macros y el <b>Panel de emergencia</b> (botón en los controles de token).</p>') % (
         len(B.ORDEN), len(CANON["pnj"]), len(TABLES))
     return {"_id": fid("adventure"), "name": "MR- Nádir: Sangre bajo el hielo", "img": art("fig-portada"), "caption": "<p>Anales de Biología de Frontera · Número especial ND-17</p>", "description": desc,

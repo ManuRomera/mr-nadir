@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -29,6 +31,7 @@ jobs:
         shell: bash
         run: |
           npm ci
+          node tools/test_editorial_update.mjs
           node scripts/build.mjs
           unzip -l dist/mr-nadir.zip | grep -q "packs/aventura/CURRENT"
           unzip -l dist/mr-nadir.zip | grep -q "assets/maps/c7.webp"
@@ -48,7 +51,7 @@ jobs:
           VERSION: ${{ steps.version.outputs.version }}
         shell: bash
         run: |
-          FILES="dist/mr-nadir.zip module.json docs/Nadir-Sangre-bajo-el-hielo.pdf"
+          FILES="dist/mr-nadir.zip module.json docs/Nadir-Sangre-bajo-el-hielo.pdf docs/Nadir-Material-de-juego.pdf"
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" $FILES --clobber
             gh release edit "$TAG" --notes-file notes.md

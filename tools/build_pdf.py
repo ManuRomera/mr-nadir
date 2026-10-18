@@ -45,6 +45,7 @@ def esc(s):
 
 def inline(s):
     s = esc(s)
+    s = re.sub(r"\*\*\*(.+?)\*\*\*", r"<b><i>\1</i></b>", s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
     s = re.sub(r"(?<![\*\w])\*(?!\s)(.+?)(?<!\s)\*(?![\*\w])", r"<i>\1</i>", s)
     s = re.sub(r"`(.+?)`", r"<code>\1</code>", s)
@@ -337,7 +338,7 @@ CSS = r"""
   @top-left { content: "NÁDIR · SANGRE BAJO EL HIELO"; font: 600 6.5pt 'Avenir Next Condensed'; letter-spacing: .22em; color:#9a5a14; }
   @top-right { content: "Anales de Biología de Frontera · Vol. 12, n.º 3"; font: 400 7pt 'Avenir Next'; color:#777; }
   @bottom-center { content: counter(page); font: 500 8pt 'Avenir Next'; color:#555; }
-  @bottom-left { content: "Mothership 1e · 3–5 jugadores · Número especial ND-17"; font: 400 6.5pt 'Avenir Next'; color:#999; }
+  @bottom-left { content: "Mothership 1.2 · 3–5 jugadores · Número especial ND-17"; font: 400 6.5pt 'Avenir Next'; color:#999; }
   @bottom-right { content: url("BRANDDIR/mono-pdf.png"); vertical-align: middle; } }
 @page plate { size: A4; margin: 0; @top-left{content:none} @top-right{content:none} @bottom-center{content:none} @bottom-left{content:none} }
 @page cover { size: A4; margin: 0; @top-left{content:none} @top-right{content:none} @bottom-center{content:none} @bottom-left{content:none} }
@@ -436,8 +437,8 @@ def portada():
     src = img_path("fig-portada")
     bg = ('<img class="bgimg" src="%s">' % src) if src else ""
     return ('<section class="cover">%s<div class="shade"></div><div class="mast"><span>Anales de Biología de Frontera</span><span>Vol. 12 · n.º 3 · Número especial ND-17</span></div>'
-            '<h1>Nádir<span>Sangre bajo el hielo</span></h1><div class="sub">Expediente del suceso de C-7 y primera descripción de <i>Crustivermis nadirensis</i>. Una aventura de horror industrial para Mothership 1e.</div>'
-            '<div class="tag"><span>3–5 jugadores</span><span>6–9 horas</span><span>Mothership 1e</span></div><img class="logo" src="file://%s/brand/MR_11_Formal_Marfil_Transparente.png"></section>') % (bg, ROOT)
+            '<h1>Nádir<span>Sangre bajo el hielo</span></h1><div class="sub">Expediente del suceso de C-7 y primera descripción de <i>Crustivermis nadirensis</i>. Una aventura de horror industrial para Mothership 1.2.</div>'
+            '<div class="tag"><span>3–5 jugadores</span><span>6–9 horas</span><span>Mothership 1.2</span></div><img class="logo" src="file://%s/brand/MR_11_Formal_Marfil_Transparente.png"></section>') % (bg, ROOT)
 
 
 def contraportada():
@@ -447,8 +448,8 @@ def contraportada():
             '<p>Una cuadrilla de presos de confianza, una operadora civil y su alguacil reparan una bomba cuando llega el último mensaje de Mara Venn. '
             'En el sector C-7 hay trece personas en un refugio para diez, dos atrapados sosteniendo una bomba que no pueden abandonar, y algo ciego que sella las grietas del hielo. '
             'Y un cadáver, para ellos, también es una grieta.</p>'
-            '<p>Aventura completa de horror industrial y rescate para Mothership 1e: cuatro actos, doce localizaciones, tres relojes, quince vidas en juego y ninguna solución única.</p>'
-            '<small>Obra independiente y no oficial, compatible con Mothership 1e. Mothership es una marca de Tuesday Knight Games. '
+            '<p>Aventura completa de horror industrial y rescate para Mothership 1.2: cuatro actos, doce localizaciones, tres relojes, quince vidas en juego y ninguna solución única.</p>'
+            '<small>Obra independiente y no oficial, compatible con Mothership 1.2. Mothership es una marca de Tuesday Knight Games. '
             'Texto © Manuel Romera. Imágenes generadas con IA y gradadas por el autor. Licencia: CC BY-NC-SA 4.0.</small></div></section>') % (bg, ROOT)
 
 

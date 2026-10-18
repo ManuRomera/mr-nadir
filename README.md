@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="docs/img/banner.webp" alt="MR- Nádir: Sangre bajo el hielo — aventura de horror industrial para Mothership 1e" width="100%">
+  <img src="docs/img/banner.webp" alt="MR- Nádir: Sangre bajo el hielo — aventura de horror industrial para Mothership 1.2" width="100%">
 </p>
 
 <p align="center">
   <a href="https://github.com/ManuRomera/mr-nadir/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/ManuRomera/mr-nadir?style=for-the-badge&color=d9822b&label=release"></a>
   <img alt="Foundry VTT v13" src="https://img.shields.io/badge/Foundry%20VTT-v13-57d8c8?style=for-the-badge">
   <a href="https://github.com/ManuRomera/mr-nadir/releases"><img alt="Downloads" src="https://raw.githubusercontent.com/ManuRomera/ManuRomera/main/badges/descargas/mr-nadir.svg"></a>
-  <img alt="Mothership 1e" src="https://img.shields.io/badge/Mothership-1e-16323a?style=for-the-badge">
+  <img alt="Mothership 1.2" src="https://img.shields.io/badge/Mothership-1.2-16323a?style=for-the-badge">
   <a href="LICENSE"><img alt="CC BY-NC-SA 4.0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-2b3245?style=for-the-badge"></a>
 </p>
 
 <h3 align="center">Trece personas en un refugio para diez. Dos que no pueden soltar una bomba.<br>Y algo ciego que sella las grietas del hielo. Para ellos, un cadáver también es una grieta.</h3>
 
 <p align="center">
-  <b>Horror industrial · rescate contrarreloj · Mothership 1e · Foundry VTT v13</b><br>
+  <b>Horror industrial · rescate contrarreloj · Mothership 1.2 · Foundry VTT v13</b><br>
   <sub>3–5 jugadores · 6–9 h · en español</sub>
 </p>
 
@@ -41,6 +41,9 @@ https://github.com/ManuRomera/mr-nadir/releases/latest/download/module.json
 Activa **MR- Nádir** en un mundo Mothership: si el mundo está vacío, **la aventura se importa sola** y te ofrece un **tutorial guiado** de todas las herramientas (uno para el Guardián y otro para los jugadores). Si el mundo ya tiene contenido, abre el compendio **MR- Nádir: Sangre bajo el hielo** y pulsa **Import**, o usa Configuración → **MR- Nádir**. El **Panel de emergencia** del Guardián está en los **Controles de token** (y en una macro). Ahí mismo está el botón **Cuadrilla**, el HUD de los jugadores: trajes, carga del rover y los relojes que ya han descubierto.
 
 El **PDF** —un número especial de *Anales de Biología de Frontera* dedicado al descubrimiento de *Crustivermis nadirensis*— está en cada [release](https://github.com/ManuRomera/mr-nadir/releases/latest) como `Nadir-Sangre-bajo-el-hielo.pdf`.
+
+**Versión 2.4.0:** libro de 91 páginas y [material de juego de 19 páginas](https://github.com/ManuRomera/mr-nadir/releases/latest/download/Nadir-Material-de-juego.pdf), con maquetación corregida, ilustraciones únicas y esquemas. Al actualizar y entrar el Guardián, se renuevan los textos originales ya importados. Los textos personalizados se conservan; los campos sustituidos guardan una copia anterior. Heridas, inventario, relojes y progreso permanecen intactos. No hace falta reimportar la aventura.
+
 
 <p align="center">
   <img src="docs/img/hero.webp" alt="Páginas del PDF: portada, artículo científico del costrero y plano del Sector C-7" width="100%">
@@ -106,7 +109,7 @@ Doce zonas, una máquina herida. Este es el plano operativo con los nombres de l
 
 **Nádir** es una luna minera penitenciaria. La cuadrilla de los jugadores —presos de confianza, una operadora civil y su alguacil— está reparando una bomba cuando llega el último mensaje de **Mara Venn** desde el sector C-7: una entrada de salmuera a presión, compuertas cerrándose, heridos. Luego, estática.
 
-- 👥 **3–5 jugadores**, 6–9 h (idealmente dos sesiones), **Mothership 1e**.
+- 👥 **3–5 jugadores**, 6–9 h (idealmente dos sesiones), **Mothership 1.2**.
 - ⏱️ **Tres relojes físicos**: el CO₂ de R-3, el filtro y la batería de P-2, la Fuga H-4. Nadie gana por tirar dados: se gana por resolver presión, aire, tiempo y custodia.
 - ⚖️ **Un dilema que nace de la física**: sacar a los dos de P-2 sin sustituir su bomba condena a los trece de R-3. Uno de ellos es un homicida que, además, agravó el desastre.
 - 🪱 **Los costreros**: fauna ciega que sella fugas. No planean nada. Sellan. Y los muertos, para ellos, también son fugas.
@@ -146,7 +149,7 @@ Texto, planos y arte: **CC BY-NC-SA 4.0** © 2026 Manuel Romera Chinchilla. *Mot
 
 ## 🇬🇧 English
 
-**MR- Nádir: Sangre bajo el hielo** ("Blood under the ice") is a complete industrial-horror rescue scenario for **Mothership 1e** (3–5 players, 6–9 h), written in Spanish. A crew of trusted convicts and their marshal answer a cut-off distress call from a flooded mining sector on a penal ice moon, where blind crust-worms seal every leak — corpses included. Includes a scientific-journal style PDF and a ready-to-import Foundry VTT **v13** adventure (journals, full-body tokens, walled maps, tables, macros and an emergency clock panel).
+**MR- Nádir: Sangre bajo el hielo** ("Blood under the ice") is a complete industrial-horror rescue scenario for **Mothership 1.2** (3–5 players, 6–9 h), written in Spanish. A crew of trusted convicts and their marshal answer a cut-off distress call from a flooded mining sector on a penal ice moon, where blind crust-worms seal every leak — corpses included. Includes a scientific-journal style PDF and a ready-to-import Foundry VTT **v13** adventure (journals, full-body tokens, walled maps, tables, macros and an emergency clock panel).
 
 **Install:** *Add-on Modules → Install Module → Manifest URL*:
 

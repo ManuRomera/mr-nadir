@@ -1,53 +1,122 @@
 {
-  "paginas_libro": 87,
-  "paginas_material": 18,
+  "paginas_libro": 91,
+  "paginas_material": 19,
   "marcadores": 16,
   "enlaces_indice": 14,
   "ilustraciones_repetidas": [],
   "texto_no_localizado": [],
   "fragmentos_comprobados_a_ambos_lados_de_un_salto": [
     {
-      "parrafo": "El expediente miente por omisión. Los dos equipos existieron en el papel: se asi",
-      "fragmento": "osdetelemetriayllamadasporradiodes",
-      "corte_verificado": 20
+      "parrafo": "Vol. 12 · n.º 3 · Número especial ND-17",
+      "fragmento": "vol12no3numeroespecialnd17",
+      "corte_verificado": 10
     }
   ],
   "figuras_editoriales": [
-    [
-      7,
-      "E1"
-    ],
-    [
-      11,
-      "E9"
-    ],
-    [
-      23,
-      "E2"
-    ],
-    [
-      30,
-      "E3"
-    ],
-    [
-      50,
-      "E4"
-    ],
-    [
-      57,
-      "E5"
-    ],
-    [
-      63,
-      "E6"
-    ],
-    [
-      78,
-      "E7"
-    ],
-    [
-      83,
-      "E8"
-    ]
+    {
+      "pagina": 7,
+      "tipo": "esquema",
+      "clave": "clocks"
+    },
+    {
+      "pagina": 11,
+      "tipo": "ilustración",
+      "archivo": "p110.jpg"
+    },
+    {
+      "pagina": 15,
+      "tipo": "ilustración",
+      "archivo": "p008.jpg"
+    },
+    {
+      "pagina": 16,
+      "tipo": "ilustración",
+      "archivo": "p083.jpg"
+    },
+    {
+      "pagina": 19,
+      "tipo": "ilustración",
+      "archivo": "p088.jpg"
+    },
+    {
+      "pagina": 30,
+      "tipo": "ilustración",
+      "archivo": "p023.jpg"
+    },
+    {
+      "pagina": 35,
+      "tipo": "ilustración",
+      "archivo": "p040.jpg"
+    },
+    {
+      "pagina": 36,
+      "tipo": "ilustración",
+      "archivo": "p017.jpg"
+    },
+    {
+      "pagina": 37,
+      "tipo": "ilustración",
+      "archivo": "p032.jpg"
+    },
+    {
+      "pagina": 38,
+      "tipo": "ilustración lateral",
+      "archivo": "p041.jpg"
+    },
+    {
+      "pagina": 44,
+      "tipo": "ilustración",
+      "archivo": "p052.jpg"
+    },
+    {
+      "pagina": 45,
+      "tipo": "esquema",
+      "clave": "ledge"
+    },
+    {
+      "pagina": 49,
+      "tipo": "esquema",
+      "clave": "valve"
+    },
+    {
+      "pagina": 50,
+      "tipo": "ilustración",
+      "archivo": "p047.jpg"
+    },
+    {
+      "pagina": 52,
+      "tipo": "ilustración",
+      "archivo": "p082.jpg"
+    },
+    {
+      "pagina": 55,
+      "tipo": "ilustración",
+      "archivo": "p016.jpg"
+    },
+    {
+      "pagina": 59,
+      "tipo": "ilustración",
+      "archivo": "p095.jpg"
+    },
+    {
+      "pagina": 66,
+      "tipo": "ilustración lateral",
+      "archivo": "p031.jpg"
+    },
+    {
+      "pagina": 69,
+      "tipo": "ilustración",
+      "archivo": "p096.jpg"
+    },
+    {
+      "pagina": 73,
+      "tipo": "ilustración",
+      "archivo": "p089.jpg"
+    },
+    {
+      "pagina": 82,
+      "tipo": "ilustración",
+      "archivo": "p103.jpg"
+    }
   ]
 }

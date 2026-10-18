@@ -18,7 +18,7 @@ def parse_table(lines):
     if headers==["Fuerza","Velocidad","Intelecto","Combate","Cordura","Miedo","Cuerpo","Salud","Heridas"] and len(lines)==3:
         values=[c.strip() for c in lines[2].strip().strip("|").split("|")]
         return '<div class="statgrid">'+"".join('<div><em>'+B.esc(h)+'</em><strong>'+B.esc(v)+'</strong></div>' for h,v in zip(headers,values))+'</div>'
-    return _original_table(lines)
+    return _original_table(lines).replace('<table>','<table class="wide">')
 B.parse_table=parse_table
 _original_figure=B.figure
 
@@ -37,7 +37,10 @@ figure.ret img { height:43mm; aspect-ratio:auto; object-fit:cover; }
 figure.ret figcaption { font-size:6.3pt; }
 figure.wide img { max-height:75mm; object-fit:cover; }
 figure.specimen img { height:100mm; max-height:100mm; object-fit:contain; background:#fbf9f4; }
+@page atlasland { size:A4 landscape; margin:15mm; }
 .atlas { break-before:page; }
+.atlas.land { page:atlasland; }
+.atlas.land img { height:145mm; }
 .atlas h1 { font:700 29pt 'Avenir Next Condensed'; color:var(--teal); margin:0 0 4mm; }
 .atlas img { width:100%; height:205mm; object-fit:contain; }
 .atlas figcaption { margin-top:3mm; }
@@ -49,6 +52,9 @@ td:first-child,th:first-child { min-width:12mm; overflow-wrap:normal; hyphens:no
 .toc a { color:inherit; text-decoration:none; }
 .toc li { font-size:10pt; padding:2.1mm 0; }
 '''
+import editorial_flow
+editorial_flow.install(B)
+
 # La contraportada usa una imagen distinta de la ilustración de los finales.
 contra=B.contraportada
 B.contraportada=lambda:contra().replace(B.img_path('fig-final'),B.img_path('fig-rover'))
@@ -59,7 +65,7 @@ def atlas():
       ('atlas-b4','Atlas · Frente B-4','b4-paper.png','Punto de partida de la cuadrilla M-4. Taller, laboratorio, soporte vital y salida del rover.'),
       ('atlas-ruta','Atlas · Superficie','ruta-paper.png','Ruta por R-12 y atajo hasta C-7. Las distancias y el terreno determinan tiempo y energía.'),
       ('atlas-c7','Atlas · Sector C-7','c7-operativo-v.svg','Plano operativo: accesos, atmósferas, inundación y equipos. Los números corresponden a las localizaciones del Acto III.')]:
-      out.append(f'<section class="atlas" id="{ident}"><div class="kicker">ANEXO CARTOGRÁFICO</div><h1>{title}</h1><figure><img src="file://{B.MAPS}/{file}"><figcaption>{caption}</figcaption></figure></section>')
+      out.append(f'<section class="atlas {"land" if ident!="atlas-c7" else ""}" id="{ident}"><div class="kicker">ANEXO CARTOGRÁFICO</div><h1>{title}</h1><figure><img src="file://{B.MAPS}/{file}"><figcaption>{caption}</figcaption></figure></section>')
     return ''.join(out)
 
 def construir(pages):
@@ -92,7 +98,7 @@ print(json.dumps({'libro':str(pdf),'paginas':len(fitz.open(pdf)),'material':str(
 # Las láminas y esquemas se añaden después de estabilizar índice y paginación.
 import subprocess
 (OUT/'figuras-editoriales.json').unlink(missing_ok=True)
-subprocess.run([sys.executable,str(R/'tools/finish_editorial_pdf.py')],check=True)
+subprocess.run([sys.executable,str(R/'tools/finish_layout_pdf.py')],check=True)
 
 # Las releases del módulo publican estos nombres estables desde docs/.
 import shutil

@@ -9,7 +9,7 @@ d=fitz.open(out/'Nadir-Sangre-bajo-el-hielo-edicion-editorial.pdf')
 class Blocks(HTMLParser):
  def __init__(self):super().__init__();self.s=[];self.b=[]
  def handle_starttag(self,t,a):
-  if t in ['p','li','th','td','h1','h2','h3','h4','figcaption']:self.s.append([t,[]])
+  if t in ['p','li','th','td','h1','h2','h3','h4','figcaption','span']:self.s.append([t,[]])
  def handle_data(self,v):
   for x in self.s:x[1].append(v)
  def handle_endtag(self,t):

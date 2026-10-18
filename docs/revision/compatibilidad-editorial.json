@@ -12,7 +12,7 @@
     "folders": 11
   },
   "paginas": 190,
-  "paginas_con_texto_revisado": 105,
+  "paginas_con_texto_revisado": 106,
   "cambios_ajenos_al_texto": false,
   "errores": [],
   "revisadas": [
@@ -91,6 +91,10 @@
     [
       "04 · Crustivermis nadirensis: el costrero",
       "Hábitat y metabolismo"
+    ],
+    [
+      "04 · Crustivermis nadirensis: el costrero",
+      "Fichas para Mothership 1e"
     ],
     [
       "04 · Crustivermis nadirensis: el costrero",
@@ -436,8 +440,5 @@
       "★ Guion de dirección",
       "Finales"
     ]
-  ],
-  "compendio_verificado": true,
-  "zip_integro": true,
-  "prueba_en_mundo_foundry": "No ejecutada: la revisión no importa ni modifica mundos existentes."
+  ]
 }

@@ -5,7 +5,7 @@ Quiroga tarda en contestar. El motor pierde un golpe. En el refugio, Mara repite
 Palabras clave: relojes, CO₂, energía, trajes, rutas, refuerzos, cronología de referencia
 :::
 
-Todo lo que aparece en este capítulo son **reglas de escenario**: no forman parte del reglamento de Mothership 1e y no lo sustituyen. Donde una regla se apoya en el manual (armadura, oxígeno, salvaciones, muerte), se cita la sección del *Player's Survival Guide* (PSG). El Guardián puede cambiar cualquier cifra antes de jugar; lo que no debe hacer es cambiarla durante la partida para forzar un resultado.
+Todo lo que aparece en este capítulo son **reglas de escenario**: no forman parte del reglamento de Mothership 1.2 y no lo sustituyen. Donde una regla se apoya en el manual (armadura, oxígeno, salvaciones, muerte), se cita la sección del *Player's Survival Guide* (PSG). El Guardián puede cambiar cualquier cifra antes de jugar; lo que no debe hacer es cambiarla durante la partida para forzar un resultado.
 
 ## Modo de dirección rápida
 

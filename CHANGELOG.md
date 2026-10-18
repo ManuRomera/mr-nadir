@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.4.0 — 2026-10-18
+- Revisión editorial de los capítulos, las 25 lecturas de escena y el guion.
+- PDF de revista: títulos unidos al contenido, nuevo flujo de columnas, figuras únicas y atlas único.
+- Reglamento identificado como Mothership 1.2; se conservan las cifras y reglas del escenario.
+- Actualización de diarios y biografías originales en partidas existentes, sin reimportar la aventura. Conserva textos personalizados y guarda una copia del texto sustituido en cada documento.
+- Publicación de los dos PDF completos junto al módulo. El manifiesto mantiene su dirección de actualización y el ZIP queda vinculado a esta versión.
+
 ## 2.3.0 — 2026-10-18
 - **Instalación automática:** al activar el módulo en un mundo vacío, el Guardián importa la aventura solo (una vez), activa la escena del Frente B-4 y deja Mothership en su 1.ª edición. En un mundo con contenido no toca nada.
 - **Tutorial guiado** con los tours de Foundry: «Cómo dirigir» (17 pasos: guía, escenas, barra, Panel, ojo, consola, visor, alarma, documentos) y «Tu visor y tu traje» (9 pasos para jugadores). Se ofrecen la primera vez y se repiten desde Configuración → MR- Nádir o Configuración → Tours.
