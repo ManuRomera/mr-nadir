@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.1 — 2026-10-18
+- La alarma roja es algo más visible (sigue siendo difusa, baja y sin tapar nada).
+- README rehecho con capturas: visor de casco y alarma, barra y Panel del Guardián, Consola de la cuadrilla y plano del Sector C-7 con los nombres de sala tachados.
+- `tools/maps.py`: el plano admite una versión «redactada» para publicar sin spoilers.
+
 ## 2.2.0 — 2026-10-18
 - **Barra del Guardián** compacta, siempre arriba en el centro: hora y botones para moverla, relojes de la escena activa en casillas (los que estén en alerta salen siempre, en rojo), acciones rápidas de cada estancia, efectos, alarma, Panel, Consola y ayuda.
 - **Visor de casco** para los jugadores: proyección en neón arriba en el centro con la hora, su traje y los relojes que han descubierto; cada jugador lo enciende o apaga con su botón.

@@ -188,7 +188,8 @@ def brillo(img):
     return Image.composite(img, black, vig)
 
 
-def render(deck, tema, conductos=False):
+def render(deck, tema, conductos=False, redactado=False):
+    """redactado=True: plano de portada sin spoilers (nombres de sala tachados y sin mobiliario)."""
     t = TEMAS[tema]
     img = Image.new("RGB", (W * G * S, H * G * S), t["bg"])
     d = ImageDraw.Draw(img)
@@ -206,7 +207,7 @@ def render(deck, tema, conductos=False):
         for (x, y), r in cell.items():
             d.rectangle([px(x), px(y), px(x + 1), px(y + 1)], fill=t["hall"] if r == "hall" else t["floor"])
         grid()
-        for rid, items in deck["decor"].items():
+        for rid, items in ([] if redactado else deck["decor"].items()):
             for it in items:
                 if it[0] in ("rect", "row"):
                     kind, x, y, w, h, tipo = it
@@ -243,7 +244,11 @@ def render(deck, tema, conductos=False):
             cx_, cy_ = px(x + w / 2), px(y + h / 2)
             if rid in deck["labels"]:
                 d.text((cx_, cy_ - 22), rid, fill=t["label"], font=fn, anchor="mm")
-                d.text((cx_, cy_ + 50), deck["labels"][rid], fill=t["text"], font=ft, anchor="mm")
+                if redactado:   # barra de censura del ancho del nombre
+                    bw = d.textlength(deck["labels"][rid], font=ft) / 2
+                    d.rectangle([cx_ - bw, cy_ + 32, cx_ + bw, cy_ + 68], fill=t["wall"])
+                else:
+                    d.text((cx_, cy_ + 50), deck["labels"][rid], fill=t["text"], font=ft, anchor="mm")
             else:
                 d.text((cx_, cy_), rid, fill=t["label"], font=font(46, True), anchor="mm")
         if "blind" in deck:
@@ -260,7 +265,7 @@ def render(deck, tema, conductos=False):
             d.ellipse([px(x + .5 - r), px(y + .5 - r), px(x + .5 + r), px(y + .5 + r)], fill=t["bg"], outline=t["label"], width=6)
             d.text((px(x + .5), px(y + .5)), code, fill=t["label"], font=font(30, True), anchor="mm")
             d.text((px(x + .5), px(y + 1.5)), nombre, fill=t["text"], font=font(26, True), anchor="mm")
-    d.text((px(0.5), px(0.35)), deck["titulo"], fill=t["label"], font=font(40, True), anchor="lm")
+    d.text((px(0.5), px(0.35)), deck["titulo"] + (" · EXTRACTO CLASIFICADO" if redactado else ""), fill=t["label"], font=font(40, True), anchor="lm")
     d.text((px(W - 0.5), px(H - 0.35)), "NÁDIR · 1 casilla = 1,5 m", fill=t["text"], font=font(26), anchor="rm")
     img = img.resize((W * G, H * G), Image.LANCZOS)
     if tema == "crt":

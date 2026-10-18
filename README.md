@@ -12,9 +12,23 @@
 
 <h3 align="center">Trece personas en un refugio para diez. Dos que no pueden soltar una bomba.<br>Y algo ciego que sella las grietas del hielo. Para ellos, un cadáver también es una grieta.</h3>
 
+<p align="center">
+  <b>Horror industrial · rescate contrarreloj · Mothership 1e · Foundry VTT v13</b><br>
+  <sub>3–5 jugadores · 6–9 h · en español</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ManuRomera/mr-nadir/releases/latest"><b>⬇️ Descargar</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/ManuRomera/mr-nadir/releases/latest/download/Nadir-Sangre-bajo-el-hielo.pdf"><b>📖 PDF</b></a> &nbsp;·&nbsp;
+  <a href="#foundry"><b>🖥️ Capturas</b></a> &nbsp;·&nbsp;
+  <a href="#instalar"><b>⚡ Instalar</b></a>
+</p>
+
 <p align="center"><sub>🇬🇧 <a href="#-english">Read in English</a></sub></p>
 
 ---
+
+<a id="instalar"></a>
 
 ## ⚡ Instalación en 10 segundos
 
@@ -30,6 +44,52 @@ El **PDF** —un número especial de *Anales de Biología de Frontera* dedicado 
 
 <p align="center">
   <img src="docs/img/hero.webp" alt="Páginas del PDF: portada, artículo científico del costrero y plano del Sector C-7" width="100%">
+</p>
+
+<a id="foundry"></a>
+
+## 🖥️ Así se ve en Foundry
+
+Cada jugador lleva un **visor de casco**: una proyección en neón, arriba en el centro, con su traje y solo los relojes que sus personajes ya han descubierto. Cuando el Guardián enciende la **alarma**, un marco rojo, difuso y parpadeante late en los bordes de su pantalla sin taparle nada.
+
+<p align="center">
+  <img src="docs/img/foundry-visor-alarma.webp" alt="Pantalla de un jugador: mapa del Sector C-7, visor de casco en neón arriba en el centro con la hora, su traje y los relojes descubiertos, y marco rojo de alarma en los bordes" width="100%">
+  <br><sub><b>Vista del jugador:</b> visor de casco (activable con su botón) y alarma encendida por el Guardián. Los nombres de las salas están tachados para no destripar la aventura.</sub>
+</p>
+
+El Guardián **solo mueve la hora**: su **barra** vive arriba, siempre visible, y muestra los relojes de la escena en la que está, con sus acciones rápidas. El **Panel de emergencia** guarda el detalle y adelanta qué ocurrirá si nadie hace nada.
+
+<p align="center">
+  <img src="docs/img/foundry-guardian.webp" alt="Pantalla del Guardián: barra compacta con hora, relojes en casillas y menú de alarma por jugador, y el Panel de emergencia desplegado" width="100%">
+  <br><sub><b>Vista del Guardián:</b> barra con hora y relojes de la escena, alarma jugador por jugador y Panel de emergencia con «Si nadie hace nada».</sub>
+</p>
+
+<table>
+  <tr>
+    <td width="42%" valign="top">
+      <img src="docs/img/foundry-consola.webp" alt="Consola de la cuadrilla: trajes de faena, relojes descubiertos, acciones y carga del rover" width="100%">
+    </td>
+    <td valign="top">
+      <h4>👥 La Consola de la cuadrilla</h4>
+      <p>Los jugadores se encargan de lo suyo, y el Guardián se queda con la historia:</p>
+      <ul>
+        <li>🪖 <b>Su traje</b>: umbilical, mochila, esfuerzo y recambios, con casillas que bajan solas con la hora.</li>
+        <li>🎒 <b>La carga y la batería del rover</b>, que ellos mismos apuntan.</li>
+        <li>🔍 <b>Solo lo que saben</b>: cada reloj aparece cuando sus personajes lo descubren, contado como lo percibirían («Quiroga habla bajo, despacio»), nunca con cifras de reglas.</li>
+        <li>🛠️ <b>Lo que hacen</b>: «Cartucho → R-3», «Bomba al rover», «V-12 cerrada»… llega al Guardián con un botón <i>Anular</i>.</li>
+      </ul>
+      <p><sub>Todas las herramientas están explicadas en el diario <b>★ Cómo usar las herramientas</b> que incluye el módulo.</sub></p>
+    </td>
+  </tr>
+</table>
+
+## 🗺️ El Sector C-7 (extracto clasificado)
+
+Doce zonas, una máquina herida. Este es el plano operativo con los nombres de las salas **tachados**: lo que hay en cada una lo descubre tu mesa.
+
+<p align="center">
+  <img src="docs/img/plano-c7-clasificado.webp" alt="Plano del Sector C-7 en pantalla de fósforo verde: doce zonas numeradas con los nombres tachados" width="100%">
+  <br><sub>El mismo plano en el módulo es una <b>pantalla de fósforo con barrido de radar</b>, muros, puertas, luces por sala y <b>regiones</b> que avisan al Guardián cuando un personaje entra en una sala.</sub>
 </p>
 
 ## 🧊 De qué va
