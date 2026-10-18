@@ -1,0 +1,2177 @@
+{
+  "pregenerados": {
+    "gael": {
+      "trauma": "cuando entras en Pánico, cada compañero cercano hace una salvación de Miedo.",
+      "armas": [
+        {
+          "n": "Subfusil reglamentario",
+          "dano": "2d10",
+          "alcance": "Largo",
+          "corto": 0,
+          "medio": 0,
+          "largo": 0,
+          "cargador": 5,
+          "municion": 15,
+          "herida": "Disparo",
+          "especial": "Puede dispararse con una mano; 3 cargadores de 5 tiros en total (15 tiros, incluidos los cargados); cada disparo suma 1 a la Atención de la zona conectada a cavidades.",
+          "desc": "Subfusil reglamentario de ACE."
+        },
+        {
+          "n": "Bastón aturdidor",
+          "dano": "1d5",
+          "alcance": "Adyacente",
+          "corto": 0,
+          "medio": 0,
+          "largo": 0,
+          "cargador": 0,
+          "municion": 0,
+          "herida": "Fuerza bruta",
+          "especial": "El blanco hace una salvación de Cuerpo o queda aturdido 1 asalto; un PNJ tira Instinto.",
+          "desc": "Permite reducir a alguien al alcance de la mano sin disparar contra las instalaciones."
+        }
+      ],
+      "armadura": {
+        "n": "Traje de faena",
+        "pa": 3,
+        "rd": 0,
+        "velocidad": "[−]",
+        "oxigeno_h": 12,
+        "desc": "Puesto: traje de vacío con radio, linterna y protección contra radiaciones, 12 h de mochila (4 h bajo esfuerzo o estrés), sin gasto con umbilical y despresurización en 1d5 asaltos si se perfora."
+      },
+      "objetos": [
+        {
+          "n": "Parche de traje",
+          "cantidad": 1,
+          "desc": "Restaura la estanqueidad de un traje perforado con PA 1 antes de que se despresurice en 1d5 asaltos."
+        },
+        {
+          "n": "Esposas",
+          "cantidad": 1,
+          "desc": "Mantienen bajo custodia a un detenido, pero atar a Kroll junto al agua desencadena el forcejeo de R-3."
+        },
+        {
+          "n": "Radio multibanda",
+          "cantidad": 1,
+          "desc": "Enlaza con los alguaciles y los refugios; desde C-7 solo alcanza Bastión si R-12 funciona."
+        },
+        {
+          "n": "Credencial ACE",
+          "cantidad": 1,
+          "desc": "Identifica a Gael como responsable de custodia y respalda la excepción de seguridad D01."
+        }
+      ]
+    },
+    "vera": {
+      "trauma": "cuando fallas una salvación de Cordura, cada compañero cercano gana 1 de Estrés.",
+      "armas": [],
+      "armadura": {
+        "n": "Traje de faena",
+        "pa": 3,
+        "rd": 0,
+        "velocidad": "[−]",
+        "oxigeno_h": 12,
+        "desc": "Puesto: traje de vacío con radio, linterna y protección contra radiaciones, 12 h de mochila (4 h bajo esfuerzo o estrés), sin gasto con umbilical y despresurización en 1d5 asaltos si se perfora."
+      },
+      "objetos": [
+        {
+          "n": "Parche de traje",
+          "cantidad": 1,
+          "desc": "Restaura la estanqueidad de un traje perforado con PA 1 antes de que se despresurice en 1d5 asaltos."
+        },
+        {
+          "n": "Lector químico portátil",
+          "cantidad": 1,
+          "desc": "Compara los cordones del filtro, las costras y la puesta con la estructura orgánica de la muestra 117-C."
+        },
+        {
+          "n": "Cámara de muestreo",
+          "cantidad": 1,
+          "desc": "Permite aislar y conservar una muestra de costra para su análisis sin arrancarla con percusión."
+        },
+        {
+          "n": "Tableta sin acceso externo",
+          "cantidad": 1,
+          "desc": "Guarda notas y resultados locales para documentar el hallazgo, sin dar acceso remoto a Bastión."
+        },
+        {
+          "n": "Material de seguridad de laboratorio",
+          "cantidad": 1,
+          "desc": "Protege al manipular salmuera y muestras; no sustituye un traje cerrado en las galerías."
+        }
+      ]
+    },
+    "dario": {
+      "trauma": "una vez por sesión, puedes hacer un chequeo de Pánico con [+].",
+      "armas": [],
+      "armadura": {
+        "n": "Traje de faena",
+        "pa": 3,
+        "rd": 0,
+        "velocidad": "[−]",
+        "oxigeno_h": 12,
+        "desc": "Puesto: traje de vacío con radio, linterna y protección contra radiaciones, 12 h de mochila (4 h bajo esfuerzo o estrés), sin gasto con umbilical y despresurización en 1d5 asaltos si se perfora."
+      },
+      "objetos": [
+        {
+          "n": "Parche de traje",
+          "cantidad": 1,
+          "desc": "Restaura la estanqueidad de un traje perforado con PA 1 antes de que se despresurice en 1d5 asaltos."
+        },
+        {
+          "n": "Herramienta multiuso",
+          "cantidad": 1,
+          "desc": "Sirve para abrir paneles y hacer reparaciones accesibles de la bomba y sus conexiones."
+        },
+        {
+          "n": "Abrazaderas",
+          "cantidad": 1,
+          "desc": "Un conjunto de abrazaderas, sin número de piezas especificado, para fijar juntas, conducciones o un apaño de emergencia."
+        },
+        {
+          "n": "Sellante",
+          "cantidad": 1,
+          "desc": "Cierra pequeñas fugas en juntas y conexiones; no sustituye una reparación estructural de J-17."
+        },
+        {
+          "n": "Analizador de fugas",
+          "cantidad": 1,
+          "desc": "Localiza pérdidas de gas y permite comprobar el sellado antes de presurizar un acceso."
+        },
+        {
+          "n": "Llaves de válvula",
+          "cantidad": 1,
+          "desc": "Un conjunto de llaves, sin número de piezas especificado, para accionar válvulas manuales; no sustituye la herramienta de par de V-12."
+        }
+      ]
+    },
+    "elia": {
+      "trauma": "una vez por sesión, Pánico con [+].",
+      "armas": [],
+      "armadura": {
+        "n": "Traje de faena",
+        "pa": 3,
+        "rd": 0,
+        "velocidad": "[−]",
+        "oxigeno_h": 12,
+        "desc": "Puesto: traje de vacío con radio, linterna y protección contra radiaciones, 12 h de mochila (4 h bajo esfuerzo o estrés), sin gasto con umbilical y despresurización en 1d5 asaltos si se perfora."
+      },
+      "objetos": [
+        {
+          "n": "Parche de traje",
+          "cantidad": 1,
+          "desc": "Restaura la estanqueidad de un traje perforado con PA 1 antes de que se despresurice en 1d5 asaltos."
+        },
+        {
+          "n": "Radio de diagnóstico",
+          "cantidad": 1,
+          "desc": "Comprueba canales y enlaces, incluidos R-12 y las comunicaciones locales de C-7."
+        },
+        {
+          "n": "Repuesto del panel de R-12",
+          "cantidad": 1,
+          "desc": "Permite reparar el repetidor en 25–45 min con acceso y herramientas."
+        },
+        {
+          "n": "Fibra y conectores",
+          "cantidad": 1,
+          "desc": "Restituyen conexiones de datos dañadas, como la línea del actuador en EL-4."
+        },
+        {
+          "n": "Filtro de aire portátil",
+          "cantidad": 2,
+          "desc": "Aporta 0,3 kg de absorción de CO₂ a R-3 o algo más de 3 h de aire para dos en P-2."
+        }
+      ]
+    },
+    "limen": {
+      "trauma": "las salvaciones de Miedo de los compañeros cercanos se hacen con [−].",
+      "armas": [
+        {
+          "n": "Revólver reglamentario",
+          "dano": "1d10+1",
+          "alcance": "Corto",
+          "corto": 0,
+          "medio": 0,
+          "largo": 0,
+          "cargador": 6,
+          "municion": 6,
+          "herida": "Disparo",
+          "especial": "Se inicia con el tambor lleno como convención de preparación; no se añaden recargas no indicadas; cada disparo suma 1 a la Atención de la zona conectada a cavidades.",
+          "desc": "Revólver reglamentario de ACE."
+        },
+        {
+          "n": "Bastón aturdidor",
+          "dano": "1d5",
+          "alcance": "Adyacente",
+          "corto": 0,
+          "medio": 0,
+          "largo": 0,
+          "cargador": 0,
+          "municion": 0,
+          "herida": "Fuerza bruta",
+          "especial": "El blanco hace una salvación de Cuerpo o queda aturdido 1 asalto; un PNJ tira Instinto.",
+          "desc": "Permite reducir a alguien al alcance de la mano sin disparar contra las instalaciones."
+        }
+      ],
+      "armadura": {
+        "n": "Traje de faena",
+        "pa": 3,
+        "rd": 0,
+        "velocidad": "[−]",
+        "oxigeno_h": 0,
+        "desc": "Puesto: traje de vacío con radio, linterna y protección contra radiaciones, 8 h de calefacción y presión sin consumo de O₂, umbilical sin gasto de autonomía y despresurización en 1d5 asaltos si se perfora."
+      },
+      "objetos": [
+        {
+          "n": "Parche de traje",
+          "cantidad": 1,
+          "desc": "Restaura la estanqueidad de un traje perforado con PA 1 antes de que se despresurice en 1d5 asaltos."
+        },
+        {
+          "n": "Esposas",
+          "cantidad": 1,
+          "desc": "Sirven para ejecutar una detención con custodia directa, sin resolver quién sustituye a Ivo en la bomba."
+        },
+        {
+          "n": "Bioscanner",
+          "cantidad": 1,
+          "desc": "Busca señales vitales de los atrapados sin garantizar el número de cuerpos a través de la roca."
+        },
+        {
+          "n": "Linterna",
+          "cantidad": 1,
+          "desc": "Ilumina accesos y permite que otro vea un costrero adherido a un traje."
+        },
+        {
+          "n": "Herramienta de rescate",
+          "cantidad": 1,
+          "desc": "Ayuda a liberar atrapados y retirar obstáculos accesibles; no elimina la presión diferencial de una compuerta."
+        }
+      ]
+    }
+  },
+  "pnj": {
+    "mara": {
+      "nombre": "Mara Venn",
+      "rol": "Alguacil militar ACE (R-3)",
+      "combate": 45,
+      "instinto": 50,
+      "salud": 14,
+      "heridas": 2,
+      "pa": 1,
+      "habilidades": [
+        {
+          "n": "Entrenamiento militar",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Armas de fuego",
+          "rango": "Experto"
+        },
+        {
+          "n": "Mando",
+          "rango": "Maestro"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Recuento y reparto",
+          "texto": "A las 10:36 sin intervención organiza turnos y absorbentes; con acceso, material y tiempo lo hace sin tirada y comunica trece ocupantes, sin crear recursos."
+        },
+        {
+          "n": "Hipercapnia",
+          "texto": "Con R-3 Degradado repite frases y trabaja con [−] en tareas finas; en Crítico, sin casco cerrado, [−] a todo e Instinto para esforzarse: si falla, +1 de Estrés y debe parar."
+        },
+        {
+          "n": "Decisiones de refugio",
+          "texto": "Si R-3 está Degradado y no han llegado cartuchos, aprueba la purga de Nora a las 16:50: 15 min, 6 kg de O₂ y +0,6 kg de absorción, máximo tres purgas; desde la segunda cualquier chispa provoca fuego. Con H-4 en 5 manda a Yusef con traje de escape a la cámara de servicio, sin poder abrir los pernos exteriores. Sin ayuda, a las 19:36 hace la segunda purga y reparte los dos trajes de escape entre los heridos; el material aportado antes modifica esta respuesta y los relojes."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Subfusil reglamentario (SMG)",
+          "dano": "2d10",
+          "alcance": "Largo",
+          "herida": "Disparo",
+          "especial": "Puede dispararse con una mano; 5 tiros por cargador (PSG); cada disparo suma 1 a la Atención de la zona conectada a cavidades.",
+          "desc": "Arma de Mara; anuncia conducciones, filtros y personas detrás del blanco antes de tirar Combate."
+        }
+      ],
+      "quiere": "Sacar a los trece con vida, con los heridos primero y ella la última.",
+      "teme": "Que su pareja deje morir a otros por salvarla y que el cierre se recuerde como castigo.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para abrir o abandonar a alguien",
+          "entonces": "Se niega, pide presión y una alternativa; si intentan reducirla, se defiende con Combate sin abrir una compuerta insegura."
+        },
+        {
+          "si": "los PJ le ayudan con cartuchos, trajes o datos de presión",
+          "entonces": "Integra el material en el reparto y cambia el plan si los datos lo sostienen, sin tirada para convencerla."
+        },
+        {
+          "si": "los PJ le mienten sobre quién sigue dentro",
+          "entonces": "Recuenta con Duarte y pide la telemetría; si faltan pruebas y la mentira es relevante, Instinto para advertir una contradicción, sin conocer mágicamente la verdad."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se cubre, ordena apartar a los presos de la línea de tiro y devuelve fuego solo para detener una amenaza inmediata, con Combate."
+        },
+        {
+          "si": "le ofrecen salir antes que sus presos",
+          "entonces": "Se niega mientras quede alguien dentro y el rescate sea viable; solo sale antes si la sacan a la fuerza."
+        },
+        {
+          "si": "circula el rumor de Román",
+          "entonces": "Defiende que cerró después de la inundación; el registro de C-0 de las 09:40 desmiente el castigo sin tirada."
+        },
+        {
+          "si": "ven al costrero del sumidero",
+          "entonces": "Pide mantas, placas y peso; quien sujete la rejilla tira Cuerpo cada 5 min, o Instinto si es PNJ, y el fallo permite que el animal muerda al más cercano."
+        }
+      ],
+      "en_combate": "Protege la fila y usa cobertura; evita disparar hacia el refugio o conductos y forcejea para apartar a quien toque una compuerta insegura.",
+      "se_rinde": "Deja de combatir cuando cesa la amenaza; acepta custodia que permita continuar el rescate, pero no abandona voluntariamente a sus presos.",
+      "frase": "Estoy bien para hablar. No lo estoy para hacerme la valiente."
+    },
+    "quiroga": {
+      "nombre": "Lara Quiroga",
+      "rol": "Alguacil ACE (P-2)",
+      "combate": 40,
+      "instinto": 45,
+      "salud": 13,
+      "heridas": 2,
+      "pa": 3,
+      "habilidades": [
+        {
+          "n": "Entrenamiento militar",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Armas de fuego",
+          "rango": "Experto"
+        },
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Hombro lesionado",
+          "texto": "[−] en tareas físicas exigentes hasta recibir atención; no reduzcas otra vez su Salud por esta lesión ya descrita."
+        },
+        {
+          "n": "Cebado sin Ivo",
+          "texto": "Si Ivo queda apartado, trabaja sola con [−] y debe superar Instinto cada 45 min para el esfuerzo de cebar la bomba; con un fallo no completa el cebado y necesita relevo antes de que se descebe."
+        },
+        {
+          "n": "Energía antes que socorro",
+          "texto": "Sin ayuda, desde las 14:36 transmite en bucle cuando se agota el aire; P-2 Degradado impone [−] en tareas finas y, desde Crítico, Instinto cada hora o incapacitación, según el reloj B."
+        },
+        {
+          "n": "Diario de P-2",
+          "texto": "Mientras conserva conciencia y material, anota parámetros y hechos en D14 sin tirada; en Crítico repite frases desordenadas. Consultar el diario da su testimonio y las medidas que realmente anotó, sin revelar el bypass que solo sospecha."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Revólver reglamentario",
+          "dano": "1d10+1",
+          "alcance": "Corto",
+          "herida": "Disparo",
+          "especial": "6 tiros por tambor (PSG); cada disparo suma 1 a la Atención de la zona conectada a cavidades.",
+          "desc": "Arma reglamentaria; desde la segunda purga, una chispa de disparo dentro de R-3 provoca fuego."
+        }
+      ],
+      "quiere": "Mantener la bomba funcionando hasta que haya una alternativa real.",
+      "teme": "Que la den por muerta, corten su suministro o la portilla termine sellada.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para apagar la bomba",
+          "entonces": "Enseña los caudales y se planta; no acepta sacrificar a Ivo ni a R-3 para castigar el bypass."
+        },
+        {
+          "si": "los PJ le ayudan con aire, energía o un relevo",
+          "entonces": "Pide subir el filtro antes que evacuarla; coopera con el automatismo o el cierre de V-12 sin exigir una tirada social."
+        },
+        {
+          "si": "los PJ le mienten diciendo que la bomba ya no es necesaria",
+          "entonces": "Contrasta el panel y V-12; si la información no es verificable, exige una comprobación antes de abandonar su puesto."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se cubre junto a maquinaria que no interrumpa el caudal y usa el revólver con Combate para detener al atacante; su hombro aplica [−] si la acción lo exige."
+        },
+        {
+          "si": "le ordenan detener o dejar morir a Ivo mientras sostiene P-2",
+          "entonces": "Defiende que lo mantengan trabajando; si lo esposan, exige sustituto y asume sola el cebado con su penalización."
+        },
+        {
+          "si": "la bomba sigue parada a las 15:50 y no hubo respuesta por radio en la última hora",
+          "entonces": "Deja a Ivo su único traje para intentar V-12 por el túnel inundado, si H-4 ≤ 4; ella se queda en P-2 sin traje."
+        },
+        {
+          "si": "ven o escuchan costreros al otro lado de la portilla",
+          "entonces": "Pide evitar golpes y no ciclar sin necesidad; no interpreta que susurrar detenga vibraciones que viajan por el metal."
+        }
+      ],
+      "en_combate": "Combate desde cobertura y protege a Ivo y el cuadro de caudales; evita maniobras que exijan cargar con el hombro herido.",
+      "se_rinde": "Baja el arma cuando hay relevo seguro o cesa el ataque; acepta evacuar al automatizar con energía estable o cerrar V-12.",
+      "frase": "Energía antes que socorro."
+    },
+    "ivo": {
+      "nombre": "Ivo Sen",
+      "rol": "Preso, técnico de drenajes (P-2)",
+      "combate": 30,
+      "instinto": 45,
+      "salud": 12,
+      "heridas": 2,
+      "pa": 1,
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparaciones improvisadas",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparación mecánica",
+          "rango": "Experto"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Automatismo de P-2",
+          "texto": "Con energía estable y acceso a la bomba, su ayuda reduce la reparación del automatismo de 45 a 30 min sin tirada con tiempo y herramientas; sin automatismo, 45 min sin nadie consciente paran la bomba."
+        },
+        {
+          "n": "Cierre desesperado",
+          "texto": "Si la bomba se para a las 15:36 y nadie llega, propone el túnel a V-12; con el traje de Quiroga, mochila y H-4 ≤ 4, cruza 40 min a ciegas y tira Instinto: éxito, cierre gradual hacia las 17:15; fallo, llega a la galería sin herramienta de par y queda allí, con mochila hasta las 19:50."
+        },
+        {
+          "n": "Lectura del drenaje",
+          "texto": "Si ve planos y caudales, explica sin tirada que su bypass limitó B pero no originó la grieta de J-17; si una maniobra aumenta el caudal, se niega y señala la medida que lo demuestra."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Llave de válvula",
+          "dano": "1d5",
+          "alcance": "Adyacente",
+          "herida": "Fuerza bruta",
+          "especial": "",
+          "desc": "La llave de válvula de Ivo, usada como arma improvisada."
+        }
+      ],
+      "quiere": "Salir vivo sin que su error mate a nadie más y conservar una oportunidad de escapar de Nádir.",
+      "teme": "Que lo ejecuten, lo dejen atrás o acabe como Lisán al descubrir el bypass.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan con ejecutarlo",
+          "entonces": "Se calla y solo habla con Darío; sigue atendiendo la bomba mientras pueda, sin entregar voluntariamente la tableta."
+        },
+        {
+          "si": "los PJ le ayudan y aportan pruebas del bypass",
+          "entonces": "Primero minimiza, pero reconoce los hechos verificables y revela L-4 si salva a alguien; no entrega el plano completo de la ruta sur."
+        },
+        {
+          "si": "los PJ le mienten sobre el caudal o sobre una salida segura",
+          "entonces": "Contrasta con la bomba y el trazado que conoce; ante una contradicción comprobable se niega a la maniobra y pide medir."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se agacha tras la maquinaria, busca una salida con aire y solo golpea con la llave si le cierran la retirada; tirar Combate para impactar."
+        },
+        {
+          "si": "los PJ lo esposan por orden de Vidal",
+          "entonces": "Exige un relevo antes de soltar el cebado; no vuelve voluntariamente a una celda sin haber visto salir a R-3 y puede resistir un traslado que los abandone."
+        },
+        {
+          "si": "comprende que alguien puede morir por ignorar la limitación de B",
+          "entonces": "Revela el bypass por iniciativa propia, sin tirada de persuasión; su declaración puede seguir ocultando la ruta sur."
+        },
+        {
+          "si": "durante el traslado ve una ocasión real de fuga",
+          "entonces": "Solo intenta huir con traje, mochila, ruta sur y L-4 sin vigilancia; Instinto para pasar inadvertido cuando haya incertidumbre y un coste si falla."
+        }
+      ],
+      "en_combate": "Usa la bomba y las esquinas como cobertura; emplea la llave a distancia Adyacente para abrirse paso, nunca abandona el cebado sin valorar sus consecuencias.",
+      "se_rinde": "Evita una pelea mortal y acepta custodia negociada cuando R-3 está a salvo; retrocede si puede conservar aire y una salida.",
+      "frase": ""
+    },
+    "duarte": {
+      "nombre": "Tomás Duarte",
+      "rol": "Alguacil ACE (R-3)",
+      "combate": 40,
+      "instinto": 35,
+      "salud": 13,
+      "heridas": 2,
+      "pa": 1,
+      "habilidades": [
+        {
+          "n": "Entrenamiento militar",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Armas de fuego",
+          "rango": "Experto"
+        },
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Lista de custodia",
+          "texto": "Con acceso a las pulseras registra nombre, hora y escolta sin tirada; no acelera ciclos de esclusa. Con R-3 Degradado trabaja con [−] en tareas finas y puede contar mal: comprobar con la lista y la telemetría lo corrige."
+        },
+        {
+          "n": "Esposas a las 12:36",
+          "texto": "Sin contacto previo de los PJ que lo impida, esposa a Kroll a la tubería junto a la rejilla tras discutir; si el agua sube y Kroll se resiste, resuelve el forcejeo con Combate enfrentado, sin convertirlo en motín."
+        },
+        {
+          "n": "Escoltas de evacuación",
+          "texto": "Para sacar violentos primero reclama un alguacil o PJ armado por cada dos presos en cada tanda; acepta una tarea concreta de recuento o escolta y la cumple sin tirada si no hay oposición."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Revólver reglamentario",
+          "dano": "1d10+1",
+          "alcance": "Corto",
+          "herida": "Disparo",
+          "especial": "6 tiros por tambor (PSG); cada disparo suma 1 a la Atención de la zona conectada a cavidades.",
+          "desc": "Arma reglamentaria; desde la segunda purga, una chispa de disparo dentro de R-3 provoca fuego."
+        }
+      ],
+      "quiere": "Que ningún preso escape y cada nombre tenga una hora de salida.",
+      "teme": "Que Mara pierda el mando y tenga que tomar una decisión abierta.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan para saltarse la lista",
+          "entonces": "Se aferra al procedimiento y pide una orden firmada; no dispara por una discusión."
+        },
+        {
+          "si": "los PJ le ayudan con una tarea y un responsable definidos",
+          "entonces": "Cumple el encargo, entrega la lista y deja al responsable decidir lo que excede la tarea."
+        },
+        {
+          "si": "los PJ le mienten sobre una identidad o una escolta",
+          "entonces": "Compara pulseras, nombres y acompañantes; si la falsificación es plausible, Instinto para advertir discrepancias, sin identificación infalible."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Busca cobertura, aparta a los evacuados y responde con Combate contra el agresor, sin disparar a una multitud para imponer disciplina."
+        },
+        {
+          "si": "los PJ piden sacar a Kroll sin esposas ni escolta",
+          "entonces": "Se niega; acepta vigilancia cercana por un alguacil como alternativa a fijarlo a una tubería, si quien manda asume la custodia."
+        },
+        {
+          "si": "los PJ le ordenan recoger pruebas o recuperar cuerpos",
+          "entonces": "Pide recuperar a los fallecidos cuando la ruta lo permita, pero obedece una prioridad clara de rescatar a los vivos."
+        }
+      ],
+      "en_combate": "Vigila salidas y mantiene a los civiles fuera del tiro; forcejea antes de disparar contra un preso que solo se resiste a las esposas.",
+      "se_rinde": "Deja de pelear ante una orden clara de Mara o del responsable de custodia cuando cesa el peligro inmediato.",
+      "frase": ""
+    },
+    "vidal": {
+      "nombre": "Roque Vidal",
+      "rol": "Jefe ACE en Bastión",
+      "combate": 35,
+      "instinto": 45,
+      "salud": 12,
+      "heridas": 2,
+      "pa": 0,
+      "habilidades": [
+        {
+          "n": "Entrenamiento militar",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Mando",
+          "rango": "Maestro"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Detención de Ivo",
+          "texto": "Al conocer el bypass ordena esposarlo, custodia directa y que no toque válvulas; si le explican con datos la dependencia de la bomba y nombran responsable, acepta aplazar o ajustar la orden sin tirada."
+        },
+        {
+          "n": "Excepción de seguridad",
+          "texto": "Si Gael invoca D01 para salir antes del parte de treinta minutos, lo registra y acepta; no les quita el mando ni puede cerrar compuertas a distancia."
+        },
+        {
+          "n": "Responsable por rover",
+          "texto": "Exige un alguacil o a Eloy en cada vehículo que lleve presos; una excepción firmada por el alguacil jugador permite otro reparto sin crear puestos o recursos."
+        }
+      ],
+      "armas": [],
+      "quiere": "Trazabilidad de todos los presos y un informe que se sostenga.",
+      "teme": "Una fuga con su firma y que se reabra el caso Lisán.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan por radio",
+          "entonces": "Registra la amenaza, exige nombres y mantiene la coordinación; no envía un pelotón que no existe."
+        },
+        {
+          "si": "los PJ le ayudan con datos, responsables y lista de custodia",
+          "entonces": "Firma excepciones justificadas y manda a Eloy con el rover 2 según los tiempos reales."
+        },
+        {
+          "si": "los PJ le mienten en el parte",
+          "entonces": "Cruza horas y registros disponibles; ante una mentira no comprobable, Instinto para advertir contradicciones y pedir pruebas, sin acceso remoto omnisciente."
+        },
+        {
+          "si": "los PJ le disparan en Bastión",
+          "entonces": "Se pone a cubierto y solicita auxilio local; no tiene arma en escena ni aparecen refuerzos instantáneos en C-7."
+        },
+        {
+          "si": "los PJ mencionan a Lisán",
+          "entonces": "Por radio se vuelve más duro y lento; en privado escucha mejor y debe responder a los registros de vehículos que prueban que la búsqueda no salió."
+        },
+        {
+          "si": "los PJ reciben la radio abierta de Serrat",
+          "entonces": "Pregunta si la emisora está asignada a un agente vivo; trata la señal como una discrepancia administrativa."
+        },
+        {
+          "si": "oscurece y el grupo parece agotado",
+          "entonces": "Pide que vuelvan con lo que tengan antes del cambio de turno de las 20:00; puede reconsiderarlo si le demuestran que los refugios siguen siendo salvables."
+        }
+      ],
+      "en_combate": "En Bastión se protege tras una puerta o consola y pide que cese el fuego; por radio registra y coordina sin intervenir físicamente.",
+      "se_rinde": "Acepta desarmarse o permanecer bajo vigilancia para evitar heridos; cede sus órdenes ante datos creíbles.",
+      "frase": "El interno Sen queda detenido desde este momento."
+    },
+    "oria": {
+      "nombre": "Oria Sable",
+      "rol": "Directora de operaciones HRF",
+      "combate": 20,
+      "instinto": 50,
+      "salud": 9,
+      "heridas": 1,
+      "pa": 0,
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Matemáticas",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Ingeniería",
+          "rango": "Maestro"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Lista justificada",
+          "texto": "Con cantidades y uso concreto prepara el rover 2 en 2 h; sin justificar, 3 h y menos material según la tabla de refuerzos, sin tirada ni carga adicional gratuita."
+        },
+        {
+          "n": "Presiones antes de abrir",
+          "texto": "Autoriza accesos cuando ve datos fiables que sostienen el plan; una orden suya no elimina el diferencial ni permite abrir E-1 si H-4 impide igualarla."
+        },
+        {
+          "n": "Sellado biológico",
+          "texto": "Cuando le muestran la composición orgánica y cómo sellan, coopera y suspende limpiezas en otros frentes sin tirada; pide preservar J-17, pero deben anunciarle que recoger pruebas con percusión retrasa el resellado doce horas."
+        }
+      ],
+      "armas": [],
+      "quiere": "Evitar más muertes, conservar la infraestructura y evitar un parte que la arruine.",
+      "teme": "Abrir sin presiones, perder la concesión y cargar sola con la responsabilidad.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para vaciar el almacén",
+          "entonces": "Pide cantidades y utilidad; no entrega material ilimitado, pero tampoco cancela una ayuda ya justificada por despecho."
+        },
+        {
+          "si": "los PJ le ayudan con un plan técnico y consumos",
+          "entonces": "Cede material según existencias y prepara a Bruna; recuerda reservar energía para el viaje de vuelta."
+        },
+        {
+          "si": "los PJ le mienten sobre las presiones",
+          "entonces": "Exige lecturas y telemetría; si no puede verificarlas, demora la autorización hasta recibir una comprobación."
+        },
+        {
+          "si": "los PJ le disparan en Bastión",
+          "entonces": "Se cubre y busca salir de la sala; está desarmada y pide ayuda sin poder intervenir a distancia en C-7."
+        },
+        {
+          "si": "los PJ le enseñan la orden 517-J y la muestra orgánica",
+          "entonces": "Se queda en silencio y coopera; su firma no demuestra que Ulma ejecutara mal la orden."
+        },
+        {
+          "si": "los PJ quieren tocar válvulas sin ingeniería",
+          "entonces": "Ordena a Elia, Nadia y Bruna esperar aprobación; cede si le presentan origen, destino, presión y responsable de la maniobra."
+        }
+      ],
+      "en_combate": "Se aleja del agresor, busca una puerta segura y mantiene la comunicación con el equipo; no dirige un combate desde la radio.",
+      "se_rinde": "Acepta custodia o retirarse en cuanto eso evite una agresión; no pelea por conservar un terminal.",
+      "frase": "Decidme qué necesitáis y para qué, con cantidades."
+    },
+    "ines": {
+      "nombre": "Inés Calder",
+      "rol": "Técnica civil HRF (R-3)",
+      "combate": 15,
+      "instinto": 45,
+      "salud": 8,
+      "heridas": 1,
+      "pa": 0,
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparaciones improvisadas",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Pierna herida",
+          "texto": "Necesita apoyo para desplazarse; [−] en acciones que exijan la pierna, sin restar Salud adicional por una lesión ya descrita. Por el paso alto requiere ayuda de dos personas y 20–30 min como herida."
+        },
+        {
+          "n": "Bus de R-3",
+          "texto": "Hacia las 13:36, con Peo y si las condiciones aún lo permiten, recupera el bus y lee consumo y cebados de P-2: R-3 descubre que sigue habitada, sin tirada adicional para revelar esa pista."
+        },
+        {
+          "n": "Colores de cable",
+          "texto": "Con R-3 Degradado aplica [−] en tareas finas; describe cables confundidos o una secuencia invertida. Una comprobación del esquema descubre el error; las pistas sobre J-17 siguen disponibles."
+        }
+      ],
+      "armas": [],
+      "quiere": "Mantener luz y radio en R-3 y guiar las reparaciones desde el suelo.",
+      "teme": "Que la dejen para el final por caminar despacio.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para que camine más deprisa",
+          "entonces": "Les muestra la pierna y exige apoyo; no puede correr por una amenaza."
+        },
+        {
+          "si": "los PJ la ayudan con herramientas o estabilizan su pierna",
+          "entonces": "Explica cómo recuperar el bus y declara que la costra de J-17 se desprendió antes del fallo del colector, sin tirada."
+        },
+        {
+          "si": "los PJ le mienten sobre una reparación eléctrica",
+          "entonces": "Pide el esquema y contrasta el orden de conmutación; si solo hay indicios inciertos, Instinto para detectar una incoherencia."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se arrastra tras una consola y pide que la saquen del tiro; no devuelve fuego ni obtiene un arma."
+        },
+        {
+          "si": "le ofrecen llevarla en brazos delante de alguien que puede andar",
+          "entonces": "Se niega y pide apoyo o camilla y un orden justificado; el desacuerdo se resuelve hablando, sin curar su pierna."
+        },
+        {
+          "si": "ven la criatura junto a los cables o la rejilla",
+          "entonces": "Se aparta del borde, pide cortar herramientas que vibren y deja los cables para no exponerse al anillo de dentículos."
+        }
+      ],
+      "en_combate": "Busca cobertura desde el suelo y avisa de cables y conducciones; solo intenta apartar manos o zafarse si la agarran.",
+      "se_rinde": "Deja toda resistencia cuando puede ponerse a salvo con ayuda; no persigue ni protege material a costa de su vida.",
+      "frase": ""
+    },
+    "nora": {
+      "nombre": "Nora Ilias",
+      "rol": "Presa (R-3)",
+      "combate": 20,
+      "instinto": 50,
+      "salud": 9,
+      "heridas": 1,
+      "pa": 0,
+      "habilidades": [
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Matemáticas",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Regla de las rendijas",
+          "texto": "Si le preguntan por las costras o describen una fuga, cuenta sin tirada que las tapian al entrar aire nuevo; permite prever que cerrar una fuga desplaza el sellado a la siguiente."
+        },
+        {
+          "n": "Purga parcial",
+          "texto": "Con R-3 Degradado propone purgar: 15 min, 6 kg de O₂ y +0,6 kg de absorción, máximo tres; la segunda y tercera enriquecen el aire y cualquier chispa provoca fuego."
+        },
+        {
+          "n": "Catorce en vez de trece",
+          "texto": "Con hipercapnia puede contar catorce ocupantes; un recuento contrastado desmiente su cifra sin tirada. En Crítico sin traje aplica [−] a todo y tira Instinto para esforzarse, parando y ganando 1 de Estrés si falla."
+        }
+      ],
+      "armas": [],
+      "quiere": "Salir viva y no volver a C-7.",
+      "teme": "Que descarten lo que vio como una alucinación.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para que calle",
+          "entonces": "Se aparta y busca a Vera o Mara; insiste si van a repetir la retirada de costras de J-17."
+        },
+        {
+          "si": "los PJ la ayudan o escuchan sus observaciones",
+          "entonces": "Explica el sellado y quién entró o salió, sin reservar la pista para una tirada social."
+        },
+        {
+          "si": "los PJ le mienten negando el raspado del techo",
+          "entonces": "Repite lo que oye y pide que escuchen con ella; si sellan el portillo, el ruido es real."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se echa al suelo y busca una consola o cuerpos de mobiliario como cobertura, sin armarse de pronto."
+        },
+        {
+          "si": "los PJ le ordenan evacuar por un paso seguro y registrado",
+          "entonces": "Coopera y ayuda a transmitir el orden; pide saber cuándo saldrá Vera y quién queda dentro."
+        },
+        {
+          "si": "ve a los costreros sellando una abertura",
+          "entonces": "Pide dejar de golpear y no arrancar el sello; explica que no los persiguen por ser personas."
+        }
+      ],
+      "en_combate": "Se mantiene lejos de rejillas y línea de tiro; avisa de fugas y pide una ruta despejada, sin intentar combatir a la colonia.",
+      "se_rinde": "Acepta registro y escolta; deja de forcejear si tiene aire y una salida, pero no retira una advertencia cierta para complacer a nadie.",
+      "frase": ""
+    },
+    "kroll": {
+      "nombre": "Gaspar Kroll",
+      "rol": "Preso, dos homicidios (R-3)",
+      "combate": 45,
+      "instinto": 45,
+      "salud": 15,
+      "heridas": 2,
+      "pa": 0,
+      "habilidades": [
+        {
+          "n": "Atletismo",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Combate cuerpo a cuerpo",
+          "rango": "Experto"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "No junto al agua",
+          "texto": "Si lo atan cerca de la rejilla y H-4 sube, rompe la abrazadera o pelea con Duarte mediante Combate enfrentado: quien vence consigue soltarse o contenerlo según el forcejeo anunciado; no es un motín automático."
+        },
+        {
+          "n": "Ciento quince kilos",
+          "texto": "Si está libre cuando el costrero levanta la rejilla, se sienta encima; tira Instinto cada 5 min como salvación de Cuerpo: fallo, la rejilla se levanta y el animal muerde al más cercano. Aguantar 10–20 min permite su retirada."
+        },
+        {
+          "n": "Cargar con otro",
+          "texto": "Con ruta despejada acepta cargar a un herido sin tirada por disposición; si exige un esfuerzo incierto tira Instinto con Atletismo (+10), [−] si sufre el estado Crítico de R-3 sin casco, y con fallo deben parar y buscar ayuda."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Puños o herramienta",
+          "dano": "1d10",
+          "alcance": "Adyacente",
+          "herida": "Fuerza bruta",
+          "especial": "",
+          "desc": "Puños, o la herramienta que tenga a mano."
+        }
+      ],
+      "quiere": "Salir vivo conservando movilidad junto al agua.",
+      "teme": "Volver a ver morir ahogados a presos esposados, esta vez incluyéndose él.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan o humillan",
+          "entonces": "Mira sus manos y exige distancia; si intentan inmovilizarlo en zona inundable se resiste con Combate enfrentado."
+        },
+        {
+          "si": "los PJ le ayudan pactando vigilancia sin fijarlo a una tubería",
+          "entonces": "Acepta registro, un orden de salida y escolta cercana; un pacto previo lo mantiene sentado incluso al empeorar el aire."
+        },
+        {
+          "si": "los PJ le mienten sobre el agua que está subiendo",
+          "entonces": "Señala la rejilla y el rezumo, rompe el pacto si comprueba el engaño y exige poder moverse."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se cubre, aparta a quien esté al alcance y busca salir del tiro; solo golpea con Combate para abrir una retirada bloqueada."
+        },
+        {
+          "si": "los PJ le ponen esposas junto a agua o lo dejan atado al subir H-4",
+          "entonces": "Forcejea para romper la abrazadera o se pelea con Duarte; ofrece vigilancia cercana y un lugar seco como alternativa antes de tirar Combate enfrentado."
+        },
+        {
+          "si": "el costrero empuja la rejilla y está libre",
+          "entonces": "Se sienta encima; si está esposado se debate y Yusef u otra persona debe sujetar la rejilla."
+        },
+        {
+          "si": "le piden cargar a un herido con la ruta despejada",
+          "entonces": "Lo hace y acepta cualquier orden de salida compatible con no quedarse inmovilizado junto al agua."
+        }
+      ],
+      "en_combate": "Usa su peso para bloquear la rejilla o apartar a un captor; pelea cuerpo a cuerpo para recuperar movilidad y no inicia una matanza.",
+      "se_rinde": "Deja de pelear en cuanto lo liberan del peligro de quedar atado al agua y le ofrecen escolta móvil.",
+      "frase": "No me atéis. Si tiembla la roca, quiero poder moverme."
+    },
+    "salcedo": {
+      "nombre": "Salcedo",
+      "rol": "Técnico HRF herido junto a R-12",
+      "combate": 20,
+      "instinto": 40,
+      "salud": 9,
+      "heridas": 1,
+      "pa": 3,
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparaciones improvisadas",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparación mecánica",
+          "rango": "Experto"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Fractura en R-12",
+          "texto": "No puede andar; [−] en acciones que exijan su pierna. Con botiquín y 15 min lo estabilizan sin tirada en calma; si hay riesgo y prisa, el PJ tira Intelecto con la habilidad médica aplicable y el fallo exige seguir atendiendo."
+        },
+        {
+          "n": "Umbilical limitado",
+          "texto": "Su vehículo alimenta a Nadia y a él hasta las 15:30; después gastan mochilas. Avisar a Bastión permite que el rover 2 los recoja al pasar, con 20 min extra y dos puestos menos."
+        },
+        {
+          "n": "Números antes que testimonios",
+          "texto": "Si le dan lecturas de batería o presión, identifica qué consumo las agota con Instinto y Maquinaria industrial (+10) solo bajo presión; un fallo cuesta tiempo de comprobación, sin inventar una recarga ni anular una lectura visible."
+        }
+      ],
+      "armas": [],
+      "quiere": "Recibir agua, estabilizar la pierna y salir de R-12 con una cuenta de aire fiable.",
+      "teme": "Que lo desconecten o que se agote el vehículo antes de que llegue quien lo recoja.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan para que se levante",
+          "entonces": "Les enseña la fractura y pide una camilla; la amenaza no le permite andar."
+        },
+        {
+          "si": "los PJ lo ayudan con botiquín y avisan al rover 2",
+          "entonces": "Acepta quedar estable conectado al vehículo y esperar una recogida con hora y responsable."
+        },
+        {
+          "si": "los PJ le mienten sobre autonomía o ayuda",
+          "entonces": "Pide ver números y confirmación por radio; si hay una discrepancia incierta, Instinto para detectarla y exigir una lectura."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se arrastra tras el chasis si puede sin arrancar el umbilical y pide auxilio; no tiene arma en escena."
+        },
+        {
+          "si": "los PJ quieren llevárselos a C-7",
+          "entonces": "Recuerda que ocuparán dos puestos y que él no puede andar; acepta si aseguran soporte y traslado."
+        },
+        {
+          "si": "los PJ quieren seguir sin avisar a nadie",
+          "entonces": "Les recuerda las 15:30 y pide una llamada a Bastión; no abandona a pie el vehículo."
+        }
+      ],
+      "en_combate": "Se protege con el chasis y conserva el umbilical; usa las manos para evitar que lo desconecten, sin perseguir a nadie.",
+      "se_rinde": "Acepta registro y traslado en cuanto no amenacen su soporte vital; está incapacitado para una huida a pie.",
+      "frase": ""
+    },
+    "preso": {
+      "nombre": "Preso de C-7",
+      "rol": "Interno (genérico)",
+      "combate": 30,
+      "instinto": 35,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 0,
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Trabajo general",
+          "texto": "Con herramienta, acceso y tiempo ayuda a colocar material o cambiar un filtro sin tirada; bajo prisa tira Instinto con Maquinaria industrial (+10), y el fallo exige parar y corregir una junta o sujeción antes de continuar."
+        },
+        {
+          "n": "Herido como carga",
+          "texto": "Si queda incapacitado por el reloj de R-3 o por daño, requiere traslado como herido; en R-3 Grave los heridos fallan automáticamente la salvación horaria de Cuerpo, resuelta con Instinto en los demás PNJ."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Puños o herramienta",
+          "dano": "1d5",
+          "alcance": "Adyacente",
+          "herida": "Fuerza bruta",
+          "especial": "",
+          "desc": "Puños, o la herramienta que tenga a mano."
+        }
+      ],
+      "quiere": "Salir de C-7 con aire y sin desaparecer de la lista.",
+      "teme": "Que su condena decida que debe quedarse atrás.",
+      "reacciones": [
+        {
+          "si": "los PJ le amenazan",
+          "entonces": "Retrocede y pide un orden que pueda cumplir; si lo arrinconan, forcejea con Combate para apartarse."
+        },
+        {
+          "si": "los PJ le ayudan con traje o una tarea concreta",
+          "entonces": "Coopera, sostiene material y sigue una escolta que explique el destino."
+        },
+        {
+          "si": "los PJ le mienten sobre el rescate",
+          "entonces": "Pide confirmación a Mara; si hay contradicciones no comprobables, tira Instinto para advertirlas y reclamar datos."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se tira al suelo y busca cobertura; no convierte a los demás presos en un motín."
+        },
+        {
+          "si": "los PJ le esposan para un traslado seguro",
+          "entonces": "Acepta custodia móvil si no lo fijan a un punto inundable y puede conservar aire."
+        },
+        {
+          "si": "ve una criatura cercana",
+          "entonces": "Se aparta de la rejilla y pide bloquearla con mantas y peso, sin golpear las tuberías."
+        }
+      ],
+      "en_combate": "Se cubre y retrocede; solo usa puños o una herramienta disponible para zafarse de una amenaza Adyacente.",
+      "se_rinde": "Se rinde si cesa el ataque y tiene una salida con escolta; no lucha por vencer a los alguaciles.",
+      "frase": ""
+    },
+    "costrero": {
+      "nombre": "Costrero aislado",
+      "rol": "Crustivermis nadirensis",
+      "combate": 25,
+      "instinto": 35,
+      "salud": 6,
+      "heridas": 1,
+      "pa": 0,
+      "habilidades": [],
+      "especiales": [
+        {
+          "n": "Ciego; vibración por sólidos",
+          "texto": "No usa la vista: luz u oscuridad por sí solas no modifican su detección. Sigue vibraciones transmitidas por roca, barro o metal y gradientes químicos cercanos de sal, humedad, gas o descomposición. Una radio dentro de un casco no lo convoca; golpes o carreras sobre chapa sí. No percibe personas a través de paredes intactas ni sangre a distancia."
+        },
+        {
+          "n": "Anclaje silencioso",
+          "texto": "Si alcanza inadvertido una pierna en L-4, puede adherirse sin aviso del traje; describe una oportunidad real de contacto. Verlo en otro traje permite avisar; descubrirlo en el propio añade 1 de Estrés. Tras adherirse trabaja el tejido y, si no lo retiran en 1d5 asaltos, intenta morder con Combate. Con acceso y calma se despega con una herramienta adecuada sin tirada; bajo peligro, el PJ tira Fuerza para desprenderlo y el fallo consume el intento, sin reiniciar la cuenta."
+        },
+        {
+          "n": "Mordedura y perforación",
+          "texto": "Tira Combate para impactar y después el daño del ataque. Contra PA 3, 1–2 se ignoran; 3 o más destruyen la armadura y el blanco sufre el daño restante. Traje cerrado perforado: 1d5 asaltos hasta despresurizar; parchear restaura estanqueidad con PA 1. Si empieza la despresurización, chequeo de Pánico; sin oxígeno rige PSG 33.1: 15 s hasta inconsciencia y 1d5 min hasta muerte. Solo una pérdida de Salud que cause Herida obliga a la tabla de Sangrado; no hay veneno, parálisis ni Herida automática."
+        },
+        {
+          "n": "Humedad y retirada",
+          "texto": "Aguanta 10–20 min en corredor humano seco, o 30–45 min en corredor húmedo tras alimentarse; primero pierde coordinación y busca junta o rejilla húmeda. En cavidad húmeda pobre en O₂ permanece indefinidamente; al vacío dura segundos y no sale a superficie. Si lo dejan sin retirada puede atacar a la desesperada; no convierte la sangre en inmunidad al O₂."
+        },
+        {
+          "n": "Sellado de fugas y cuerpos",
+          "texto": "Aplica secreción a la fuga química más intensa al alcance; al cerrarse pasa a la siguiente, incluidos cuerpos que desprenden humedad o gas. No es hostilidad dirigida ni sellado instantáneo de personas: anuncia gel, raspado y crecimiento antes de que obstruya una junta. Una compuerta intacta lo detiene; desgastar juntas blandas o conductos exige tiempo medible y aviso. J-17 sin herramientas y con Atención 0–1 se resella hacia las 03:36 del día siguiente: H-4 −1 y la bomba deja de ser necesaria; limpiador o martillo lo retrasan doce horas."
+        },
+        {
+          "n": "Jerarquía animal",
+          "texto": "Resuelve en este orden: retirarse de entorno seco sin contacto o abertura húmeda; converger ante vibraciones intensas repetidas; defender una puesta tocada o excavada; alimentarse junto a tejido sangrante; sellar fugas persistentes. Decide con entorno y posición, sin tiradas de persuasión ni motivos humanos. Si requiere una salvación de Cuerpo, Miedo o Cordura, tira Instinto."
+        },
+        {
+          "n": "Atención de la colonia",
+          "texto": "Regla de escenario, 0–6 por zona conectada a cavidades (portilla de P-2, L-4, cría, galería de servicio y V-12, inspección de H-4, tramo bajo y J-17). +1 por escena de percusión o taladro, disparo, caída pesada, carrera sobre chapa o ciclo que libere aire; +2 por explosivo, martilleo continuo o abrir agua a presión; −1 por diez minutos quietos con máquinas apagadas o cerrar la fuga. L-4 usa su regla específica de +1 cada dos ciclos de C-0. A 0–1, inactiva; a 2, un explorador en 5–15 min; a 3–4 convergen tres; a 5 uno prueba contacto; a 6 hay defensores o 3–6 ejemplares. No aparecen a través de barreras intactas."
+        },
+        {
+          "n": "Obras que desplazan la colonia",
+          "texto": "Cerrar la fuga de cría calma a los animales tras 20–30 min (Atención −1), pero en 30–60 min el sellado pasa al portillo (+20 min de apertura y Atención +1). Cerrar V-12 hace migrar 1d3+2 del tramo bajo a la cría por la galería en 30–90 min. Igualar E-1 atrae 2–3 al marco en 20–40 min. Tras el tercer ciclo de P-2 la costra de la junta puede pegar un ejemplar a un traje. Cada efecto se anuncia por raspado, depósitos o desplazamientos visibles, sin tirada para que exista la señal."
+        },
+        {
+          "n": "Sumidero y sangre",
+          "texto": "H-4 en 4 con sangre fresca en R-3 permite que un ejemplar suba por el sumidero. Sujetar la rejilla exige Cuerpo cada 5 min (PNJ: Instinto); fallo, levanta la rejilla e intenta morder al más cercano con Combate. Tras 10–20 min fuera del agua se repliega; sal o salmuera seca lo deshidratan y lo repliegan en 5 min, y sacar al herido elimina la fuente de sangre fresca. No se activa si no hay sangre ni un acceso húmedo."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Mordedura",
+          "dano": "1d10",
+          "alcance": "Adyacente",
+          "herida": "Sangrado",
+          "especial": "Sin veneno ni parálisis; aplica PA y perforación de traje; solo tira en Sangrado cuando el daño cause una Herida.",
+          "desc": "Anillo de dentículos trituradores que trabaja tejido y juntas al alcance del extremo anterior."
+        }
+      ],
+      "quiere": "Volver a la humedad, aprovechar tejido cercano y sellar gradientes químicos.",
+      "teme": "Responde al aire seco, la desecación y el daño de los segmentos; no experimenta miedo ni entiende amenazas humanas.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan, le hablan, le mienten o le ofrecen salir primero",
+          "entonces": "No responde a palabras ni entiende acuerdos; aplica vibración, química y proximidad según la jerarquía animal."
+        },
+        {
+          "si": "los PJ apagan máquinas, dejan de golpear y permanecen quietos diez minutos",
+          "entonces": "Atención −1 en la zona; si no hay contacto, puesta amenazada o fuga cercana, busca humedad o sigue su ruta, sin perseguir a los PJ por su identidad."
+        },
+        {
+          "si": "los PJ lo ayudan cerrando una fuga o retirándose de la puesta",
+          "entonces": "No muestra gratitud: al desaparecer el gradiente cambia de fuga; cerrar la cría desplaza el sellado al portillo con los tiempos indicados."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Cada disparo suma 1 a la Atención; aplica daño y PA normalmente. Si sobrevive, un explorador busca humedad; un defensor protege la puesta sin salir de su zona. Anuncia conducciones y compañeros detrás del blanco antes de tirar."
+        },
+        {
+          "si": "los PJ lo tocan, atrapan o bloquean su retirada",
+          "entonces": "Se ancla o intenta morder al contacto con Combate; sin veneno ni parálisis. Si puede volver a una grieta húmeda fuera de la cría, se repliega."
+        },
+        {
+          "si": "hay sangre fresca, una vibración repetida o una fuga accesible",
+          "entonces": "Se aproxima por una conexión real al estímulo cercano y prioriza según la jerarquía; la sangre puede alimentarlo y el gas provocar sellado, sin localizar personas a distancia."
+        },
+        {
+          "si": "los PJ dañan o excavan la puesta",
+          "entonces": "Los defensores cargan y Atención sube a 6; se detienen al retroceder los intrusos fuera de sus veinte metros, sin persecución por el complejo."
+        }
+      ],
+      "en_combate": "Se ancla al tejido o muerde al blanco Adyacente que produce el estímulo; tras el ataque intenta alcanzar una junta húmeda, sin atacar por luces ni voces de radio.",
+      "se_rinde": "No se rinde: abandona el contacto al poder retirarse a humedad, al desaparecer el estímulo o al deshidratarse; si lo acorralan puede morder para escapar.",
+      "frase": ""
+    },
+    "defensor": {
+      "nombre": "Costrero defensor de puesta",
+      "rol": "Crustivermis nadirensis",
+      "combate": 35,
+      "instinto": 45,
+      "salud": 8,
+      "heridas": 2,
+      "pa": 0,
+      "habilidades": [],
+      "especiales": [
+        {
+          "n": "Ciego; vibración por sólidos",
+          "texto": "No usa la vista: luz u oscuridad por sí solas no modifican su detección. Sigue vibraciones transmitidas por roca, barro o metal y gradientes químicos cercanos de sal, humedad, gas o descomposición. Una radio dentro de un casco no lo convoca; golpes o carreras sobre chapa sí. No percibe personas a través de paredes intactas ni sangre a distancia."
+        },
+        {
+          "n": "Anclaje silencioso",
+          "texto": "Si alcanza inadvertido una pierna en L-4, puede adherirse sin aviso del traje; describe una oportunidad real de contacto. Verlo en otro traje permite avisar; descubrirlo en el propio añade 1 de Estrés. Tras adherirse trabaja el tejido y, si no lo retiran en 1d5 asaltos, intenta morder con Combate. Con acceso y calma se despega con una herramienta adecuada sin tirada; bajo peligro, el PJ tira Fuerza para desprenderlo y el fallo consume el intento, sin reiniciar la cuenta."
+        },
+        {
+          "n": "Mordedura y perforación",
+          "texto": "Tira Combate para impactar y después el daño del ataque. Contra PA 3, 1–2 se ignoran; 3 o más destruyen la armadura y el blanco sufre el daño restante. Traje cerrado perforado: 1d5 asaltos hasta despresurizar; parchear restaura estanqueidad con PA 1. Si empieza la despresurización, chequeo de Pánico; sin oxígeno rige PSG 33.1: 15 s hasta inconsciencia y 1d5 min hasta muerte. Solo una pérdida de Salud que cause Herida obliga a la tabla de Sangrado; no hay veneno, parálisis ni Herida automática."
+        },
+        {
+          "n": "Humedad y retirada",
+          "texto": "Aguanta 10–20 min en corredor humano seco, o 30–45 min en corredor húmedo tras alimentarse; primero pierde coordinación y busca junta o rejilla húmeda. En cavidad húmeda pobre en O₂ permanece indefinidamente; al vacío dura segundos y no sale a superficie. Si lo dejan sin retirada puede atacar a la desesperada; no convierte la sangre en inmunidad al O₂."
+        },
+        {
+          "n": "Sellado de fugas y cuerpos",
+          "texto": "Aplica secreción a la fuga química más intensa al alcance; al cerrarse pasa a la siguiente, incluidos cuerpos que desprenden humedad o gas. No es hostilidad dirigida ni sellado instantáneo de personas: anuncia gel, raspado y crecimiento antes de que obstruya una junta. Una compuerta intacta lo detiene; desgastar juntas blandas o conductos exige tiempo medible y aviso. J-17 sin herramientas y con Atención 0–1 se resella hacia las 03:36 del día siguiente: H-4 −1 y la bomba deja de ser necesaria; limpiador o martillo lo retrasan doce horas."
+        },
+        {
+          "n": "Jerarquía animal",
+          "texto": "Resuelve en este orden: retirarse de entorno seco sin contacto o abertura húmeda; converger ante vibraciones intensas repetidas; defender una puesta tocada o excavada; alimentarse junto a tejido sangrante; sellar fugas persistentes. Decide con entorno y posición, sin tiradas de persuasión ni motivos humanos. Si requiere una salvación de Cuerpo, Miedo o Cordura, tira Instinto."
+        },
+        {
+          "n": "Atención de la colonia",
+          "texto": "Regla de escenario, 0–6 por zona conectada a cavidades (portilla de P-2, L-4, cría, galería de servicio y V-12, inspección de H-4, tramo bajo y J-17). +1 por escena de percusión o taladro, disparo, caída pesada, carrera sobre chapa o ciclo que libere aire; +2 por explosivo, martilleo continuo o abrir agua a presión; −1 por diez minutos quietos con máquinas apagadas o cerrar la fuga. L-4 usa su regla específica de +1 cada dos ciclos de C-0. A 0–1, inactiva; a 2, un explorador en 5–15 min; a 3–4 convergen tres; a 5 uno prueba contacto; a 6 hay defensores o 3–6 ejemplares. No aparecen a través de barreras intactas."
+        },
+        {
+          "n": "Obras que desplazan la colonia",
+          "texto": "Cerrar la fuga de cría calma a los animales tras 20–30 min (Atención −1), pero en 30–60 min el sellado pasa al portillo (+20 min de apertura y Atención +1). Cerrar V-12 hace migrar 1d3+2 del tramo bajo a la cría por la galería en 30–90 min. Igualar E-1 atrae 2–3 al marco en 20–40 min. Tras el tercer ciclo de P-2 la costra de la junta puede pegar un ejemplar a un traje. Cada efecto se anuncia por raspado, depósitos o desplazamientos visibles, sin tirada para que exista la señal."
+        },
+        {
+          "n": "Sumidero y sangre",
+          "texto": "H-4 en 4 con sangre fresca en R-3 permite que un ejemplar suba por el sumidero. Sujetar la rejilla exige Cuerpo cada 5 min (PNJ: Instinto); fallo, levanta la rejilla e intenta morder al más cercano con Combate. Tras 10–20 min fuera del agua se repliega; sal o salmuera seca lo deshidratan y lo repliegan en 5 min, y sacar al herido elimina la fuente de sangre fresca. No se activa si no hay sangre ni un acceso húmedo."
+        },
+        {
+          "n": "Defensa de puesta",
+          "texto": "Permanece en unos veinte metros alrededor de la puesta y no persigue a quien retrocede fuera. Tocar o dañar la puesta, usar taladro o explosivos en la cría provoca carga y Atención 6; cortar la fuga lo calma pero no autoriza tocar huevos sin defensa."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Mordedura",
+          "dano": "1d10+2",
+          "alcance": "Adyacente",
+          "herida": "Sangrado",
+          "especial": "Sin veneno ni parálisis; aplica PA y perforación de traje; solo tira en Sangrado cuando el daño cause una Herida.",
+          "desc": "Anillo de dentículos trituradores que trabaja tejido y juntas al alcance del extremo anterior."
+        }
+      ],
+      "quiere": "Proteger la puesta y mantener estable la cavidad húmeda.",
+      "teme": "Responde al aire seco, la desecación y el daño de los segmentos; no experimenta miedo ni entiende amenazas humanas.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan, le hablan, le mienten o le ofrecen salir primero",
+          "entonces": "No responde a palabras ni entiende acuerdos; aplica vibración, química y proximidad según la jerarquía animal."
+        },
+        {
+          "si": "los PJ apagan máquinas, dejan de golpear y permanecen quietos diez minutos",
+          "entonces": "Atención −1 en la zona; si no hay contacto, puesta amenazada o fuga cercana, busca humedad o sigue su ruta, sin perseguir a los PJ por su identidad."
+        },
+        {
+          "si": "los PJ lo ayudan cerrando una fuga o retirándose de la puesta",
+          "entonces": "No muestra gratitud: al desaparecer el gradiente cambia de fuga; cerrar la cría desplaza el sellado al portillo con los tiempos indicados."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Cada disparo suma 1 a la Atención; aplica daño y PA normalmente. Si se ataca en la cría, Atención 6 y los defensores cargan mientras los intrusos estén en la zona de puesta, sin perseguirlos fuera."
+        },
+        {
+          "si": "los PJ lo tocan, atrapan o bloquean su retirada",
+          "entonces": "Se ancla o intenta morder al contacto con Combate; sin veneno ni parálisis. Si puede volver a una grieta húmeda fuera de la cría, se repliega."
+        },
+        {
+          "si": "hay sangre fresca, una vibración repetida o una fuga accesible",
+          "entonces": "Se aproxima por una conexión real al estímulo cercano y prioriza según la jerarquía; la sangre puede alimentarlo y el gas provocar sellado, sin localizar personas a distancia."
+        },
+        {
+          "si": "los PJ dañan o excavan la puesta",
+          "entonces": "Los defensores cargan y Atención sube a 6; se detienen al retroceder los intrusos fuera de sus veinte metros, sin persecución por el complejo."
+        }
+      ],
+      "en_combate": "Bloquea el acceso a la puesta y muerde al intruso Adyacente; no abandona unos veinte metros alrededor de la cría ni persigue una retirada fuera de ellos.",
+      "se_rinde": "No se rinde: deja de perseguir cuando el intruso sale de la zona de cría y se calma al cortar la fuga; permanece junto a la puesta aunque la exposición le cueste la vida.",
+      "frase": ""
+    },
+    "enjambre": {
+      "nombre": "Grupo pequeño (3–6)",
+      "rol": "Crustivermis nadirensis",
+      "combate": 30,
+      "instinto": 40,
+      "salud": 6,
+      "heridas": 1,
+      "pa": 0,
+      "habilidades": [],
+      "especiales": [
+        {
+          "n": "Ciego; vibración por sólidos",
+          "texto": "No usa la vista: luz u oscuridad por sí solas no modifican su detección. Sigue vibraciones transmitidas por roca, barro o metal y gradientes químicos cercanos de sal, humedad, gas o descomposición. Una radio dentro de un casco no lo convoca; golpes o carreras sobre chapa sí. No percibe personas a través de paredes intactas ni sangre a distancia."
+        },
+        {
+          "n": "Anclaje silencioso",
+          "texto": "Si alcanza inadvertido una pierna en L-4, puede adherirse sin aviso del traje; describe una oportunidad real de contacto. Verlo en otro traje permite avisar; descubrirlo en el propio añade 1 de Estrés. Tras adherirse trabaja el tejido y, si no lo retiran en 1d5 asaltos, intenta morder con Combate. Con acceso y calma se despega con una herramienta adecuada sin tirada; bajo peligro, el PJ tira Fuerza para desprenderlo y el fallo consume el intento, sin reiniciar la cuenta."
+        },
+        {
+          "n": "Mordedura y perforación",
+          "texto": "Tira Combate para impactar y después el daño del ataque. Contra PA 3, 1–2 se ignoran; 3 o más destruyen la armadura y el blanco sufre el daño restante. Traje cerrado perforado: 1d5 asaltos hasta despresurizar; parchear restaura estanqueidad con PA 1. Si empieza la despresurización, chequeo de Pánico; sin oxígeno rige PSG 33.1: 15 s hasta inconsciencia y 1d5 min hasta muerte. Solo una pérdida de Salud que cause Herida obliga a la tabla de Sangrado; no hay veneno, parálisis ni Herida automática."
+        },
+        {
+          "n": "Humedad y retirada",
+          "texto": "Aguanta 10–20 min en corredor humano seco, o 30–45 min en corredor húmedo tras alimentarse; primero pierde coordinación y busca junta o rejilla húmeda. En cavidad húmeda pobre en O₂ permanece indefinidamente; al vacío dura segundos y no sale a superficie. Si lo dejan sin retirada puede atacar a la desesperada; no convierte la sangre en inmunidad al O₂."
+        },
+        {
+          "n": "Sellado de fugas y cuerpos",
+          "texto": "Aplica secreción a la fuga química más intensa al alcance; al cerrarse pasa a la siguiente, incluidos cuerpos que desprenden humedad o gas. No es hostilidad dirigida ni sellado instantáneo de personas: anuncia gel, raspado y crecimiento antes de que obstruya una junta. Una compuerta intacta lo detiene; desgastar juntas blandas o conductos exige tiempo medible y aviso. J-17 sin herramientas y con Atención 0–1 se resella hacia las 03:36 del día siguiente: H-4 −1 y la bomba deja de ser necesaria; limpiador o martillo lo retrasan doce horas."
+        },
+        {
+          "n": "Jerarquía animal",
+          "texto": "Resuelve en este orden: retirarse de entorno seco sin contacto o abertura húmeda; converger ante vibraciones intensas repetidas; defender una puesta tocada o excavada; alimentarse junto a tejido sangrante; sellar fugas persistentes. Decide con entorno y posición, sin tiradas de persuasión ni motivos humanos. Si requiere una salvación de Cuerpo, Miedo o Cordura, tira Instinto."
+        },
+        {
+          "n": "Atención de la colonia",
+          "texto": "Regla de escenario, 0–6 por zona conectada a cavidades (portilla de P-2, L-4, cría, galería de servicio y V-12, inspección de H-4, tramo bajo y J-17). +1 por escena de percusión o taladro, disparo, caída pesada, carrera sobre chapa o ciclo que libere aire; +2 por explosivo, martilleo continuo o abrir agua a presión; −1 por diez minutos quietos con máquinas apagadas o cerrar la fuga. L-4 usa su regla específica de +1 cada dos ciclos de C-0. A 0–1, inactiva; a 2, un explorador en 5–15 min; a 3–4 convergen tres; a 5 uno prueba contacto; a 6 hay defensores o 3–6 ejemplares. No aparecen a través de barreras intactas."
+        },
+        {
+          "n": "Obras que desplazan la colonia",
+          "texto": "Cerrar la fuga de cría calma a los animales tras 20–30 min (Atención −1), pero en 30–60 min el sellado pasa al portillo (+20 min de apertura y Atención +1). Cerrar V-12 hace migrar 1d3+2 del tramo bajo a la cría por la galería en 30–90 min. Igualar E-1 atrae 2–3 al marco en 20–40 min. Tras el tercer ciclo de P-2 la costra de la junta puede pegar un ejemplar a un traje. Cada efecto se anuncia por raspado, depósitos o desplazamientos visibles, sin tirada para que exista la señal."
+        },
+        {
+          "n": "Sumidero y sangre",
+          "texto": "H-4 en 4 con sangre fresca en R-3 permite que un ejemplar suba por el sumidero. Sujetar la rejilla exige Cuerpo cada 5 min (PNJ: Instinto); fallo, levanta la rejilla e intenta morder al más cercano con Combate. Tras 10–20 min fuera del agua se repliega; sal o salmuera seca lo deshidratan y lo repliegan en 5 min, y sacar al herido elimina la fuente de sangre fresca. No se activa si no hay sangre ni un acceso húmedo."
+        },
+        {
+          "n": "Tres a seis individuos",
+          "texto": "Las cifras son por ejemplar: cada uno tiene Salud 6 y Heridas máximas 1, con control separado. Solo ataca quien está realmente Adyacente y puede alcanzar al blanco: cada ataque tira Combate 30 y 1d10 si impacta; no son seis impactos automáticos ni una reserva común de Salud."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Mordedura por ejemplar al alcance",
+          "dano": "1d10",
+          "alcance": "Adyacente",
+          "herida": "Sangrado",
+          "especial": "Sin veneno ni parálisis; aplica PA y perforación de traje; solo tira en Sangrado cuando el daño cause una Herida.",
+          "desc": "Anillo de dentículos trituradores que trabaja tejido y juntas al alcance del extremo anterior."
+        }
+      ],
+      "quiere": "Volver a la humedad, aprovechar tejido cercano y sellar gradientes químicos.",
+      "teme": "Responde al aire seco, la desecación y el daño de los segmentos; no experimenta miedo ni entiende amenazas humanas.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan, le hablan, le mienten o le ofrecen salir primero",
+          "entonces": "No responde a palabras ni entiende acuerdos; aplica vibración, química y proximidad según la jerarquía animal."
+        },
+        {
+          "si": "los PJ apagan máquinas, dejan de golpear y permanecen quietos diez minutos",
+          "entonces": "Atención −1 en la zona; si no hay contacto, puesta amenazada o fuga cercana, busca humedad o sigue su ruta, sin perseguir a los PJ por su identidad."
+        },
+        {
+          "si": "los PJ lo ayudan cerrando una fuga o retirándose de la puesta",
+          "entonces": "No muestra gratitud: al desaparecer el gradiente cambia de fuga; cerrar la cría desplaza el sellado al portillo con los tiempos indicados."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Cada disparo suma 1 a la Atención; aplica daño y PA normalmente. Si sobrevive, un explorador busca humedad; un defensor protege la puesta sin salir de su zona. Anuncia conducciones y compañeros detrás del blanco antes de tirar."
+        },
+        {
+          "si": "los PJ lo tocan, atrapan o bloquean su retirada",
+          "entonces": "Se ancla o intenta morder al contacto con Combate; sin veneno ni parálisis. Si puede volver a una grieta húmeda fuera de la cría, se repliega."
+        },
+        {
+          "si": "hay sangre fresca, una vibración repetida o una fuga accesible",
+          "entonces": "Se aproxima por una conexión real al estímulo cercano y prioriza según la jerarquía; la sangre puede alimentarlo y el gas provocar sellado, sin localizar personas a distancia."
+        },
+        {
+          "si": "los PJ dañan o excavan la puesta",
+          "entonces": "Los defensores cargan y Atención sube a 6; se detienen al retroceder los intrusos fuera de sus veinte metros, sin persecución por el complejo."
+        }
+      ],
+      "en_combate": "Rodea el foco de vibración o fluido usando conexiones reales; coloca cada ejemplar antes de resolver su ataque y lleva Salud y Heridas por separado, sin seis ataques automáticos al mismo blanco.",
+      "se_rinde": "El grupo se dispersa hacia grietas húmedas si cesa el estímulo o el aire seco los fuerza a retirarse; un individuo acorralado puede morder mientras los demás se van.",
+      "frase": ""
+    },
+    "roman": {
+      "nombre": "Román Kes",
+      "rol": "Preso, cohecho y extorsión (R-3)",
+      "combate": 30,
+      "instinto": 40,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-preso-a",
+      "habilidades": [
+        {
+          "n": "Conocimiento del Borde",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Tibia rota",
+          "texto": "No puede andar y necesita camilla flexible, férulas o arnés para el portillo; 20–30 min y dos personas por herido en el paso alto, sin tirada con anclajes y tiempo. No tiene ataques en su estado."
+        },
+        {
+          "n": "Rumor contra Mara",
+          "texto": "Desde las 11:36 sin intervención dice que el cierre fue un castigo; si nadie lo desmiente con el registro de C-0, al abrir salida logra que dos presos se nieguen a obedecer a Mara: convencerlos o sacarlos aparte con Duarte. El registro de las 09:40 lo desmiente sin tirada. Con hipercapnia se vuelve más persuasivo al repetirlo; este rasgo no cancela los [−] del estado del refugio."
+        },
+        {
+          "n": "Información como precio",
+          "texto": "Si le ofrecen prioridad o registrar su colaboración, señala que Ulma manejó el limpiador e Isa vio a Ivo con herramientas, sin tirada; la acusación no demuestra que Mara castigara a nadie ni que Ulma incumpliera la orden."
+        }
+      ],
+      "armas": [],
+      "quiere": "Salir el primero y ofrecer a ACE algo que le permita pedir una rebaja de condena.",
+      "teme": "Quedarse el último porque no puede andar.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan para que calle",
+          "entonces": "Señala a Ulma para desplazar la culpa y exige que su información conste; no puede huir a pie."
+        },
+        {
+          "si": "los PJ le ayudan inmovilizando su pierna y explicando el triaje",
+          "entonces": "Acepta ser preparado para el traslado y negocia que registren su colaboración; ayudarlo no concede una rebaja automática."
+        },
+        {
+          "si": "los PJ le mienten prometiendo una rebaja o un puesto inexistente",
+          "entonces": "Pide nombre y firma del responsable; si la promesa resulta contradictoria, la usa contra ellos y vuelve a negociar."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se protege la cabeza y pide que lo aparten del tiro; desde el suelo no dispone de ataque."
+        },
+        {
+          "si": "le ofrecen salir primero",
+          "entonces": "Da su información y pide el traslado inmediato; intenta convertir la prioridad médica en un acuerdo de custodia favorable."
+        },
+        {
+          "si": "los PJ muestran el registro de C-0 o Limen supervisa la lista",
+          "entonces": "Con el registro pierde el rumor contra Mara; con Limen como testigo del orden pierde la palanca de la lista y centra la negociación en su fractura."
+        }
+      ],
+      "en_combate": "No ataca: se protege desde el suelo, llama a quienes puedan moverlo y trata de negociar para que no lo abandonen.",
+      "se_rinde": "Cede cuando tiene prioridad justificada o una hora de salida con responsables; no sostiene una pelea física.",
+      "frase": "Ella manejaba el limpiador."
+    },
+    "ulma": {
+      "nombre": "Ulma Senn",
+      "rol": "Presa, operaria del limpiador térmico de J-17 (R-3)",
+      "combate": 25,
+      "instinto": 40,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-preso-b",
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparaciones improvisadas",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Testimonio de J-17",
+          "texto": "Calla lo visto hasta que alguien la señala; entonces explica sin tirada, en voz alta y con detalle, la orden 517-J, el gel de la costra y la desaparición de Teo en el chorro."
+        },
+        {
+          "n": "Operaria, no culpable única",
+          "texto": "Si le muestran el equipo o la orden, identifica cómo se ejecutó la limpieza sin tirada con tiempo; bajo peligro, Instinto con Maquinaria industrial (+10) permite manipular el equipo con seguridad y un fallo obliga a detener la maniobra antes de seguir."
+        }
+      ],
+      "armas": [],
+      "quiere": "Que se entienda que cumplía una orden firmada y no la culpen de la muerte de Teo.",
+      "teme": "Ser la cabeza de turco por su condena de negligencia industrial.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan o Román la acusa",
+          "entonces": "Cuenta todo lo que vio con detalle y exige que se lea la orden firmada; no inventa un sabotaje."
+        },
+        {
+          "si": "los PJ la ayudan a documentar la ejecución de 517-J",
+          "entonces": "Se mantiene disponible para declarar y distingue lo que vio de lo que no sabe sobre la biología."
+        },
+        {
+          "si": "los PJ le mienten diciendo que nadie autorizó la limpieza",
+          "entonces": "Pide ver 517-J y señala la autorización; no acepta una versión que contradiga la orden que ejecutó."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se agacha tras el mobiliario y busca una escolta para alejarse del atacante, sin sacar un arma."
+        },
+        {
+          "si": "los PJ le ordenan volver a J-17",
+          "entonces": "Se niega aunque haya ruta; ofrece contar lo sucedido o identificar fotografías desde un lugar seguro."
+        },
+        {
+          "si": "ve gel o un costrero trabajando una costra",
+          "entonces": "Advierte que la costra sangró gel antes de soltarse y pide detener la limpieza, sin afirmar conocimientos que no tiene."
+        }
+      ],
+      "en_combate": "Busca cobertura y una salida con el resto; aparta herramientas calientes de las personas y evita cualquier golpe que abra otra junta.",
+      "se_rinde": "Se rinde ante una escolta segura y no se pelea por guardar silencio; no acepta volver voluntariamente a J-17.",
+      "frase": ""
+    },
+    "osian": {
+      "nombre": "Osian Brev",
+      "rol": "Preso, robo a mano armada; herido (R-3)",
+      "combate": 30,
+      "instinto": 35,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-preso-c",
+      "habilidades": [
+        {
+          "n": "Atletismo",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Conocimiento del Borde",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Torniquete improvisado",
+          "texto": "La hemorragia del muslo está contenida: camina despacio, no debe esforzarse y tiene [−] en tareas que exijan la pierna. Con tiempo, botiquín y atención se estabiliza sin tirada; no recupera Salud ni Heridas automáticamente."
+        },
+        {
+          "n": "Sangre en el sumidero",
+          "texto": "Si sigue sangrando dentro de R-3 cuando H-4 llega a 4, la salmuera lleva sangre a la rejilla y sube un costrero; sacar a Osian y eliminar la sangre fresca permite que se retire. No detecta su sangre a través de paredes ni a distancia."
+        },
+        {
+          "n": "Colarse en una tanda",
+          "texto": "Si ve que lo dejan al final, intenta entrar en la siguiente tanda; si hay vigilancia y el resultado es incierto, Instinto [−] por la pierna para colarse: fallo, la escolta lo detiene y debe negociar su puesto, sin repetir hasta conseguirlo."
+        }
+      ],
+      "armas": [],
+      "quiere": "Salir antes de desangrarse o quedarse sin aire.",
+      "teme": "Quedarse el último con el torniquete como único remedio.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan para que espere",
+          "entonces": "Señala el muslo y pide prioridad médica; acatar por miedo no elimina el riesgo de que intente colarse más tarde."
+        },
+        {
+          "si": "los PJ le ayudan con el torniquete y una tanda concreta",
+          "entonces": "Acepta apoyo y espera si el plan asegura atenderlo y sacarlo sin relegarlo al final."
+        },
+        {
+          "si": "los PJ le mienten diciendo que saldrá pronto y evacúan a todos los sanos",
+          "entonces": "Al comprobarlo intenta colarse; una explicación de triaje y un puesto real pueden evitar la maniobra."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se deja caer y trata de arrastrarse a cobertura sin levantarse a correr."
+        },
+        {
+          "si": "los PJ lo esposan para evacuarlo",
+          "entonces": "Pide no perder apoyo ni acceso al torniquete; acepta escolta móvil si el traslado no lo abandona junto a la rejilla."
+        },
+        {
+          "si": "la rejilla empieza a levantar agua con su sangre",
+          "entonces": "Pide que lo alejen, protege el torniquete y coopera con quien lo traslade; no intenta luchar con la criatura."
+        }
+      ],
+      "en_combate": "Se aparta del agua y se protege desde el suelo; su prioridad es conservar el torniquete y conseguir que alguien lo mueva.",
+      "se_rinde": "Cede ante una escolta que lo atienda y lo incluya en una tanda; la hemorragia y el esfuerzo le impiden mantener una pelea.",
+      "frase": ""
+    },
+    "isa": {
+      "nombre": "Isa Rehn",
+      "rol": "Presa, contrabando (R-3)",
+      "combate": 30,
+      "instinto": 45,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-preso-a",
+      "habilidades": [
+        {
+          "n": "Conocimiento del Borde",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Zero G",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Dos visitas al drenaje",
+          "texto": "Si le preguntan por Ivo o las herramientas, cuenta sin tirada que lo vio llevarlas al drenaje dos veces la semana anterior; eso no prueba que causara la grieta de J-17."
+        },
+        {
+          "n": "Oído en el techo",
+          "texto": "Si cierran la fuga de la cría, en 30–60 min oye arañar con más fuerza el techo de R-3: el portillo gana costra (+20 min al abrir, Atención +1). En Crítico sigue oyéndolo: comprobar por contacto confirma un ruido real sin salvación de Cordura para creerla."
+        }
+      ],
+      "armas": [],
+      "quiere": "Salir con una ruta que no termine sellada antes de cruzarla.",
+      "teme": "Que atribuyan al CO₂ un raspado real encima del refugio.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para que deje de hablar del techo",
+          "entonces": "Pide que alguien escuche la chapa con ella y busca a Nora como testigo; no retira un aviso comprobable."
+        },
+        {
+          "si": "los PJ la ayudan escuchando o verificando el portillo",
+          "entonces": "Localiza por dónde llega el raspado y cuenta lo de las herramientas de Ivo si le preguntan."
+        },
+        {
+          "si": "los PJ le mienten diciendo que no hay nada arriba",
+          "entonces": "Pide una comprobación exterior; si el raspado continúa no cambia su relato por una orden."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se cubre y se aleja de techo y rejilla buscando a la escolta."
+        },
+        {
+          "si": "los PJ le ordenan una tanda con traje y ruta preparada",
+          "entonces": "Coopera y avisa a la siguiente tanda de la zona de raspado."
+        },
+        {
+          "si": "ve a una criatura adherida a un traje",
+          "entonces": "Avisa al portador y señala el punto de anclaje para que otro pueda retirarla antes de 1d5 asaltos."
+        }
+      ],
+      "en_combate": "Se retira hacia un tramo seco y evita correr sobre chapa suspendida; ayuda a vigilar trajes desde fuera del alcance de mordedura.",
+      "se_rinde": "Acepta registro y escolta si hay aire y ruta; no defiende su versión por la fuerza.",
+      "frase": ""
+    },
+    "celia": {
+      "nombre": "Celia Brax",
+      "rol": "Presa, fraude logístico (R-3)",
+      "combate": 25,
+      "instinto": 40,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-preso-b",
+      "habilidades": [
+        {
+          "n": "Matemáticas",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Inventario útil",
+          "texto": "Desde las 10:36 hace inventario; si preguntan por recambios, señala sin tirada los dos C-12 del armario de servicio al otro lado del portillo: cada uno aporta +1,2 kg a R-3 tras 10 min de instalación dentro."
+        },
+        {
+          "n": "Sorteo verificable",
+          "texto": "Al abrir salida propone sortear el orden de quienes no están heridos; no hay tirada para aceptar o rechazar la propuesta. Si la mesa extiende el sorteo a todos, anuncia que puede dejar a un herido al final y que Duarte se opone; con Limen como testigo se elimina la manipulación de lista de Román y Mar."
+        }
+      ],
+      "armas": [],
+      "quiere": "Un reparto comprobable que le dé una oportunidad justa de salir.",
+      "teme": "Que el inventario o el orden se alteren para favorecer a otros.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para que ceda su puesto",
+          "entonces": "Pide un criterio de triaje y un testigo, sin convertir la discusión en una revuelta."
+        },
+        {
+          "si": "los PJ le ayudan con una lista pública de recursos",
+          "entonces": "Entrega el inventario y la localización de los dos cartuchos sin reservar la pista para una tirada."
+        },
+        {
+          "si": "los PJ le mienten sobre filtros o puestos",
+          "entonces": "Compara con el inventario que conoce; si faltan datos, pide contar físicamente antes de acusar."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se echa al suelo y retrocede con la lista, sin defender los papeles por la fuerza."
+        },
+        {
+          "si": "los PJ le ordenan salir tras los heridos",
+          "entonces": "Propone sortear entre los ambulantes y acepta un criterio que se aplique a todos."
+        },
+        {
+          "si": "los PJ aceptan un sorteo supervisado",
+          "entonces": "Pide a Limen que lo documente y respeta el resultado aunque no le favorezca."
+        }
+      ],
+      "en_combate": "Se protege y mantiene despejada la tanda en lugar de golpear; avisa de los cartuchos y trajes que aún pueden usarse.",
+      "se_rinde": "Deja de discutir cuando el orden tiene criterio y testigo; acepta escolta y registro sin una pelea.",
+      "frase": ""
+    },
+    "yusef": {
+      "nombre": "Yusef Daren",
+      "rol": "Preso, agresión grave (R-3)",
+      "combate": 35,
+      "instinto": 35,
+      "salud": 12,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-preso-c",
+      "habilidades": [
+        {
+          "n": "Atletismo",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Férula y traslado",
+          "texto": "Ya inmovilizó la fractura de Román; con material y calma ayuda a mantener esa inmovilización y cargarlo sin tirada. Bajo un esfuerzo incierto usa Instinto con Atletismo (+10); el fallo obliga a apoyar al herido y buscar ayuda."
+        },
+        {
+          "n": "Relevo en la rejilla",
+          "texto": "Si Kroll está esposado, puede ocupar su lugar sobre la rejilla: Instinto cada 5 min como Cuerpo; el fallo deja que el costrero levante la rejilla y muerda al más cercano. No neutraliza al animal para siempre."
+        },
+        {
+          "n": "Cámara de servicio",
+          "texto": "Con H-4 en 5, sin intervención, Mara lo manda con un traje de escape de 30 min a la cámara de servicio; no puede quitar pernos exteriores, pero oye a los costreros en la junta y a los PJ al otro lado, y vuelve antes de agotar su autonomía."
+        }
+      ],
+      "armas": [],
+      "quiere": "Sacar a los suyos y no dejar a Kroll inmovilizado junto al agua.",
+      "teme": "Que la custodia convierta una espera en un ahogamiento.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan para que abandone a Kroll",
+          "entonces": "Se coloca cerca de él y pide quitar la fijación junto al agua; ofrece escoltarlos juntos."
+        },
+        {
+          "si": "los PJ lo ayudan a mover a Román o pactan con Kroll",
+          "entonces": "Coopera como porteador y sostiene una tarea física concreta sin exigir un favor penitenciario."
+        },
+        {
+          "si": "los PJ le mienten sobre la seguridad de la rejilla",
+          "entonces": "Comprueba si sube agua y mira las esposas; ante evidencia de peligro pide un relevo o que liberen a Kroll."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Busca cobertura y arrastra a quien tenga al alcance si puede; no carga a través del fuego."
+        },
+        {
+          "si": "los PJ le ordenan sujetar la rejilla o ayudar con un herido",
+          "entonces": "Acepta si tiene movilidad y un relevo previsto; tira Instinto solo para el esfuerzo que lo requiera."
+        },
+        {
+          "si": "los PJ lo esposan para una tanda escoltada",
+          "entonces": "Acepta custodia móvil si no queda fijado al agua ni pierde seguridad para transportar al herido."
+        }
+      ],
+      "en_combate": "Bloquea accesos al costrero con peso y protege a quien transporta; en un forcejeo usa Combate para zafarse, sin un arma añadida.",
+      "se_rinde": "Cesa la resistencia cuando Kroll y él pueden moverse con escolta y los heridos quedan atendidos.",
+      "frase": ""
+    },
+    "mar": {
+      "nombre": "Mar Haddi",
+      "rol": "Presa, falsificación de identidades (R-3)",
+      "combate": 25,
+      "instinto": 45,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-preso-a",
+      "habilidades": [
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Arte",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Conocimiento del Borde",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Lista y pulseras",
+          "texto": "Al abrirse la salida se ofrece a llevar la lista; en el caos puede intentar cambiar una pulsera de muñeca para alterar quién figura en una tanda. Si hay vigilancia incierta, Instinto para disimular: fallo, la escolta observa el cambio y detiene la tanda para comprobar identidades."
+        },
+        {
+          "n": "Testigo neutral",
+          "texto": "Si Limen supervisa la lista, pierde la palanca de cambiar identidades y coopera con el recuento; cotejar pulsera, persona y lista sin prisas descubre un cambio sin tirada. El truco no crea puestos ni trajes."
+        }
+      ],
+      "armas": [],
+      "quiere": "Salir con una identidad y un puesto que le resulten favorables.",
+      "teme": "Que un registro la deje atrás o que descubran una alteración de pulsera.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para que entregue la lista",
+          "entonces": "La entrega y pide que conste quién la recibe; intenta negociar su puesto sin montar una pelea."
+        },
+        {
+          "si": "los PJ le ayudan ofreciendo una tanda y un registro transparente",
+          "entonces": "Coopera llevando nombres y horas, con el incentivo de no arriesgar una falsificación."
+        },
+        {
+          "si": "los PJ le mienten sobre un cambio de identidad o de tanda",
+          "entonces": "Pide ver lista y pulseras; reconoce posibilidades de alteración, pero no conoce por magia quién ha mentido."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Suelta los papeles si hace falta y busca cobertura, sin intentar arrebatar un arma."
+        },
+        {
+          "si": "los PJ la dejan sola con lista y pulseras en una evacuación caótica",
+          "entonces": "Puede intentar el cambio descrito; exige una oportunidad real y resuelve Instinto solo si alguien puede detectarla."
+        },
+        {
+          "si": "Limen supervisa el sorteo o las identidades",
+          "entonces": "Deja de intentar manipular la lista y acepta que registre su nombre real y su hora de salida."
+        }
+      ],
+      "en_combate": "Se escurre hacia cobertura y evita el cuerpo a cuerpo; no usa la lista como excusa para mandar un motín.",
+      "se_rinde": "Se rinde al quedar descubierta o ante custodia directa; acepta el registro para conservar una salida segura.",
+      "frase": ""
+    },
+    "peo": {
+      "nombre": "Peo Varek",
+      "rol": "Preso, intrusión informática (R-3)",
+      "combate": 25,
+      "instinto": 40,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-preso-b",
+      "habilidades": [
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Hacking",
+          "rango": "Experto"
+        },
+        {
+          "n": "Reparaciones improvisadas",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Bus con Inés",
+          "texto": "Hacia las 13:36 ayuda a Inés a recuperar el bus de R-3; si no se lo han dicho, descubren por la telemetría que P-2 está habitada, sin tirada que bloquee esa pista."
+        },
+        {
+          "n": "Datos locales",
+          "texto": "Con terminal y acceso puede leer registros locales sin tirada con tiempo; forzar un acceso bajo presión usa Instinto con Hacking (+15), y el fallo cuesta tiempo de reparación de la conexión. No obtiene enlace con Bastión sin R-12 ni abre una esclusa contra la presión."
+        }
+      ],
+      "armas": [],
+      "quiere": "Restablecer las voces y encontrar una salida con los datos de lo que sigue vivo.",
+      "teme": "Que confundan reparar el bus con sabotearlo y lo aparten de Inés.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan para que deje el panel",
+          "entonces": "Aparta las manos y explica qué enlace perderán; pide que Inés confirme su trabajo."
+        },
+        {
+          "si": "los PJ le ayudan con energía, conectores o tiempo",
+          "entonces": "Trabaja con Inés y comparte consumo y cebados de P-2 al leerlos."
+        },
+        {
+          "si": "los PJ le mienten sobre una orden digital o un registro",
+          "entonces": "Compara hora y origen con la copia local; si detectar una alteración es incierto, Instinto con Informática (+10), o Hacking (+15) si implica intrusión, sin sumar ambas."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se agacha detrás de la consola y se aparta del panel para no quedar atrapado en el tiro."
+        },
+        {
+          "si": "los PJ le ordenan abrir remotamente una puerta insegura",
+          "entonces": "Explica que un acceso informático no elimina el diferencial de presión y pide igualar antes."
+        },
+        {
+          "si": "ven la criatura cerca del cableado",
+          "entonces": "Suelta herramientas que vibren, avisa a Inés y se retira de la zona de contacto."
+        }
+      ],
+      "en_combate": "Se cubre tras las consolas y conserva las comunicaciones si puede hacerlo sin exponerse; no electrocuta conductos como ataque improvisado.",
+      "se_rinde": "Acepta custodia al cesar el ataque y entrega el terminal para que revisen los registros, sin borrar pruebas por despecho.",
+      "frase": ""
+    },
+    "bruna": {
+      "nombre": "Bruna Lasarte",
+      "rol": "Mecánica HRF y conductora del rover 2",
+      "combate": 30,
+      "instinto": 45,
+      "salud": 11,
+      "heridas": 1,
+      "pa": 3,
+      "token": "tok-salcedo",
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparaciones improvisadas",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparación mecánica",
+          "rango": "Experto"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Baterías y actuadores",
+          "texto": "Con acceso, herramientas y repuesto realiza mantenimiento sin tirada; si deben reparar bajo peligro o acelerar, Instinto con Reparación mecánica (+15): el fallo exige detener y corregir una conexión antes de gastar energía, sin crear UE."
+        },
+        {
+          "n": "Rover de refuerzo",
+          "texto": "Llega con Eloy y el material realmente pedido a Oria; la preparación tarda 2 h con lista justificada o 3 h sin ella, más 2 h 30 min–3 h de viaje. Recoger a Salcedo y Nadia añade 20 min y ocupa dos puestos."
+        },
+        {
+          "n": "Traje y umbilical",
+          "texto": "Con el traje puesto tiene PA 3 y [−] en movimiento exigente; mochila 12 h normales o 4 bajo esfuerzo, sin gasto conectada al rover; daño ≥ 3 destruye la armadura y aplica el restante, con despresurización en 1d5 asaltos si está cerrado."
+        }
+      ],
+      "armas": [],
+      "quiere": "Entregar el material y devolver el rover con sus ocupantes vivos.",
+      "teme": "Gastar la batería de regreso en una maniobra que nadie ha calculado.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para usar el rover sin control",
+          "entonces": "Pide responsable y conserva el vehículo en un lugar seguro; no acelera contra personas ni crea autonomía."
+        },
+        {
+          "si": "los PJ la ayudan con un diagnóstico mejor que el suyo",
+          "entonces": "Lo escucha y ejecuta una reparación fundada, aunque sea propuesta por un preso."
+        },
+        {
+          "si": "los PJ le mienten sobre carga o batería",
+          "entonces": "Lee el indicador y cuenta bultos y umbilicales; las lecturas accesibles desmienten el engaño sin tirada."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Busca cobertura tras el chasis y trata de retirar el vehículo si hay ruta sin atropellar a nadie."
+        },
+        {
+          "si": "los PJ le ordenan tocar válvulas contra la orden de Oria",
+          "entonces": "Pide aprobación de ingeniería y escucha una justificación con origen, destino y presión; transmite el plan para que Oria pueda ceder."
+        },
+        {
+          "si": "ve un costrero adherido a un traje",
+          "entonces": "Avisa al portador y ofrece ayudar a retirarlo con acceso seguro antes de que pasen 1d5 asaltos; evita percusión sobre el casco."
+        }
+      ],
+      "en_combate": "Usa el chasis como cobertura y conserva una salida para heridos; no convierte el rover o las herramientas en un arma gratuita.",
+      "se_rinde": "Se retira si el ataque permite una ruta segura; acepta vigilancia cuando eso detiene el fuego sin condenar a los pasajeros.",
+      "frase": ""
+    },
+    "eloy": {
+      "nombre": "Eloy Cid",
+      "rol": "Enfermero ACE y responsable de custodia del rover 2",
+      "combate": 30,
+      "instinto": 40,
+      "salud": 11,
+      "heridas": 1,
+      "pa": 3,
+      "token": "tok-salcedo",
+      "habilidades": [
+        {
+          "n": "Zoología",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Medicina de campo",
+          "rango": "Experto"
+        },
+        {
+          "n": "Entrenamiento militar",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Triaje de heridos",
+          "texto": "Con botiquín, acceso y calma atiende fracturas y hemorragias sin tirada y prepara traslados; bajo peligro tira Instinto con Medicina de campo (+15): el fallo obliga a seguir atendiendo y conseguir ayuda. No cura Heridas ni restaura Salud automáticamente."
+        },
+        {
+          "n": "Custodia sanitaria",
+          "texto": "Responde ante Vidal de los presos en su rover; con nombres, pulseras y acceso lleva el registro sin tirada. Puede ser testigo neutral del orden si no está Limen y los presos lo aceptan, sin aceptación automática."
+        },
+        {
+          "n": "Traje de servicio",
+          "texto": "Su traje puesto da PA 3 y [−] en movimiento exigente, con 12 h de mochila o 4 bajo esfuerzo y sin gasto en umbilical; si recibe daño ≥ 3, destruye armadura, resta los PA del golpe y cuenta 1d5 asaltos hasta despresurizarse si está cerrado."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Bastón aturdidor",
+          "dano": "1d5",
+          "alcance": "Adyacente",
+          "herida": "Fuerza bruta",
+          "especial": "Si impacta, salvación de Cuerpo o aturdido 1 asalto; un PNJ tira Instinto.",
+          "desc": "Arma indicada para Eloy en el texto; sirve para reducir una amenaza inmediata junto al paciente."
+        }
+      ],
+      "quiere": "Que los heridos lleguen vivos y cada preso de su rover tenga responsable.",
+      "teme": "Que una disputa de custodia empeore una hemorragia o deje un puesto sin aire.",
+      "reacciones": [
+        {
+          "si": "los PJ lo amenazan para alterar el triaje",
+          "entonces": "Explica el riesgo médico concreto y pide un responsable que firme el cambio; no abandona a un herido por ganar una discusión."
+        },
+        {
+          "si": "los PJ le ayudan con apoyo, camilla y un registro fiable",
+          "entonces": "Atiende a Román, Osian o Salcedo según urgencia y prepara a cada uno para la ruta elegida."
+        },
+        {
+          "si": "los PJ le mienten sobre una identidad o una lesión",
+          "entonces": "Compara pulsera y lista y examina la lesión; si solo hay indicios inciertos de falsificación, Instinto para advertir la discrepancia."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se cubre con el paciente, pide alto el fuego y usa el bastón solo si un agresor llega a Adyacente."
+        },
+        {
+          "si": "los PJ le piden supervisar el sorteo sin Limen",
+          "entonces": "Acepta si los presos lo aceptan también; lee nombres y resultado en voz alta y registra cada tanda."
+        },
+        {
+          "si": "los PJ le ordenan esposar a un herido de forma que impida atenderlo",
+          "entonces": "Propone custodia directa y sujeción compatible con la cura; informa a Vidal si no logra un acuerdo."
+        }
+      ],
+      "en_combate": "Protege al herido detrás del chasis o de una puerta; si necesita reducir a un agresor Adyacente tira Combate con Entrenamiento militar (+10) y aplica el bastón, sin sumar otra habilidad.",
+      "se_rinde": "Deja de golpear en cuanto cesa la amenaza y vuelve al paciente; acepta custodia que le permita continuar una atención urgente.",
+      "frase": ""
+    },
+    "nadia": {
+      "nombre": "Nadia Ferro",
+      "rol": "Ayudante técnica HRF junto a R-12",
+      "combate": 25,
+      "instinto": 40,
+      "salud": 10,
+      "heridas": 1,
+      "pa": 3,
+      "token": "tok-salcedo",
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparaciones improvisadas",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "Panel de R-12",
+          "texto": "Con el repuesto de Elia o el material del vehículo y acceso a la base repara R-12 en 25–45 min sin tirada con tiempo; bajo peligro, Instinto con Reparaciones improvisadas (+10), y el fallo exige detenerse y corregir una conexión antes de terminar. Sin R-12 C-7 no enlaza con Bastión."
+        },
+        {
+          "n": "Grieta y compañero",
+          "texto": "Teme la grieta y no lo dice; si debe aproximarse al borde bajo peligro real tira Instinto como Miedo: si falla, +1 de Estrés y se detiene hasta recibir apoyo o una sujeción. No abandona automáticamente a Salcedo."
+        },
+        {
+          "n": "Soporte del vehículo",
+          "texto": "Su traje puesto tiene PA 3 y [−] al movimiento exigente, 12 h de mochila (4 bajo esfuerzo); el vehículo alimenta a ambos hasta las 15:30, luego gastan mochilas. Un golpe ≥ 3 destruye armadura, causa daño restante y puede despresurizar el traje cerrado en 1d5 asaltos."
+        }
+      ],
+      "armas": [
+        {
+          "n": "Llave inglesa",
+          "dano": "1d5",
+          "alcance": "Adyacente",
+          "herida": "Fuerza bruta",
+          "especial": "",
+          "desc": "Herramienta usada como arma improvisada, con el daño indicado en el Acto II."
+        }
+      ],
+      "quiere": "Reparar el enlace y sacar a Salcedo de R-12 sin perder el soporte vital.",
+      "teme": "La grieta junto al rover y que la batería se agote antes del relevo.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para que abandone a Salcedo",
+          "entonces": "Pide que lo estabilicen y avisen a Bastión; puede retirarse del borde, pero no acepta dejarlo sin un plan de recogida."
+        },
+        {
+          "si": "los PJ le ayudan con repuesto y sujeción segura",
+          "entonces": "Se centra en el panel y comparte el estado de batería y del vehículo sin tirada."
+        },
+        {
+          "si": "los PJ le mienten sobre la grieta o la hora de recogida",
+          "entonces": "Pide ver el terreno y confirmar por radio; si la mentira sigue siendo plausible, Instinto para notar una contradicción, sin adivinar datos remotos."
+        },
+        {
+          "si": "los PJ le disparan",
+          "entonces": "Se cubre tras la base o el chasis; solo usa la llave inglesa con Combate si debe apartar a alguien a Adyacente para retirarse."
+        },
+        {
+          "si": "los PJ le ordenan reparar R-12 antes de trasladarse",
+          "entonces": "Lo hace con el material apropiado, siempre que Salcedo conserve soporte y haya tiempo antes de agotar el vehículo."
+        },
+        {
+          "si": "los PJ la llevan a C-7 y le piden tocar una válvula",
+          "entonces": "Recuerda la orden de Oria de pedir aprobación de ingeniería; ayuda con diagnóstico y conexiones mientras se justifica la maniobra."
+        }
+      ],
+      "en_combate": "Busca cobertura estable lejos de la grieta; la llave inglesa sirve para zafarse de un atacante próximo, sin perseguirlo hacia terreno débil.",
+      "se_rinde": "Suelta la llave cuando tiene una retirada segura y Salcedo no queda desatendido; acepta ser evacuada con él.",
+      "frase": ""
+    },
+    "tamar": {
+      "nombre": "Tamar Oyá",
+      "rol": "Jefa de frente HRF en B-4",
+      "combate": 25,
+      "instinto": 45,
+      "salud": 11,
+      "heridas": 1,
+      "pa": 0,
+      "token": "tok-salcedo",
+      "habilidades": [
+        {
+          "n": "Maquinaria industrial",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Reparaciones improvisadas",
+          "rango": "Entrenado"
+        },
+        {
+          "n": "Informática",
+          "rango": "Entrenado"
+        }
+      ],
+      "especiales": [
+        {
+          "n": "B-4 permanece atendido",
+          "texto": "Se queda en B-4 con Bruno Isern; si Gael y Limen salen, puede asumir su custodia bajo su responsabilidad si lo acuerdan y lo justifican ante Vidal. No proporciona un alguacil adicional ni viaja a C-7 por su cuenta."
+        },
+        {
+          "n": "Diagnóstico de frente",
+          "texto": "Con herramientas y tiempo organiza el cambio de filtro sin tirada; trabajar en caliente o acelerar exige Instinto con Maquinaria industrial (+10): el fallo deja una junta filtrando o exige recuperar una herramienta, sin invalidar toda la reparación."
+        },
+        {
+          "n": "Canal de operaciones",
+          "texto": "Tras el temblor de las 09:36 intenta llamar a C-7 y encuentra el canal saturado de alarmas; desde B-4 sí puede coordinar por radio con Bastión sin R-12, pero no conoce lo que nadie le ha comunicado de los refugios."
+        }
+      ],
+      "armas": [],
+      "quiere": "Mantener B-4 seguro mientras facilita que salga una cuadrilla de rescate.",
+      "teme": "Dejar el frente o a Isern sin responsable en una emergencia.",
+      "reacciones": [
+        {
+          "si": "los PJ la amenazan para requisar todo el material",
+          "entonces": "Pide saber qué cargan y quién responde de lo que queda; no inventa reservas fuera del inventario de B-4."
+        },
+        {
+          "si": "los PJ le ayudan con el filtro y un reparto de responsabilidades",
+          "entonces": "Facilita la carga de material disponible y coordina desde B-4, sin acompañarlos a C-7."
+        },
+        {
+          "si": "los PJ le mienten sobre quién queda custodiando a Isern",
+          "entonces": "Pide nombres y confirmación de la asignación; al comprobar que nadie queda exige resolverlo o asumirlo expresamente bajo su responsabilidad."
+        },
+        {
+          "si": "los PJ le disparan en B-4",
+          "entonces": "Se cubre tras maquinaria parada y trata de separar a Isern de la línea de fuego; está desarmada."
+        },
+        {
+          "si": "los PJ le piden quedarse a cargo de Isern para que salgan Gael y Limen",
+          "entonces": "Puede aceptar bajo su firma y con la justificación ante Vidal; no se resuelve como un traslado automático del preso."
+        },
+        {
+          "si": "los PJ le ordenan abandonar B-4 para ir a C-7",
+          "entonces": "Se queda en el frente y ofrece coordinación por radio; hace falta un relevo real antes de cambiar esa responsabilidad."
+        }
+      ],
+      "en_combate": "Busca una puerta segura y aparta al personal de maquinaria y disparos; no utiliza la instalación como trampa contra los PJ.",
+      "se_rinde": "Acepta vigilancia y deja de resistirse si el personal de B-4 queda protegido; no abandona el frente para perseguir a nadie.",
+      "frase": ""
+    }
+  }
+}

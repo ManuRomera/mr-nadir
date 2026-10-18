@@ -130,6 +130,27 @@ def diarios():
                          "ownership": {"default": 0}, "flags": {"mr-nadir": {"doc": cod, "parte": partes[cod]}}})
 
 
+def _json_opc(nombre):
+    ruta = os.path.join(ROOT, "docs", "biblia", nombre)
+    return json.load(open(ruta)) if os.path.exists(ruta) else {}
+
+
+MEC = _json_opc("mecanica.json")   # fichas jugables de PNJ y equipo de los PJ
+ICON = _json_opc("iconos.json")    # iconos (del sistema mosh o generados en assets/icons)
+
+
+def icono(tipo, nombre, defecto):
+    """Icono para un objeto: búsqueda exacta y luego por coincidencia parcial del nombre."""
+    tabla = ICON.get(tipo, {})
+    if nombre in tabla:
+        return tabla[nombre]
+    n = nombre.lower()
+    for k, v in tabla.items():
+        if k.lower() in n or n.split(" (")[0] in k.lower():
+            return v
+    return defecto
+
+
 def bio_pnj(p):
     armas = "".join("<li>%s — %s</li>" % (B.esc(a["n"]), B.esc(a["dano"])) for a in p["armas"])
     ras = "".join("<li>%s</li>" % B.esc(r) for r in p["rasgos"])
@@ -154,7 +175,14 @@ ACTORS = []
 def actores():
     f1 = folder("Actor", "Nádir · PNJ", sort=100)
     f2 = folder("Actor", "Nádir · Tripulación (pregenerados)", sort=200)
-    for pid, p in CANON["pnj"].items():
+    nuevos = {pid: {"nombre": m["nombre"], "rol": m.get("rol", ""), "combate": m["combate"], "instinto": m["instinto"], "salud": m["salud"],
+                    "heridas": m["heridas"], "armadura": m.get("pa", 0), "armas": [], "rasgos": []}
+              for pid, m in MEC.get("pnj", {}).items() if pid not in CANON["pnj"]}
+    for pid, m in MEC.get("pnj", {}).items():
+        if pid in nuevos:
+            tk = m.get("token") or "tok-preso-a"
+            PRESENTACION[pid] = (tk, tk, 0)
+    for pid, p in list(CANON["pnj"].items()) + list(nuevos.items()):
         ret, tk, disp = PRESENTACION[pid]
         sysd = {"description": "", "biography": bio_pnj(p), "health": {"value": p["salud"], "min": 0, "max": p["salud"], "label": "Health"},
                 "hits": {"value": 0, "min": 0, "max": p["heridas"], "label": "Wounds"},
@@ -162,7 +190,7 @@ def actores():
                           "instinct": {"value": p["instinto"], "min": 0, "max": 99, "label": "Instinct", "rollLabel": "Instinct Check", "enabled": True},
                           "armor": {"value": p["armadura"], "mod": 0, "min": 0, "max": 99, "damageReduction": 0, "cover": "none", "label": "Armor", "rollLabel": "Armor Save", "enabled": p["armadura"] > 0}}}
         img = art(ret) if not ret.startswith("tok-") else art(ret, "tokens")
-        ACTORS.append({"_id": fid("actor:" + pid), "name": p["nombre"], "type": "creature", "img": img, "system": sysd,
+        ACTORS.append({"_id": fid("actor:" + pid), "name": p["nombre"], "type": "creature", "img": img, "system": sysd, "_pid": pid,
                        "prototypeToken": token(p["nombre"], art(tk, "tokens"), disp), "items": [], "effects": [], "folder": f1, "sort": len(ACTORS) * 10,
                        "ownership": {"default": 0}, "flags": {}})
     RANK = {"entrenado": ("Trained", 10), "experto": ("Expert", 15), "maestro": ("Master", 20)}
@@ -191,7 +219,7 @@ def actores():
                 "other": {"stress": {"value": 2, "min": 2, "max": 20, "label": "Stress"}, "resolve": {"value": 0, "min": 0, "max": 15, "label": "Resolve"}},
                 "stats": {k: {"value": v, "mod": 0, "min": 0, "max": 99} for k, v in {"strength": e["fuerza"], "speed": e["velocidad"], "intellect": e["intelecto"], "combat": e["combate"],
                                                                                      "sanity": s["cordura"], "fear": s["miedo"], "body": s["cuerpo"]}.items()}}
-        ACTORS.append({"_id": fid("actor:" + pid), "name": p["nombre"], "type": "character", "img": art("ret-" + pid), "system": sysd,
+        ACTORS.append({"_id": fid("actor:" + pid), "name": p["nombre"], "type": "character", "img": art("ret-" + pid), "system": sysd, "_pid": pid,
                        "prototypeToken": token(p["nombre"], art("tok-" + pid, "tokens"), 1, True), "items": items, "effects": [], "folder": f2, "sort": len(ACTORS) * 10,
                        "ownership": {"default": 0}, "flags": {}})
 
@@ -307,6 +335,7 @@ def main():
     objetos()
     actores()
     enriquecer_actores()
+    mecanica()
     playlists_base()
     lecturas()
     escenas()
@@ -459,8 +488,8 @@ def enriquecer_actores():
                 a["system"]["biography"] = '<div class="mr-nadir-j">%s</div>' % html_md(mcost.group(0) if mcost else "") + a["system"]["biography"]
             a["system"]["description"] = a["system"]["biography"]
             # armas como objetos de la ficha
-            pid = next(k for k, v in CANON["pnj"].items() if v["nombre"] == nombre)
-            for w in CANON["pnj"][pid]["armas"]:
+            pid = a["_pid"]
+            for w in ([] if pid in MEC.get("pnj", {}) else CANON["pnj"].get(pid, {}).get("armas", [])):
                 dano = re.search(r"\d+d\d+(?:\+\d+)?", w["dano"])
                 a["items"].append({"_id": fid("aw:%s:%s" % (pid, w["n"])), "name": w["n"], "type": "weapon", "img": "icons/svg/sword.svg",
                                    "system": {"description": "<p>%s</p>" % w["dano"], "damage": dano.group(0) if dano else "1d10", "settings": {"firstEdition": True}},
@@ -472,11 +501,101 @@ def enriquecer_actores():
                 a["system"]["biography"] = '<div class="mr-nadir-j">%s</div>' % html_md(sec) + a["system"]["biography"]
             a["items"].append({"_id": fid("arm:" + nombre), "name": "Traje de faena", "type": "armor", "img": "icons/svg/shield.svg",
                                "system": {"description": "<p>Traje de faena HRF/ACE (PA 3, Velocidad [−]). Mochila: 12 h normales, 4 h bajo esfuerzo o estrés; con umbilical no se gasta. Perforado, se despresuriza en 1d5 asaltos.</p>",
-                                          "armorPoints": 3, "damageReduction": 0, "oxygenMax": 720, "oxygenCurrent": 720}, "effects": [], "flags": {}, "sort": 0})
+                                          "armorPoints": 3, "damageReduction": 0, "oxygenMax": 720, "oxygenCurrent": 720, "equipped": True},
+                               "effects": [], "flags": {}, "sort": 0})
             a["prototypeToken"]["sight"] = {"enabled": True, "range": 15, "visionMode": "basic", "angle": 360}
             a["prototypeToken"]["light"] = {"bright": 3, "dim": 9, "angle": 80, "color": "#cfe8ff", "alpha": 0.35, "luminosity": 0.5}
             a["prototypeToken"]["displayBars"] = 30
             a["prototypeToken"]["bar2"] = {"attribute": "other.stress"}
+
+
+RANGO = {"Entrenado": ("Trained", 10), "Experto": ("Expert", 15), "Maestro": ("Master", 20)}
+
+
+def _arma(clave, w):
+    """Arma 1e del sistema mosh a partir de una entrada de mecanica.json."""
+    desc = " · ".join(x for x in (w.get("desc", ""), ("Herida: " + w["herida"]) if w.get("herida") else "", w.get("especial", "")) if x)
+    rng = {"short": w.get("corto", 0), "medium": w.get("medio", 0), "long": w.get("largo", 0), "value": w.get("alcance", "")}
+    sysd = {"description": "<p>%s</p>" % B.esc(desc), "damage": w.get("dano", "1d10"), "ranges": rng, "wound": w.get("herida", ""),
+            "woundEffect": w.get("especial", ""), "settings": {"firstEdition": True}}
+    if w.get("cargador"):
+        sysd.update({"useAmmo": True, "shots": w["cargador"], "curShots": w["cargador"], "ammo": w.get("municion", w["cargador"])})
+    return {"_id": fid(clave), "name": w["n"], "type": "weapon", "img": icono("armas", w["n"], icono("equipo", w["n"], "icons/svg/sword.svg")),
+            "system": sysd, "effects": [], "flags": {}, "sort": 0}
+
+
+def _bloque_juego(m):
+    """Lo que el Guardián necesita en mesa: qué quiere, cómo reacciona, cómo pelea."""
+    filas = "".join("<tr><td>%s</td><td>%s</td></tr>" % (B.inline(r["si"]), B.inline(r["entonces"])) for r in m.get("reacciones", []))
+    partes = ['<div class="mr-nadir-j mr-nadir-juego"><h3>En juego</h3>']
+    for et, k in (("Quiere", "quiere"), ("Teme", "teme")):
+        if m.get(k):
+            partes.append("<p><b>%s:</b> %s</p>" % (et, B.inline(m[k])))
+    if filas:
+        partes.append("<table><thead><tr><th>Si…</th><th>Entonces</th></tr></thead><tbody>%s</tbody></table>" % filas)
+    for et, k in (("En combate", "en_combate"), ("Se rinde o huye", "se_rinde")):
+        if m.get(k):
+            partes.append("<p><b>%s:</b> %s</p>" % (et, B.inline(m[k])))
+    if m.get("frase"):
+        partes.append("<blockquote>%s</blockquote>" % B.inline(m["frase"]))
+    return "".join(partes) + "</div>"
+
+
+def mecanica():
+    """Fichas jugables: habilidades, especiales, ataques y reacciones de los PNJ; armas, traje y equipo de los PJ;
+    respuesta al trauma en su campo de la ficha; iconos de todos los objetos."""
+    tripu = open(os.path.join(ROOT, "docs", "texto", "10-tripulacion.md")).read()
+    trauma_txt = dict(re.findall(r"^Clase \*\*(.+?)\*\* · Estrés \d+ · Respuesta al trauma: (.+)$", tripu, re.M))
+    for a in ACTORS:
+        pid = a.pop("_pid")
+        if a["type"] == "creature":
+            m = MEC.get("pnj", {}).get(pid)
+            if not m:
+                continue
+            bicho = pid in ("costrero", "defensor", "enjambre")
+            for s in m.get("habilidades", []):
+                rank, bonus = RANGO.get(s.get("rango"), ("Trained", 10))
+                a["items"].append({"_id": fid("pnj:%s:sk:%s" % (pid, s["n"])), "name": s["n"], "type": "skill", "img": icono("habilidades", s["n"], "icons/svg/book.svg"),
+                                   "system": {"description": "", "rank": rank, "bonus": bonus, "prerequisite_ids": []}, "effects": [], "flags": {}, "sort": 0})
+            for h in m.get("especiales", []):
+                a["items"].append({"_id": fid("pnj:%s:ab:%s" % (pid, h["n"])), "name": h["n"], "type": "ability",
+                                   "img": ICON.get("habilidad_criatura" if bicho else "habilidad_pnj", "icons/svg/aura.svg"),
+                                   "system": {"description": "<p>%s</p>" % B.inline(h["texto"]), "text": "", "roll": ""}, "effects": [], "flags": {}, "sort": 0})
+            # quien no lleva arma pelea con lo que tenga a mano (el ataque del preso genérico)
+            for w in m.get("armas") or ([] if bicho else MEC["pnj"]["preso"]["armas"][:1]):
+                a["items"].append(_arma("pnj:%s:w:%s" % (pid, w["n"]), w))
+            juego = _bloque_juego(m)
+            a["system"]["biography"] = juego + a["system"]["biography"]
+            a["system"]["description"] = a["system"]["biography"]
+        else:
+            m = MEC.get("pregenerados", {}).get(pid, {})
+            p = CANON["pregenerados"][pid]
+            trauma = m.get("trauma") or trauma_txt.get(p["clase"], "")
+            a["system"].setdefault("other", {})["stressdesc"] = {"value": trauma[:1].upper() + trauma[1:]}
+            if m:   # el equipo estructurado sustituye a los objetos sueltos del canon
+                a["items"] = [i for i in a["items"] if i["type"] == "skill"]
+                for w in m.get("armas", []):
+                    a["items"].append(_arma("pj:%s:w:%s" % (pid, w["n"]), w))
+                ar = m.get("armadura")
+                if ar:
+                    a["items"].append({"_id": fid("arm:" + a["name"]), "name": ar["n"], "type": "armor", "img": ICON.get("traje", "icons/svg/shield.svg"),
+                                       "system": {"description": "<p>%s</p>" % B.esc(ar.get("desc", "")), "armorPoints": ar.get("pa", 3), "damageReduction": ar.get("rd", 0),
+                                                  "speed": ar.get("velocidad", ""), "oxygenMax": ar.get("oxigeno_h", 12) * 60, "oxygenCurrent": ar.get("oxigeno_h", 12) * 60,
+                                                  "equipped": True}, "effects": [], "flags": {}, "sort": 0})
+                for o in m.get("objetos", []):
+                    a["items"].append({"_id": fid("pj:%s:o:%s" % (pid, o["n"])), "name": o["n"], "type": "item", "img": icono("equipo", o["n"], "icons/svg/item-bag.svg"),
+                                       "system": {"description": "<p>%s</p>" % B.esc(o.get("desc", "")), "quantity": o.get("cantidad", 1)}, "effects": [], "flags": {}, "sort": 0})
+        for i in a["items"]:   # iconos de lo que venga del canon
+            if i["img"] == "icons/svg/book.svg" and i["type"] == "skill":
+                i["img"] = icono("habilidades", i["name"], i["img"])
+            elif i["img"] in ("icons/svg/item-bag.svg", "icons/svg/sword.svg"):
+                i["img"] = icono("equipo", i["name"], icono("armas", i["name"], i["img"]))
+            elif i["type"] == "armor" and i["img"] == "icons/svg/shield.svg":
+                i["img"] = ICON.get("traje", i["img"])
+    for it in ITEMS:
+        k = next((k for k, v in OBJ_ID.items() if v == it["_id"]), None)
+        if k:
+            it["img"] = ICON.get("objetos", {}).get(k, it["img"])
 
 
 # ---------------- escenas: mapas de fósforo + escenas de imagen ----------------
@@ -570,7 +689,7 @@ def escenas():
             "walls": [{"_id": fid("wall:%s:%d" % (mapa, k)), "c": w["c"], "move": 1, "sense": 1, "sound": 1, "light": 1, "door": w["door"], "ds": w["ds"], "dir": 0, "flags": {}} for k, w in enumerate(ws)],
             "notes": notes, "tokens": [], "lights": lights, "sounds": sounds, "tiles": [], "drawings": [], "templates": [], "regions": regions,
             "playlist": pl, "folder": folder("Scene", "Nádir · Mapas", sort=100), "sort": len(SCENES) * 10, "ownership": {"default": 0},
-            "flags": {"mr-nadir": {"slug": mapa, "tipo": "mapa", "mapa": mapa, "nombre": MAPA_SLUG[mapa]}}})
+            "flags": {"mr-nadir": {"slug": mapa, "tipo": "mapa", "mapa": mapa, "nombre": MAPA_SLUG[mapa], "relojes": ["r3", "p2", "bomba", "h4"] if mapa == "c7" else [], "acciones": []}}})
     # teletransportes (destino = región en otra escena)
     pares = [(("c7", "X"), ("ruta", "C-7")), (("b4", "B7"), ("ruta", "B-4"))]
     def reg_by(mapa, rid):
@@ -597,7 +716,7 @@ def escenas():
             "environment": {"darknessLevel": 0, "globalLight": {"enabled": True}}, "walls": [], "notes": [], "tokens": [], "lights": [], "sounds": [],
             "tiles": [], "drawings": [], "templates": [], "regions": [], "journal": LECT_JE, "journalEntryPage": LECT_PAGE[e["id"]], "playlist": pl,
             "folder": fol_img, "sort": i * 10, "ownership": {"default": 0},
-            "flags": {"mr-nadir": {"slug": e["id"], "tipo": "imagen", "mapa": e["mapa"], "nombre": e["nombre"], "sfx": [[k, SFX_NOMBRE[k]] for k in e["sfx_manual"]]}}})
+            "flags": {"mr-nadir": {"slug": e["id"], "tipo": "imagen", "mapa": e["mapa"], "nombre": e["nombre"], "sfx": [[k, SFX_NOMBRE[k]] for k in e["sfx_manual"]], "relojes": e["relojes"], "acciones": e["acciones"]}}})
     for s_ in SCENES:
         if s_["flags"]["mr-nadir"]["tipo"] == "mapa":
             s_["journal"] = LECT_JE
@@ -650,6 +769,12 @@ def guion():
             continue
         pages.append(page("guion:%d" % k, pt or "Guion de dirección", html, (k + 1) * 100))
     JOURNALS.append({"_id": fid("je:guion"), "name": "★ Guion de dirección", "pages": pages, "folder": fol, "sort": -100, "ownership": {"default": 0}, "flags": {}})
+    # guía de uso de las herramientas (la abre el botón «?» de la barra del Guardián)
+    ayuda = open(os.path.join(ROOT, "docs", "v2", "herramientas.md")).read()
+    pags = [page("ayuda:%d" % k, pt or "Cómo usar las herramientas", "".join(h for kind, h in B.md_blocks(md, {})), (k + 1) * 100)
+            for k, (pt, md) in enumerate(split_pages(ayuda, "ayuda")) if md.strip()]
+    JOURNALS.append({"_id": fid("je:ayuda"), "name": "★ Cómo usar las herramientas", "pages": pags, "folder": fol, "sort": -90, "ownership": {"default": 0},
+                     "flags": {"mr-nadir": {"ayuda": True}}})
 
 
 if __name__ == "__main__":

@@ -19,7 +19,7 @@ class HudCuadrilla extends foundry.applications.api.ApplicationV2 {
   static DEFAULT_OPTIONS = {
     id: "mr-nadir-cuadrilla",
     classes: ["mr-nadir-panel", "mr-nadir-cuadrilla"],
-    window: { title: "Nádir · Cuadrilla", icon: "fa-solid fa-users", resizable: true },
+    window: { title: "Nádir · Consola de la cuadrilla", icon: "fa-solid fa-users", resizable: true },
     position: { width: 400, height: "auto", top: 80, left: 120 },
     actions: {
       umbilical: HudCuadrilla.#umbilical,
@@ -86,7 +86,7 @@ class HudCuadrilla extends foundry.applications.api.ApplicationV2 {
 }
 
 let hud;
-const abrirHud = () => (hud ??= new HudCuadrilla()).render(true);
+export const abrirHud = () => (hud ??= new HudCuadrilla()).render(true);
 const refrescar = () => { if (hud?.rendered) hud.render(); };
 
 Hooks.on("mrNadirRelojes", refrescar);
@@ -98,7 +98,7 @@ Hooks.once("ready", () => { game.modules.get(MOD).api.abrirHud = abrirHud; });
 Hooks.on("getSceneControlButtons", (controls) => {
   const tokens = controls.tokens ?? controls.find?.(c => c.name === "token");
   if (!tokens) return;
-  const tool = { name: "mr-nadir-cuadrilla", title: "Nádir · Cuadrilla", icon: "fa-solid fa-users", button: true, onChange: abrirHud, onClick: abrirHud, visible: true };
+  const tool = { name: "mr-nadir-cuadrilla", title: "Nádir · Consola de la cuadrilla", icon: "fa-solid fa-users", button: true, onChange: abrirHud, onClick: abrirHud, visible: true };
   if (Array.isArray(tokens.tools)) tokens.tools.push(tool);
   else tokens.tools[tool.name] = { ...tool, order: Object.keys(tokens.tools).length };
 });

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.2.0 — 2026-10-18
+- **Barra del Guardián** compacta, siempre arriba en el centro: hora y botones para moverla, relojes de la escena activa en casillas (los que estén en alerta salen siempre, en rojo), acciones rápidas de cada estancia, efectos, alarma, Panel, Consola y ayuda.
+- **Visor de casco** para los jugadores: proyección en neón arriba en el centro con la hora, su traje y los relojes que han descubierto; cada jugador lo enciende o apaga con su botón.
+- **Alarma**: el Guardián enciende, jugador por jugador, un marco rojo difuso y parpadeante que no tapa nada.
+- **PNJ jugables**: 26 fichas (12 nuevas: presos de R-3 y personal de apoyo) con habilidades, habilidades especiales, ataques y una tabla «Si… / Entonces» de reacciones, qué quieren, qué temen, cómo pelean y cuándo se rinden.
+- **Pregenerados equipados**: armas con daño, alcance y cargador; traje de faena equipado (PA 3); equipo con descripción; respuesta al trauma en su campo de la ficha.
+- **Iconos** para objetos, equipo, armas y habilidades: los del sistema Mothership y 13 nuevos en el mismo estilo.
+- **Guía «★ Cómo usar las herramientas»** con todas las funciones del módulo.
+
 ## 2.1.0 — 2026-10-18
 - **Edición revisada de la aventura:** relojes con cifras reales (R-3 en kg, P-2 con aire y batería, H-4 con la bomba parada, sello de R-3), cronología de referencia comprobada con simulador en la que viven las quince personas, documentos nuevos (D12-A, D12-B por tramos, D14 por variantes, D15) y fichas ajustadas al *Player's Survival Guide* y a la edición española.
 - **Modo de dirección rápida:** cada reloj es una fila de casillas; el Guardián solo mueve la hora. En el libro, con hojas imprimibles de casillas y de la cuadrilla.

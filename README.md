@@ -57,6 +57,8 @@ El **PDF** —un número especial de *Anales de Biología de Frontera* dedicado 
 | 🎧 **Banda sonora original** | 10 pistas y 25 efectos compuestos por síntesis para el módulo (licencia propia): misma paleta de drones, hielo, metal y sónar. Botones de efecto manual en cada escena. |
 | ★ **Guion de dirección** | Diario con toda la partida y botones para mostrar escenas, volver al mapa, lanzar efectos y música, mostrar documentos, arrastrar PNJ y objetos y mover el reloj. |
 | 🚨 **Panel de emergencia** | Hora T+ y cada reloj en casillas (R-3, P-2, bomba, Fuga H-4, banco de C-0, Atención); «Si nadie hace nada» con las próximas consecuencias; el Guardián solo mueve la hora y recibe cada consecuencia ya redactada. |
+| 🎛️ **Barra del Guardián** | Siempre arriba en el centro: mueve la hora, enseña los relojes de la escena y sus acciones rápidas, efectos, alarma y ayuda. |
+| 🪖 **Visor de casco** | Proyección en neón para cada jugador (hora, su traje, lo que ha descubierto) y alarma roja que activa el Guardián. |
 | 👥 **HUD de la cuadrilla** | Cada jugador lleva su traje y la cuadrilla su carga y su rover; los relojes aparecen cuando los personajes los descubren; sus acciones llegan al Guardián con botón «Anular». |
 | 🖨️ **PDF de revista** | Maquetado como un número especial de exobiología, con láminas a sangre, fichas y hojas imprimibles. |
 

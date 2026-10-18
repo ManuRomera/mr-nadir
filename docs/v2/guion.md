@@ -19,10 +19,10 @@ Nádir es una luna de hielo con setenta y siete habitantes permanentes repartido
 
 ### Cómo se reparte el trabajo
 
-- **Tú solo mueves la hora** con los botones del Panel (o con {{reloj:+30}} y {{reloj:+60}} en este guion). Cada vez que un reloj cruza una marca te llega por susurro la consecuencia ya redactada, lista para leer.
-- **Los jugadores llevan su HUD:** cada uno pasa su traje de umbilical a mochila, marca cuándo trabaja con esfuerzo (la mochila dura un tercio) y gasta recambios; la cuadrilla apunta la carga del rover y su batería, y pulsa lo que hace («Cartucho → R-3», «Bomba al rover», «V-12 cerrada»). Cada acción se anota a la hora actual y te llega al chat con un botón «Anular».
-- **Lo que ven se abre poco a poco:** R-3 al enseñar D06 o la escena del refugio, P-2 con D07, D14 o la estación, la aguja de H-4 con D05 o Control, el banco de C-0 en Control. El ojo de cada fila del Panel lo muestra u oculta a mano. La Atención de la colonia y la cuenta atrás del sello no las ven nunca.
-- **En el Panel** ves cada reloj en casillas y la línea «Si nadie hace nada» con las próximas consecuencias. Las cifras exactas y tus propios botones (V-12 de golpe, E-1 forzada, Atención, rover 2) están en «Cifras y acciones del Guardián».
+- **Tú solo mueves la hora**, con la **barra del Guardián** de arriba en el centro (o con {{reloj:+30}} y {{reloj:+60}} en este guion). La barra enseña los relojes de la escena activa y sus acciones rápidas; cada vez que un reloj cruza una marca te llega por susurro la consecuencia ya redactada.
+- **Los jugadores ven su visor de casco** (hora, su traje y los relojes que ya han descubierto) y llevan su traje, la carga y lo que hacen en la **Consola de la cuadrilla**. Sus acciones te llegan al chat con un botón «Anular».
+- **La alarma** (desplegable de la barra) enciende un marco rojo en la pantalla del jugador que elijas.
+- **Todo lo demás** (cifras, ojos para enseñar u ocultar relojes, rover 2, Atención) está en el Panel de emergencia. La guía completa es el diario «★ Cómo usar las herramientas» (botón «?» de la barra).
 
 ### Los tres relojes y la Atención
 

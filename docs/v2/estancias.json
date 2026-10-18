@@ -13,7 +13,9 @@
   ],
   "sfx_manual": [
    "radar-ping"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "sup-viaje",
@@ -31,7 +33,9 @@
   "sfx_manual": [
    "temblor",
    "radar-ping"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "sup-r12",
@@ -48,7 +52,9 @@
   "sfx_manual": [
    "radio-estatica",
    "radio-serrat"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "sup-filtro",
@@ -65,7 +71,9 @@
   ],
   "sfx_manual": [
    "chirrido"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "sup-c7",
@@ -81,7 +89,9 @@
   ],
   "sfx_manual": [
    "radar-ping"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "b4-colector",
@@ -99,7 +109,9 @@
   "sfx_manual": [
    "temblor",
    "alarma-presion"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "b4-lab",
@@ -115,7 +127,9 @@
   ],
   "sfx_manual": [
    "terminal"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "b4-barracon",
@@ -130,7 +144,9 @@
    "hum",
    "ventilador"
   ],
-  "sfx_manual": []
+  "sfx_manual": [],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "b4-taller",
@@ -147,7 +163,9 @@
   "sfx_manual": [
    "soldadura",
    "golpe-metal"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "b4-garaje",
@@ -164,7 +182,9 @@
   "sfx_manual": [
    "compuerta",
    "rover-arranque"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "b4-soporte",
@@ -179,7 +199,9 @@
    "hum",
    "ventilador"
   ],
-  "sfx_manual": []
+  "sfx_manual": [],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "b4-esclusa",
@@ -196,7 +218,9 @@
   "sfx_manual": [
    "compuerta",
    "siseo"
-  ]
+  ],
+  "relojes": [],
+  "acciones": []
  },
  {
   "id": "c7-x",
@@ -212,7 +236,13 @@
   ],
   "sfx_manual": [
    "compuerta"
-  ]
+  ],
+  "relojes": [
+   "r3",
+   "p2",
+   "h4"
+  ],
+  "acciones": []
  },
  {
   "id": "c7-1",
@@ -230,6 +260,16 @@
   "sfx_manual": [
    "terminal",
    "radar-ping"
+  ],
+  "relojes": [
+   "banco",
+   "h4",
+   "r3"
+  ],
+  "acciones": [
+   "v12+banco:-4",
+   "banco:-6",
+   "fuente:banco"
   ]
  },
  {
@@ -248,6 +288,15 @@
   "sfx_manual": [
    "golpe-metal",
    "chirrido"
+  ],
+  "relojes": [
+   "p2",
+   "bomba"
+  ],
+  "acciones": [
+   "fuente:rover",
+   "fuente:banco",
+   "cartP2"
   ]
  },
  {
@@ -266,6 +315,15 @@
   "sfx_manual": [
    "radio-serrat",
    "siseo"
+  ],
+  "relojes": [
+   "h4",
+   "banco"
+  ],
+  "acciones": [
+   "banco:-6",
+   "e1",
+   "parche"
   ]
  },
  {
@@ -284,7 +342,12 @@
   "sfx_manual": [
    "chirrido",
    "golpe-metal"
-  ]
+  ],
+  "relojes": [
+   "atencion",
+   "h4"
+  ],
+  "acciones": []
  },
  {
   "id": "c7-5",
@@ -302,7 +365,11 @@
   "sfx_manual": [
    "chirrido",
    "raspado-fuerte"
-  ]
+  ],
+  "relojes": [
+   "atencion"
+  ],
+  "acciones": []
  },
  {
   "id": "c7-6",
@@ -319,7 +386,11 @@
   "sfx_manual": [
    "golpe-metal",
    "temblor"
-  ]
+  ],
+  "relojes": [
+   "atencion"
+  ],
+  "acciones": []
  },
  {
   "id": "c7-7",
@@ -337,6 +408,16 @@
   "sfx_manual": [
    "alarma-co2",
    "raspado"
+  ],
+  "relojes": [
+   "r3",
+   "h4"
+  ],
+  "acciones": [
+   "cartR3",
+   "purga",
+   "dep",
+   "r3n:-1"
   ]
  },
  {
@@ -355,6 +436,17 @@
   "sfx_manual": [
    "alarma-presion",
    "chirrido"
+  ],
+  "relojes": [
+   "p2",
+   "bomba",
+   "h4"
+  ],
+  "acciones": [
+   "cartP2",
+   "auto",
+   "fuente:portatil",
+   "p2n:-1"
   ]
  },
  {
@@ -373,6 +465,13 @@
   "sfx_manual": [
    "siseo",
    "alarma-presion"
+  ],
+  "relojes": [
+   "h4",
+   "atencion"
+  ],
+  "acciones": [
+   "alivio"
   ]
  },
  {
@@ -390,6 +489,14 @@
   "sfx_manual": [
    "golpe-metal",
    "siseo"
+  ],
+  "relojes": [
+   "h4",
+   "bomba"
+  ],
+  "acciones": [
+   "v12",
+   "v12golpe"
   ]
  },
  {
@@ -407,6 +514,13 @@
   "sfx_manual": [
    "golpe-metal",
    "raspado"
+  ],
+  "relojes": [
+   "r3",
+   "atencion"
+  ],
+  "acciones": [
+   "cartR3"
   ]
  },
  {
@@ -425,6 +539,11 @@
   "sfx_manual": [
    "chirrido",
    "temblor"
-  ]
+  ],
+  "relojes": [
+   "h4",
+   "atencion"
+  ],
+  "acciones": []
  }
 ]

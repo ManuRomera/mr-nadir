@@ -439,6 +439,10 @@ const abrirPanel = () => (panel ??= new PanelEmergencia()).render(true);
 const abrirHudTodos = () => { game.socket.emit(`module.${MOD}`, { tipo: "abrirHud" }); Hooks.callAll("mrNadirAbrirHud"); };
 
 Hooks.once("init", () => {
+  game.settings.register(MOD, "alarmas", {
+    scope: "world", config: false, type: Object, default: {},
+    onChange: () => Hooks.callAll("mrNadirAlarmas")
+  });
   game.settings.register(MOD, "relojes", {
     scope: "world", config: false, type: Object, default: foundry.utils.deepClone(ESTADO_INICIAL),
     onChange: () => { if (panel?.rendered) panel.render(); Hooks.callAll("mrNadirRelojes"); }
@@ -446,7 +450,7 @@ Hooks.once("init", () => {
 });
 
 Hooks.once("ready", async () => {
-  game.modules.get(MOD).api = { abrirPanel, calcular, moverHora, revelar, pedir, ESTADO_INICIAL };
+  game.modules.get(MOD).api = { abrirPanel, abrirHudTodos, alarma, calcular, moverHora, revelar, pedir, ESTADO_INICIAL };
   game.socket.on(`module.${MOD}`, (msg) => {
     if (msg.tipo === "abrirHud") return Hooks.callAll("mrNadirAbrirHud");
     if (game.user === game.users.activeGM) aplicar(msg, msg.userId);
@@ -589,30 +593,188 @@ async function zona(slug, token) {
   });
 }
 
-/* ---------------- Barra del Guardián en escenas de imagen ---------------- */
-function quitarHud() { document.getElementById("mr-nadir-hud")?.remove(); }
+/* ---------------- Barra compacta del Guardián ---------------- */
 
-function ponerHud(scene) {
-  quitarHud();
-  if (!esGM() || !scene) return;
-  const tipo = scene.getFlag(MOD, "tipo");
-  if (!tipo) return;
-  const hud = document.createElement("div");
-  hud.id = "mr-nadir-hud";
-  const titulo = document.createElement("span");
-  titulo.className = "t";
-  titulo.textContent = scene.getFlag(MOD, "nombre") ?? scene.name;
-  hud.append(titulo);
-  if (tipo === "imagen") hud.append(boton("mapa", scene.getFlag(MOD, "mapa"), "Volver al mapa"));
-  hud.append(boton("leer", "", "Descripción"));
-  for (const k of scene.getFlag(MOD, "sfx") ?? []) {
-    const [clave, nombre] = Array.isArray(k) ? k : [k, k];
-    hud.append(boton("sfx", clave, nombre));
-  }
-  hud.append(boton("parar", "", ""));
-  if (tipo === "mapa") hud.append(boton("panel", "", "Panel"));
-  document.body.append(hud);
+// Se serializan las pulsaciones locales para no perder cambios al pulsar muy deprisa.
+let escrituraBarra = Promise.resolve();
+function guardarDesdeBarra(fn) {
+  escrituraBarra = escrituraBarra.then(fn).catch(err => {
+    console.error("Nádir · barra", err);
+    ui.notifications.error("Nádir: no se ha podido guardar el cambio.");
+  });
+  return escrituraBarra;
 }
+
+/** Activa o apaga el marco de alarma por usuario; solo escribe el Guardián. */
+export function alarma(userIds, on = true) {
+  if (!game.user.isGM) return;
+  return guardarDesdeBarra(async () => {
+    const estado = foundry.utils.deepClone(game.settings.get(MOD, "alarmas"));
+    const ids = userIds === "todos" ? game.users.filter(u => !u.isGM).map(u => u.id)
+      : Array.isArray(userIds) ? userIds : [userIds];
+    for (const id of ids) {
+      if (!game.users.get(id) || game.users.get(id).isGM) continue;
+      if (on) estado[id] = true;
+      else delete estado[id];
+    }
+    await game.settings.set(MOD, "alarmas", estado);
+  });
+}
+
+const ETIQUETAS_ESCENA = {
+  "v12+banco:-4": "Cerrar V-12 desde C-0", "banco:-6": "Igualar E-1", "fuente:banco": "Bomba al banco",
+  "fuente:rover": "Bomba al rover", "fuente:portatil": "Bomba a batería portátil", cartP2: "Cartucho a P-2",
+  cartR3: "Cartucho a R-3", e1: "E-1 forzada", parche: "Parche de junta", purga: "Purga", dep: "Depurador",
+  "r3n:-1": "Sale 1 de R-3", "p2n:-1": "Sale 1 de P-2", auto: "Automatismo", alivio: "Alivio de H-4",
+  v12: "V-12 gradual", v12golpe: "V-12 de golpe"
+};
+
+function accionEscena(accion) {
+  if (!esGM()) return;
+  return guardarDesdeBarra(async () => {
+    const e = leerEstado();
+    for (const parte of accion.split("+")) {
+      const [t, valor = ""] = parte.split(":");
+      e.ev.push({ id: foundry.utils.randomID(), m: e.min, t,
+        v: valor === "" ? null : (isNaN(Number(valor)) ? valor : Number(valor)) });
+    }
+    await game.settings.set(MOD, "relojes", e);
+    ui.notifications.info(`Nádir: ${ETIQUETAS_ESCENA[accion] ?? accion} (${fmtHora(e.min)}).`);
+  });
+}
+
+function ayuda() {
+  const j = game.journal.find(j => j.getFlag(MOD, "ayuda"));
+  if (j) j.sheet.render(true);
+  else ui.notifications.warn("Nádir: no se encuentra el diario de ayuda.");
+}
+
+// Botones nativos: Enter y Espacio funcionan también en los desplegables.
+function botonBarra(clave, titulo, contenido, fn) {
+  const b = document.createElement("button");
+  b.type = "button";
+  b.dataset.clave = clave;
+  b.title = titulo;
+  b.setAttribute("aria-label", titulo);
+  if (contenido) b.innerHTML = contenido;
+  else b.textContent = titulo;
+  b.addEventListener("click", () => { if (esGM()) fn(); });
+  return b;
+}
+
+function menuBarra(clave, titulo) {
+  const d = document.createElement("details");
+  d.dataset.menu = clave;
+  const s = document.createElement("summary");
+  s.textContent = titulo;
+  s.title = titulo;
+  s.setAttribute("aria-label", titulo);
+  const cuerpo = document.createElement("div");
+  cuerpo.className = "mr-nadir-menu";
+  d.append(s, cuerpo);
+  d.addEventListener("keydown", ev => {
+    if (ev.key === "Escape") { d.open = false; s.focus(); }
+  });
+  return [d, cuerpo];
+}
+
+function ponerHud(scene = canvas.scene) {
+  if (!esGM()) { document.getElementById("mr-nadir-hud")?.remove(); return; }
+  let hud = document.getElementById("mr-nadir-hud");
+  if (!hud) {
+    hud = document.createElement("nav");
+    hud.id = "mr-nadir-hud";
+    hud.setAttribute("aria-label", "Barra del Guardián de Nádir");
+    document.body.append(hud);
+    // El visor de previsualización sigue debajo si la barra necesita dos filas.
+    new ResizeObserver(([entrada]) => document.documentElement.style.setProperty(
+      "--mr-nadir-bajo-barra", `${entrada.target.offsetHeight + 16}px`)).observe(hud);
+  }
+  const abiertos = [...hud.querySelectorAll("details[open]")].map(d => d.dataset.menu);
+  const foco = hud.contains(document.activeElement) ? document.activeElement.dataset.clave : null;
+  const menuFoco = hud.contains(document.activeElement) && document.activeElement.tagName === "SUMMARY"
+    ? document.activeElement.parentElement.dataset.menu : null;
+  const e = leerEstado(), c = calcular(e), h = horas(c), prox = proximas(e).join("\n");
+  const frag = document.createDocumentFragment();
+  const hora = document.createElement("strong");
+  hora.className = "mr-nadir-hora";
+  hora.textContent = fmtHora(e.min);
+  hora.title = "Hora de traje";
+  frag.append(hora);
+  for (const d of [-10, 10, 30, 60]) frag.append(botonBarra(`hora${d}`, `${d > 0 ? "+" : "−"}${Math.abs(d)} min`,
+    `${d > 0 ? "+" : "−"}${Math.abs(d)}`, () => guardarDesdeBarra(() => moverHora(d))));
+
+  const relojes = {
+    r3: ["R-3", casillas(h.r3, 12, { exceso: 6 }), `${c.eR3} · ${c.r3n} personas`, c.eR3 !== "Estable"],
+    p2: ["P-2", casillas(h.p2, 12, { exceso: 5 }), c.eP2, !["Estable", "Evacuada"].includes(c.eP2)],
+    bomba: ["BOMBA", c.bomba ? casillas(h.bat, 12) : "PARADA", `${c.bomba ? "En marcha" : "Parada"} · ${c.fuente} · V-12 ${c.v12 === null ? "abierta" : "cerrada"}`, !c.bomba && c.v12 === null],
+    h4: ["H-4", casillas(c.h4, 6) + (c.selloEn !== null ? casillas(c.selloEn / 30, 4) : ""),
+      c.nH4 + (c.selloEn !== null ? ` · sello en ${fmtDur(c.selloEn)}` : ""), c.h4 >= 4 || c.selloEn !== null],
+    banco: ["BANCO", casillas(h.banco, 24), `${c.banco.toFixed(1)} UE`, c.banco <= 6],
+    atencion: ["ATENCIÓN", casillas(e.atencion, 6), c.at, e.atencion >= 4]
+  };
+  const claves = new Set([...(scene?.getFlag(MOD, "relojes") ?? []), ...Object.keys(relojes).filter(k => k !== "atencion" && relojes[k][3])]);
+  for (const k of claves) {
+    if (!relojes[k]) continue;
+    const [nombre, cas, estado, alerta] = relojes[k];
+    const b = botonBarra(`reloj-${k}`, `${nombre}: ${estado}${prox ? `\nSi nadie hace nada:\n${prox}` : ""}`,
+      `<span>${nombre}</span>${cas}`, abrirPanel);
+    b.className = `mr-nadir-chip mr-nadir-mini${alerta ? " mr-nadir-alerta" : ""}`;
+    frag.append(b);
+  }
+  for (const accion of scene?.getFlag(MOD, "acciones") ?? []) frag.append(
+    botonBarra(`accion-${accion}`, ETIQUETAS_ESCENA[accion] ?? accion, "", () => accionEscena(accion)));
+
+  if (scene) {
+    const titulo = document.createElement("span");
+    titulo.className = "t";
+    titulo.textContent = scene.getFlag(MOD, "nombre") ?? scene.name;
+    titulo.title = titulo.textContent;
+    frag.append(titulo);
+    if (scene.getFlag(MOD, "tipo") === "imagen") frag.append(botonBarra("mapa", "Volver al mapa",
+      '<i class="fa-solid fa-map" aria-hidden="true"></i>', () => volverAlMapa(scene.getFlag(MOD, "mapa"))));
+    frag.append(botonBarra("leer", "Descripción", '<i class="fa-solid fa-book-open" aria-hidden="true"></i>', () => leerDescripcion(scene)));
+    const efectos = scene.getFlag(MOD, "sfx") ?? [];
+    if (efectos.length) {
+      const [menu, lista] = menuBarra("efectos", "Efectos ▾");
+      for (const k of efectos) {
+        const [clave, nombre] = Array.isArray(k) ? k : [k, k];
+        lista.append(botonBarra(`sfx-${clave}`, nombre, "", () => sfx(clave)));
+      }
+      frag.append(menu);
+    }
+  }
+  frag.append(botonBarra("parar", "Parar efectos", '<i class="fa-solid fa-volume-xmark" aria-hidden="true"></i>', pararEfectos));
+  const alarmas = game.settings.get(MOD, "alarmas");
+  const n = game.users.filter(u => !u.isGM && alarmas[u.id]).length;
+  const [menu, lista] = menuBarra("alarmas", `Alarma (${n}) ▾`);
+  for (const u of game.users.filter(u => !u.isGM && u.active)) {
+    const nombre = `${u.name} · ${u.character?.name ?? "Sin personaje"}`;
+    const b = botonBarra(`alarma-${u.id}`, nombre, "", () => alarma([u.id], !game.settings.get(MOD, "alarmas")[u.id]));
+    b.setAttribute("aria-pressed", String(!!alarmas[u.id]));
+    b.classList.toggle("mr-nadir-alerta", !!alarmas[u.id]);
+    lista.append(b);
+  }
+  lista.append(botonBarra("alarma-todos", "Todos", "", () => alarma("todos", true)),
+    botonBarra("alarma-ninguno", "Apagar todas", "", () => alarma("todos", false)));
+  frag.append(menu);
+  for (const [clave, titulo, icono, fn] of [
+    ["panel", "Panel de emergencia", "fa-gauge-high", abrirPanel],
+    ["consola", "Consola de la cuadrilla · abrir en todos los clientes", "fa-users", abrirHudTodos],
+    ["ayuda", "Ayuda", "fa-question", ayuda]
+  ]) frag.append(botonBarra(clave, titulo, `<i class="fa-solid ${icono}" aria-hidden="true"></i>`, fn));
+  hud.replaceChildren(frag);
+  for (const d of hud.querySelectorAll("details")) d.open = abiertos.includes(d.dataset.menu);
+  if (foco) [...hud.querySelectorAll("button")].find(b => b.dataset.clave === foco)?.focus({ preventScroll: true });
+  if (menuFoco) [...hud.querySelectorAll("details")].find(d => d.dataset.menu === menuFoco)?.querySelector("summary").focus({ preventScroll: true });
+}
+
+Hooks.on("mrNadirRelojes", () => ponerHud());
+Hooks.on("mrNadirAlarmas", () => ponerHud());
+Hooks.on("userConnected", () => ponerHud());
+Hooks.on("updateUser", () => ponerHud());
+Hooks.on("canvasTearDown", () => ponerHud(null));
+Hooks.once("ready", () => ponerHud());
 
 /* ---------------- Pantalla de fósforo y radar en los mapas ---------------- */
 function quitarCrt() { document.getElementById("mr-nadir-crt")?.remove(); }
